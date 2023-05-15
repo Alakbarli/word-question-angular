@@ -1,20 +1,20 @@
-:root {
-    --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+// :root {
+//     --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
+//     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+//     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// }
 
 *, *::before, *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+// html {
+//     font-family: sans-serif;
+//     line-height: 1.15;
+//     -webkit-text-size-adjust: 100%;
+//     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+// }
 .my-nav{
     cursor: pointer;
 }
@@ -25,9 +25,9 @@ nav {
 
 body {
     margin: 0;
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    // font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    // Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    // "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -190,7 +190,7 @@ h1, .h1 {
 }
 
 .brand-logo {
-    font-family: "Nunito", sans-serif;
+    font-family: $header-fam;
     font-weight: bold;
     font-size: 20px;
     display: -webkit-box;
@@ -229,7 +229,7 @@ h1, .h1 {
 
 .dashboard-nav-item {
     min-height: 56px;
-    padding: 8px 20px 8px 70px;
+    padding: 8px 20px 8px 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -351,12 +351,12 @@ h1, .h1 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #443ea2!important;
+    color: #443ea2;
 }
 
 .menu-toggle:hover, .menu-toggle:active, .menu-toggle:focus {
     text-decoration: none;
-    color: #875de5!important;
+    color: #875de5;
 }
 
 .menu-toggle i {

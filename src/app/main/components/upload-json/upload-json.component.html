@@ -3,20 +3,22 @@
         <h1>Json yüklə</h1>
     </div>
     <div class="card-body">
-        <div class="json-alert d-none">
+        <div *ngIf="errorMessage" class="json-alert">
             <div class="alert alert-danger" role="alert">
-                Düzgün fayl seçin.
+                {{errorMessage}}
               </div>
         </div>
         <div class="d-flex justify-content-center">
             <div class="json-input-container">
-                <i class="fad fa-upload"></i>
-            <input class="" type="file">
+                <span (click)="upload()" #icon><i class="fad fa-upload"></i></span>
+                
+            <input #inputFile class="" (change)="uploadFile($event)" type="file" accept="application/JSON">
             </div>
             
         </div>
-        <div class="units"></div>
-        <div class="words"></div>
-        <button class="d-none" style="margin: 10px;border: none;background-color: #443ea2;color: white;cursor: pointer;">Əlavə et</button>
+        <button *ngIf="jsonUploaded" (click)="addWords()" style="margin: 10px;padding: 5px;border-radius: 3px; border: none;background-color: #443ea2;color: white;cursor: pointer;">Əlavə et</button>
+        <div class="my-3" *ngIf="jsonUploaded" >
+            {{jsonUploaded | json}}
+        </div>
     </div>
 </div>

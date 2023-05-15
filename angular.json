@@ -35,8 +35,7 @@
               "src/assets/js/jquery-3.6.0.slim.min.js",
               "src/assets/js/popper.min.js",
               "src/assets/js/bootstrap.min.js",
-              "src/assets/js/fontawsome.min.js",
-              "src/assets/js/menu-pl.js"
+              "src/assets/js/fontawsome.min.js"
           ]
           },
           "configurations": {

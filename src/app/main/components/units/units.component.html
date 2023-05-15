@@ -1,1 +1,51 @@
-<p>units works!</p>
+<div id="UNIT" data-id="unit" class='card'>
+    <div class='card-header'>
+        <h1>Bölmələr</h1>
+    </div>
+    <div class='card-body'>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="input">
+                    <input class="" type="text">
+                    <div class="icon">
+                        <i class="fal fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="row">
+             <div class="col-12">
+                 <ul>
+                 </ul>
+             </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+                <div class="table-content">
+                    <div style="overflow-x:auto" class="table-responsive-sm">
+                        <table class="table" style="overflow-x:auto">
+                             <thead>
+                                 <tr>
+                                     <th>#</th>
+                                     <th>Ad</th>
+                                     <th>Əməlliyyat</th>
+                                 </tr>
+                             </thead>
+                             <tbody class="word-content">
+                                <tr *ngFor="let e of dataSource">
+                                    <th scope="row"></th>
+                                    <td>{{e.name}}</td>
+                                    <td>
+                                        <span class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
+                                        <span class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
+                                    </td>
+                                </tr>
+                             </tbody>
+                        </table>
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

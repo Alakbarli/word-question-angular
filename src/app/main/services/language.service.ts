@@ -37,4 +37,24 @@ export class LanguageService {
   setDbLocalstorage(){
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));
   }
+  getDbLocalstorage(){
+    if(window.localStorage.getItem("wordDb")){
+      this.db=JSON.parse((window.localStorage.getItem("wordDb")))
+      newDb.Words=.Words;
+      newDb.Units=JSON.parse((window.localStorage.getItem("wordDb"))).Units;
+      newDb.activePage=JSON.parse((window.localStorage.getItem("wordDb"))).activePage;
+      newDb.unitSelectVal=JSON.parse((window.localStorage.getItem("wordDb"))).unitSelectVal;
+      newDb.languageVal=JSON.parse((window.localStorage.getItem("wordDb"))).languageVal;
+      findLastIdUnit();
+      findLastIdWord();
+      synWords();
+      synUnits();
+      synPage();
+  }
+  }
+  sync(){
+    this.setDbLocalstorage();
+    this.findLastIdUnit();
+    this.findLastIdWord();
+  }
 }

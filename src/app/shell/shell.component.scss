@@ -1,11 +1,28 @@
+@import '../../assets/styles/variables.scss';
 .dashboard-nav{
     a{
         color: white;
         user-select: none;
-        font-family: 'Roboto', sans-serif;
+        //font-family: $title-fam;
+        //font-weight: 300;
+    }
+    .dashboard-nav-item{
+        color: white;
+        user-select: none;
+        font-family: $title-fam;
         font-weight: 300;
+    }
+    .nav-item-icon{
+        display: inline-block;
+        width: 24px;
+        
     }
 }
 .dashboard-toolbar{
     user-select: none;
+}
+.copyright{
+    font-family: $header-fam;
+    font-size: 16px;
+
 }

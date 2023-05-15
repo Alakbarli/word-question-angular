@@ -5,6 +5,8 @@ import {MatIconModule} from '@angular/material/icon'
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSelectModule} from '@angular/material/select';
 import {MatBadgeModule} from '@angular/material/badge'
+import {MatTableModule} from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import {MatBadgeModule} from '@angular/material/badge'
     MatIconModule,
     MatMenuModule,
     MatSelectModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatTableModule,
+    MatPaginatorModule
   ]
 })
 export class MaterialModule { }

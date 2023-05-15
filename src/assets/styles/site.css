@@ -266,5 +266,5 @@ margin: 15px;
 }
 .dashboard-nav-dropdown-menu svg,.dashboard-nav-dropdown svg{
     display: inline-block;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }

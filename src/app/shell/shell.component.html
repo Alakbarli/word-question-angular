@@ -1,5 +1,10 @@
-
-<div class='dashboard' [ngClass]="{'dashboard-compact' : showDesc}">
+<div *ngIf="!pageloaded" id="preloader" class="row justify-content-center">
+    <div class="col-12 text-center bg-white p-3">
+        <img src="../../assets/images/Spinner-0.7s-323px.svg" alt="">
+    </div>
+    
+</div>
+<div class='dashboard' [class.d-none] = "pageloaded === false" [ngClass]="{'dashboard-compact' : showDesc}">
     <div class="dashboard-nav" [ngClass]="{'mobile-show' : showMobile}">
         <header>
             <a  (click)="toggleMainMenu()" class="menu-toggle">
@@ -10,27 +15,27 @@
             </a>
         </header>
         <nav class="dashboard-nav-list my-nav">
-            <a [routerLink]="['/question']" [routerLinkActive]="['active']" data-id="word-question" class="dashboard-nav-item w-nav-item"><i class="fad fa-language"></i> Sual cavab </a>
+            <a [routerLink]="['/question']" [routerLinkActive]="['active']" data-id="word-question" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-language"></i></div> Sual cavab </a>
 
-            <a [routerLink]="'units'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><i class="fad fa-books"></i>Bölmələr</a>
+            <a [routerLink]="'units'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-books"></i></div>Bölmələr</a>
             
             <div class='dashboard-nav-dropdown' [ngClass]="{'show':showNavDrop}">
                 <a (click)="toggleNavItem()" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
-                    <i class="fad fa-money-check-edit"></i> Sözlər
+                    <div class="nav-item-icon"><i class="fad fa-money-check-edit"></i></div> Sözlər
                 </a>
                 <div class='dashboard-nav-dropdown-menu'>
-                    <a [routerLink]="'new-word'" [routerLinkActive]="['active']" data-id="add-word" class="dashboard-nav-dropdown-item w-nav-item"><i class="fad fa-plus"></i>Əlavə et</a>
-                    <a [routerLink]="'words'" [routerLinkActive]="['active']" data-id="all-word" class="dashboard-nav-dropdown-item w-nav-item"><i class="fad fa-list-alt"></i>Bütün sözlər</a>
+                    <a [routerLink]="'new-word'" [routerLinkActive]="['active']" data-id="add-word" class="dashboard-nav-dropdown-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-plus"></i></div>Əlavə et</a>
+                    <a [routerLink]="'words'" [routerLinkActive]="['active']" data-id="all-word" class="dashboard-nav-dropdown-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-list-alt"></i></div>Bütün sözlər</a>
                 </div>
             </div>
 
-            <a [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><i class="fad fa-file-upload"></i>Fayl yüklə(JSON)</a>
+            <a [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-file-upload"></i></div>Fayl yüklə(JSON)</a>
 
-            <a [routerLink]="'download'" [routerLinkActive]="['active']" id="save-json" class="dashboard-nav-item w-nav-item"><i class="fad fa-cloud-upload-alt"></i>Json faylına yaz</a>
+            <a [routerLink]="'download'" [routerLinkActive]="['active']" id="save-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-cloud-upload-alt"></i></div>Json faylına yaz</a>
 
-            <a class="dashboard-nav-item upopup-item"><i class="fad fa-trash-alt"></i>Yaddaşı təmizlə</a>
+            <a class="dashboard-nav-item upopup-item"><div class="nav-item-icon"><i class="fad fa-trash-alt"></i></div>Yaddaşı təmizlə</a>
 
-            <a [routerLink]="'guide'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><i class="fad fa-question-square"></i>Video təlimat</a>
+            <a [routerLink]="'guide'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-question-square"></i></div>Video təlimat</a>
 
         </nav>
     </div>
@@ -38,12 +43,6 @@
         <header class='dashboard-toolbar'><a (click)="toggleMainMenu()" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
         <div class='dashboard-content'>
             <div class='container w-menu-tabs'>
-                <div id="preloader" class="row justify-content-center">
-                    <div class="col-12 text-center bg-white p-3">
-                        <img src="../../assets/images/Spinner-0.7s-323px.svg" alt="">
-                    </div>
-                    
-                </div>
 
                 <!-- WORD_QUESTION -->
 
@@ -51,52 +50,6 @@
                     <router-outlet></router-outlet>
                 </main>
 
-                <!-- UNIT -->
-
-
-                <div id="UNIT" data-id="unit" class='card d-none'>
-                    <div class='card-header'>
-                        <h1>Bolmeler</h1>
-                    </div>
-                    <div class='card-body'>
-                        <div class="row justify-content-center">
-                            <div class="col-12 text-center">
-                                <div class="input">
-                                    <input class="" type="text">
-                                    <div class="icon">
-                                        <i class="fal fa-plus"></i>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
-                         <div class="row">
-                             <div class="col-12">
-                                 <ul>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="row">
-                            <div class="col-12">
-                                <div class="table-content">
-                                    <div style="overflow-x:auto" class="table-responsive-sm">
-                                        <table class="table" style="overflow-x:auto">
-                                             <thead>
-                                                 <tr>
-                                                     <th>#</th>
-                                                     <th>Ad</th>
-                                                     <th>Əməlliyyat</th>
-                                                 </tr>
-                                             </thead>
-                                             <tbody class="word-content">
-                                             </tbody>
-                                        </table>
-                                     </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div id="add-word" data-id="add-word" class="card d-none">
                     <div class='card-header'>
                         <h1>Söz əlavə et</h1>

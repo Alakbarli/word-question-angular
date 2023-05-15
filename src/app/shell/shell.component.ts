@@ -1,6 +1,7 @@
 import { state, style, trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { LanguageService } from '../main/services/language.service';
 
 @Component({
   selector: 'app-shell',
@@ -8,16 +9,20 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./shell.component.scss'],
   animations:[],
 })
-export class ShellComponent implements OnInit {
+export class ShellComponent implements OnInit,AfterViewInit {
 
+  pageloaded=false;
   isMobile:boolean=false;
   showMobile:boolean=false;
   showDesc:boolean=false;
   showNavDrop:boolean=false;
 
 
-  constructor(private router:ActivatedRoute) { 
+  constructor(private router:ActivatedRoute,private langService:LanguageService) { 
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
+  }
+  ngAfterViewInit(): void {
+    this.pageloaded=true;
   }
 
   ngOnInit(): void {
