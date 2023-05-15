@@ -8,6 +8,11 @@
                 {{errorMessage}}
               </div>
         </div>
+        <div *ngIf="uploaded" class="json-alert">
+            <div class="alert alert-success" role="alert">
+                Sözlər yükləndi
+              </div>
+        </div>
         <div class="d-flex justify-content-center">
             <div class="json-input-container">
                 <span (click)="upload()" #icon><i class="fad fa-upload"></i></span>
