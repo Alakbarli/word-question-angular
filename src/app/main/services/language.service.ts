@@ -38,19 +38,23 @@ export class LanguageService {
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));
   }
   getDbLocalstorage(){
-    if(window.localStorage.getItem("wordDb")){
-      this.db=JSON.parse((window.localStorage.getItem("wordDb")))
-      newDb.Words=.Words;
-      newDb.Units=JSON.parse((window.localStorage.getItem("wordDb"))).Units;
-      newDb.activePage=JSON.parse((window.localStorage.getItem("wordDb"))).activePage;
-      newDb.unitSelectVal=JSON.parse((window.localStorage.getItem("wordDb"))).unitSelectVal;
-      newDb.languageVal=JSON.parse((window.localStorage.getItem("wordDb"))).languageVal;
-      findLastIdUnit();
-      findLastIdWord();
-      synWords();
-      synUnits();
-      synPage();
+    if(window.localStorage.getItem("wordDb")!=null){
+      this.db=JSON.parse((localStorage.getItem("wordDb")) as string)
+      //newDb.Words=.Words;
+      //newDb.Units=JSON.parse((window.localStorage.getItem("wordDb"))).Units;
+      //newDb.activePage=JSON.parse((window.localStorage.getItem("wordDb"))).activePage;
+      //newDb.unitSelectVal=JSON.parse((window.localStorage.getItem("wordDb"))).unitSelectVal;
+      //newDb.languageVal=JSON.parse((window.localStorage.getItem("wordDb"))).languageVal;
+      this.findLastIdUnit();
+      this.findLastIdWord();
+      //this.synWords();
+      //this.synUnits();
+      //this.synPage();
   }
+  }
+  clear(){
+    window.localStorage.removeItem("wordDb");
+    this.db=new DB();
   }
   sync(){
     this.setDbLocalstorage();
