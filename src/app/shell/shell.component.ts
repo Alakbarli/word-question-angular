@@ -1,5 +1,5 @@
 import { state, style, trigger } from '@angular/animations';
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LanguageService } from '../main/services/language.service';
 
@@ -18,11 +18,12 @@ export class ShellComponent implements OnInit,AfterViewInit {
   showNavDrop:boolean=false;
 
 
-  constructor(private router:ActivatedRoute,private langService:LanguageService) { 
+  constructor(private router:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
   }
   ngAfterViewInit(): void {
     this.pageloaded=true;
+    this.cd.detectChanges();
   }
 
   ngOnInit(): void {
