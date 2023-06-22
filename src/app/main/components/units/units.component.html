@@ -4,13 +4,14 @@
     </div>
     <div class='card-body'>
         <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <div class="input">
+            <div class="col-12 text-right">
+                <!-- <div class="input">
                     <input class="" type="text">
                     <div class="icon">
                         <i class="fal fa-plus"></i>
                     </div>
-                </div>
+                </div> -->
+                <button (click)="addUnit()" class="main-button">Bölmə əlavə et <i class="fal fa-plus"></i></button>
             </div>
          </div>
          <div class="row">
@@ -32,8 +33,8 @@
                                  </tr>
                              </thead>
                              <tbody class="word-content">
-                                <tr *ngFor="let e of dataSource">
-                                    <th scope="row"></th>
+                                <tr *ngFor="let e of dataSource;let i=index">
+                                    <th scope="row">{{i+1}}</th>
                                     <td>{{e.name}}</td>
                                     <td>
                                         <span class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>

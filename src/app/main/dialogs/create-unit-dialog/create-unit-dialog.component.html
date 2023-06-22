@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Bölmə əlavə et</h1>
+<div mat-dialog-content>
+    <mat-label>Bölmə əlavə et</mat-label>
+    <input matInput [(ngModel)]="data">
+</div>
+<div mat-dialog-actions>
+  <button (click)="onNoClick()" class="second-button">Bağla</button>
+  <button  disabled="data" class="main-button" [mat-dialog-close]="data" cdkFocusInitial>Əlave et</button>
+</div>

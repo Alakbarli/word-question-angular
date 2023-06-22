@@ -58,6 +58,8 @@ export class UploadJsonComponent implements OnInit,AfterViewInit,OnDestroy {
      this.langService.db=this.jsonUploaded;
      this.langService.sync();
      this.uploaded=true;
+     this.jsonUploaded=null;
+     
     }
   }
 

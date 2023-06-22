@@ -14,6 +14,7 @@ import { DownloadJsonComponent } from './components/download-json/download-json.
 import { ClearDataComponent } from './components/clear-data/clear-data.component';
 import { VideoGuideComponent } from './components/video-guide/video-guide.component';
 import { LanguageService } from './services/language.service';
+import { CreateUnitDialogComponent } from './dialogs/create-unit-dialog/create-unit-dialog.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LanguageService } from './services/language.service';
     UploadJsonComponent,
     DownloadJsonComponent,
     ClearDataComponent,
-    VideoGuideComponent
+    VideoGuideComponent,
+    CreateUnitDialogComponent
   ],
   imports: [
     CommonModule,
