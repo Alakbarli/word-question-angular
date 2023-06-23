@@ -8,6 +8,7 @@ import {MatBadgeModule} from '@angular/material/badge'
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatBadgeModule,
     MatTableModule,
     MatPaginatorModule,
-    MatDialogModule
+    MatDialogModule,
+    MatInputModule
   ]
 })
 export class MaterialModule { }

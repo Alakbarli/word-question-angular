@@ -3,6 +3,8 @@ import { LanguageService } from '../../services/language.service';
 import { Unit } from 'src/app/models/unit';
 import { MatDialog } from '@angular/material/dialog';
 import { CreateUnitDialogComponent } from '../../dialogs/create-unit-dialog/create-unit-dialog.component';
+import { UnitDialogData } from 'src/app/models/unit-dialog';
+import { DialogActionTypes } from '../../const/dialog-action-types';
 
 @Component({
   selector: 'app-units',
@@ -20,9 +22,14 @@ export class UnitsComponent implements OnInit {
   }
   addUnit(){
     let dialogRef = this.dialog.open(CreateUnitDialogComponent, {
-      height: '400px',
-      width: '600px',
+     // height: '400px',
+     // width: '600px',
+     data :new UnitDialogData(null,null,DialogActionTypes.add)
     });
+    dialogRef.afterClosed().subscribe(
+      data=>{
+      }
+    )
   }
 
 }
