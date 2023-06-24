@@ -14,13 +14,12 @@
                 <button (click)="addUnit()" class="main-button">Bölmə əlavə et <i class="fal fa-plus"></i></button>
             </div>
          </div>
-         <div class="row">
-             <div class="col-12">
-                 <ul>
-                 </ul>
+         <div *ngIf="!dataSource||dataSource.length==0" class="row">
+             <div class="col-12 text-center">
+                 <p>Bölmə mövcud deyil</p>
              </div>
          </div>
-         <div class="row">
+         <div *ngIf="dataSource&&dataSource.length>0" class="row">
             <div class="col-12">
                 <div class="table-content">
                     <div style="overflow-x:auto" class="table-responsive-sm">

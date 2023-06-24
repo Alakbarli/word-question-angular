@@ -8,7 +8,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../shared/material/material.module';
 import { UnitsComponent } from './components/units/units.component';
 import { WordsComponent } from './components/words/words.component';
-import { NewWordComponent } from './components/new-word/new-word.component';
 import { UploadJsonComponent } from './components/upload-json/upload-json.component';
 import { DownloadJsonComponent } from './components/download-json/download-json.component';
 import { ClearDataComponent } from './components/clear-data/clear-data.component';
@@ -24,7 +23,6 @@ import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.co
     QuestionComponent,
     UnitsComponent,
     WordsComponent,
-    NewWordComponent,
     UploadJsonComponent,
     DownloadJsonComponent,
     ClearDataComponent,

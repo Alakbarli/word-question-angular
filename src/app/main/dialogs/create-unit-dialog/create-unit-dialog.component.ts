@@ -51,8 +51,10 @@ export class CreateUnitDialogComponent implements OnInit {
       this.dialogRef.close(true);
     }
   }
+  submit(){
+    this.onAddClick();
+  }
   keyup(e:KeyboardEvent){
-    alert(e.code);
     if(e.code=='Enter'){
       this.onAddClick();
     }

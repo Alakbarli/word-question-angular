@@ -59,3 +59,13 @@ body { margin: 0; font-family: $title-fam;}
     background: #443ea2;
     color: white;
 }
+#all-word{
+    .mat-select-trigger{
+        width: 100%;
+        height: 35px;
+        padding: 0 3px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #443ea2;
+    }
+}

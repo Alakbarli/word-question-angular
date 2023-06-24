@@ -15,7 +15,6 @@ export class ShellComponent implements OnInit,AfterViewInit {
   isMobile:boolean=false;
   showMobile:boolean=false;
   showDesc:boolean=false;
-  showNavDrop:boolean=false;
 
 
   constructor(private router:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
@@ -37,8 +36,14 @@ export class ShellComponent implements OnInit,AfterViewInit {
     this.showDesc=!this.showDesc;
   }
   }
-  toggleNavItem():void{
-    this.showNavDrop=!this.showNavDrop;
+  closeSideNav(){
+    if(this.isMobile){
+      this.toggleMainMenu()
+    }
+    
+  }
+  onResize(event:any) {
+    this.isMobile = window.matchMedia("(max-width: 990px)").matches;
   }
 
 }
