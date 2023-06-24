@@ -173,8 +173,9 @@ user-select: none;
 }
 #all-word .word-content svg,#UNIT .word-content svg{
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 0 7px 0 7px;
     cursor: pointer;
+    font-size: 18px;
  }
 #all-word .word-content .edit,#UNIT .word-content .edit{
    color: rgb(20, 73, 172);
@@ -184,8 +185,8 @@ user-select: none;
 }
 @media screen and (max-width:993px){
     .table{
-        max-width: 70vw!important;
-        display: block !important;
+        /* max-width: 70vw!important;
+        display: block !important; */
     }
     #edit-word,#edit-unit  {
        width: 70%;

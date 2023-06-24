@@ -32,7 +32,9 @@ export class UnitsComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe(
       data=>{
-        this.langService.addUnit(data);
+        if(data){
+          this.langService.addUnit(data);
+        }
       }
     )
   }
@@ -44,7 +46,9 @@ export class UnitsComponent implements OnInit {
      });
      dialogRef.afterClosed().subscribe(
        data=>{
-        this.langService.editUnit(unit.id,data);
+        if(data){
+          this.langService.editUnit(unit.id,data);
+        }
        }
      )
   }

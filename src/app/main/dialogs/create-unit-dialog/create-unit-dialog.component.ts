@@ -44,7 +44,7 @@ export class CreateUnitDialogComponent implements OnInit {
     this.dialogRef.close();
   }
   onAddClick(): void {
-    if((!this.unitNameFormControl.invalid)||this.unitNameFormControl.value!=this.data.unitName){
+    if((!this.unitNameFormControl.invalid)&&this.unitNameFormControl.value!=this.data.unitName){
       this.dialogRef.close(this.unitNameFormControl.value);
     }
     if(this.isDelete){
@@ -52,6 +52,7 @@ export class CreateUnitDialogComponent implements OnInit {
     }
   }
   keyup(e:KeyboardEvent){
+    alert(e.code);
     if(e.code=='Enter'){
       this.onAddClick();
     }
