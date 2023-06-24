@@ -21,7 +21,7 @@
             </div>
             
         </div>
-        <button *ngIf="jsonUploaded" (click)="addWords()" style="margin: 10px;padding: 5px;border-radius: 3px; border: none;background-color: #443ea2;color: white;cursor: pointer;">Əlavə et</button>
+        <button *ngIf="jsonUploaded" (click)="addWords()" class="main-button">Əlavə et</button>
         <div class="my-3" *ngIf="jsonUploaded" >
             {{jsonUploaded | json}}
         </div>

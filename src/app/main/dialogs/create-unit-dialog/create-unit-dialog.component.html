@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>Bölmə əlavə et</h1>
+<div mat-dialog-content>
+    <!-- <mat-label>Bölmə əlavə et</mat-label>
+    <input matInput [(ngModel)]="data"> -->
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Bölmə adı</mat-label>
+          <input matInput placeholder="Məs: Əşyalar" [formControl]="unitNameFormControl" [errorStateMatcher]="matcher">
+          <mat-error *ngIf="unitNameFormControl.hasError('required')||unitNameFormControl.hasError('whitespace')">
+            Bölmə adı qeyd edilməlidir
+          </mat-error>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions>
+  <button (click)="onNoClick()" class="second-button">Bağla</button>
+  <button (click)="onAddClick()" [disabled]="unitNameFormControl.invalid" class="main-button">Əlave et</button>
+</div>

@@ -9,6 +9,7 @@ export class LanguageService {
   wordId:number=1;
   db:DB=new DB();
   constructor() {
+    this.getDbLocalstorage();
     //this.id=Math.floor(Math.random() * (10 - 0+1) + 0);
    }
 
