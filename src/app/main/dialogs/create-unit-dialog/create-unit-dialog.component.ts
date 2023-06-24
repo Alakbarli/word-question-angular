@@ -17,7 +17,7 @@ export class CreateUnitDialogComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) public data:UnitDialogData,private CustomVal:CustomValidatorsService) {
     }
 
-  unitNameFormControl=new FormControl(this.data, [Validators.required,this.CustomVal.noWhitespaceValidator]);
+  unitNameFormControl=new FormControl(this.data.unitName, [Validators.required,this.CustomVal.noWhitespaceValidator]);
 
   matcher = new CustomStateMatcher();
   ngOnInit(): void {
