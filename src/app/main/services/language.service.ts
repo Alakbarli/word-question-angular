@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { DB } from 'src/app/models/db';
+import { Unit } from 'src/app/models/unit';
 
 @Injectable({
   providedIn: 'root'
@@ -34,6 +35,29 @@ export class LanguageService {
           }
       )
       this.unitId=uId+1;
+  }
+  hasWordOfUnit(unitId:number){
+    return this.db.Words.some(x=>x.unitId==unitId);
+  }
+  addUnit(name:string){
+    this.findLastIdUnit();
+    let newUnit=new Unit(this.unitId,name);
+    this.db.Units.push(newUnit);
+    this.sync();
+  }
+  insertAtUnit(index:number,unit:Unit){
+    this.db.Units.splice(index,0,unit);
+    this.sync();
+  }
+  editUnit(id:number,name:string){
+    let unitIndex=this.db.Units.findIndex(x=>x.id==id);
+    this.db.Units[unitIndex].name=name;
+    this.sync();
+  }
+  deleteUnit(id:number){
+    let unitIndex=this.db.Units.findIndex(x=>x.id==id);
+    this.db.Units.splice(unitIndex,1);
+    this.sync();
   }
   setDbLocalstorage(){
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));

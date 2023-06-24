@@ -16,6 +16,7 @@ import { VideoGuideComponent } from './components/video-guide/video-guide.compon
 import { LanguageService } from './services/language.service';
 import { CreateUnitDialogComponent } from './dialogs/create-unit-dialog/create-unit-dialog.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { BrowserModule } from '@angular/platform-browser';
     DownloadJsonComponent,
     ClearDataComponent,
     VideoGuideComponent,
-    CreateUnitDialogComponent
+    CreateUnitDialogComponent,
+    ErrorSnacbarComponent
   ],
   imports: [
     CommonModule,

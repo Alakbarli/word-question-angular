@@ -1,18 +1,17 @@
-<h1 mat-dialog-title>Bölmə əlavə et</h1>
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
 <div mat-dialog-content>
-    <!-- <mat-label>Bölmə əlavə et</mat-label>
-    <input matInput [(ngModel)]="data"> -->
-    <form class="example-form">
+    <form *ngIf="!isDelete" class="example-form">
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Bölmə adı</mat-label>
-          <input matInput placeholder="Məs: Əşyalar" [formControl]="unitNameFormControl" [errorStateMatcher]="matcher">
+          <input  matInput placeholder="Məs: Əşyalar" [formControl]="unitNameFormControl" [errorStateMatcher]="matcher" (keyup)="keyup($event)">
           <mat-error *ngIf="unitNameFormControl.hasError('required')||unitNameFormControl.hasError('whitespace')">
             Bölmə adı qeyd edilməlidir
           </mat-error>
         </mat-form-field>
     </form>
+    <p *ngIf="isDelete">{{this.data.unitName}}</p>
 </div>
 <div mat-dialog-actions>
   <button (click)="onNoClick()" class="second-button">Bağla</button>
-  <button (click)="onAddClick()" [disabled]="unitNameFormControl.invalid" class="main-button">Əlave et</button>
+  <button (click)="onAddClick()" [disabled]="(unitNameFormControl.invalid||unitNameFormControl.value==data.unitName)&&!isDelete" class="main-button">{{mainButtonText}}</button>
 </div>
