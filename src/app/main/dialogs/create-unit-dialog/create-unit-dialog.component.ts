@@ -25,6 +25,7 @@ export class CreateUnitDialogComponent implements OnInit {
   unitNameFormControl=new FormControl(this.data.unitName, [Validators.required,this.CustomVal.noWhitespaceValidator]);
 
   matcher = new CustomStateMatcher();
+
   ngOnInit(): void {
   }
   setDialogTexts(){

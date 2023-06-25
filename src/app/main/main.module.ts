@@ -16,6 +16,7 @@ import { LanguageService } from './services/language.service';
 import { CreateUnitDialogComponent } from './dialogs/create-unit-dialog/create-unit-dialog.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.component';
+import { CreateWordDialogComponent } from './dialogs/create-word-dialog/create-word-dialog.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.co
     ClearDataComponent,
     VideoGuideComponent,
     CreateUnitDialogComponent,
-    ErrorSnacbarComponent
+    ErrorSnacbarComponent,
+    CreateWordDialogComponent
   ],
   imports: [
     CommonModule,

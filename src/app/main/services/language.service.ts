@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { DB } from 'src/app/models/db';
 import { Unit } from 'src/app/models/unit';
+import { Word } from 'src/app/models/word';
+import { WordDialogData } from 'src/app/models/word-dialog-data';
 
 @Injectable({
   providedIn: 'root'
@@ -45,8 +47,18 @@ export class LanguageService {
     this.db.Units.push(newUnit);
     this.sync();
   }
+  addWord(data:WordDialogData){
+    this.findLastIdWord();
+    let newWord=new Word(this.wordId,data.nameAz as string,data.nameEn as string,data.unitId as number);
+    this.db.Words.push(newWord);
+    this.sync();
+  }
   insertAtUnit(index:number,unit:Unit){
     this.db.Units.splice(index,0,unit);
+    this.sync();
+  }
+  insertAtWord(index:number,word:Word){
+    this.db.Words.splice(index,0,word);
     this.sync();
   }
   editUnit(id:number,name:string){
@@ -54,14 +66,28 @@ export class LanguageService {
     this.db.Units[unitIndex].name=name;
     this.sync();
   }
+  editWord(word:Word){
+    let unitIndex=this.db.Words.findIndex(x=>x.id==word.id);
+    this.db.Words[unitIndex]=word;
+    this.sync();
+  }
   deleteUnit(id:number){
     let unitIndex=this.db.Units.findIndex(x=>x.id==id);
     this.db.Units.splice(unitIndex,1);
     this.sync();
   }
+  deleteWord(id:number){
+    let wordIndex=this.db.Words.findIndex(x=>x.id==id);
+    this.db.Words.splice(wordIndex,1);
+    this.sync();
+  }
   setDbLocalstorage(){
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));
   }
+  findUnit(id:number)
+    {
+        return this.db.Units.find(u=>u.id==id);
+    }
   getDbLocalstorage(){
     if(window.localStorage.getItem("wordDb")!=null){
       this.db=JSON.parse((localStorage.getItem("wordDb")) as string)

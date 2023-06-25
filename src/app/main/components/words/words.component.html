@@ -16,28 +16,24 @@
                 <button (click)="addWord()" class="main-button">Söz əlavə et <i class="fal fa-plus"></i></button>
             </div>
          </div>
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-12 mb-3">
-                <div class="d-flex justify-content-center">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-3">
                             <label for="">Bölmə</label>
-                            <mat-select [(ngModel)]="unitId" (selectionChange)="change()" multiple>
+                            <mat-select [(ngModel)]="unitId" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
                                 <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
                               </mat-select>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-3">
                             <label for="">Azərbaycanca</label>
-                            <input class="nAz" type="text">
+                            <input [(ngModel)]="wordAz" placeholder="Sözün Azərbaycan dilində tərcüməsi" class="nAz" type="text">
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-3">
                             <label for="">İngiliscə</label>
-                            <input class="nEn" type="text">
+                            <input [(ngModel)]="wordEn" placeholder="Sözün İngilis dilində tərcüməsi" class="nEn" type="text">
                         </div>
                     </div>
-                    
-                    
-                </div>
             </div>
         </div>
         <div class="row">
@@ -55,6 +51,16 @@
                                  </tr>
                              </thead>
                              <tbody class="word-content">
+                                <tr *ngFor="let e of dataSource;let i=index">
+                                    <th scope="row">{{i+1}}</th>
+                                    <td>{{e.nameAz}}</td>
+                                    <td>{{e.nameEn}}</td>
+                                    <td>{{findUnit(e.unitId)}}</td>
+                                    <td>
+                                        <span (click)="editWord(e)" class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
+                                        <span (click)="deleteWord(e)" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
+                                    </td>
+                                </tr>
                              </tbody>
                         </table>
                      </div>

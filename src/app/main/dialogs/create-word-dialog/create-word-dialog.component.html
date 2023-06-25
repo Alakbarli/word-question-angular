@@ -1,0 +1,42 @@
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
+<div mat-dialog-content>
+    <form *ngIf="!isDelete" class="example-form" (ngSubmit)="submit()">
+        <div class="form-group">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Bölmə adı</mat-label>
+                <mat-select placeholder="Bölmə seçin" [formControl]="unitIdControl" [errorStateMatcher]="matcher">
+                  <mat-option *ngFor="let unit of unitList" [value]="unit.id">
+                    {{unit.name}}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="unitIdControl.hasError('required')">
+                  Bölmə seçilməlidir
+                </mat-error>
+              </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Azərbaycan dilində tərcümə</mat-label>
+                <input  matInput placeholder="Məs: Söz" [formControl]="nameAzControl" [errorStateMatcher]="matcher">
+                <mat-error *ngIf="nameAzControl.hasError('required')||nameAzControl.hasError('whitespace')">
+                  Söz qeyd edilməlidir
+                </mat-error>
+              </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>İngilis dilində tərcümə</mat-label>
+                <input  matInput placeholder="Məs: Word" [formControl]="nameEnControl" [errorStateMatcher]="matcher">
+                <mat-error *ngIf="nameEnControl.hasError('required')||nameEnControl.hasError('whitespace')">
+                    Söz qeyd edilməlidir
+                </mat-error>
+              </mat-form-field>
+        </div>
+    </form>
+    <p *ngIf="isDelete">{{this.data.nameAz}}</p>
+    <p *ngIf="isDelete">{{this.data.nameEn}}</p>
+</div>
+<div mat-dialog-actions>
+  <button (click)="onNoClick()" class="second-button">Bağla</button>
+  <button (click)="onAddClick()" [disabled]="buttonStatus" class="main-button">{{mainButtonText}}</button>
+</div>
