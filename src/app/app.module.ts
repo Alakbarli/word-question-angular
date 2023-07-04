@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainModule } from './main/main.module';
 import { ShellModule } from './shell/shell.module';
 import { RouterModule } from '@angular/router';
+import './main/Utilities/extension-functions';
 
 @NgModule({
   declarations: [
