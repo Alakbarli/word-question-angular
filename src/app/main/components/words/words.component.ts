@@ -133,8 +133,18 @@ export class WordsComponent implements OnInit {
             ((this.wordAz.isEmpty())?true:(w.nameAz.includes(this.wordAz as string)))&&
             ((this.wordEn.isEmpty())?true:(w.nameEn.includes(this.wordEn as string)))
       );
-      (this.paginator as MatPaginator).length = this.dataSource.data.length;
+      //this.
+      //this.getWords(1, 8, this.filterForm.value)
+      this.paginator.length = this.dataSource.data.length;
       this.dataSource.paginator  = this.paginator;
+  }
+  getNextData(currentSize:any, page:any, limit:any) {
+    this.currentSize = currentSize;
+    //this.getWords(page, limit, this.filterForm.value);
+  }
+  getWords(page:any, limit:any) {
+        this.paginator.length = this.dataSource.data.length;
+        this.dataSource.paginator = this.paginator;
   }
   pageChanged(event: any) {
     let pageIndex = event.pageIndex;
