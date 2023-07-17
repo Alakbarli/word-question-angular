@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, ViewChild } from '@angular/core';
 import { LanguageService } from '../../services/language.service';
 import { Unit } from 'src/app/models/unit';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -16,7 +16,8 @@ import { MatTableDataSource } from '@angular/material/table';
 @Component({
   selector: 'app-words',
   templateUrl: './words.component.html',
-  styleUrls: ['./words.component.scss']
+  styleUrls: ['./words.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class WordsComponent implements OnInit {
   unitId:Array<number>=[];
@@ -24,25 +25,30 @@ export class WordsComponent implements OnInit {
   wordEn:string="";
   unitList:Array<Unit>|null=null;
   displayedColumns: string[] = ['no', 'nameAz', 'nameEn', 'unitName','operation'];
-  htmlForRender="";
+
+
   @ViewChild(MatPaginator, {}) paginator: MatPaginator;
-  currentSize: number = 0;
-  pageSize: number = 8;
+  pageIndex: number = 0;
+  pageSize: number = 5;
+  length:any;
+  pageSizeOptions = [5, 10, 25];
   constructor(public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) { 
-    
+    this.unitList=this.langService.db.Units;
+    this.storiedData=this.langService.db.Words;
+    this.getWords(1,8);
   }
   dataSource:MatTableDataSource<Word>=new MatTableDataSource<Word>();
   storiedData:Array<Word>=[];
   ngOnInit(): void {
-    this.unitList=this.langService.db.Units;
-    this.dataSource.data=this.langService.db.Words;
-    this.storiedData=this.langService.db.Words;
-    //this.renderWordHtml()
+  }
+  ngAfterViewInit() {
+    this.dataSource.paginator = this.paginator;
+  }
+  trackByFn(index: number, item: any): number {
+    return item.id;
   }
   addWord(){
     let dialogRef = this.dialog.open(CreateWordDialogComponent, {
-      // height: '400px',
-      // width: '600px',
       data :new WordDialogData(null,null,null,DialogActionTypes.add)
      });
      dialogRef.afterClosed().subscribe(
@@ -53,29 +59,8 @@ export class WordsComponent implements OnInit {
        }
      )
   }
-  // renderWordHtml(){
-  //   let count=1;
-  //   this.htmlForRender="";
-  //   for(let i=0;i<this.dataSource.length;i++){
-  //     this.htmlForRender+= `
-  //               <tr data-id=${this.dataSource[i].id}>
-  //                   <th scope="row">${count}</th>
-  //                   <td>${this.dataSource[i].nameAz}</td>
-  //                   <td>${this.dataSource[i].nameEn}</td>
-  //                   <td>${((this.findUnit(this.dataSource[i].unitId)!=undefined))}</td>
-  //                   <td>
-  //                       <span (click)="editWord(${this.dataSource[i]})" class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
-  //                       <span (click)="deleteWord(${this.dataSource[i]})" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
-  //                   </td>
-  //               </tr>
-  //               `;
-  //               count++;
-  //   }
-  // }
   editWord(w:Word){
     let dialogRef = this.dialog.open(CreateWordDialogComponent, {
-      // height: '400px',
-      // width: '600px',
       data :new WordDialogData(w.nameAz,w.nameEn,w.unitId,DialogActionTypes.update)
      });
      dialogRef.afterClosed().subscribe(
@@ -91,8 +76,6 @@ export class WordsComponent implements OnInit {
   }
   deleteWord(w:Word){
     let dialogRef = this.dialog.open(CreateWordDialogComponent, {
-      // height: '400px',
-      // width: '600px',
       data :new WordDialogData(w.nameAz,w.nameEn,w.unitId,DialogActionTypes.delete)
      });
      dialogRef.afterClosed().subscribe(
@@ -127,24 +110,25 @@ export class WordsComponent implements OnInit {
     this.filter();
   }
   filter(){
-    this.dataSource.data=this.storiedData.filter(
-      w=>
-            (this.unitId&&this.unitId.length>0)?this.unitId?.includes(w.unitId):true&&
-            ((this.wordAz.isEmpty())?true:(w.nameAz.includes(this.wordAz as string)))&&
-            ((this.wordEn.isEmpty())?true:(w.nameEn.includes(this.wordEn as string)))
-      );
-      //this.
-      //this.getWords(1, 8, this.filterForm.value)
-      this.paginator.length = this.dataSource.data.length;
-      this.dataSource.paginator  = this.paginator;
+    // this.dataSource.data=this.storiedData.filter(
+    //   w=>
+    //         (this.unitId&&this.unitId.length>0)?this.unitId?.includes(w.unitId):true&&
+    //         ((this.wordAz.isEmpty())?true:(w.nameAz.includes(this.wordAz as string)))&&
+    //         ((this.wordEn.isEmpty())?true:(w.nameEn.includes(this.wordEn as string)))
+    //   );
+    //   //this.
+    //   //this.getWords(1, 8, this.filterForm.value)
+    //   this.paginator.length = this.dataSource.data.length;
+    //   this.dataSource.paginator  = this.paginator;
   }
   getNextData(currentSize:any, page:any, limit:any) {
-    this.currentSize = currentSize;
+    //this.currentSize = currentSize;
     //this.getWords(page, limit, this.filterForm.value);
   }
   getWords(page:any, limit:any) {
-        this.paginator.length = this.dataSource.data.length;
-        this.dataSource.paginator = this.paginator;
+    this.dataSource.data=this.storiedData;
+         this.length = this.dataSource.data.length;
+         this.dataSource.paginator = this.paginator;
   }
   pageChanged(event: any) {
     let pageIndex = event.pageIndex;

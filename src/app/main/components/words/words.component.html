@@ -46,38 +46,6 @@
                 <p>Heç bir söz tapılmadı</p>
             </div>
         </div>
-        <!-- <div *ngIf="dataSource&&dataSource.length>0" class="row my-3">
-            <div class="col-12">
-                <div class="table-content">
-                    <div style="overflow-x:auto" class="table-responsive-sm">
-                        <table class="table" style="overflow-x:auto">
-                             <thead>
-                                 <tr>
-                                     <th>#</th>
-                                     <th>Azərbaycanca</th>
-                                     <th>İngiliscə</th>
-                                     <th>Bölmə</th>
-                                     <th>Əməlliyyat</th>
-                                 </tr>
-                             </thead>
-                             <tbody class="word-content">
-                                <tr *ngFor="let e of dataSource;let i=index">
-                                    <th scope="row">{{i+1}}</th>
-                                    <td>{{e.nameAz}}</td>
-                                    <td>{{e.nameEn}}</td>
-                                    <td>{{findUnit(e.unitId)}}</td>
-                                    <td>
-                                        <span (click)="editWord(e)" class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
-                                        <span (click)="deleteWord(e)" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
-                                    </td>
-                                </tr>
-                             </tbody>
-                        </table>
-                     </div>
-                </div>
-                
-            </div>
-        </div> -->
 
         <table mat-table [dataSource]="dataSource">
 
@@ -112,33 +80,9 @@
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
             <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
           </table>
-
-          <!-- <div *ngIf="dataSource&&dataSource.length>0" class="row my-3">
-            <div class="col-12">
-                <div class="table-content">
-                    <div style="overflow-x:auto" class="table-responsive-sm">
-                        <table class="table" style="overflow-x:auto">
-                             <thead>
-                                 <tr>
-                                     <th>#</th>
-                                     <th>Azərbaycanca</th>
-                                     <th>İngiliscə</th>
-                                     <th>Bölmə</th>
-                                     <th>Əməlliyyat</th>
-                                 </tr>
-                             </thead>
-                             <tbody class="word-content" [innerHTML]="htmlForRender">
-                                
-                             </tbody>
-                        </table>
-                     </div>
-                </div>
-                
-            </div>
-        </div> -->
           
         <mat-paginator
-        [pageSizeOptions]="[8, 16, 24]" [pageSize]="8" showFirstLastButtons [length]="dataSource.data.length"
+        [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" [pageSize]="pageSize" showFirstLastButtons [length]="length"
         (page)="pageChanged($event)">
     </mat-paginator>
         
