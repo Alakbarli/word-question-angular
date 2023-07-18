@@ -87,6 +87,7 @@ input,select{
     outline: none;
 }
 #main-page .random {
+    display: inline-block;
 user-select: none;
     margin-top:10px;
  font-size: 40px;
