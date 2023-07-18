@@ -4,6 +4,24 @@
     </div>
     <div id="word-question" class='card-body'>
         <div class="row">
+            <div class="col-12 mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-3">
+                            <label for="">Bölmə</label>
+                            <mat-select [(ngModel)]="selectedUnit" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
+                                <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
+                              </mat-select>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label for="">Bölmə</label>
+                            <mat-select [(ngModel)]="slecetedLang" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
+                                <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
+                              </mat-select>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 text-center">
                 <div class="unit-select">
                     <label for="">

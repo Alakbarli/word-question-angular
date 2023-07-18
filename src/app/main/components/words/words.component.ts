@@ -12,6 +12,7 @@ import { SnackBarData } from 'src/app/models/snack-bar-data.model';
 import { SnackBarTypes } from '../../const/snack-bar-types';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
+import { ShellService } from 'src/app/shell/shell.service';
 
 @Component({
   selector: 'app-words',
@@ -32,10 +33,11 @@ export class WordsComponent implements OnInit {
   pageSize: number = 5;
   length:any;
   pageSizeOptions = [5, 10, 25];
-  constructor(public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) { 
+  constructor(private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) { 
+    shellService.showLoader();
     this.unitList=this.langService.db.Units;
     this.storiedData=this.langService.db.Words;
-    this.getWords(1,8);
+    this.getWords();
   }
   dataSource:MatTableDataSource<Word>=new MatTableDataSource<Word>();
   storiedData:Array<Word>=[];
@@ -43,6 +45,9 @@ export class WordsComponent implements OnInit {
   }
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
+    setTimeout(() => {
+      this.shellService.hideLoader();
+    }, 1);
   }
   trackByFn(index: number, item: any): number {
     return item.id;
@@ -97,7 +102,7 @@ export class WordsComponent implements OnInit {
        }
      )
   }
-  findUnit(id:number):string|null|undefined{
+  getUnitName(id:number):string|null|undefined{
     return this.unitList?.find(x=>x.id==id)?.name;
   }
   change(){
@@ -110,32 +115,24 @@ export class WordsComponent implements OnInit {
     this.filter();
   }
   filter(){
-    // this.dataSource.data=this.storiedData.filter(
-    //   w=>
-    //         (this.unitId&&this.unitId.length>0)?this.unitId?.includes(w.unitId):true&&
-    //         ((this.wordAz.isEmpty())?true:(w.nameAz.includes(this.wordAz as string)))&&
-    //         ((this.wordEn.isEmpty())?true:(w.nameEn.includes(this.wordEn as string)))
-    //   );
-    //   //this.
-    //   //this.getWords(1, 8, this.filterForm.value)
-    //   this.paginator.length = this.dataSource.data.length;
-    //   this.dataSource.paginator  = this.paginator;
+    this.dataSource.data=this.storiedData.filter(
+      w=>
+            ((this.unitId&&this.unitId.length>0)?this.unitId?.includes(+w.unitId):true)&&
+            ((this.wordAz.isEmpty())?true:(w.nameAz.toLowerCase().includes(this.wordAz.toLowerCase())))&&
+            ((this.wordEn.isEmpty())?true:(w.nameEn.toLowerCase().includes(this.wordEn.toLowerCase())))
+      );
+      
+      this.length = this.dataSource.data.length;
+      this.dataSource.paginator  = this.paginator;
+      this.paginator.firstPage();
   }
-  getNextData(currentSize:any, page:any, limit:any) {
-    //this.currentSize = currentSize;
-    //this.getWords(page, limit, this.filterForm.value);
-  }
-  getWords(page:any, limit:any) {
+  getWords() {
     this.dataSource.data=this.storiedData;
-         this.length = this.dataSource.data.length;
-         this.dataSource.paginator = this.paginator;
+    this.length = this.dataSource.data.length;
+    this.dataSource.paginator = this.paginator;
   }
   pageChanged(event: any) {
-    let pageIndex = event.pageIndex;
+    this.pageIndex = event.pageIndex;
     this.pageSize = event.pageSize;
-
-    let previousIndex = event.previousPageIndex;
-    let previousSize = this.pageSize * pageIndex;
-    this.getNextData(previousSize, (pageIndex + 1).toString(), this.pageSize.toString());
   }
 }

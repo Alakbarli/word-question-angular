@@ -1,10 +1,4 @@
-<div *ngIf="!pageloaded" id="preloader" class="row justify-content-center">
-    <div class="col-12 text-center bg-white p-3">
-        <img src="assets/images/Spinner-0.7s-323px.svg" alt="">
-    </div>
-    
-</div>
-<div (window:resize)="onResize($event)" class='dashboard' [class.d-none] = "pageloaded === false" [ngClass]="{'dashboard-compact' : showDesc}">
+<div (window:resize)="onResize($event)" class='dashboard' [ngClass]="{'dashboard-compact' : showDesc}">
     <div class="dashboard-nav" [ngClass]="{'mobile-show' : showMobile}">
         <header>
             <a  (click)="toggleMainMenu()" class="menu-toggle">
@@ -34,18 +28,20 @@
     <div class='dashboard-app'>
         <header class='dashboard-toolbar'><a (click)="toggleMainMenu()" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
         <div class='dashboard-content'>
-            <div class='container w-menu-tabs'>
-
-                <!-- WORD_QUESTION -->
-
+            <div class='container w-menu-tabs' [class.d-none] = "isLoading">
                 <main role="main">
                     <router-outlet></router-outlet>
                 </main>
-
-
-                
+             </div>
+             <!-- PRELOADER -->
+             <div *ngIf="isLoading"  class='container w-menu-tabs'>
+                <div id="preloader" class="row justify-content-center">
+                    <div class="col-12 text-center bg-white p-3">
+                        <img src="assets/images/Spinner-0.7s-323px.svg" alt="">
+                    </div>
                 </div>
-                <div class="copyright card-body text-center"><a target="_blank" style="text-decoration: none;color: black;" href="https://alakbarli.github.io/">© Ulvi Alakbarli</a></div>
+             </div>
+            <div class="copyright card-body text-center"><a target="_blank" style="text-decoration: none;color: black;" href="https://alakbarli.github.io/">© Ulvi Alakbarli</a></div>
             </div>
             
         </div>

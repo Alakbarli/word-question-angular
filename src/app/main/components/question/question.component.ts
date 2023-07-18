@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguageService } from '../../services/language.service';
+import { Word } from 'src/app/models/word';
+import { Unit } from 'src/app/models/unit';
 
 @Component({
   selector: 'app-question',
@@ -8,16 +10,20 @@ import { LanguageService } from '../../services/language.service';
 })
 export class QuestionComponent implements OnInit {
   currentWordNumber:number=0;
-  filterUnitId:number=0;
-  filterLangName:string="";
+  selectedUnit:number=0;
+  slecetedLang:string="";
   known:string="";
   unknown:string="";
   answer:string="";
   showAnswer:boolean=false;
+  words:Array<Word>;
+  units:Array<Unit>;
 
   constructor(private langService:LanguageService) { }
 
   ngOnInit(): void {
+    this.units=this.langService.db.Units;
+    this.words=this.langService.db.Words;
   }
 
   GenerateRandomNumber (min:number, max:number){

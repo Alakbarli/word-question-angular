@@ -2,6 +2,7 @@ import { state, style, trigger } from '@angular/animations';
 import { AfterViewInit, ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LanguageService } from '../main/services/language.service';
+import { ShellService } from './shell.service';
 
 @Component({
   selector: 'app-shell',
@@ -11,21 +12,24 @@ import { LanguageService } from '../main/services/language.service';
 })
 export class ShellComponent implements OnInit,AfterViewInit {
 
-  pageloaded=false;
+  isLoading=false;
   isMobile:boolean=false;
   showMobile:boolean=false;
   showDesc:boolean=false;
 
 
-  constructor(private router:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
+  constructor(private shellService:ShellService,private router:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
   }
   ngAfterViewInit(): void {
-    this.pageloaded=true;
+    //this.pageloaded=true;
     this.cd.detectChanges();
   }
 
   ngOnInit(): void {
+    this.shellService.isLoading$.subscribe(res=>{
+      this.isLoading=res;
+    })
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
   }
   toggleMainMenu():void{
