@@ -13,7 +13,6 @@ export class LanguageService {
   db:DB=new DB();
   constructor() {
     this.getDbLocalstorage();
-    //this.id=Math.floor(Math.random() * (10 - 0+1) + 0);
    }
 
    findLastIdWord(){
@@ -37,6 +36,14 @@ export class LanguageService {
           }
       )
       this.unitId=uId+1;
+  }
+  generateJson(){
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(this.db, null, 2)], {type: "text/plain"}));
+    a.setAttribute("download", "word-questions-word-list-data.json");
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   }
   hasWordOfUnit(unitId:number){
     return this.db.Words.some(x=>x.unitId==unitId);
@@ -91,16 +98,8 @@ export class LanguageService {
   getDbLocalstorage(){
     if(window.localStorage.getItem("wordDb")!=null){
       this.db=JSON.parse((localStorage.getItem("wordDb")) as string)
-      //newDb.Words=.Words;
-      //newDb.Units=JSON.parse((window.localStorage.getItem("wordDb"))).Units;
-      //newDb.activePage=JSON.parse((window.localStorage.getItem("wordDb"))).activePage;
-      //newDb.unitSelectVal=JSON.parse((window.localStorage.getItem("wordDb"))).unitSelectVal;
-      //newDb.languageVal=JSON.parse((window.localStorage.getItem("wordDb"))).languageVal;
       this.findLastIdUnit();
       this.findLastIdWord();
-      //this.synWords();
-      //this.synUnits();
-      //this.synPage();
   }
   }
   clear(){

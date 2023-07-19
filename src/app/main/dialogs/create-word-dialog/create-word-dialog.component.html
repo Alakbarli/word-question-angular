@@ -33,8 +33,7 @@
               </mat-form-field>
         </div>
     </form>
-    <p *ngIf="isDelete">{{this.data.nameAz}}</p>
-    <p *ngIf="isDelete">{{this.data.nameEn}}</p>
+    <p *ngIf="isDelete">{{this.data.nameAz}} <i class="fal fa-arrows-h"></i> {{this.data.nameEn}}</p>
 </div>
 <div mat-dialog-actions>
   <button (click)="onNoClick()" class="second-button">Bağla</button>

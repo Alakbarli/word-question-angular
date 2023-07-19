@@ -17,6 +17,7 @@ import { CreateUnitDialogComponent } from './dialogs/create-unit-dialog/create-u
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.component';
 import { CreateWordDialogComponent } from './dialogs/create-word-dialog/create-word-dialog.component';
+import { ConfirmDialogComponent } from './dialogs/confirm-dialog/confirm-dialog.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CreateWordDialogComponent } from './dialogs/create-word-dialog/create-w
     VideoGuideComponent,
     CreateUnitDialogComponent,
     ErrorSnacbarComponent,
-    CreateWordDialogComponent
+    CreateWordDialogComponent,
+    ConfirmDialogComponent
   ],
   imports: [
     CommonModule,

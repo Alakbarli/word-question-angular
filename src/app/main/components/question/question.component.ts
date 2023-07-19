@@ -13,7 +13,7 @@ import { Languages } from '../../const/languages';
 export class QuestionComponent implements OnInit {
   currentWordNumber:number=0;
   selectedUnit:Array<number>=[];
-  slecetedLang:number=0;
+  selecetedLang:number=0;
 
   askedWord:string="";
   answeredWord:string="";
@@ -34,6 +34,12 @@ export class QuestionComponent implements OnInit {
   constructor(private langService:LanguageService) { }
 
   ngOnInit(): void {
+    if(this.langService.db.LanguageVal){
+      this.selecetedLang=this.langService.db.LanguageVal;
+    }
+    if(this.langService.db.UnitSelectVal){
+      this.selectedUnit=this.langService.db.UnitSelectVal;
+    }
     this.units=this.langService.db.Units;
     this.words=this.langService.db.Words;
   }
@@ -51,6 +57,11 @@ export class QuestionComponent implements OnInit {
   }
   showAnswerText(){
     this.showAnswer=!this.showAnswer;
+  }
+  change(){
+    this.langService.db.LanguageVal=this.selecetedLang;
+    this.langService.db.UnitSelectVal=this.selectedUnit;
+    this.langService.sync();
   }
 
   GenerateRandomNumber (min:number, max:number){
@@ -76,7 +87,7 @@ export class QuestionComponent implements OnInit {
         let word=_words[rnm];
         this.currentWordNumber=rnm;
         if(word){
-              if(this.slecetedLang==0){
+              if(this.selecetedLang==0){
                  let rndmN=this.GenerateRandomNumber(0,2);
                  if(rndmN==1){
                      this.askedWord=  word.nameAz;
@@ -86,7 +97,7 @@ export class QuestionComponent implements OnInit {
                     this.correctAnswer=  word.nameAz;
                       this.askedWord=  word.nameEn;}
                 }
-                else if(this.slecetedLang==Languages.Azərbaycan){
+                else if(this.selecetedLang==Languages.Azərbaycan){
                   this.askedWord=  word.nameAz;
                   this.correctAnswer=  word.nameEn;
                 }

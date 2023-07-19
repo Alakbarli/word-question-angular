@@ -5,13 +5,13 @@ export class DB {
     Units:Array<Unit>;
     Words:Array<Word>;
     ActivePage:string;
-    UnitSelectVal:number;
+    UnitSelectVal:Array<number>;
     LanguageVal:number;
     constructor(){
         this.Units=[];
         this.Words=[];
         this.ActivePage="word-question";
-        this.UnitSelectVal=0;
+        this.UnitSelectVal=[0];
         this.LanguageVal=0;
     }
 

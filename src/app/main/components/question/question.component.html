@@ -8,13 +8,14 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-3">
                             <label for="">Bölmə</label>
-                            <mat-select [(ngModel)]="selectedUnit" multiple placeholder="Bölmə seçin">
+                            <mat-select [(ngModel)]="selectedUnit" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
                                 <mat-option class="all-word-select" *ngFor="let item of units" [value]="item.id">{{item.name}}</mat-option>
                               </mat-select>
                         </div>
                         <div class="col-12 col-md-3">
                             <label for="">Dil</label>
-                            <mat-select [(ngModel)]="slecetedLang" placeholder="Dil seçin">
+                            <mat-select [(ngModel)]="selecetedLang" (selectionChange)="change()" placeholder="Dil seçin">
+                                <mat-option class="all-word-select" [value]="0">Hər iki dil</mat-option>
                                 <mat-option class="all-word-select" *ngFor="let item of langList" [value]="item.id">{{item.name}}</mat-option>
                                 
                               </mat-select>

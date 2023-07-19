@@ -60,6 +60,12 @@ export class WordsComponent implements OnInit {
        data=>{
          if(data as WordDialogData){
            this.langService.addWord(data);
+           this.filter();
+           let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+            data:new SnackBarData('Söz əlavə olundu',SnackBarTypes.success) ,
+            panelClass: [SnackBarTypes.success],
+            duration:3000
+          });
          }
        }
      )
@@ -75,6 +81,12 @@ export class WordsComponent implements OnInit {
           w.nameEn=data.nameEn as string;
           w.unitId=data.unitId as number;
           this.langService.editWord(w);
+          this.filter();
+          let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+            data:new SnackBarData('Sözdə düzəliş edildi',SnackBarTypes.info) ,
+            panelClass: [SnackBarTypes.info],
+            duration:3000
+          });
         }
        }
      )
@@ -90,6 +102,7 @@ export class WordsComponent implements OnInit {
           let index=this.langService.db.Words.findIndex(x=>x.id==w.id);
 
           this.langService.deleteWord(w.id);
+          this.filter();
           let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Bölmə silindi',SnackBarTypes.info,"Geri al") ,
             panelClass: [SnackBarTypes.info],
@@ -97,6 +110,7 @@ export class WordsComponent implements OnInit {
           });
           snackbarRef.onAction().subscribe(() => {
             this.langService.insertAtWord(index,deletedWord);
+            this.filter();
           });
         }
        }
