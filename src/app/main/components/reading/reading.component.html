@@ -1,0 +1,23 @@
+<div id="UNIT" data-id="unit" class='card'>
+    <div class='card-header'>
+        <h1>Oxuma</h1>
+    </div>
+    <div class='card-body'>
+        <div style="margin: 30px;">
+            <h1 style="text-align: center;">Chat GPT Example</h1>
+            <div class="card"  *ngFor="let data of textList">
+              <div class="card-header">
+                <div class="input-group mb-3" >
+                  <input type="text" [(ngModel)]="data.text" class="form-control" placeholder="Add Your Text Here">
+                  <div class="input-group-append">
+                    <button type="button" (click)="generateText(data)" class="btn btn-primary">Generate</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">{{data.response}}</p>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>

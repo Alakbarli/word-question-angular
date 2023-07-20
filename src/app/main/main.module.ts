@@ -18,6 +18,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorSnacbarComponent } from './snacBars/error-snacbar/error-snacbar.component';
 import { CreateWordDialogComponent } from './dialogs/create-word-dialog/create-word-dialog.component';
 import { ConfirmDialogComponent } from './dialogs/confirm-dialog/confirm-dialog.component';
+import { OpenAIApi } from 'openai';
+import { ReadingComponent } from './components/reading/reading.component';
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { ConfirmDialogComponent } from './dialogs/confirm-dialog/confirm-dialog.
     CreateUnitDialogComponent,
     ErrorSnacbarComponent,
     CreateWordDialogComponent,
-    ConfirmDialogComponent
+    ConfirmDialogComponent,
+    ReadingComponent
   ],
   imports: [
     CommonModule,
@@ -46,7 +49,7 @@ import { ConfirmDialogComponent } from './dialogs/confirm-dialog/confirm-dialog.
     MainRoutingModule,
     //HttpClientModule,
     //FontAwesomeModule,
-    MaterialModule
+    MaterialModule,
   ],
   
 })

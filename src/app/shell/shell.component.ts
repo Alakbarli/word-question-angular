@@ -50,6 +50,9 @@ export class ShellComponent implements OnInit,AfterViewInit {
     this.langService.generateJson();
   }
   clearData(){
+    if(this.isMobile){
+      this.toggleMainMenu();
+    }
     let dialogRef = this.dialog.open(ConfirmDialogComponent, {
       // height: '400px',
       // width: '600px',

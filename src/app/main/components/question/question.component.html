@@ -6,13 +6,13 @@
         <div class="row">
             <div class="col-12 mb-3">
                     <div class="row justify-content-center">
-                        <div class="col-12 col-md-3">
+                        <div class="col-10 col-sm-6 col-md-3">
                             <label for="">Bölmə</label>
                             <mat-select [(ngModel)]="selectedUnit" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
                                 <mat-option class="all-word-select" *ngFor="let item of units" [value]="item.id">{{item.name}}</mat-option>
                               </mat-select>
                         </div>
-                        <div class="col-12 col-md-3">
+                        <div class="col-10 col-sm-6 col-md-3">
                             <label for="">Dil</label>
                             <mat-select [(ngModel)]="selecetedLang" (selectionChange)="change()" placeholder="Dil seçin">
                                 <mat-option class="all-word-select" [value]="0">Hər iki dil</mat-option>
@@ -33,7 +33,7 @@
                     <p *ngIf="showAnswer" class="word last">{{correctAnswer}}</p>
                 </div>
                 <div class="row justify-content-center my-2">
-                    <div class="col-12 col-md-3">
+                    <div class="col-10 col-sm-6 col-md-3">
                         <div *ngIf="askedWord" class="input">
                             <input  [(ngModel)]="answeredWord" (ngModelChange)="changeAnswer()"  [ngClass]="{'correct': submit&&isCorrect, 'wrong' : submit&&!isCorrect }" type="text" placeholder="Sözün tərcüməsi yazın">
                             <div *ngIf="!submit" (click)="checkAnswer()" class="icon check-answer">

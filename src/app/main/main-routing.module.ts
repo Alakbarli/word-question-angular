@@ -7,6 +7,7 @@ import { UnitsComponent } from './components/units/units.component';
 import { UploadJsonComponent } from './components/upload-json/upload-json.component';
 import { VideoGuideComponent } from './components/video-guide/video-guide.component';
 import { WordsComponent } from './components/words/words.component';
+import { ReadingComponent } from './components/reading/reading.component';
 
 const routes: Routes = [
   ShellService.childRoutes([
@@ -34,7 +35,12 @@ const routes: Routes = [
     {
       path: 'guide',
       component: VideoGuideComponent
-    }
+    },
+    {
+      path: 'read',
+      component: ReadingComponent
+    },
+    {path:'**',component:QuestionComponent}
   ]),
 ];
 
