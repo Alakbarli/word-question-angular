@@ -13,6 +13,7 @@ export class LanguageService {
   db:DB=new DB();
   constructor() {
     this.getDbLocalstorage();
+    this.getStoriesLocalstorage();
    }
 
    findLastIdWord(){
@@ -91,6 +92,9 @@ export class LanguageService {
   setDbLocalstorage(){
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));
   }
+  setStoryLocalstorage(){
+    window.localStorage.setItem("wordDbStories",JSON.stringify(this.db.Stories));
+  }
   findUnit(id:number)
     {
         return this.db.Units.find(u=>u.id==id);
@@ -102,13 +106,28 @@ export class LanguageService {
       this.findLastIdWord();
   }
   }
+  getStoriesLocalstorage(){
+    if(window.localStorage.getItem("wordDbStories")!=null){
+      this.db.Stories=JSON.parse((localStorage.getItem("wordDbStories")) as string);
+  }
+  }
   clear(){
     window.localStorage.removeItem("wordDb");
+    window.localStorage.removeItem("wordDbStories");
     this.db=new DB();
   }
   sync(){
     this.setDbLocalstorage();
     this.findLastIdUnit();
     this.findLastIdWord();
+  }
+  syncStories(){
+    this.setStoryLocalstorage();
+  }
+  syncAll(){
+    this.setDbLocalstorage();
+    this.findLastIdUnit();
+    this.findLastIdWord();
+    this.setStoryLocalstorage();
   }
 }
