@@ -130,4 +130,14 @@ export class LanguageService {
     this.findLastIdWord();
     this.setStoryLocalstorage();
   }
+
+  makeId():string {
+    var result= '';
+    var characters= 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < 50; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result+new Date().getTime().toString();
+}
 }

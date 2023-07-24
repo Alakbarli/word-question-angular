@@ -20,6 +20,8 @@ import { CreateWordDialogComponent } from './dialogs/create-word-dialog/create-w
 import { ConfirmDialogComponent } from './dialogs/confirm-dialog/confirm-dialog.component';
 import { OpenAIApi } from 'openai';
 import { ReadingComponent } from './components/reading/reading.component';
+import { GenerateStoryComponent } from './dialogs/generate-story/generate-story.component';
+import { ReadStoryComponent } from './dialogs/read-story/read-story.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ReadingComponent } from './components/reading/reading.component';
     ErrorSnacbarComponent,
     CreateWordDialogComponent,
     ConfirmDialogComponent,
-    ReadingComponent
+    ReadingComponent,
+    GenerateStoryComponent,
+    ReadStoryComponent
   ],
   imports: [
     CommonModule,
