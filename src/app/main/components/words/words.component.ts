@@ -37,14 +37,17 @@ export class WordsComponent implements OnInit {
     shellService.showLoader();
     this.unitList=this.langService.db.Units;
     this.storiedData=this.langService.db.Words;
-    this.getWords();
+    this.filteredData=this.langService.db.Words;
   }
   dataSource:MatTableDataSource<Word>=new MatTableDataSource<Word>();
   storiedData:Array<Word>=[];
+  filteredData:Array<Word>=[];
   ngOnInit(): void {
+
   }
   ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
+    //this.dataSource.paginator = this.paginator;
+    this.getWords(0);
     setTimeout(() => {
       this.shellService.hideLoader();
     }, 1);
@@ -129,24 +132,32 @@ export class WordsComponent implements OnInit {
     this.filter();
   }
   filter(){
-    this.dataSource.data=this.storiedData.filter(
+    this.paginator.firstPage()
+    this.filteredData=this.storiedData.filter(
       w=>
             ((this.unitId&&this.unitId.length>0)?this.unitId?.includes(+w.unitId):true)&&
             ((this.wordAz.isEmpty())?true:(w.nameAz.toLowerCase().includes(this.wordAz.toLowerCase())))&&
             ((this.wordEn.isEmpty())?true:(w.nameEn.toLowerCase().includes(this.wordEn.toLowerCase())))
       );
       
-      this.length = this.dataSource.data.length;
-      this.dataSource.paginator  = this.paginator;
-      this.paginator.firstPage();
+      //this.length = this.dataSource.data.length;
+      //this.dataSource.paginator  = this.paginator;
+      this.getWords(0);
+      //this.paginator.firstPage();
   }
-  getWords() {
-    this.dataSource.data=this.storiedData;
-    this.length = this.dataSource.data.length;
-    this.dataSource.paginator = this.paginator;
+  getWords(page:number) {
+    let takenStart=page*this.pageSize;
+    this.dataSource.data=this.filteredData.slice(takenStart,takenStart+this.pageSize);
+    this.length = this.filteredData.length;
+    //this.paginator.length=this.length;
+    //console.log(this.paginator)
+    //this.dataSource.paginator = this.paginator;
+    //this.dataSource.paginator.length=this.length;
   }
   pageChanged(event: any) {
+    //this.paginator.hasNextPage();
     this.pageIndex = event.pageIndex;
     this.pageSize = event.pageSize;
+    this.getWords(this.pageIndex);
   }
 }
