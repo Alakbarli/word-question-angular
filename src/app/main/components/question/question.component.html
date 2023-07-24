@@ -4,56 +4,52 @@
     </div>
     <div id="word-question" class='card-body'>
         <div class="row">
+            <div class="col-12 mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-sm-6 col-md-3">
+                            <label for="">Bölmə</label>
+                            <mat-select [(ngModel)]="selectedUnit" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
+                                <mat-option class="all-word-select" *ngFor="let item of units" [value]="item.id">{{item.name}}</mat-option>
+                              </mat-select>
+                        </div>
+                        <div class="col-10 col-sm-6 col-md-3">
+                            <label for="">Dil</label>
+                            <mat-select [(ngModel)]="selecetedLang" (selectionChange)="change()" placeholder="Dil seçin">
+                                <mat-option class="all-word-select" [value]="0">Hər iki dil</mat-option>
+                                <mat-option class="all-word-select" *ngFor="let item of langList" [value]="item.id">{{item.name}}</mat-option>
+                                
+                              </mat-select>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 text-center">
-                <div class="unit-select">
-                    <label for="">
-                        Bolmə
-                    </label>
-                    <select class="selectUnit" name="" id="">
-                        <option value="0">
-                            Hamısı
-                        </option>
-                    </select>
-                    <label style="margin-left: 15px;" for="">
-                        Dil
-                    </label>
-                    <select class="languageSelect" name="language" id="">
-                        <option value="0">
-                            Hamısı
-                        </option>
-                        <option value="az">
-                           Azərbaycan
-                        </option>
-                        <option value="en">
-                            İngilis
-                        </option>
-                    </select>
-                </div>
                 <div class="unit-select">
                    
                 </div>
                 <div class="main-word">
-                    <p class="word"><span class="first"></span><i title="Tərcümə et" class="d-none far fa-language"></i></p>
-                    <p class="word last d-none"></p>
+                    <p *ngIf="askedWord" class="word"><span class="first">{{askedWord}}</span><span (click)="showAnswerText()"><i title="Tərcümə et" class="far fa-language"></i></span></p>
+                    <p *ngIf="showAnswer" class="word last">{{correctAnswer}}</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="input d-none">
-                            <input class="" type="text">
-                            <div class="icon check-answer">
-                                <i class="fal fa-search"></i>
+                <div class="row justify-content-center my-2">
+                    <div class="col-10 col-sm-6 col-md-3">
+                        <div *ngIf="askedWord" class="input">
+                            <input  [(ngModel)]="answeredWord" (ngModelChange)="changeAnswer()"  [ngClass]="{'correct': submit&&isCorrect, 'wrong' : submit&&!isCorrect }" type="text" placeholder="Sözün tərcüməsi yazın">
+                            <div *ngIf="!submit" (click)="checkAnswer()" class="icon check-answer">
+                                <i class="fal fa-search" title="Yoxla"></i>
                             </div>
-                            <div class="icon correct-icon d-none">
+                            <div *ngIf="submit&&isCorrect" class="icon correct-icon">
                                 <i class="fal fa-check"></i>
                             </div>
-                            <div class="icon wrong-icon d-none">
+                            <div *ngIf="submit&&!isCorrect" class="icon wrong-icon">
                                 <i class="fal fa-times"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="random">
-                    <i class="fad fa-play"></i>
+                <div (click)="GenerateWordForQustion()" class="random">
+                    <i  class="fad fa-play"></i>
                 </div>
                 
             </div>

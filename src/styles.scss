@@ -39,8 +39,36 @@ body { margin: 0; font-family: $title-fam;}
     border-radius: 3px;
     border: none;
     cursor: pointer;
+    min-width: 75px;
 }
 .main-button[disabled]{
     cursor: not-allowed;
     background-color: #8a85d6;
+}
+
+
+.error-snackbar{
+    background: red;
+    color: white;
+}
+.success-snackbar{
+    background: rgb(32, 187, 27);
+    color: black;
+}
+.info-snackbar{
+    background: #443ea2;
+    color: white;
+}
+#all-word,#main-page{
+    .mat-select-trigger{
+        width: 100%;
+        height: 35px;
+        padding: 0 3px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 2px solid #443ea2;
+    }
+}
+.mat-select-placeholder{
+   // vertical-align: -webkit-baseline-middle;
 }

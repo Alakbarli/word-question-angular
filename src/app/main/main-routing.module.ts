@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ShellService } from '../shell/shell.service';
 import { DownloadJsonComponent } from './components/download-json/download-json.component';
-import { NewWordComponent } from './components/new-word/new-word.component';
 import { QuestionComponent } from './components/question/question.component';
 import { UnitsComponent } from './components/units/units.component';
 import { UploadJsonComponent } from './components/upload-json/upload-json.component';
 import { VideoGuideComponent } from './components/video-guide/video-guide.component';
 import { WordsComponent } from './components/words/words.component';
+import { ReadingComponent } from './components/reading/reading.component';
 
 const routes: Routes = [
   ShellService.childRoutes([
@@ -25,10 +25,6 @@ const routes: Routes = [
       component: WordsComponent
     },
     {
-      path: 'new-word',
-      component: NewWordComponent
-    },
-    {
       path: 'upload',
       component: UploadJsonComponent
     },
@@ -39,7 +35,12 @@ const routes: Routes = [
     {
       path: 'guide',
       component: VideoGuideComponent
-    }
+    },
+    {
+      path: 'read',
+      component: ReadingComponent
+    },
+    {path:'**',component:QuestionComponent}
   ]),
 ];
 

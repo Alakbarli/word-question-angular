@@ -1,0 +1,89 @@
+<div id="all-word" data-id="all-word" class='card'>
+                    
+    <div class='card-header'>
+        <h1>Məqalə və hekayələr</h1>
+    </div>
+    <div class='card-body'>
+        <div class="row justify-content-center">
+            <div class="col-12 text-right">
+                <!-- <div class="input">
+                    <input class="" type="text">
+                    <div class="icon">
+                        <i class="fal fa-plus"></i>
+                    </div>
+                </div> -->
+                <button (click)="generateHistory()" class="main-button">Hekayə yarat <i class="fal fa-plus"></i></button>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col-12 mb-3">
+                    <!-- <div class="row justify-content-center">
+                        <div class="col-12 col-md-3">
+                            <label for="">Azərbaycanca</label>
+                            <input [(ngModel)]="wordAz" (ngModelChange)="changeAz()" placeholder="Sözün Azərbaycan dilində tərcüməsi" class="nAz" type="text">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label for="">İngiliscə</label>
+                            <input [(ngModel)]="wordEn" (ngModelChange)="changeEn()" placeholder="Sözün İngilis dilində tərcüməsi" class="nEn" type="text">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <label for="">Bölmə</label>
+                            <mat-select [(ngModel)]="unitId" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
+                                <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
+                              </mat-select>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+        <!-- <div *ngIf="!storiedData" class="row my-3">
+            <div class="col-12 text-center">
+                <p>Heç bir söz əlavə olunmayıb</p>
+            </div>
+        </div>
+        <div *ngIf="!dataSource" class="row my-3">
+            <div class="col-12 text-center">
+                <p>Heç bir söz tapılmadı</p>
+            </div>
+        </div> -->
+
+        <!-- <table mat-table [dataSource]="dataSource">
+
+            <ng-container matColumnDef="no">
+              <th mat-header-cell *matHeaderCellDef> № </th>
+              <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="nameAz">
+              <th mat-header-cell *matHeaderCellDef> Azərbaycanca </th>
+              <td mat-cell *matCellDef="let element"> {{element.nameAz}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="nameEn">
+              <th mat-header-cell *matHeaderCellDef> İngiliscə </th>
+              <td mat-cell *matCellDef="let element"> {{element.nameEn}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="unitName">
+              <th mat-header-cell *matHeaderCellDef> Bölmə </th>
+              <td mat-cell *matCellDef="let element"> {{getUnitName(element.unitId)}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="operation">
+                <th mat-header-cell *matHeaderCellDef> Əməlliyyat </th>
+                <td mat-cell *matCellDef="let element" class="word-content">
+                    <span (click)="editWord(element)" class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
+                    <span (click)="deleteWord(element)" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
+                </td>
+              </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+          
+        <mat-paginator
+        [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" [pageSize]="pageSize" showFirstLastButtons [length]="length"
+        (page)="pageChanged($event)">
+    </mat-paginator> -->
+        
+    </div>
+</div>

@@ -1,27 +1,49 @@
-# WordQuestionAngular
+# Word Question App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+[Word Question App](src/assets/images/logov1.png)
 
-## Development server
+Flash Card App is a language learning application built with Angular. It allows users to create word categories and add words to those categories in multiple languages. Users can practice their language skills by answering translation questions based on the selected category and language.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Create word categories and add words with their translations (main language and secondary language).
+- View a list of words, filterable by category, English name, and Azerbaijani name.
+- Practice language skills by answering translation questions.
+- Choose a specific category and language for the question session.
+- Deployed on GitHub Pages: [https://alakbarli.github.io/word-question-angular](https://alakbarli.github.io/word-question-angular)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Clone the repository:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+git clone https://github.com/alakbarli/word-question-angular.git
+```
 
-## Running unit tests
+2. Install the dependencies:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+cd word-question-angular
+npm install
+```
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Start the development server:
 
-## Further help
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Open your browser and navigate to [http://localhost:4200](http://localhost:4200) to access the app.
+
+3. Explore the app and use the different features, such as adding categories, adding words, and practicing translations.
+
+## Screenshots
+
+[Question Page](src/assets/images/sc1.png)
+
+## Contributing
+
+Contributions to this project are welcome. If you find any bugs or have suggestions for new features, please open an issue on the GitHub repository.
+

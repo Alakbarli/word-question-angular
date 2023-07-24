@@ -56,7 +56,7 @@ export class UploadJsonComponent implements OnInit,AfterViewInit,OnDestroy {
   addWords(){
     if(this.jsonUploaded!=null){
      this.langService.db=this.jsonUploaded;
-     this.langService.sync();
+     this.langService.syncAll();
      this.uploaded=true;
      this.jsonUploaded=null;
      

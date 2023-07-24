@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainModule } from './main/main.module';
 import { ShellModule } from './shell/shell.module';
 import { RouterModule } from '@angular/router';
+import './main/Utilities/extension-functions';
+import { MatPaginatorIntl } from '@angular/material/paginator';
+import { CustomMatPaginatorIntl } from './models/custom-mat-paginator-intl';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { RouterModule } from '@angular/router';
     //NgbModule,
     //BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [{
+    provide: MatPaginatorIntl, 
+    useClass: CustomMatPaginatorIntl
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

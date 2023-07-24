@@ -1,0 +1,19 @@
+@import '../../../../../src/assets/styles/variables.scss';
+::ng-deep .all-word-select .mat-pseudo-checkbox-checked{
+    background: $main-color;
+}
+::ng-deep .mat-select-value-text{
+   // vertical-align: -webkit-baseline-middle;
+}
+::ng-deep .mat-form-field-underline{
+  display: none;
+}
+// .correct{border: 2px solid rgb(26, 190, 26);}
+// .wrong{border: 2px solid red;}
+mat-select{
+  //max-width: 300px;
+  margin-bottom: 15px;
+}
+label{
+  display: block;
+}

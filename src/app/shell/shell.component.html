@@ -1,10 +1,4 @@
-<div *ngIf="!pageloaded" id="preloader" class="row justify-content-center">
-    <div class="col-12 text-center bg-white p-3">
-        <img src="assets/images/Spinner-0.7s-323px.svg" alt="">
-    </div>
-    
-</div>
-<div class='dashboard' [class.d-none] = "pageloaded === false" [ngClass]="{'dashboard-compact' : showDesc}">
+<div (window:resize)="onResize($event)" class='dashboard' [ngClass]="{'dashboard-compact' : showDesc}">
     <div class="dashboard-nav" [ngClass]="{'mobile-show' : showMobile}">
         <header>
             <a  (click)="toggleMainMenu()" class="menu-toggle">
@@ -15,134 +9,41 @@
             </a>
         </header>
         <nav class="dashboard-nav-list my-nav">
-            <a [routerLink]="['/question']" [routerLinkActive]="['active']" data-id="word-question" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-language"></i></div> Sual cavab </a>
+            <a (click)="closeSideNav()" [routerLink]="['/question']" [routerLinkActive]="['active']" data-id="word-question" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-language"></i></div> Sual cavab </a>
 
-            <a [routerLink]="'units'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-books"></i></div>Bölmələr</a>
+            <a (click)="closeSideNav()" [routerLink]="'units'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-books"></i></div>Bölmələr</a>
             
-            <div class='dashboard-nav-dropdown' [ngClass]="{'show':showNavDrop}">
-                <a (click)="toggleNavItem()" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
-                    <div class="nav-item-icon"><i class="fad fa-money-check-edit"></i></div> Sözlər
-                </a>
-                <div class='dashboard-nav-dropdown-menu'>
-                    <a [routerLink]="'new-word'" [routerLinkActive]="['active']" data-id="add-word" class="dashboard-nav-dropdown-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-plus"></i></div>Əlavə et</a>
-                    <a [routerLink]="'words'" [routerLinkActive]="['active']" data-id="all-word" class="dashboard-nav-dropdown-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-list-alt"></i></div>Bütün sözlər</a>
-                </div>
-            </div>
+            <a (click)="closeSideNav()" [routerLink]="'words'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-list-alt"></i></div>Sözlər</a>
 
-            <a [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-file-upload"></i></div>Fayl yüklə(JSON)</a>
+            <a (click)="closeSideNav()" [routerLink]="'read'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-newspaper"></i></div>Məqalə və hekayələr</a>
+            
+            <a (click)="closeSideNav()" [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-file-upload"></i></div>Fayl yüklə(JSON)</a>
 
-            <a [routerLink]="'download'" [routerLinkActive]="['active']" id="save-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-cloud-upload-alt"></i></div>Json faylına yaz</a>
+            <a (click)="generateJson()" id="save-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-cloud-upload-alt"></i></div>Json faylına yaz</a>
 
-            <a class="dashboard-nav-item upopup-item"><div class="nav-item-icon"><i class="fad fa-trash-alt"></i></div>Yaddaşı təmizlə</a>
+            <a (click)="clearData()" class="dashboard-nav-item upopup-item"><div class="nav-item-icon"><i class="fad fa-trash-alt"></i></div>Yaddaşı təmizlə</a>
 
-            <a [routerLink]="'guide'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-question-square"></i></div>Video təlimat</a>
+            <a (click)="closeSideNav()" [routerLink]="'guide'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-question-square"></i></div>Video təlimat</a>
 
         </nav>
     </div>
     <div class='dashboard-app'>
         <header class='dashboard-toolbar'><a (click)="toggleMainMenu()" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
         <div class='dashboard-content'>
-            <div class='container w-menu-tabs'>
-
-                <!-- WORD_QUESTION -->
-
+            <div class='container w-menu-tabs' [class.d-none] = "isLoading">
                 <main role="main">
                     <router-outlet></router-outlet>
                 </main>
-
-                <div id="add-word" data-id="add-word" class="card d-none">
-                    <div class='card-header'>
-                        <h1>Söz əlavə et</h1>
-                    </div>
-                    <div class='card-body'>
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="d-flex justify-content-center">
-                                    <form action="">
-                                        <div class="form-group">
-                                            <label for="">Bolmə</label>
-                                        <select class="unit" name="" id=""></select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="">Azərbaycan dili</label>
-                                            <input required type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="">İngilis dili</label>
-                                            <input required type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <input style="cursor: pointer;background-color: #443ea2;color: white;" type="submit" value="Əlavə et">
-                                        </div>
-                                    </form>
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-                <div id="all-word" data-id="all-word" class='card d-none'>
-                    
-                    <div class='card-header'>
-                        
-                        <h1>Bütün sözlər</h1>
-                    </div>
-                    <div class='card-body'>
-                        <div class="row justify-content-center">
-                            <div class="col-12 mb-3">
-                                <div class="d-flex justify-content-center">
-                                    <div class="row">
-                                        <div class="col-12 col-md-4">
-                                            <label for="">Bolmə</label>
-                                        <select class="unit" name="" id=""></select>
-                                        </div>
-                                        <div class="col-12 col-md-4">
-                                            <label for="">Azərbaycanca</label>
-                                            <input class="nAz" type="text">
-                                        </div>
-                                        <div class="col-12 col-md-4">
-                                            <label for="">İngiliscə</label>
-                                            <input class="nEn" type="text">
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="table-content">
-                                    <div style="overflow-x:auto" class="table-responsive-sm">
-                                        <table class="table" style="overflow-x:auto">
-                                             <thead>
-                                                 <tr>
-                                                     <th>#</th>
-                                                     <th>Azərbaycanca</th>
-                                                     <th>İngiliscə</th>
-                                                     <th>Bölmə</th>
-                                                     <th>Əməlliyyat</th>
-                                                 </tr>
-                                             </thead>
-                                             <tbody class="word-content">
-                                             </tbody>
-                                        </table>
-                                     </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        
+             </div>
+             <!-- PRELOADER -->
+             <div *ngIf="isLoading"  class='container w-menu-tabs'>
+                <div id="preloader" class="row justify-content-center">
+                    <div class="col-12 text-center bg-white p-3">
+                        <img src="assets/images/Spinner-0.7s-323px.svg" alt="">
                     </div>
                 </div>
-
-
-                
-                </div>
-                <div class="copyright card-body text-center"><a target="_blank" style="text-decoration: none;color: black;" href="https://alakbarli.github.io/">© Ulvi Alakbarli</a></div>
+             </div>
+            <div class="copyright card-body text-center"><a target="_blank" style="text-decoration: none;color: black;" href="https://alakbarli.github.io/">© Ulvi Alakbarli</a></div>
             </div>
             
         </div>
