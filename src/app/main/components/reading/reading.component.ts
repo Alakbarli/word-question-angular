@@ -11,11 +11,9 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Story } from 'src/app/models/story';
 import { MatTableDataSource } from '@angular/material/table';
 import { GenerateStoryComponent } from '../../dialogs/generate-story/generate-story.component';
-export class textResponse{
-  sno:number=1;
-  text:string='';
-  response:any='';
-}
+import { CommonDialogData } from 'src/app/models/common-dialog-data';
+import { DialogActionTypes } from '../../const/dialog-action-types';
+
 @Component({
   selector: 'app-reading',
   templateUrl: './reading.component.html',
@@ -26,8 +24,6 @@ export class ReadingComponent implements OnInit {
   tags:string;
   level:string;
   storyLength:number;
-
-  generatedText:any="";
 
   displayedColumns: string[] = ['no', 'level', 'tags', 'length','content'];
 
@@ -50,7 +46,7 @@ export class ReadingComponent implements OnInit {
 
   generateHistory(){
     let dialogRef = this.dialog.open(GenerateStoryComponent, {
-    //  data :new WordDialogData(null,null,null,DialogActionTypes.add)
+      data :new CommonDialogData<Story>(DialogActionTypes.add)
      });
      dialogRef.afterClosed().subscribe(
        data=>{
@@ -125,32 +121,5 @@ export class ReadingComponent implements OnInit {
   pageChanged(event: any) {
     this.pageIndex = event.pageIndex;
     this.pageSize = event.pageSize;
-  }
-
-  //TEXT
-  textList:textResponse[]=[{sno:1,text:'',response:''}];
-  generateTextGpt(data:textResponse) {
-    this.openAi.generateText(data.text).then(text => {
-      data.response = text;
-      if(this.textList.length===data.sno){
-        this.textList.push({sno:1,text:'',response:''});
-      }
-    });
-  }
-
-  generateTextCortex() {
-    let prompt=this.prompt.GeneratePromptForCotrex(50,"elemntary");
-    //let keywords=this.tags.split(",");
-    let keywords=["cat,dog"];
-    let postData=new TextCortexPost(prompt,keywords,"en","en","Story");
-    this.cortexAi.post(JSON.stringify(postData)).subscribe(
-      res=>{
-         let resp =res as CortexAiTextResponse;
-         console.log(resp);
-      }
-    )
-  }
-  generateArticle(){
-    this.generatedText=this.openAi.generateText("generate short article for impove english level")
   }
 }
