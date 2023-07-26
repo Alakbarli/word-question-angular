@@ -1,21 +1,27 @@
+
 <h1 mat-dialog-title>{{dialogTitle}}</h1>
 <div mat-dialog-content>
     <div class="options">
         <ul>
             <li>
-                <span *ngIf="nightMode" (click)="changeMode()" class="btn"><i class="fal fa-moon"></i></span>
-                <span *ngIf="!nightMode" (click)="changeMode()" class="btn"><i class="fal fa-sun"></i></span>
+                <span *ngIf="nightMode" (click)="changeMode()" class="btnn"><i class="fal fa-moon"></i></span>
+                <span *ngIf="!nightMode" (click)="changeMode()" class="btnn"><i class="fal fa-sun"></i></span>
             </li>
             <li>
-                <span><i class="fal fa-minus"></i></span>
+                <span (click)="decrease()"><i class="fal fa-minus"></i></span>
             </li>
             <li>
-                <span><i class="fal fa-plus"></i></span>
+                <span (click)="increase()"><i class="fal fa-plus"></i></span>
             </li>
-            <li><span><i class="fal fa-text"></i></span></li>
+            <li>
+                <span [matMenuTriggerFor]="menu"><i class="fal fa-text"></i></span>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item *ngFor="let f of fontList" (click)="changeFont(f.key)">{{f.value}}</button>
+                </mat-menu>
+            </li>
         </ul>
     </div>
-    <div class="content" >
+    <div id="reaing-content" [ngClass]="{'night': nightMode}">
         {{content}}
     </div>
 </div>

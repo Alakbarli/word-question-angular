@@ -1,7 +1,9 @@
 .options{
     display: flex;
     flex-direction: row;;
-    align-items: end;
+    align-items: center;
+    justify-content: end;
+    margin: 10px 30px 30px 10px;
     ul{
         display: flex;
         margin: 0;
@@ -16,6 +18,7 @@
             span{
                 display: inline-block;
                 cursor: pointer;
+                user-select: none;
                 i,svg{
                     font-size: 20px;
                 }
@@ -24,9 +27,10 @@
     }
     
 }
-.content{
-    font-size: 16px;
-    color: black;
+#reaing-content{
+    font-size: 1rem;
+    line-height: 1.5rem;
+   // color: black;
 }
 .night{
     color: white;
