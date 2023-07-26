@@ -82,7 +82,7 @@ export class ReadingComponent implements OnInit,AfterViewInit {
           //   panelClass: [SnackBarTypes.success],
           //   duration:3000
           // });
-          this.readStory(storyData);
+          this.readStory(storyData.model);
          }
        }
      )
