@@ -17,25 +17,27 @@
          </div>
         <div class="row">
             <div class="col-12 mb-3">
-                    <!-- <div class="row justify-content-center">
-                        <div class="col-12 col-md-3">
-                            <label for="">Azərbaycanca</label>
-                            <input [(ngModel)]="wordAz" (ngModelChange)="changeAz()" placeholder="Sözün Azərbaycan dilində tərcüməsi" class="nAz" type="text">
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <label for="">İngiliscə</label>
-                            <input [(ngModel)]="wordEn" (ngModelChange)="changeEn()" placeholder="Sözün İngilis dilində tərcüməsi" class="nEn" type="text">
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <label for="">Bölmə</label>
-                            <mat-select [(ngModel)]="unitId" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
-                                <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
-                              </mat-select>
-                        </div>
-                    </div> -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3">
+                        <label for="">Etiket</label>
+                        <input [(ngModel)]="tags" (ngModelChange)="change()" placeholder="Etiket" class="nAz" type="text">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="">İngilis dili səviyyəsi</label>
+                        <mat-select [(ngModel)]="level" (selectionChange)="change()" multiple placeholder="Dil səviyyəsi">
+                            <mat-option class="all-word-select" *ngFor="let item of levelList" [value]="item.key">{{item.value}}</mat-option>
+                          </mat-select>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label for="">Hekayə uzunluğu</label>
+                        <mat-select [(ngModel)]="storyLength" (selectionChange)="change()" multiple placeholder="Hekayə uzunluğu">
+                            <mat-option class="all-word-select" *ngFor="let item of lengthList" [value]="item.key">{{item.value}}</mat-option>
+                          </mat-select>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- <div *ngIf="!storiedData" class="row my-3">
+        <div *ngIf="!storiedData" class="row my-3">
             <div class="col-12 text-center">
                 <p>Heç bir söz əlavə olunmayıb</p>
             </div>
@@ -44,35 +46,39 @@
             <div class="col-12 text-center">
                 <p>Heç bir söz tapılmadı</p>
             </div>
-        </div> -->
-
-        <!-- <table mat-table [dataSource]="dataSource">
+        </div>
+        <table mat-table [dataSource]="dataSource">
 
             <ng-container matColumnDef="no">
               <th mat-header-cell *matHeaderCellDef> № </th>
-              <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+              <td mat-cell *matCellDef="let element; let i = index"> {{this.paginator.pageIndex == 0 ? i + 1 : 1 + i + this.paginator.pageIndex * this.paginator.pageSize}} </td>
             </ng-container>
           
-            <ng-container matColumnDef="nameAz">
-              <th mat-header-cell *matHeaderCellDef> Azərbaycanca </th>
-              <td mat-cell *matCellDef="let element"> {{element.nameAz}} </td>
+            <ng-container matColumnDef="tags">
+              <th mat-header-cell *matHeaderCellDef> Etiketlər </th>
+              <td mat-cell *matCellDef="let element"> {{element.tags}} </td>
             </ng-container>
-          
-            <ng-container matColumnDef="nameEn">
-              <th mat-header-cell *matHeaderCellDef> İngiliscə </th>
-              <td mat-cell *matCellDef="let element"> {{element.nameEn}} </td>
-            </ng-container>
-          
-            <ng-container matColumnDef="unitName">
-              <th mat-header-cell *matHeaderCellDef> Bölmə </th>
-              <td mat-cell *matCellDef="let element"> {{getUnitName(element.unitId)}} </td>
-            </ng-container>
+
+            <ng-container matColumnDef="level">
+                <th mat-header-cell *matHeaderCellDef> Səviyyə </th>
+                <td mat-cell *matCellDef="let element"> {{getName(element.level,levelList)}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="length">
+                <th mat-header-cell *matHeaderCellDef> Uzunluq </th>
+                <td mat-cell *matCellDef="let element"> {{getName(element.lenght,lengthList)}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="content">
+                <th mat-header-cell *matHeaderCellDef> Məzmun </th>
+                <td mat-cell *matCellDef="let element"><span class="limited-text">{{element.content}}</span></td>
+              </ng-container>
 
             <ng-container matColumnDef="operation">
                 <th mat-header-cell *matHeaderCellDef> Əməlliyyat </th>
                 <td mat-cell *matCellDef="let element" class="word-content">
-                    <span (click)="editWord(element)" class="edit"><i title="Düzəliş et" class="fal fa-edit"></i></span>
-                    <span (click)="deleteWord(element)" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
+                    <span (click)="readStory(element)" class="edit"><i title="Oxu" class="far fa-book-reader"></i></span>
+                    <span (click)="deleteStory(element)" class="remove"><i title="Sil" class="fal fa-trash-alt"></i></span>
                 </td>
               </ng-container>
           
@@ -83,7 +89,6 @@
         <mat-paginator
         [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" [pageSize]="pageSize" showFirstLastButtons [length]="length"
         (page)="pageChanged($event)">
-    </mat-paginator> -->
-        
+    </mat-paginator>
     </div>
 </div>

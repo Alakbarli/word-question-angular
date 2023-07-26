@@ -1,5 +1,5 @@
 export enum StoryLenght {
-    short=50,
-    medium=100,
-    long=200
+    Short=50,
+    Medium=100,
+    Long=200
 }

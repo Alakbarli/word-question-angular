@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { DB } from 'src/app/models/db';
+import { Story } from 'src/app/models/story';
 import { Unit } from 'src/app/models/unit';
 import { Word } from 'src/app/models/word';
 import { WordDialogData } from 'src/app/models/word-dialog-data';
@@ -61,6 +62,10 @@ export class LanguageService {
     this.db.Words.push(newWord);
     this.sync();
   }
+  addStory(data:Story){
+    this.db.Stories.push(data);
+    this.syncStories();
+  }
   insertAtUnit(index:number,unit:Unit){
     this.db.Units.splice(index,0,unit);
     this.sync();
@@ -68,6 +73,10 @@ export class LanguageService {
   insertAtWord(index:number,word:Word){
     this.db.Words.splice(index,0,word);
     this.sync();
+  }
+  insertAtStory(index:number,story:Story){
+    this.db.Stories.splice(index,0,story);
+    this.syncStories();
   }
   editUnit(id:number,name:string){
     let unitIndex=this.db.Units.findIndex(x=>x.id==id);
@@ -89,6 +98,11 @@ export class LanguageService {
     this.db.Words.splice(wordIndex,1);
     this.sync();
   }
+  deleteStory(id:string){
+    let storyIndex=this.db.Stories.findIndex(x=>x.id==id);
+    this.db.Stories.splice(storyIndex,1);
+    this.syncStories();
+  }
   setDbLocalstorage(){
     window.localStorage.setItem("wordDb",JSON.stringify(this.db));
   }
@@ -107,8 +121,12 @@ export class LanguageService {
   }
   }
   getStoriesLocalstorage(){
-    if(window.localStorage.getItem("wordDbStories")!=null){
+    if(window.localStorage.getItem("wordDbStories")!=null&&window.localStorage.getItem("wordDbStories")!=undefined){
       this.db.Stories=JSON.parse((localStorage.getItem("wordDbStories")) as string);
+  }
+  else{
+    this.db.Stories=[];
+    this.setStoryLocalstorage();
   }
   }
   clear(){
@@ -130,14 +148,4 @@ export class LanguageService {
     this.findLastIdWord();
     this.setStoryLocalstorage();
   }
-
-  makeId():string {
-    var result= '';
-    var characters= 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < 50; i++ ) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result+new Date().getTime().toString();
-}
 }
