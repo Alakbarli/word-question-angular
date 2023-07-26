@@ -17,6 +17,10 @@ import { TextCortexAiService } from '../../services/text-cortex-ai.service';
 import { PromptService } from '../../services/prompt.service';
 import { TextCortexPost } from 'src/app/models/text-cortex-post.model';
 import { CortexAiTextResponse } from 'src/app/models/cortex-ai-text-response';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ErrorSnacbarComponent } from '../../snacBars/error-snacbar/error-snacbar.component';
+import { SnackBarData } from 'src/app/models/snack-bar-data.model';
+import { SnackBarTypes } from '../../const/snack-bar-types';
 export class textResponse{
   sno:number=1;
   text:string='';
@@ -49,7 +53,7 @@ export class GenerateStoryComponent implements OnInit {
   constructor(
     public dialogRef: MatDialogRef<CreateWordDialogComponent>,@Inject(MAT_DIALOG_DATA) public data:CommonDialogData<Story>,
     private CustomVal:CustomValidatorsService,private langService:LanguageService,private openAi:OpenaiService,
-    private cortexAi:TextCortexAiService,private prompt:PromptService
+    private cortexAi:TextCortexAiService,private prompt:PromptService,private _snackBar: MatSnackBar
     ) {
     this.setDialogTexts();
     this.loadLookUps();
@@ -60,15 +64,17 @@ export class GenerateStoryComponent implements OnInit {
   onNoClick(): void {
     this.dialogRef.close();
   }
-  onAddClick():void{
+  async onAddClick():Promise<void>{
+    this.isLoading=true;
     if(!this.buttonStatus){
       switch(this.motor){
         case AIModels['Text Cortex AI']:
-          this.generateTextCortex(this.tags,this.level,this.length);
-          console.log("test");
+          await this.generateTextCortex(this.tags,this.level,this.length).then().catch(err=>{console.log(err)});
           break;
       }
-     // this.dialogRef.close(new WordDialogData(this.nameAzControl.value,this.nameEnControl.value,this.unitIdControl.value,DialogActionTypes.add));
+      this.isLoading=false;
+      let story=this.createStory();
+      this.dialogRef.close(new CommonDialogData<Story>(DialogActionTypes.add,story));
     }
     if(this.isDelete){
       this.dialogRef.close(true);
@@ -79,6 +85,11 @@ export class GenerateStoryComponent implements OnInit {
   }
   get buttonStatus(){
     return (this.tags.isEmpty()||this.motor==null||this.length==null||this.level==null)&&!this.isDelete;
+  }
+  createStory():Story{
+    let uniqueId=Utility.makeId();
+    let newStory=new Story(uniqueId,this.level,this.length,this.tags,this.generatedText);
+    return newStory;
   }
   setDialogTexts(){
     switch(this.data.actionType){
@@ -110,19 +121,37 @@ export class GenerateStoryComponent implements OnInit {
     });
   }
 
-  generateTextCortex(tags:string,level:string,length:number) {
-    this.isLoading=true;
-    let prompt=this.prompt.GeneratePromptForCotrex(length,level);
-    //let keywords=this.tags.split(",");
-    let keywords=[tags];
-    let postData=new TextCortexPost(prompt,keywords,"en","en","Story");
-    this.cortexAi.post(JSON.stringify(postData)).subscribe(
-      res=>{
-         let resp =res as CortexAiTextResponse;
-         console.log(resp);
-         this.isLoading=false;
-      }
-    )
+  generateTextCortex(tags:string,level:string,length:number):Promise<void> {
+    return new Promise<void>((resolve,reject) => {
+      let prompt=this.prompt.GeneratePromptForCotrex(length,level);
+      let keywords=this.tags.split(",");
+      let postData=new TextCortexPost(prompt,keywords,"en","en","Story");
+      this.cortexAi.post(JSON.stringify(postData)).subscribe({
+        next:res=>{
+          let cortexRes =res as CortexAiTextResponse;
+          if(cortexRes?.data?.outputs[0]){
+            this.generatedText=cortexRes?.data?.outputs[0].text;
+           resolve();
+          }
+          else{
+            let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+              data:new SnackBarData('Hekayə yaradılmadı',SnackBarTypes.info) ,
+              panelClass: [SnackBarTypes.info],
+              duration:3000
+            });
+            reject("Hekayə yaradılmadı");
+          }
+        },
+        error:(err)=>{
+          let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+            data:new SnackBarData('Xəta baş verdi',SnackBarTypes.error) ,
+            panelClass: [SnackBarTypes.error],
+            duration:3000
+          });
+          reject(`Cortex Api Error ${JSON.stringify(err)}`);
+        }
+      })
+    });
   }
   generateArticle(){
     this.generatedText=this.openAi.generateText("generate short article for impove english level")

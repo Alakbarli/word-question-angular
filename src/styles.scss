@@ -72,3 +72,11 @@ body { margin: 0; font-family: $title-fam;}
 .mat-select-placeholder{
    // vertical-align: -webkit-baseline-middle;
 }
+
+.limited-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 100%;
+}

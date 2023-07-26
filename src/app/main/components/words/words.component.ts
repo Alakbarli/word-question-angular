@@ -107,7 +107,7 @@ export class WordsComponent implements OnInit {
           this.langService.deleteWord(w.id);
           this.filter();
           let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
-            data:new SnackBarData('Bölmə silindi',SnackBarTypes.info,"Geri al") ,
+            data:new SnackBarData('Söz silindi',SnackBarTypes.info,"Geri al") ,
             panelClass: [SnackBarTypes.info],
             duration:3000
           });

@@ -1,7 +1,7 @@
 @import '../../../../../src/assets/styles/variables.scss';
 .progress-spinner {
     width: 100%;
-    height: 15px;
+    height: 10px;
     background-color: #f0f0f0;
     border-radius: 8px;
     overflow: hidden;
@@ -13,7 +13,7 @@
     width: 30%;
     height: 100%;
     background-color: $main-color;
-    animation: fillProgressBar 2s linear infinite;
+    animation: fillProgressBar 1.5s linear infinite;
     position: absolute;
     left: 0;
     transform: translateX(-100%);

@@ -1,1 +1,25 @@
-<p>read-story works!</p>
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
+<div mat-dialog-content>
+    <div class="options">
+        <ul>
+            <li>
+                <span *ngIf="nightMode" (click)="changeMode()" class="btn"><i class="fal fa-moon"></i></span>
+                <span *ngIf="!nightMode" (click)="changeMode()" class="btn"><i class="fal fa-sun"></i></span>
+            </li>
+            <li>
+                <span><i class="fal fa-minus"></i></span>
+            </li>
+            <li>
+                <span><i class="fal fa-plus"></i></span>
+            </li>
+            <li><span><i class="fal fa-text"></i></span></li>
+        </ul>
+    </div>
+    <div class="content" >
+        {{content}}
+    </div>
+</div>
+<div mat-dialog-actions class="d-flex justify-content-end">
+  <button (click)="onAddClick()" class="main-button">{{mainButtonText}}</button>
+</div>
+
