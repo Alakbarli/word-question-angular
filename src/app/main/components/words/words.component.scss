@@ -1,7 +1,16 @@
 @import '../../../../../src/assets/styles/variables.scss';
+.table-container{
+  //max-width: 100%;
+  //overflow-x: scroll;
+  //width: 100%;
+}
 table {
     width: 100%;
-    table-layout: fixed
+    //table-layout: fixed;
+    td,th{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
 .main-button{
   svg{

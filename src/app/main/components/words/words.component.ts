@@ -48,9 +48,7 @@ export class WordsComponent implements OnInit {
   ngAfterViewInit() {
     //this.dataSource.paginator = this.paginator;
     this.getWords(0);
-    setTimeout(() => {
-      this.shellService.hideLoader();
-    }, 1);
+    this.shellService.hideLoader();
   }
   trackByFn(index: number, item: any): number {
     return item.id;

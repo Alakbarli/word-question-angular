@@ -1,6 +1,6 @@
 export class SiteCache {
     constructor() {
-        this.activePage="question";
+        this.activePage="";
     }
     activePage:string;
     selectedLang:number;
