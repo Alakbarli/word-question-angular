@@ -22,6 +22,7 @@ import { OpenAIApi } from 'openai';
 import { ReadingComponent } from './components/reading/reading.component';
 import { GenerateStoryComponent } from './dialogs/generate-story/generate-story.component';
 import { ReadStoryComponent } from './dialogs/read-story/read-story.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { ReadStoryComponent } from './dialogs/read-story/read-story.component';
     ConfirmDialogComponent,
     ReadingComponent,
     GenerateStoryComponent,
-    ReadStoryComponent
+    ReadStoryComponent,
+    SettingsComponent
   ],
   imports: [
     CommonModule,

@@ -8,6 +8,7 @@ import { UploadJsonComponent } from './components/upload-json/upload-json.compon
 import { VideoGuideComponent } from './components/video-guide/video-guide.component';
 import { WordsComponent } from './components/words/words.component';
 import { ReadingComponent } from './components/reading/reading.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 const routes: Routes = [
   ShellService.childRoutes([
@@ -39,6 +40,10 @@ const routes: Routes = [
     {
       path: 'read',
       component: ReadingComponent
+    },
+    {
+      path: 'settings',
+      component: SettingsComponent
     },
     {path:'**',component:QuestionComponent}
   ]),

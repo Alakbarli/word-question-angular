@@ -1,0 +1,11 @@
+@import '../../../../../src/assets/styles/variables.scss';
+
+::ng-deep .all-word-select .mat-pseudo-checkbox-checked{
+    background: $main-color;
+}
+::ng-deep .mat-select-value-text{
+    //vertical-align: -webkit-baseline-middle;
+}
+::ng-deep .mat-form-field-underline{
+  display: none;
+}

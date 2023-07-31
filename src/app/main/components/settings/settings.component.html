@@ -1,0 +1,38 @@
+
+<div id="all-word" data-id="all-word" class='card'>
+                    
+    <div class='card-header'>
+        <h1>Sözlər</h1>
+    </div>
+    <div class='card-body'>
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  This is the expansion title
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!-- This is a summary of the content -->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="row">
+                <div class="col-12 mb-3">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-3">
+                                <label for="">Azərbaycanca</label>
+                                <input [(ngModel)]="selectedSpeechLang" placeholder="Hello" class="nAz" type="text">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <label for="">Səsləndiriləcək dil</label>
+                                <mat-select [(ngModel)]="selectedSpeechLang"  placeholder="Bölmə seçin">
+                                    <mat-option class="all-word-select" *ngFor="let item of langList" [value]="item.name">{{item.name}}</mat-option>
+                                  </mat-select>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        
+    </div>
+</div>

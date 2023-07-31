@@ -13,6 +13,7 @@ import { SnackBarTypes } from '../../const/snack-bar-types';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { ShellService } from 'src/app/shell/shell.service';
+import { SpeechService } from '../../services/speech.service';
 
 @Component({
   selector: 'app-words',
@@ -33,7 +34,7 @@ export class WordsComponent implements OnInit {
   pageSize: number = 5;
   length:any;
   pageSizeOptions = [5, 10, 25];
-  constructor(private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) { 
+  constructor(private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private speechService:SpeechService) { 
     shellService.showLoader();
     this.unitList=this.langService.db.Units;
     this.storiedData=this.langService.db.Words;
