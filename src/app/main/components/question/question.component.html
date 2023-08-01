@@ -29,8 +29,11 @@
                    
                 </div>
                 <div class="main-word">
-                    <p *ngIf="askedWord" class="word"><span class="first">{{askedWord}}</span><span (click)="showAnswerText()"><i title="Tərcümə et" class="far fa-language"></i></span></p>
-                    <p *ngIf="showAnswer" class="word last">{{correctAnswer}}</p>
+                    <p *ngIf="askedWord" class="word"><span class="first">{{askedWord}}</span>
+                        <span *ngIf="isAvailable" (click)="play(askedWord)"><i title="Səsləndir" class="far fa-volume-up"></i></span>
+                        <span (click)="showAnswerText()"><i title="Tərcümə et" class="far fa-language"></i></span>
+                    </p>
+                    <p *ngIf="showAnswer" class="word last">{{correctAnswer}}  <span *ngIf="!isAvailable" (click)="play(correctAnswer)"><i title="Səsləndir" class="far fa-volume-up"></i></span></p>
                 </div>
                 <div class="row justify-content-center my-2">
                     <div class="col-10 col-sm-6 col-md-3">

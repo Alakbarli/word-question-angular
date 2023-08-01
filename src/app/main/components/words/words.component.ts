@@ -14,6 +14,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { ShellService } from 'src/app/shell/shell.service';
 import { SpeechService } from '../../services/speech.service';
+import { CasheService } from '../../services/cashe.service';
 
 @Component({
   selector: 'app-words',
@@ -34,7 +35,11 @@ export class WordsComponent implements OnInit {
   pageSize: number = 5;
   length:any;
   pageSizeOptions = [5, 10, 25];
-  constructor(private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private speechService:SpeechService) { 
+
+  langList:Array<SpeechSynthesisVoice>;
+  selectedSpeechLang:string;
+
+  constructor(private cs:CasheService, private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private sp:SpeechService) { 
     shellService.showLoader();
     this.unitList=this.langService.db.Units;
     this.storiedData=this.langService.db.Words;
@@ -44,6 +49,10 @@ export class WordsComponent implements OnInit {
   storiedData:Array<Word>=[];
   filteredData:Array<Word>=[];
   ngOnInit(): void {
+    this.sp.getVoices(window).then(res=>{
+      this.langList=res;
+      this.getSpeechSettings();
+    });
 
   }
   ngAfterViewInit() {
@@ -135,8 +144,8 @@ export class WordsComponent implements OnInit {
     this.filteredData=this.storiedData.filter(
       w=>
             ((this.unitId&&this.unitId.length>0)?this.unitId?.includes(+w.unitId):true)&&
-            ((this.wordAz.isEmpty())?true:(w.nameAz.toLowerCase().includes(this.wordAz.toLowerCase())))&&
-            ((this.wordEn.isEmpty())?true:(w.nameEn.toLowerCase().includes(this.wordEn.toLowerCase())))
+            ((this.wordAz.isEmpty())?true:(w.nameAz.toLowerCase().trim().includes(this.wordAz.toLowerCase().trim())))&&
+            ((this.wordEn.isEmpty())?true:(w.nameEn.toLowerCase().trim().includes(this.wordEn.toLowerCase().trim())))
       );
       
       //this.length = this.dataSource.data.length;
@@ -158,5 +167,14 @@ export class WordsComponent implements OnInit {
     this.pageIndex = event.pageIndex;
     this.pageSize = event.pageSize;
     this.getWords(this.pageIndex);
+  }
+
+  play(context:string){
+    this.sp.play(context,window.speechSynthesis,this.langList.find(x=>x.name==this.selectedSpeechLang) as SpeechSynthesisVoice);
+  }
+  getSpeechSettings(){
+    if(this.cs.cache.selectedSpeechLang){
+      this.selectedSpeechLang=this.cs.cache.selectedSpeechLang;
+    }
   }
 }

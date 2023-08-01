@@ -4,6 +4,8 @@ import { Word } from 'src/app/models/word';
 import { Unit } from 'src/app/models/unit';
 import { Language } from 'src/app/models/language';
 import { Languages } from '../../const/languages';
+import { SpeechService } from '../../services/speech.service';
+import { CasheService } from '../../services/cashe.service';
 
 @Component({
   selector: 'app-question',
@@ -19,6 +21,8 @@ export class QuestionComponent implements OnInit {
   answeredWord:string="";
   correctAnswer:string="";
 
+  isAvailable:boolean=false;
+
   showAnswer:boolean=false;
 
   words:Array<Word>;
@@ -31,7 +35,10 @@ export class QuestionComponent implements OnInit {
   submit:boolean=false;
   isCorrect:boolean=true;
 
-  constructor(private langService:LanguageService) { }
+  langspeechList:Array<SpeechSynthesisVoice>;
+  selectedSpeechLang:string;
+
+  constructor(private cs : CasheService, private langService:LanguageService,private sp:SpeechService) { }
 
   ngOnInit(): void {
     if(this.langService.db.LanguageVal){
@@ -42,6 +49,11 @@ export class QuestionComponent implements OnInit {
     }
     this.units=this.langService.db.Units;
     this.words=this.langService.db.Words;
+
+    this.sp.getVoices(window).then(res=>{
+      this.langspeechList=res;
+      this.getSpeechSettings();
+    });
   }
 
   checkAnswer() {
@@ -67,6 +79,14 @@ export class QuestionComponent implements OnInit {
   GenerateRandomNumber (min:number, max:number){
     return Math.floor(Math.random() * (max - min+1) + min);
   };
+  play(context:string){
+    this.sp.play(context,window.speechSynthesis,this.langspeechList.find(x=>x.name==this.selectedSpeechLang) as SpeechSynthesisVoice);
+  }
+  getSpeechSettings(){
+    if(this.cs.cache.selectedSpeechLang){
+      this.selectedSpeechLang=this.cs.cache.selectedSpeechLang;
+    }
+  }
   GenerateWordForQustion(){
     this.answeredWord="";
     this.correctAnswer="";
@@ -98,10 +118,12 @@ export class QuestionComponent implements OnInit {
                       this.askedWord=  word.nameEn;}
                 }
                 else if(this.selecetedLang==Languages.Azərbaycan){
+                  this.isAvailable=false;
                   this.askedWord=  word.nameAz;
                   this.correctAnswer=  word.nameEn;
                 }
                 else{
+                  this.isAvailable=true;
                   this.correctAnswer=  word.nameAz;
                   this.askedWord=  word.nameEn;
                 }

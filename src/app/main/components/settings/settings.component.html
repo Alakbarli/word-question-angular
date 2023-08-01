@@ -9,7 +9,7 @@
             <mat-expansion-panel hideToggle>
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  This is the expansion title
+                 Səs tənzimləmələri
                 </mat-panel-title>
                 <mat-panel-description>
                   <!-- This is a summary of the content -->
@@ -19,14 +19,28 @@
                 <div class="col-12 mb-3">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-3">
-                                <label for="">Azərbaycanca</label>
-                                <input [(ngModel)]="selectedSpeechLang" placeholder="Hello" class="nAz" type="text">
+                                <label for="">Nümunə cümlə</label>
+                                <input [(ngModel)]="testText" placeholder="Hello" class="nAz" type="text">
                             </div>
                             <div class="col-12 col-md-3">
                                 <label for="">Səsləndiriləcək dil</label>
-                                <mat-select [(ngModel)]="selectedSpeechLang"  placeholder="Bölmə seçin">
+                                <mat-select *ngIf="langList" [(ngModel)]="selectedSpeechLang"  (selectionChange)="setSpeechSettings()" placeholder="Səs növü">
                                     <mat-option class="all-word-select" *ngFor="let item of langList" [value]="item.name">{{item.name}}</mat-option>
                                   </mat-select>
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="">Səs surəti: {{rate}}</label>
+                                <input (ngModelChange)="setSpeechSettings()" [(ngModel)]="rate" placeholder="Hello" class="nAz" type="range" min="0.5" max="2" value="1" step="0.1">
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="">Səs incəliyi: {{pitch}}</label>
+                                <input (ngModelChange)="setSpeechSettings()" [(ngModel)]="pitch" placeholder="Hello" class="nAz" type="range" min="0" max="2" value="1" step="0.1">
+                            </div>
+                            <div class="col-12 col-md-2">
+                                <label for="">Test et</label>
+                                <div (click)="play()" class="random">
+                                    <i  class="fad fa-play"></i>
+                                </div>
                             </div>
                         </div>
                 </div>

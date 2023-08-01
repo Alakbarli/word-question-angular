@@ -61,7 +61,7 @@
               
                 <ng-container matColumnDef="nameEn">
                   <th mat-header-cell *matHeaderCellDef> İngiliscə </th>
-                  <td mat-cell *matCellDef="let element"> {{element.nameEn}} </td>
+                  <td mat-cell *matCellDef="let element"> {{element.nameEn}} <span class="play" (click)="play(element.nameEn)"><i title="Səsləndir" class="far fa-volume-up"></i></span> </td>
                 </ng-container>
               
                 <ng-container matColumnDef="unitName">

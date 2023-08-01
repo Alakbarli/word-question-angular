@@ -1,27 +1,28 @@
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
+import { CasheService } from './cashe.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SpeechService {
-  isComplete:boolean=false;
-  synth:any;
-  voices:Array<SpeechSynthesisVoice>;
-  constructor() { 
-    this.voices=this.synth.getVoices();
+  constructor(private cs:CasheService) { 
   }
-  getVoices():Promise<Array<SpeechSynthesisVoice>> {
-    return new Promise<Array<SpeechSynthesisVoice>>((resolve,reject) => {
-      let voices=window.speechSynthesis.getVoices();
-      
-    });
+  getVoices(window:Window):Promise<Array<SpeechSynthesisVoice>>{
+    return new Promise<Array<SpeechSynthesisVoice>>((resolve,reject)=>{
+      let id=setInterval(()=>{
+        if(window.speechSynthesis.getVoices()&&window.speechSynthesis.getVoices().length>0){
+          clearInterval(id);
+          resolve(window.speechSynthesis.getVoices());
+        }
+      },1);
+    })
   }
-  play(){
-      const utterThis = new SpeechSynthesisUtterance("Hello");
-      const selectedOption = "Microsoft David - English (United States)";
-      utterThis.voice =this.voices[0];
-      utterThis.pitch = 1;
-      utterThis.rate = 1;
-      this.synth.speak(utterThis);
-    }
+  play(context:string,synth:any,voice:SpeechSynthesisVoice){
+      const utterThis = new SpeechSynthesisUtterance(context);
+      utterThis.voice =voice;
+      utterThis.pitch = this.cs.cache.speechRate;
+      utterThis.rate = this.cs.cache.speechRate;
+      synth.speak(utterThis);
+  }
 }
