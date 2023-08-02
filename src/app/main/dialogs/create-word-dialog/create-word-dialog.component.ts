@@ -7,6 +7,7 @@ import { Unit } from 'src/app/models/unit';
 import { LanguageService } from '../../services/language.service';
 import { FormControl, Validators } from '@angular/forms';
 import { CustomStateMatcher } from '../../Utilities/custom-state-matcher';
+import { CasheService } from '../../services/cashe.service';
 
 @Component({
   selector: 'app-create-word-dialog',
@@ -18,18 +19,18 @@ export class CreateWordDialogComponent implements OnInit {
   mainButtonText:string="Əlavə et";
   isDelete:boolean=false;
   unitList:Array<Unit>|null|undefined;
-  constructor(public dialogRef: MatDialogRef<CreateWordDialogComponent>,
+  constructor(private cs:CasheService,public dialogRef: MatDialogRef<CreateWordDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data:WordDialogData,private CustomVal:CustomValidatorsService,private langService:LanguageService) { 
-      this.setDialogTexts();
       this.unitList=langService.db.Units;
     }
-    unitIdControl=new FormControl(this.data.unitId, [Validators.required]);
+    unitIdControl=new FormControl(+(this.data.unitId as number), [Validators.required]);
     nameAzControl=new FormControl(this.data.nameAz, [Validators.required,this.CustomVal.noWhitespaceValidator]);
     nameEnControl=new FormControl(this.data.nameEn, [Validators.required,this.CustomVal.noWhitespaceValidator]);
 
     matcher = new CustomStateMatcher();
   
   ngOnInit(): void {
+    this.setDialogTexts();
   }
   onNoClick(): void {
     this.dialogRef.close();
@@ -60,7 +61,17 @@ export class CreateWordDialogComponent implements OnInit {
         this.mainButtonText="Sil";
         this.isDelete=true;
         break;
+      case DialogActionTypes.add:
+          if(this.cs.cache.selectedUnit){
+            this.unitIdControl=new FormControl(this.cs.cache.selectedUnit, [Validators.required]);
+          }
+        break;
     }
+  }
+
+  change(){
+    this.cs.cache.selectedUnit=this.unitIdControl.value as number;
+    this.cs.setCashe();
   }
 
 }

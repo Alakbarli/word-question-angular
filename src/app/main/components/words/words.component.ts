@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { LanguageService } from '../../services/language.service';
 import { Unit } from 'src/app/models/unit';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -39,7 +39,7 @@ export class WordsComponent implements OnInit {
   langList:Array<SpeechSynthesisVoice>;
   selectedSpeechLang:string;
 
-  constructor(private cs:CasheService, private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private sp:SpeechService) { 
+  constructor(private cd :ChangeDetectorRef, private cs:CasheService, private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private sp:SpeechService) { 
     shellService.showLoader();
     this.unitList=this.langService.db.Units;
     this.storiedData=this.langService.db.Words;
@@ -53,11 +53,13 @@ export class WordsComponent implements OnInit {
       this.langList=res;
       this.getSpeechSettings();
     });
-
+    if(this.cs.cache.selectedUnits&&this.cs.cache.selectedUnits.length>0){
+      this.unitId=this.cs.cache.selectedUnits;
+    }
   }
   ngAfterViewInit() {
     //this.dataSource.paginator = this.paginator;
-    this.getWords(0);
+    this.filter();
     this.shellService.hideLoader();
   }
   trackByFn(index: number, item: any): number {
@@ -71,7 +73,8 @@ export class WordsComponent implements OnInit {
        data=>{
          if(data as WordDialogData){
            this.langService.addWord(data);
-           this.filter();
+           this.filter(this.pageIndex);
+           this.cd.detectChanges();
            let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Söz əlavə olundu',SnackBarTypes.success) ,
             panelClass: [SnackBarTypes.success],
@@ -92,7 +95,8 @@ export class WordsComponent implements OnInit {
           w.nameEn=data.nameEn as string;
           w.unitId=data.unitId as number;
           this.langService.editWord(w);
-          this.filter();
+          this.filter(this.pageIndex);
+          this.cd.detectChanges();
           let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Sözdə düzəliş edildi',SnackBarTypes.info) ,
             panelClass: [SnackBarTypes.info],
@@ -131,6 +135,8 @@ export class WordsComponent implements OnInit {
     return this.unitList?.find(x=>x.id==id)?.name;
   }
   change(){
+    this.cs.cache.selectedUnits=this.unitId;
+    this.cs.setCashe();
     this.filter();
   }
   changeAz(){
@@ -139,8 +145,7 @@ export class WordsComponent implements OnInit {
   changeEn(){
     this.filter();
   }
-  filter(){
-    this.paginator.firstPage()
+  filter(page:number=0){
     this.filteredData=this.storiedData.filter(
       w=>
             ((this.unitId&&this.unitId.length>0)?this.unitId?.includes(+w.unitId):true)&&
@@ -150,7 +155,7 @@ export class WordsComponent implements OnInit {
       
       //this.length = this.dataSource.data.length;
       //this.dataSource.paginator  = this.paginator;
-      this.getWords(0);
+      this.getWords(page);
       //this.paginator.firstPage();
   }
   getWords(page:number) {
@@ -175,6 +180,9 @@ export class WordsComponent implements OnInit {
   getSpeechSettings(){
     if(this.cs.cache.selectedSpeechLang){
       this.selectedSpeechLang=this.cs.cache.selectedSpeechLang;
+    }
+    else{
+      this.selectedSpeechLang=this.langList.find(x=>x.name.toLowerCase().includes("english"))?.name||this.langList[0].name;
     }
   }
 }

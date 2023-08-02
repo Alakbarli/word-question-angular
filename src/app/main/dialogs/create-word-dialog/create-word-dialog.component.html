@@ -4,7 +4,7 @@
         <div class="form-group">
             <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Bölmə adı</mat-label>
-                <mat-select placeholder="Bölmə seçin" [formControl]="unitIdControl" [errorStateMatcher]="matcher">
+                <mat-select (selectionChange)="change()" placeholder="Bölmə seçin" [formControl]="unitIdControl" [errorStateMatcher]="matcher">
                   <mat-option *ngFor="let unit of unitList" [value]="unit.id">
                     {{unit.name}}
                   </mat-option>

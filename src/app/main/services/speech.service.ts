@@ -21,8 +21,8 @@ export class SpeechService {
   play(context:string,synth:any,voice:SpeechSynthesisVoice){
       const utterThis = new SpeechSynthesisUtterance(context);
       utterThis.voice =voice;
-      utterThis.pitch = this.cs.cache.speechRate;
-      utterThis.rate = this.cs.cache.speechRate;
+      utterThis.pitch = this.cs.cache.speechRate||1;
+      utterThis.rate = this.cs.cache.speechRate||1;
       synth.speak(utterThis);
   }
 }

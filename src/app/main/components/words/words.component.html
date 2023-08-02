@@ -7,12 +7,6 @@
     <div class='card-body'>
         <div class="row justify-content-center">
             <div class="col-12 text-right">
-                <!-- <div class="input">
-                    <input class="" type="text">
-                    <div class="icon">
-                        <i class="fal fa-plus"></i>
-                    </div>
-                </div> -->
                 <button (click)="addWord()" class="main-button">Söz əlavə et <i class="fal fa-plus"></i></button>
             </div>
          </div>
@@ -36,17 +30,17 @@
                     </div>
             </div>
         </div>
-        <div *ngIf="!storiedData" class="row my-3">
+        <div *ngIf="!storiedData.length" class="row my-3">
             <div class="col-12 text-center">
                 <p>Heç bir söz əlavə olunmayıb</p>
             </div>
         </div>
-        <div *ngIf="!dataSource" class="row my-3">
+        <div *ngIf="storiedData.length&&!filteredData.length" class="row my-3">
             <div class="col-12 text-center">
                 <p>Heç bir söz tapılmadı</p>
             </div>
         </div>
-        <div class="table-container">
+        <div class="table-container" *ngIf="filteredData.length">
             <table mat-table [dataSource]="dataSource">
 
                 <ng-container matColumnDef="no">
@@ -82,7 +76,7 @@
             </table>
         </div>
           
-        <mat-paginator
+        <mat-paginator [ngClass]="{'d-none': !filteredData.length}"
         [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" [pageSize]="pageSize" showFirstLastButtons [length]="length"
         (page)="pageChanged($event)">
     </mat-paginator>

@@ -8,4 +8,5 @@ export class SiteCache {
     activePage:string;
     selectedLang:number;
     selectedUnits:Array<number>;
+    selectedUnit:number;
 }

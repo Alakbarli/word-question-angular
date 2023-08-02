@@ -31,6 +31,7 @@ input,select{
     font-family: inherit;
     font-weight: bold;
     word-break: break-all;
+    line-height: 1.3em;
 }
 #word-question .main-word .last{
     font-size: 14px;
