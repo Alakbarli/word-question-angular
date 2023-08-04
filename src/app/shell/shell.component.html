@@ -17,15 +17,18 @@
 
             <a (click)="closeSideNav()" [routerLink]="'read'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-newspaper"></i></div>Məqalə və hekayələr</a>
             
-            <a (click)="closeSideNav()" [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-file-upload"></i></div>Fayl yüklə(JSON)</a>
-
+       
             <a (click)="closeSideNav()" [routerLink]="'settings'" [routerLinkActive]="['active']" data-id="unit" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-cogs"></i></div>Tənzimləmələr</a>
+           
+            <a (click)="closeSideNav()" [routerLink]="'upload'" [routerLinkActive]="['active']" data-id="add-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-file-upload"></i></div>Fayl yüklə(JSON)</a>
            
             <a (click)="generateJson()" id="save-json" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-cloud-upload-alt"></i></div>Json faylına yaz</a>
 
             <a (click)="clearData()" class="dashboard-nav-item upopup-item"><div class="nav-item-icon"><i class="fad fa-trash-alt"></i></div>Yaddaşı təmizlə</a>
 
             <a (click)="closeSideNav()" [routerLink]="'guide'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-question-square"></i></div>Video təlimat</a>
+
+            <a (click)="closeSideNav()" [routerLink]="'about'" [routerLinkActive]="['active']" data-id="video-manual" id="video-manual" class="dashboard-nav-item w-nav-item"><div class="nav-item-icon"><i class="fad fa-info"></i></div>Sayt haqqında</a>
 
         </nav>
     </div>

@@ -9,6 +9,7 @@ import { VideoGuideComponent } from './components/video-guide/video-guide.compon
 import { WordsComponent } from './components/words/words.component';
 import { ReadingComponent } from './components/reading/reading.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { AboutComponent } from './components/about/about.component';
 
 const routes: Routes = [
   ShellService.childRoutes([
@@ -44,6 +45,10 @@ const routes: Routes = [
     {
       path: 'settings',
       component: SettingsComponent
+    },
+    {
+      path: 'about',
+      component: AboutComponent
     },
     {path:'**',component:QuestionComponent}
   ]),

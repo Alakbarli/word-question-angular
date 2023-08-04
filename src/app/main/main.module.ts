@@ -23,6 +23,7 @@ import { ReadingComponent } from './components/reading/reading.component';
 import { GenerateStoryComponent } from './dialogs/generate-story/generate-story.component';
 import { ReadStoryComponent } from './dialogs/read-story/read-story.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { SettingsComponent } from './components/settings/settings.component';
     ReadingComponent,
     GenerateStoryComponent,
     ReadStoryComponent,
-    SettingsComponent
+    SettingsComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

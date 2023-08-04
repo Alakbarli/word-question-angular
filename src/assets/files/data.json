@@ -1,0 +1,7244 @@
+{
+  "Units": [
+    {
+      "id": 1,
+      "name": "UNIT 1"
+    },
+    {
+      "id": 2,
+      "name": "Unit 5"
+    },
+    {
+      "id": 3,
+      "name": "Unit 6"
+    },
+    {
+      "id": 4,
+      "name": "UNIT 2"
+    },
+    {
+      "id": 5,
+      "name": "UNİT 7"
+    },
+    {
+      "id": 6,
+      "name": "UNIT 8"
+    },
+    {
+      "id": 7,
+      "name": " UNIT 3"
+    },
+    {
+      "id": 8,
+      "name": "UNIT 4"
+    },
+    {
+      "id": 9,
+      "name": "UNIT 9"
+    },
+    {
+      "id": 10,
+      "name": "UNIT 10"
+    },
+    {
+      "id": 11,
+      "name": "Random 1"
+    },
+    {
+      "id": 12,
+      "name": "UNIT 11"
+    },
+    {
+      "id": 13,
+      "name": "UNIT 12"
+    },
+    {
+      "id": 14,
+      "name": "UNIT 13"
+    },
+    {
+      "id": 15,
+      "name": "UNIT 14"
+    },
+    {
+      "id": 16,
+      "name": "UNIT 15"
+    },
+    {
+      "id": 17,
+      "name": "UNIT 16"
+    },
+    {
+      "id": 18,
+      "name": "YouWill 3-shopping"
+    },
+    {
+      "id": 19,
+      "name": "YouWill4-Traveling"
+    },
+    {
+      "id": 20,
+      "name": "You  will 5"
+    },
+    {
+      "id": 21,
+      "name": "YouWill6"
+    },
+    {
+      "id": 22,
+      "name": "Yw7"
+    },
+    {
+      "id": 23,
+      "name": "Yw8"
+    },
+    {
+      "id": 24,
+      "name": "Yw9"
+    },
+    {
+      "id": 25,
+      "name": "YW 10"
+    },
+    {
+      "id": 26,
+      "name": "YW 11"
+    },
+    {
+      "id": 27,
+      "name": "YW 12"
+    },
+    {
+      "id": 28,
+      "name": "Yw 13"
+    },
+    {
+      "id": 29,
+      "name": "Yw14"
+    },
+    {
+      "id": 30,
+      "name": "Yw15"
+    },
+    {
+      "id": 31,
+      "name": "UNIT 17"
+    },
+    {
+      "id": 32,
+      "name": "UNIT 18"
+    },
+    {
+      "id": 33,
+      "name": "BC 1"
+    },
+    {
+      "id": 34,
+      "name": "BC2 "
+    },
+    {
+      "id": 35,
+      "name": "BC3"
+    },
+    {
+      "id": 36,
+      "name": "BC4"
+    },
+    {
+      "id": 37,
+      "name": "BC AZ 1"
+    },
+    {
+      "id": 38,
+      "name": "Bc5"
+    },
+    {
+      "id": 39,
+      "name": "Bc6"
+    },
+    {
+      "id": 40,
+      "name": "BC7"
+    },
+    {
+      "id": 41,
+      "name": "Bc 8"
+    },
+    {
+      "id": 42,
+      "name": "BC9"
+    },
+    {
+      "id": 43,
+      "name": "BC10"
+    },
+    {
+      "id": 44,
+      "name": "BC11"
+    },
+    {
+      "id": 45,
+      "name": "BC12"
+    },
+    {
+      "id": 46,
+      "name": "Personality"
+    },
+    {
+      "id": 47,
+      "name": "BC13"
+    },
+    {
+      "id": 48,
+      "name": "BCN 1"
+    },
+    {
+      "id": 49,
+      "name": "Bcn2"
+    },
+    {
+      "id": 50,
+      "name": "BCN3"
+    },
+    {
+      "id": 55,
+      "name": "L1"
+    },
+    {
+      "id": 57,
+      "name": "Ll2"
+    },
+    {
+      "id": 59,
+      "name": "Ll3"
+    },
+    {
+      "id": 61,
+      "name": "Ll4"
+    },
+    {
+      "id": 63,
+      "name": "Ll5"
+    }
+  ],
+  "Words": [
+    {
+      "id": 1,
+      "nameAz": "Qorxmaq",
+      "nameEn": "Afraid",
+      "unitId": "1"
+    },
+    {
+      "id": 2,
+      "nameAz": "Xəbərdar,agah",
+      "nameEn": "Aware",
+      "unitId": "2"
+    },
+    {
+      "id": 3,
+      "nameAz": "Pis,bərbad",
+      "nameEn": "Badly",
+      "unitId": "2"
+    },
+    {
+      "id": 4,
+      "nameAz": "Aid olmaq,məxsus olmaq",
+      "nameEn": "Belong",
+      "unitId": "2"
+    },
+    {
+      "id": 5,
+      "nameAz": "Davam etmək,davam etdirmək",
+      "nameEn": "Continue",
+      "unitId": "2"
+    },
+    {
+      "id": 6,
+      "nameAz": "Xəta",
+      "nameEn": "Error",
+      "unitId": "2"
+    },
+    {
+      "id": 7,
+      "nameAz": "Təcrübə",
+      "nameEn": "Experience",
+      "unitId": "2"
+    },
+    {
+      "id": 8,
+      "nameAz": "Sahə,tarla",
+      "nameEn": "Field",
+      "unitId": "2"
+    },
+    {
+      "id": 9,
+      "nameAz": "İncitmək",
+      "nameEn": "Hurt",
+      "unitId": "2"
+    },
+    {
+      "id": 10,
+      "nameAz": "Mühakimə,Hökm",
+      "nameEn": "Judgment",
+      "unitId": "2"
+    },
+    {
+      "id": 11,
+      "nameAz": "Ehtimal",
+      "nameEn": "Likely",
+      "unitId": "2"
+    },
+    {
+      "id": 12,
+      "nameAz": "Normal,Adi",
+      "nameEn": "Normal",
+      "unitId": "2"
+    },
+    {
+      "id": 13,
+      "nameAz": "Nadir",
+      "nameEn": "Rarer",
+      "unitId": "2"
+    },
+    {
+      "id": 14,
+      "nameAz": "Rahatlamaq",
+      "nameEn": "Relax",
+      "unitId": "2"
+    },
+    {
+      "id": 15,
+      "nameAz": "İstək,tələb,xahiş",
+      "nameEn": "Request",
+      "unitId": "2"
+    },
+    {
+      "id": 16,
+      "nameAz": "Yaşamaq,daimi yaşamaq",
+      "nameEn": "Reside",
+      "unitId": "2"
+    },
+    {
+      "id": 17,
+      "nameAz": "Nəticə,yekun",
+      "nameEn": "Result",
+      "unitId": "2"
+    },
+    {
+      "id": 18,
+      "nameAz": "Rulon,fırlatmaq,yuvarlamaq",
+      "nameEn": "Roll",
+      "unitId": "2"
+    },
+    {
+      "id": 19,
+      "nameAz": "Bəri,etibarən,sonra,-dan bəri",
+      "nameEn": "Since",
+      "unitId": "2"
+    },
+    {
+      "id": 20,
+      "nameAz": "Görünür,görünə bilərlik",
+      "nameEn": "Visible",
+      "unitId": "2"
+    },
+    {
+      "id": 21,
+      "nameAz": "Vəhşi,yabanı,cır,barbar",
+      "nameEn": "Wild",
+      "unitId": "2"
+    },
+    {
+      "id": 22,
+      "nameAz": "Üstünlük,fayda,avantaj",
+      "nameEn": "Advantage",
+      "unitId": "3"
+    },
+    {
+      "id": 23,
+      "nameAz": "Səbəb,səbəb olmaq",
+      "nameEn": "Cause",
+      "unitId": "3"
+    },
+    {
+      "id": 24,
+      "nameAz": "Seçim",
+      "nameEn": "Choice",
+      "unitId": "3"
+    },
+    {
+      "id": 25,
+      "nameAz": "İctimaiyyət",
+      "nameEn": "Community",
+      "unitId": "3"
+    },
+    {
+      "id": 26,
+      "nameAz": "Ölü",
+      "nameEn": "Dead",
+      "unitId": "3"
+    },
+    {
+      "id": 27,
+      "nameAz": "Məsafə",
+      "nameEn": "Distance",
+      "unitId": "3"
+    },
+    {
+      "id": 28,
+      "nameAz": "Qaçmaq,xilas olmaq,çıxmaq",
+      "nameEn": "Escape",
+      "unitId": "3"
+    },
+    {
+      "id": 29,
+      "nameAz": "Qarşılaşmaq,üzləşmək",
+      "nameEn": "Face",
+      "unitId": "3"
+    },
+    {
+      "id": 30,
+      "nameAz": "İzləmək",
+      "nameEn": "Follow",
+      "unitId": "3"
+    },
+    {
+      "id": 31,
+      "nameAz": "Qorxu,dəhşət,vahimə,bədheybət",
+      "nameEn": "Fright",
+      "unitId": "3"
+    },
+    {
+      "id": 32,
+      "nameAz": "Ruh,kabus",
+      "nameEn": "Ghost",
+      "unitId": "3"
+    },
+    {
+      "id": 33,
+      "nameAz": "Fərdi",
+      "nameEn": " Individual",
+      "unitId": "3"
+    },
+    {
+      "id": 34,
+      "nameAz": "Ev heyvanı,oxşamaq",
+      "nameEn": "Pet",
+      "unitId": "3"
+    },
+    {
+      "id": 35,
+      "nameAz": "Gəlib çatmaq,çatmaq",
+      "nameEn": "Reach",
+      "unitId": "3"
+    },
+    {
+      "id": 36,
+      "nameAz": "Qayıtmaq",
+      "nameEn": "Return",
+      "unitId": "3"
+    },
+    {
+      "id": 37,
+      "nameAz": "Sağ qalmaq",
+      "nameEn": "Survive",
+      "unitId": "3"
+    },
+    {
+      "id": 38,
+      "nameAz": "Dilxor,kədərli,qanıqara,üzgün",
+      "nameEn": "Upset",
+      "unitId": "3"
+    },
+    {
+      "id": 39,
+      "nameAz": "Səs",
+      "nameEn": "Voice",
+      "unitId": "3"
+    },
+    {
+      "id": 40,
+      "nameAz": "Hava",
+      "nameEn": "Weather",
+      "unitId": "3"
+    },
+    {
+      "id": 41,
+      "nameAz": " Müdrik,hikmətli,aqil,ağıllı",
+      "nameEn": "Wise",
+      "unitId": "3"
+    },
+    {
+      "id": 42,
+      "nameAz": "Razılaşmaq",
+      "nameEn": "Agree",
+      "unitId": "1"
+    },
+    {
+      "id": 43,
+      "nameAz": "Əsəbləşmək",
+      "nameEn": "Angry",
+      "unitId": "1"
+    },
+    {
+      "id": 44,
+      "nameAz": "Çatmaq,varmaq,gəlib çatmaq",
+      "nameEn": "Arrive",
+      "unitId": "1"
+    },
+    {
+      "id": 45,
+      "nameAz": "Hücum etmək",
+      "nameEn": "Attack",
+      "unitId": "1"
+    },
+    {
+      "id": 46,
+      "nameAz": "Ən aşağı hissə",
+      "nameEn": "Bottom",
+      "unitId": "1"
+    },
+    {
+      "id": 47,
+      "nameAz": "Ağıllı",
+      "nameEn": "Clever",
+      "unitId": "1"
+    },
+    {
+      "id": 48,
+      "nameAz": "Qəddar,zalım,acımasız",
+      "nameEn": "Cruel",
+      "unitId": "1"
+    },
+    {
+      "id": 49,
+      "nameAz": "Nəhayət,sonunda,ən sonunda",
+      "nameEn": "Finally",
+      "unitId": "1"
+    },
+    {
+      "id": 50,
+      "nameAz": "Gizlənmək",
+      "nameEn": "Hide",
+      "unitId": "1"
+    },
+    {
+      "id": 51,
+      "nameAz": "Ovlamaq",
+      "nameEn": "Hunt",
+      "unitId": "1"
+    },
+    {
+      "id": 52,
+      "nameAz": "Çoxlu,çox",
+      "nameEn": "Lot",
+      "unitId": "1"
+    },
+    {
+      "id": 53,
+      "nameAz": "Ortasında,orta",
+      "nameEn": "Middle",
+      "unitId": "1"
+    },
+    {
+      "id": 54,
+      "nameAz": "Moment,an",
+      "nameEn": "Moment",
+      "unitId": "1"
+    },
+    {
+      "id": 55,
+      "nameAz": "Məmnun olmaq",
+      "nameEn": "Pleased",
+      "unitId": "1"
+    },
+    {
+      "id": 56,
+      "nameAz": "Söz vermək",
+      "nameEn": "Promise",
+      "unitId": "1"
+    },
+    {
+      "id": 57,
+      "nameAz": "Cavab vermək",
+      "nameEn": "Reply",
+      "unitId": "1"
+    },
+    {
+      "id": 58,
+      "nameAz": "Təhlükəsiz",
+      "nameEn": "Safe",
+      "unitId": "1"
+    },
+    {
+      "id": 59,
+      "nameAz": "Variant,hiylə",
+      "nameEn": "Trick",
+      "unitId": "1"
+    },
+    {
+      "id": 60,
+      "nameAz": "Yaxşı,quyu",
+      "nameEn": " Well",
+      "unitId": "1"
+    },
+    {
+      "id": 61,
+      "nameAz": "Macəra",
+      "nameEn": "Adventure",
+      "unitId": "4"
+    },
+    {
+      "id": 62,
+      "nameAz": "Yaxınlaşmaq",
+      "nameEn": "Approach",
+      "unitId": "4"
+    },
+    {
+      "id": 63,
+      "nameAz": "Diqqətli,ehtiyatlı",
+      "nameEn": "Carefully",
+      "unitId": "4"
+    },
+    {
+      "id": 64,
+      "nameAz": "Kimyəvi",
+      "nameEn": "Chamical",
+      "unitId": "4"
+    },
+    {
+      "id": 65,
+      "nameAz": "Yaratmaq",
+      "nameEn": "Create",
+      "unitId": "4"
+    },
+    {
+      "id": 66,
+      "nameAz": "Xoxan",
+      "nameEn": "Evil",
+      "unitId": "4"
+    },
+    {
+      "id": 67,
+      "nameAz": "Təcrübə,təcrübə aparmaq",
+      "nameEn": "Experiment",
+      "unitId": "4"
+    },
+    {
+      "id": 68,
+      "nameAz": "Öldürmək",
+      "nameEn": "Kill",
+      "unitId": "4"
+    },
+    {
+      "id": 69,
+      "nameAz": "Laboratoriya",
+      "nameEn": "Laboratory",
+      "unitId": "4"
+    },
+    {
+      "id": 70,
+      "nameAz": "Gülmək,qəhqəhə,gülüş",
+      "nameEn": "Laugh",
+      "unitId": "4"
+    },
+    {
+      "id": 71,
+      "nameAz": "Ucadan,bərkdən",
+      "nameEn": "Loud",
+      "unitId": "4"
+    },
+    {
+      "id": 72,
+      "nameAz": "Sinirli,əsəbi,gərgin",
+      "nameEn": "Neevous",
+      "unitId": "4"
+    },
+    {
+      "id": 73,
+      "nameAz": "Səs küy",
+      "nameEn": "Noise",
+      "unitId": "4"
+    },
+    {
+      "id": 74,
+      "nameAz": "Proyekt,layihə",
+      "nameEn": "Project",
+      "unitId": "4"
+    },
+    {
+      "id": 75,
+      "nameAz": "Qorxutmaq,səksəndirmək",
+      "nameEn": "Scare",
+      "unitId": "4"
+    },
+    {
+      "id": 76,
+      "nameAz": "Sirr,gizli",
+      "nameEn": "Secret",
+      "unitId": "4"
+    },
+    {
+      "id": 77,
+      "nameAz": "Qışqırmaq",
+      "nameEn": "Shout",
+      "unitId": "4"
+    },
+    {
+      "id": 78,
+      "nameAz": "İylənmək",
+      "nameEn": "Smell",
+      "unitId": "4"
+    },
+    {
+      "id": 79,
+      "nameAz": "Dəhşətli,vahiməli",
+      "nameEn": "Terrible",
+      "unitId": "4"
+    },
+    {
+      "id": 80,
+      "nameAz": "Daha pis",
+      "nameEn": "Worse",
+      "unitId": "4"
+    },
+    {
+      "id": 81,
+      "nameAz": "İcazə vermək",
+      "nameEn": "Allow",
+      "unitId": "5"
+    },
+    {
+      "id": 82,
+      "nameAz": "Elan etmək,bildirmək,duyurmaq",
+      "nameEn": "Announce",
+      "unitId": "5"
+    },
+    {
+      "id": 83,
+      "nameAz": "Yanında,yanaşı",
+      "nameEn": "Beside",
+      "unitId": "5"
+    },
+    {
+      "id": 84,
+      "nameAz": "Meydan oxuma,duel etmək",
+      "nameEn": "Challenge",
+      "unitId": "5"
+    },
+    {
+      "id": 85,
+      "nameAz": "İddia,tələb,iddia etmək",
+      "nameEn": "Claim",
+      "unitId": "5"
+    },
+    {
+      "id": 86,
+      "nameAz": "Hal,vəziyyət,şərt",
+      "nameEn": "Condition",
+      "unitId": "5"
+    },
+    {
+      "id": 87,
+      "nameAz": "Qatqıda bulunmaq,maddi yardım etmək,bağışlamaq",
+      "nameEn": "Contribute",
+      "unitId": "5"
+    },
+    {
+      "id": 88,
+      "nameAz": "Fərq,fərqini tapmaq,fərqləndirmək",
+      "nameEn": "Difference",
+      "unitId": "5"
+    },
+    {
+      "id": 89,
+      "nameAz": "Bölmək,bölüşdürmək,hissələrə bölmək",
+      "nameEn": "Divide",
+      "unitId": "5"
+    },
+    {
+      "id": 90,
+      "nameAz": "Mütəxəssis",
+      "nameEn": "Expert",
+      "unitId": "5"
+    },
+    {
+      "id": 91,
+      "nameAz": "Tanınmış,şöhrətli,məşhur",
+      "nameEn": "Famous",
+      "unitId": "5"
+    },
+    {
+      "id": 92,
+      "nameAz": "Güc,qüvvə,zor,şiddət,məcbur etmək,vadar etmək,güc tətbiq etmək",
+      "nameEn": "Force",
+      "unitId": "5"
+    },
+    {
+      "id": 93,
+      "nameAz": "Şər,zərər,ziyan,pislik,zərər vermək,xələl yetirmək,xətər yetirmək",
+      "nameEn": "Harm",
+      "unitId": "5"
+    },
+    {
+      "id": 94,
+      "nameAz": "Qoymaq",
+      "nameEn": "Lay",
+      "unitId": "5"
+    },
+    {
+      "id": 95,
+      "nameAz": "Sülh,barış",
+      "nameEn": "Peace",
+      "unitId": "5"
+    },
+    {
+      "id": 96,
+      "nameAz": "Şahzadə,kralın oğlu",
+      "nameEn": "Prince",
+      "unitId": "5"
+    },
+    {
+      "id": 97,
+      "nameAz": "Qorumaq",
+      "nameEn": "Protect",
+      "unitId": "5"
+    },
+    {
+      "id": 98,
+      "nameAz": "Duyğu,hiss,hissiyat",
+      "nameEn": "Sense",
+      "unitId": "5"
+    },
+    {
+      "id": 99,
+      "nameAz": "Qəfil",
+      "nameEn": "Sudden",
+      "unitId": "5"
+    },
+    {
+      "id": 100,
+      "nameAz": "Buna görə",
+      "nameEn": "Therefore",
+      "unitId": "5"
+    },
+    {
+      "id": 101,
+      "nameAz": "Qəbul etmək",
+      "nameEn": "Accept",
+      "unitId": "6"
+    },
+    {
+      "id": 102,
+      "nameAz": "Təşkil etmək,düzmək",
+      "nameEn": "Arrange",
+      "unitId": "6"
+    },
+    {
+      "id": 103,
+      "nameAz": "İştirak etmək,qatılmaq",
+      "nameEn": "Attent",
+      "unitId": "6"
+    },
+    {
+      "id": 104,
+      "nameAz": "Balans,tarazlıq,müvazinət",
+      "nameEn": "Balance",
+      "unitId": "6"
+    },
+    {
+      "id": 105,
+      "nameAz": "Ziddiyət,çox fərqli olmaq",
+      "nameEn": "CONTRAST",
+      "unitId": "6"
+    },
+    {
+      "id": 106,
+      "nameAz": "Həvəsləndirmək,ruhlandırmaq,ürək-dirək vermək",
+      "nameEn": "Encourage",
+      "unitId": "6"
+    },
+    {
+      "id": 107,
+      "nameAz": "Tanış,yaxın",
+      "nameEn": "Familiar",
+      "unitId": "6"
+    },
+    {
+      "id": 108,
+      "nameAz": "Tutmaq,qapmaq",
+      "nameEn": "Grab",
+      "unitId": "6"
+    },
+    {
+      "id": 109,
+      "nameAz": "Asmaq,sərmək,sallamaq",
+      "nameEn": "Hang",
+      "unitId": "6"
+    },
+    {
+      "id": 110,
+      "nameAz": "Böyük,nəhəng",
+      "nameEn": "Huge",
+      "unitId": "6"
+    },
+    {
+      "id": 111,
+      "nameAz": "Lazım,zəruri,vacib",
+      "nameEn": "Necessary",
+      "unitId": "6"
+    },
+    {
+      "id": 112,
+      "nameAz": "Şablon,model",
+      "nameEn": "Pattern",
+      "unitId": "6"
+    },
+    {
+      "id": 113,
+      "nameAz": "Təklif etmək,önərmək",
+      "nameEn": "Propose",
+      "unitId": "6"
+    },
+    {
+      "id": 114,
+      "nameAz": "Məqsəd,niyət",
+      "nameEn": "Purpose",
+      "unitId": "6"
+    },
+    {
+      "id": 115,
+      "nameAz": "Buraxmaq,azad etmək,tərxis",
+      "nameEn": "Release",
+      "unitId": "6"
+    },
+    {
+      "id": 116,
+      "nameAz": "Tələb etmək",
+      "nameEn": "Require",
+      "unitId": "6"
+    },
+    {
+      "id": 117,
+      "nameAz": "Tək",
+      "nameEn": "Single",
+      "unitId": "6"
+    },
+    {
+      "id": 118,
+      "nameAz": "Müvəffəqiyyət,uğur",
+      "nameEn": "Success",
+      "unitId": "6"
+    },
+    {
+      "id": 119,
+      "nameAz": "Cırmaq,yırtmaq,parçalamaq,didmək,didikləmək",
+      "nameEn": "Tear",
+      "unitId": "6"
+    },
+    {
+      "id": 120,
+      "nameAz": "Nəzəriyyə,teori",
+      "nameEn": "Theory",
+      "unitId": "6"
+    },
+    {
+      "id": 121,
+      "nameAz": "Yad planetli",
+      "nameEn": "Alien",
+      "unitId": "7"
+    },
+    {
+      "id": 122,
+      "nameAz": "Arasında",
+      "nameEn": "Among",
+      "unitId": "7"
+    },
+    {
+      "id": 123,
+      "nameAz": "Diaqram",
+      "nameEn": "Chart",
+      "unitId": "7"
+    },
+    {
+      "id": 124,
+      "nameAz": "Bulud",
+      "nameEn": "Cloud",
+      "unitId": "7"
+    },
+    {
+      "id": 125,
+      "nameAz": "Anlamaq,qavramaq,başa düşmək",
+      "nameEn": "Comprehend",
+      "unitId": "7"
+    },
+    {
+      "id": 126,
+      "nameAz": "Təsvir etmək",
+      "nameEn": "Describe",
+      "unitId": "7"
+    },
+    {
+      "id": 127,
+      "nameAz": "İndiyədək,hər hansı vaxt",
+      "nameEn": "Ever",
+      "unitId": "7"
+    },
+    {
+      "id": 128,
+      "nameAz": "Uğursuz",
+      "nameEn": "Fail",
+      "unitId": "7"
+    },
+    {
+      "id": 129,
+      "nameAz": "Dərəcə,sinif",
+      "nameEn": "Grade",
+      "unitId": "7"
+    },
+    {
+      "id": 130,
+      "nameAz": "Əvəzinə",
+      "nameEn": "Instread",
+      "unitId": "7"
+    },
+    {
+      "id": 131,
+      "nameAz": "Kitabxana",
+      "nameEn": "Library",
+      "unitId": "7"
+    },
+    {
+      "id": 132,
+      "nameAz": "Planet",
+      "nameEn": "Planet",
+      "unitId": "7"
+    },
+    {
+      "id": 133,
+      "nameAz": "Hesabat",
+      "nameEn": "Report",
+      "unitId": "7"
+    },
+    {
+      "id": 134,
+      "nameAz": "Bir neçə",
+      "nameEn": "Several",
+      "unitId": "7"
+    },
+    {
+      "id": 135,
+      "nameAz": "Həll etmək",
+      "nameEn": "Solve",
+      "unitId": "7"
+    },
+    {
+      "id": 136,
+      "nameAz": "Anidən",
+      "nameEn": "Suddenly",
+      "unitId": "7"
+    },
+    {
+      "id": 137,
+      "nameAz": "Güman etmək,ehtimal etmək,fərz etmək,zənn etmək",
+      "nameEn": "Suppose",
+      "unitId": "7"
+    },
+    {
+      "id": 138,
+      "nameAz": "Kainat",
+      "nameEn": "Universe",
+      "unitId": "7"
+    },
+    {
+      "id": 139,
+      "nameAz": "Görünmək,görünüş,baxış",
+      "nameEn": "View",
+      "unitId": "7"
+    },
+    {
+      "id": 140,
+      "nameAz": "Mehriban,dostluq,istiqanlı,dostca",
+      "nameEn": "Friendly",
+      "unitId": "7"
+    },
+    {
+      "id": 141,
+      "nameAz": "Qarşı,əlehinə,tərs olaraq",
+      "nameEn": "Against",
+      "unitId": "9"
+    },
+    {
+      "id": 142,
+      "nameAz": "Çimərlik",
+      "nameEn": "Beach",
+      "unitId": "9"
+    },
+    {
+      "id": 143,
+      "nameAz": "Zərər,xəsarət,zədə,zədələnmək,xətər yetirmək",
+      "nameEn": "Damage",
+      "unitId": "9"
+    },
+    {
+      "id": 144,
+      "nameAz": "Kəşf etmək",
+      "nameEn": "Discover",
+      "unitId": "9"
+    },
+    {
+      "id": 145,
+      "nameAz": "Duyğu,emosiya",
+      "nameEn": "Emotion",
+      "unitId": "9"
+    },
+    {
+      "id": 146,
+      "nameAz": "Təmir etmək",
+      "nameEn": "Fix",
+      "unitId": "9"
+    },
+    {
+      "id": 147,
+      "nameAz": "Səmimi",
+      "nameEn": "Frank",
+      "unitId": "9"
+    },
+    {
+      "id": 148,
+      "nameAz": "Müəyyənləşdirmək",
+      "nameEn": "Identify",
+      "unitId": "9"
+    },
+    {
+      "id": 149,
+      "nameAz": "Ada",
+      "nameEn": "Island",
+      "unitId": "9"
+    },
+    {
+      "id": 150,
+      "nameAz": "Okean,dərya",
+      "nameEn": "Ocean",
+      "unitId": "9"
+    },
+    {
+      "id": 151,
+      "nameAz": "Bəlkə,olmaya,bir ehtimal",
+      "nameEn": "Perhaps",
+      "unitId": "9"
+    },
+    {
+      "id": 152,
+      "nameAz": "Xoş,xöşagəlimli,xoşagəlimli",
+      "nameEn": "Pleasant",
+      "unitId": "9"
+    },
+    {
+      "id": 153,
+      "nameAz": "Qarşısını almaq,dayandırmaq,mane olmaq",
+      "nameEn": "Prevent",
+      "unitId": "9"
+    },
+    {
+      "id": 154,
+      "nameAz": "Qaya,daş,yelləmək",
+      "nameEn": "Rock",
+      "unitId": "9"
+    },
+    {
+      "id": 155,
+      "nameAz": "Xilas etmək",
+      "nameEn": "Save",
+      "unitId": "9"
+    },
+    {
+      "id": 156,
+      "nameAz": "Addım,addımlamaq",
+      "nameEn": "Step",
+      "unitId": "9"
+    },
+    {
+      "id": 157,
+      "nameAz": "Sakit,hərəkətsiz",
+      "nameEn": "Still",
+      "unitId": "9"
+    },
+    {
+      "id": 158,
+      "nameAz": "Dad,dadmaq,dadına baxmaq",
+      "nameEn": "Taste",
+      "unitId": "9"
+    },
+    {
+      "id": 159,
+      "nameAz": "Atmaq,tullamaq",
+      "nameEn": "Throw",
+      "unitId": "9"
+    },
+    {
+      "id": 160,
+      "nameAz": " Dalğa,dalğalanmaq",
+      "nameEn": "Wave",
+      "unitId": "9"
+    },
+    {
+      "id": 161,
+      "nameAz": "Fayda,xeyir,mənfəət",
+      "nameEn": "Benefit",
+      "unitId": "10"
+    },
+    {
+      "id": 162,
+      "nameAz": "Müəyyən,əmin,arxayın",
+      "nameEn": "Certain",
+      "unitId": "10"
+    },
+    {
+      "id": 163,
+      "nameAz": "İmkan,macal,şans",
+      "nameEn": "Chance",
+      "unitId": "10"
+    },
+    {
+      "id": 164,
+      "nameAz": "Effekt",
+      "nameEn": "Effect",
+      "unitId": "10"
+    },
+    {
+      "id": 165,
+      "nameAz": "Əsas,zəruri,lazım,lazımı",
+      "nameEn": "Essential",
+      "unitId": "10"
+    },
+    {
+      "id": 166,
+      "nameAz": "Uzaq",
+      "nameEn": "Far",
+      "unitId": "10"
+    },
+    {
+      "id": 167,
+      "nameAz": "Fokus,odaqlanmaq,fikrini cəmləmək",
+      "nameEn": "Focus",
+      "unitId": "10"
+    },
+    {
+      "id": 168,
+      "nameAz": "Funksiya",
+      "nameEn": "Function",
+      "unitId": "10"
+    },
+    {
+      "id": 169,
+      "nameAz": "Ot",
+      "nameEn": "Grass",
+      "unitId": "10"
+    },
+    {
+      "id": 170,
+      "nameAz": "Gözətçi,mühafizəçi,qorumaq,mühafizə etmək",
+      "nameEn": "Guard",
+      "unitId": "10"
+    },
+    {
+      "id": 171,
+      "nameAz": "Şəkil,təsvir",
+      "nameEn": "Image",
+      "unitId": "10"
+    },
+    {
+      "id": 172,
+      "nameAz": "Dərhal,təcili",
+      "nameEn": "Immediate",
+      "unitId": "10"
+    },
+    {
+      "id": 173,
+      "nameAz": "Əsas,ilkin,başlıca,ən birinci",
+      "nameEn": "Primary",
+      "unitId": "10"
+    },
+    {
+      "id": 174,
+      "nameAz": "Qürurlu",
+      "nameEn": "Proud",
+      "unitId": "10"
+    },
+    {
+      "id": 175,
+      "nameAz": "Qalmaq,geriyə qalmaq",
+      "nameEn": "Remain",
+      "unitId": "10"
+    },
+    {
+      "id": 176,
+      "nameAz": "Dincəlmək,istrahət",
+      "nameEn": "Rest",
+      "unitId": "10"
+    },
+    {
+      "id": 177,
+      "nameAz": "Ayrı,ayırmaq,ayr ayrı,dağıtmaq",
+      "nameEn": "Seperate",
+      "unitId": "10"
+    },
+    {
+      "id": 178,
+      "nameAz": "Yer,mövqe,məkan",
+      "nameEn": "Site",
+      "unitId": "10"
+    },
+    {
+      "id": 179,
+      "nameAz": "Quyruq",
+      "nameEn": "Tail",
+      "unitId": "10"
+    },
+    {
+      "id": 180,
+      "nameAz": "Narahatlıq,narahat etmək",
+      "nameEn": "Trouble",
+      "unitId": "10"
+    },
+    {
+      "id": 181,
+      "nameAz": "Artıq",
+      "nameEn": "Anymore",
+      "unitId": "12"
+    },
+    {
+      "id": 182,
+      "nameAz": "Yuxuda",
+      "nameEn": "Asleep",
+      "unitId": "12"
+    },
+    {
+      "id": 183,
+      "nameAz": "Giləmeyvə",
+      "nameEn": "Berry",
+      "unitId": "12"
+    },
+    {
+      "id": 184,
+      "nameAz": "Yığmaq,cəmləşdirmək,toplamaq",
+      "nameEn": "Collect",
+      "unitId": "12"
+    },
+    {
+      "id": 185,
+      "nameAz": "Yarışmaq,rəqabət etmək",
+      "nameEn": "Compete",
+      "unitId": "12"
+    },
+    {
+      "id": 186,
+      "nameAz": "Danışıq,söhbət",
+      "nameEn": "Conversation",
+      "unitId": "12"
+    },
+    {
+      "id": 187,
+      "nameAz": "Varlıq,canlı,bəndə",
+      "nameEn": "Creature",
+      "unitId": "12"
+    },
+    {
+      "id": 188,
+      "nameAz": "Qərar",
+      "nameEn": "Decision",
+      "unitId": "12"
+    },
+    {
+      "id": 189,
+      "nameAz": "Ya da",
+      "nameEn": "Either",
+      "unitId": "12"
+    },
+    {
+      "id": 190,
+      "nameAz": "Meşə",
+      "nameEn": "Forest",
+      "unitId": "12"
+    },
+    {
+      "id": 191,
+      "nameAz": "Torpaq,yer,zəmin,astar",
+      "nameEn": "Ground",
+      "unitId": "12"
+    },
+    {
+      "id": 192,
+      "nameAz": "Tanıtmaq,təqdim etmək",
+      "nameEn": "Introduce",
+      "unitId": "12"
+    },
+    {
+      "id": 193,
+      "nameAz": "Evlənmək",
+      "nameEn": "Marry",
+      "unitId": "12"
+    },
+    {
+      "id": 194,
+      "nameAz": "Hazırlamaq",
+      "nameEn": "Prepare",
+      "unitId": "12"
+    },
+    {
+      "id": 195,
+      "nameAz": "Yelkənlə üzmək,üzmək",
+      "nameEn": "Sail",
+      "unitId": "12"
+    },
+    {
+      "id": 196,
+      "nameAz": "Ciddi,ağır",
+      "nameEn": "Serious",
+      "unitId": "12"
+    },
+    {
+      "id": 197,
+      "nameAz": "Xərcləmək,sərf etmək",
+      "nameEn": "Spend",
+      "unitId": "12"
+    },
+    {
+      "id": 198,
+      "nameAz": "Qəribə,əcaib",
+      "nameEn": "Strange",
+      "unitId": "12"
+    },
+    {
+      "id": 199,
+      "nameAz": "Haqq,həqiqət",
+      "nameEn": "Truth",
+      "unitId": "12"
+    },
+    {
+      "id": 200,
+      "nameAz": "Yuxudan oyanmaq,oyandırmaq",
+      "nameEn": "Wake",
+      "unitId": "12"
+    },
+    {
+      "id": 201,
+      "nameAz": "Tək başına,yalnız",
+      "nameEn": "Alone",
+      "unitId": "13"
+    },
+    {
+      "id": 202,
+      "nameAz": "Mənzil",
+      "nameEn": "Apartment",
+      "unitId": "13"
+    },
+    {
+      "id": 203,
+      "nameAz": "Məqalə",
+      "nameEn": "Article",
+      "unitId": "13"
+    },
+    {
+      "id": 204,
+      "nameAz": "Sənətkar,rəssam",
+      "nameEn": "Artist",
+      "unitId": "13"
+    },
+    {
+      "id": 205,
+      "nameAz": "Münasibət,nəzər,davranış",
+      "nameEn": "Attitude",
+      "unitId": "13"
+    },
+    {
+      "id": 206,
+      "nameAz": "Qarşılaşdırmaq",
+      "nameEn": "Compare",
+      "unitId": "13"
+    },
+    {
+      "id": 207,
+      "nameAz": "Hakim,dəyərlindirmək,mühakimə etmək",
+      "nameEn": "Judge",
+      "unitId": "13"
+    },
+    {
+      "id": 208,
+      "nameAz": "Jurnal",
+      "nameEn": "Magazine",
+      "unitId": "13"
+    },
+    {
+      "id": 209,
+      "nameAz": "Material,maddə,parça",
+      "nameEn": "Material",
+      "unitId": "13"
+    },
+    {
+      "id": 210,
+      "nameAz": "Yemək,süfrə",
+      "nameEn": "Meal",
+      "unitId": "13"
+    },
+    {
+      "id": 211,
+      "nameAz": "Metod,üsul,qayda",
+      "nameEn": "Method",
+      "unitId": "13"
+    },
+    {
+      "id": 212,
+      "nameAz": "Qonşu",
+      "nameEn": "Neighbor",
+      "unitId": "13"
+    },
+    {
+      "id": 213,
+      "nameAz": "Peşəkar",
+      "nameEn": "Professional",
+      "unitId": "13"
+    },
+    {
+      "id": 214,
+      "nameAz": "Gəlir,fayda,xeyir,qazanc",
+      "nameEn": "Profit",
+      "unitId": "13"
+    },
+    {
+      "id": 215,
+      "nameAz": "Keyfiyyət",
+      "nameEn": "Quality",
+      "unitId": "13"
+    },
+    {
+      "id": 216,
+      "nameAz": "Şəkil,surət,forma",
+      "nameEn": "Shape",
+      "unitId": "13"
+    },
+    {
+      "id": 217,
+      "nameAz": "Kosmos,yer,boş yer",
+      "nameEn": "Space",
+      "unitId": "13"
+    },
+    {
+      "id": 218,
+      "nameAz": "Pilləkən",
+      "nameEn": "Stair",
+      "unitId": "13"
+    },
+    {
+      "id": 219,
+      "nameAz": "Simvol,rəmz,ikon",
+      "nameEn": "Symbol",
+      "unitId": "13"
+    },
+    {
+      "id": 220,
+      "nameAz": "Nazik,arıq,cansız",
+      "nameEn": "Thin",
+      "unitId": "13"
+    },
+    {
+      "id": 221,
+      "nameAz": "Qan",
+      "nameEn": "Blood",
+      "unitId": "14"
+    },
+    {
+      "id": 222,
+      "nameAz": "Yandırmaq,yanıq,alovlanmaq",
+      "nameEn": "Burn",
+      "unitId": "14"
+    },
+    {
+      "id": 223,
+      "nameAz": "Kamera,hüceyrə",
+      "nameEn": "Cell",
+      "unitId": "14"
+    },
+    {
+      "id": 224,
+      "nameAz": "İçərmək,ehtihva etmək",
+      "nameEn": "Contain",
+      "unitId": "14"
+    },
+    {
+      "id": 225,
+      "nameAz": "Düzgün,düzəltmək,doğru,səhvsiz",
+      "nameEn": "Correct",
+      "unitId": "14"
+    },
+    {
+      "id": 226,
+      "nameAz": "Məhsul,bəhrə",
+      "nameEn": "Crop",
+      "unitId": "14"
+    },
+    {
+      "id": 227,
+      "nameAz": "Tələb,tələbkarlıq,tələb etmək",
+      "nameEn": "Demand",
+      "unitId": "14"
+    },
+    {
+      "id": 228,
+      "nameAz": "Bərabərdir,bərabər,taraz",
+      "nameEn": "Equal",
+      "unitId": "14"
+    },
+    {
+      "id": 229,
+      "nameAz": "Artırmaq,çoxaltmaq,artım",
+      "nameEn": "Increase",
+      "unitId": "14"
+    },
+    {
+      "id": 230,
+      "nameAz": "Lord,hökmdar",
+      "nameEn": "Lord",
+      "unitId": "14"
+    },
+    {
+      "id": 231,
+      "nameAz": "Borc olmaq",
+      "nameEn": "Owe",
+      "unitId": "14"
+    },
+    {
+      "id": 232,
+      "nameAz": "Mövqe,vəzifə",
+      "nameEn": "Position",
+      "unitId": "14"
+    },
+    {
+      "id": 233,
+      "nameAz": "Ucaltmaq,yüksəltmək,qaldırmaq",
+      "nameEn": "Raise",
+      "unitId": "14"
+    },
+    {
+      "id": 234,
+      "nameAz": "Məsul,məsuliyyətli",
+      "nameEn": "Responsible",
+      "unitId": "14"
+    },
+    {
+      "id": 235,
+      "nameAz": "Mənzərə,görünüş,görüş",
+      "nameEn": "Sight",
+      "unitId": "14"
+    },
+    {
+      "id": 236,
+      "nameAz": "Ləkə,yer",
+      "nameEn": "Spot",
+      "unitId": "14"
+    },
+    {
+      "id": 237,
+      "nameAz": "Bina,struktur,quruluş",
+      "nameEn": "Structure",
+      "unitId": "14"
+    },
+    {
+      "id": 238,
+      "nameAz": "Bütöv,tam",
+      "nameEn": "Whole",
+      "unitId": "14"
+    },
+    {
+      "id": 239,
+      "nameAz": "Dəlik,deşik,çala,oyuq",
+      "nameEn": "Hole",
+      "unitId": "14"
+    },
+    {
+      "id": 240,
+      "nameAz": "Qidalandırmaq,yedizdirmək,bəslğmək",
+      "nameEn": "Feed",
+      "unitId": "14"
+    },
+    {
+      "id": 241,
+      "nameAz": "Məşqçi",
+      "nameEn": "Coach",
+      "unitId": "15"
+    },
+    {
+      "id": 242,
+      "nameAz": "Nəzarət,kontrol,nəzarət etmək,idarə etmək",
+      "nameEn": "Control",
+      "unitId": "15"
+    },
+    {
+      "id": 243,
+      "nameAz": "Təsvir",
+      "nameEn": "Description",
+      "unitId": "15"
+    },
+    {
+      "id": 244,
+      "nameAz": "Bilavasitə,vasitəsiz,düz",
+      "nameEn": "Direct",
+      "unitId": "15"
+    },
+    {
+      "id": 245,
+      "nameAz": "İmtahan",
+      "nameEn": "Exam",
+      "unitId": "15"
+    },
+    {
+      "id": 246,
+      "nameAz": "Misal,nümunə",
+      "nameEn": "Example",
+      "unitId": "15"
+    },
+    {
+      "id": 247,
+      "nameAz": "Məhdudlaşdırmaq,sərhəd,hüdud",
+      "nameEn": "Limit",
+      "unitId": "15"
+    },
+    {
+      "id": 248,
+      "nameAz": "Yerli",
+      "nameEn": "Local",
+      "unitId": "15"
+    },
+    {
+      "id": 249,
+      "nameAz": "Sehrli",
+      "nameEn": "Magical",
+      "unitId": "15"
+    },
+    {
+      "id": 250,
+      "nameAz": "Poçt",
+      "nameEn": "Mail",
+      "unitId": "15"
+    },
+    {
+      "id": 251,
+      "nameAz": "Roman",
+      "nameEn": "Novel",
+      "unitId": "15"
+    },
+    {
+      "id": 252,
+      "nameAz": "Kontur",
+      "nameEn": "Outline",
+      "unitId": "15"
+    },
+    {
+      "id": 253,
+      "nameAz": "Şair",
+      "nameEn": "Poet",
+      "unitId": "15"
+    },
+    {
+      "id": 254,
+      "nameAz": "Çap,çap etmək",
+      "nameEn": "Print",
+      "unitId": "15"
+    },
+    {
+      "id": 255,
+      "nameAz": "Səhnə,kinodan bir hissə",
+      "nameEn": "Scene",
+      "unitId": "15"
+    },
+    {
+      "id": 256,
+      "nameAz": "Vərəq,parça",
+      "nameEn": "Sheet",
+      "unitId": "15"
+    },
+    {
+      "id": 257,
+      "nameAz": "Axmaq,gicbəsər,səfeh",
+      "nameEn": "Silly",
+      "unitId": "15"
+    },
+    {
+      "id": 258,
+      "nameAz": "Mağaza",
+      "nameEn": "Store",
+      "unitId": "15"
+    },
+    {
+      "id": 259,
+      "nameAz": "Əziyyət çəkmək,zülm çəkmək",
+      "nameEn": "Suffer",
+      "unitId": "15"
+    },
+    {
+      "id": 260,
+      "nameAz": "Texnologiya",
+      "nameEn": "Technology",
+      "unitId": "15"
+    },
+    {
+      "id": 261,
+      "nameAz": "Üzərindən,qarşısında,içindən",
+      "nameEn": "Across",
+      "unitId": "16"
+    },
+    {
+      "id": 262,
+      "nameAz": "Nəfəs almaq",
+      "nameEn": "Breathe",
+      "unitId": "16"
+    },
+    {
+      "id": 263,
+      "nameAz": "Xarakterik,xas,tipik,səciyyəvi",
+      "nameEn": "Characteristic",
+      "unitId": "16"
+    },
+    {
+      "id": 264,
+      "nameAz": "Tükətmək,udmaq,qəbul etmək",
+      "nameEn": "Consume",
+      "unitId": "16"
+    },
+    {
+      "id": 265,
+      "nameAz": "Həyacanlandırmaq",
+      "nameEn": "Excite",
+      "unitId": "16"
+    },
+    {
+      "id": 266,
+      "nameAz": "Aşırı,son dərəcə",
+      "nameEn": "Extreme",
+      "unitId": "16"
+    },
+    {
+      "id": 267,
+      "nameAz": "Qorxu",
+      "nameEn": "Fear",
+      "unitId": "16"
+    },
+    {
+      "id": 268,
+      "nameAz": "Bəxtəfər,xoşbəxt",
+      "nameEn": "Fortunate",
+      "unitId": "16"
+    },
+    {
+      "id": 269,
+      "nameAz": "Baş vermək,olmaq",
+      "nameEn": "Happen",
+      "unitId": "16"
+    },
+    {
+      "id": 270,
+      "nameAz": "Uzunluq",
+      "nameEn": "Length",
+      "unitId": "16"
+    },
+    {
+      "id": 271,
+      "nameAz": "Xəta,səhv,qələt",
+      "nameEn": "Mistake",
+      "unitId": "16"
+    },
+    {
+      "id": 272,
+      "nameAz": "Müşahidə etmək",
+      "nameEn": "Observe",
+      "unitId": "16"
+    },
+    {
+      "id": 273,
+      "nameAz": "İmkan,fürsət",
+      "nameEn": "Opportunity",
+      "unitId": "16"
+    },
+    {
+      "id": 274,
+      "nameAz": "Yarış",
+      "nameEn": "Race",
+      "unitId": "16"
+    },
+    {
+      "id": 275,
+      "nameAz": "Anlamaq,dərk etmək,başa düşmək",
+      "nameEn": "Realize",
+      "unitId": "16"
+    },
+    {
+      "id": 276,
+      "nameAz": "Cavab vermək",
+      "nameEn": "Respond",
+      "unitId": "16"
+    },
+    {
+      "id": 277,
+      "nameAz": "Risk",
+      "nameEn": "Risk",
+      "unitId": "16"
+    },
+    {
+      "id": 278,
+      "nameAz": "Möcüzə,heyrət,heyran olmaq,təəcüblənmək",
+      "nameEn": "Wonder",
+      "unitId": "16"
+    },
+    {
+      "id": 279,
+      "nameAz": "Hələ,indiyədək",
+      "nameEn": "Yet",
+      "unitId": "16"
+    },
+    {
+      "id": 280,
+      "nameAz": "Oturdu",
+      "nameEn": "Sat",
+      "unitId": "11"
+    },
+    {
+      "id": 281,
+      "nameAz": "Düşünmək(keçmiş zaman)",
+      "nameEn": "Thought",
+      "unitId": "11"
+    },
+    {
+      "id": 282,
+      "nameAz": "Akademiya",
+      "nameEn": "Academy",
+      "unitId": "17"
+    },
+    {
+      "id": 283,
+      "nameAz": "Qədim,qədimi,antik",
+      "nameEn": "Ancient",
+      "unitId": "17"
+    },
+    {
+      "id": 284,
+      "nameAz": "Lövhə,taxta",
+      "nameEn": "Board",
+      "unitId": "17"
+    },
+    {
+      "id": 285,
+      "nameAz": "Yüzillik,əsr",
+      "nameEn": "Century",
+      "unitId": "17"
+    },
+    {
+      "id": 286,
+      "nameAz": "Açar,ipucu",
+      "nameEn": "Clue",
+      "unitId": "17"
+    },
+    {
+      "id": 287,
+      "nameAz": "Konsert",
+      "nameEn": "Concert",
+      "unitId": "17"
+    },
+    {
+      "id": 288,
+      "nameAz": "Vilayət,idari bölgə",
+      "nameEn": "County",
+      "unitId": "17"
+    },
+    {
+      "id": 289,
+      "nameAz": "Lüğət",
+      "nameEn": "Dictionary",
+      "unitId": "17"
+    },
+    {
+      "id": 290,
+      "nameAz": "Mövcud olmaq,var olmaq",
+      "nameEn": "Exist",
+      "unitId": "17"
+    },
+    {
+      "id": 291,
+      "nameAz": "Düz",
+      "nameEn": "Flat",
+      "unitId": "17"
+    },
+    {
+      "id": 292,
+      "nameAz": "Centlmen",
+      "nameEn": "Gentleman",
+      "unitId": "17"
+    },
+    {
+      "id": 293,
+      "nameAz": "Gizli",
+      "nameEn": "Hidden",
+      "unitId": "17"
+    },
+    {
+      "id": 294,
+      "nameAz": "Bəlkə",
+      "nameEn": "Maybe",
+      "unitId": "17"
+    },
+    {
+      "id": 295,
+      "nameAz": "Zabit",
+      "nameEn": "Officer",
+      "unitId": "17"
+    },
+    {
+      "id": 296,
+      "nameAz": "Orjinal,həqiqi",
+      "nameEn": "Original",
+      "unitId": "17"
+    },
+    {
+      "id": 297,
+      "nameAz": "Vurmaq,döymək,(mıxcalamaq kimi)",
+      "nameEn": "Pound",
+      "unitId": "17"
+    },
+    {
+      "id": 298,
+      "nameAz": "Proses",
+      "nameEn": "Process",
+      "unitId": "17"
+    },
+    {
+      "id": 299,
+      "nameAz": "Nəşr etmək,dərc etmək,yayımlamaq",
+      "nameEn": "Publish",
+      "unitId": "17"
+    },
+    {
+      "id": 300,
+      "nameAz": "Teatr",
+      "nameEn": "Theater",
+      "unitId": "17"
+    },
+    {
+      "id": 301,
+      "nameAz": "Sərvət,bolluq,var",
+      "nameEn": "Wealth",
+      "unitId": "17"
+    },
+    {
+      "id": 302,
+      "nameAz": "Praduct falan",
+      "nameEn": "Grocery",
+      "unitId": "18"
+    },
+    {
+      "id": 303,
+      "nameAz": "Badımcan",
+      "nameEn": "Aubergine",
+      "unitId": "18"
+    },
+    {
+      "id": 304,
+      "nameAz": "Alma",
+      "nameEn": " Apple",
+      "unitId": "18"
+    },
+    {
+      "id": 305,
+      "nameAz": "Turş",
+      "nameEn": "Sour",
+      "unitId": "18"
+    },
+    {
+      "id": 306,
+      "nameAz": "Acı",
+      "nameEn": "Bitter",
+      "unitId": "18"
+    },
+    {
+      "id": 307,
+      "nameAz": "Saymaq",
+      "nameEn": "Count",
+      "unitId": "18"
+    },
+    {
+      "id": 308,
+      "nameAz": "Şüşə,stəkan",
+      "nameEn": "Glass",
+      "unitId": "18"
+    },
+    {
+      "id": 309,
+      "nameAz": "Vaxt,dəfə",
+      "nameEn": "Time",
+      "unitId": "18"
+    },
+    {
+      "id": 310,
+      "nameAz": "İnformasiyanın bir hissəsi",
+      "nameEn": "A piece of information",
+      "unitId": "18"
+    },
+    {
+      "id": 311,
+      "nameAz": "Çirklənmə",
+      "nameEn": "Pollution",
+      "unitId": "18"
+    },
+    {
+      "id": 312,
+      "nameAz": "Meyvə şirəsi",
+      "nameEn": "Juice",
+      "unitId": "18"
+    },
+    {
+      "id": 313,
+      "nameAz": "Pivə",
+      "nameEn": "Beer",
+      "unitId": "18"
+    },
+    {
+      "id": 314,
+      "nameAz": "Mənzil",
+      "nameEn": "Apartment,flat",
+      "unitId": "18"
+    },
+    {
+      "id": 315,
+      "nameAz": "Ev",
+      "nameEn": "House",
+      "unitId": "18"
+    },
+    {
+      "id": 316,
+      "nameAz": "Ev",
+      "nameEn": "Home",
+      "unitId": "18"
+    },
+    {
+      "id": 317,
+      "nameAz": "Səyahət(ümumi anlayış)",
+      "nameEn": "Travel",
+      "unitId": "18"
+    },
+    {
+      "id": 318,
+      "nameAz": "Səyahət",
+      "nameEn": "Trip,journey",
+      "unitId": "18"
+    },
+    {
+      "id": 319,
+      "nameAz": "Silmək(fiziki silmək)",
+      "nameEn": "Erase",
+      "unitId": "18"
+    },
+    {
+      "id": 320,
+      "nameAz": "İstiot,bibər",
+      "nameEn": "Pepper",
+      "unitId": "18"
+    },
+    {
+      "id": 321,
+      "nameAz": "Üzüm",
+      "nameEn": "Grape",
+      "unitId": "18"
+    },
+    {
+      "id": 322,
+      "nameAz": "Kərə yağı",
+      "nameEn": "Butter",
+      "unitId": "18"
+    },
+    {
+      "id": 323,
+      "nameAz": "Bir tikə çörək",
+      "nameEn": "A loaf of bread",
+      "unitId": "18"
+    },
+    {
+      "id": 324,
+      "nameAz": "Bir çubuq şokalad",
+      "nameEn": "A bar of chocolate",
+      "unitId": "18"
+    },
+    {
+      "id": 325,
+      "nameAz": "Şaftalı",
+      "nameEn": "Peach",
+      "unitId": "18"
+    },
+    {
+      "id": 326,
+      "nameAz": "Gölməçə",
+      "nameEn": "Pond",
+      "unitId": "18"
+    },
+    {
+      "id": 327,
+      "nameAz": "Düyü",
+      "nameEn": "Rice",
+      "unitId": "18"
+    },
+    {
+      "id": 328,
+      "nameAz": "Un",
+      "nameEn": "Flour",
+      "unitId": "18"
+    },
+    {
+      "id": 329,
+      "nameAz": "Soyuducu",
+      "nameEn": "Fridge",
+      "unitId": "18"
+    },
+    {
+      "id": 330,
+      "nameAz": "Çatma(vaxt)",
+      "nameEn": "Arrival",
+      "unitId": "19"
+    },
+    {
+      "id": 331,
+      "nameAz": "Baqaj",
+      "nameEn": "Baggage,luggage",
+      "unitId": "19"
+    },
+    {
+      "id": 332,
+      "nameAz": "Baqaj yeri",
+      "nameEn": "Baggage claim",
+      "unitId": "19"
+    },
+    {
+      "id": 333,
+      "nameAz": "Uçuş bron etmək",
+      "nameEn": "Book a flight",
+      "unitId": "19"
+    },
+    {
+      "id": 334,
+      "nameAz": "Bilet",
+      "nameEn": "Ticket",
+      "unitId": "19"
+    },
+    {
+      "id": 335,
+      "nameAz": "Yoxlama",
+      "nameEn": "Chech in",
+      "unitId": "19"
+    },
+    {
+      "id": 336,
+      "nameAz": "Gömrük",
+      "nameEn": "Customs",
+      "unitId": "19"
+    },
+    {
+      "id": 337,
+      "nameAz": "Adət",
+      "nameEn": "Custom",
+      "unitId": "19"
+    },
+    {
+      "id": 338,
+      "nameAz": "Uçuş",
+      "nameEn": "Flight",
+      "unitId": "19"
+    },
+    {
+      "id": 339,
+      "nameAz": "Stradessa",
+      "nameEn": "Hostess",
+      "unitId": "19"
+    },
+    {
+      "id": 340,
+      "nameAz": "Qalxmaq(qalxmaq)",
+      "nameEn": "Take off",
+      "unitId": "19"
+    },
+    {
+      "id": 341,
+      "nameAz": "Enmək",
+      "nameEn": "Land",
+      "unitId": "19"
+    },
+    {
+      "id": 342,
+      "nameAz": "Zal,gözləmə zalı",
+      "nameEn": "Lounge,lobby",
+      "unitId": "19"
+    },
+    {
+      "id": 343,
+      "nameAz": "Xəritə",
+      "nameEn": "Map",
+      "unitId": "19"
+    },
+    {
+      "id": 344,
+      "nameAz": "Yoxlama ",
+      "nameEn": "Metal detector",
+      "unitId": "19"
+    },
+    {
+      "id": 345,
+      "nameAz": "Karavan",
+      "nameEn": "Caravan",
+      "unitId": "19"
+    },
+    {
+      "id": 346,
+      "nameAz": "Gəmi(gəzinti gəmisi)",
+      "nameEn": "Cruise",
+      "unitId": "19"
+    },
+    {
+      "id": 347,
+      "nameAz": "Yol",
+      "nameEn": "Route",
+      "unitId": "19"
+    },
+    {
+      "id": 348,
+      "nameAz": "Tur",
+      "nameEn": "Tour",
+      "unitId": "19"
+    },
+    {
+      "id": 349,
+      "nameAz": "Səhrada səyahət",
+      "nameEn": "Safari",
+      "unitId": "19"
+    },
+    {
+      "id": 350,
+      "nameAz": "Taksi",
+      "nameEn": "Taxi,cab",
+      "unitId": "19"
+    },
+    {
+      "id": 351,
+      "nameAz": "Sərnişin",
+      "nameEn": "Passenger",
+      "unitId": "19"
+    },
+    {
+      "id": 352,
+      "nameAz": "Qayıtmaq",
+      "nameEn": "Get back",
+      "unitId": "19"
+    },
+    {
+      "id": 353,
+      "nameAz": "Lift",
+      "nameEn": "Elevator",
+      "unitId": "19"
+    },
+    {
+      "id": 354,
+      "nameAz": "Yola düşmə",
+      "nameEn": "Departure",
+      "unitId": "19"
+    },
+    {
+      "id": 355,
+      "nameAz": "Respşn",
+      "nameEn": "Front desk",
+      "unitId": "19"
+    },
+    {
+      "id": 356,
+      "nameAz": "Bələdçi",
+      "nameEn": "Concierge",
+      "unitId": "19"
+    },
+    {
+      "id": 357,
+      "nameAz": "Satış maşını(avtomatik)",
+      "nameEn": "Vending machine",
+      "unitId": "19"
+    },
+    {
+      "id": 358,
+      "nameAz": "Pulsuz səhər yeməyi",
+      "nameEn": "Complimentary breakfast",
+      "unitId": "19"
+    },
+    {
+      "id": 359,
+      "nameAz": "Toplu daşıma,nəqliyyat",
+      "nameEn": "Transportation",
+      "unitId": "19"
+    },
+    {
+      "id": 360,
+      "nameAz": "Servis avtobusu",
+      "nameEn": "Shuttle bus",
+      "unitId": "19"
+    },
+    {
+      "id": 361,
+      "nameAz": "Diqqət etmək",
+      "nameEn": "Pay attention",
+      "unitId": "20"
+    },
+    {
+      "id": 362,
+      "nameAz": "Geyinmək",
+      "nameEn": "Wear",
+      "unitId": "20"
+    },
+    {
+      "id": 363,
+      "nameAz": "Qalxmaq",
+      "nameEn": "Rise",
+      "unitId": "20"
+    },
+    {
+      "id": 364,
+      "nameAz": "Aptek",
+      "nameEn": "Pharmacy,drugstore",
+      "unitId": "21"
+    },
+    {
+      "id": 365,
+      "nameAz": "Payız",
+      "nameEn": "Fall,autumn",
+      "unitId": "21"
+    },
+    {
+      "id": 366,
+      "nameAz": "Əhəlləşdirilən heyvanlar",
+      "nameEn": "Domestic",
+      "unitId": "22"
+    },
+    {
+      "id": 367,
+      "nameAz": "Üstün tutmaq",
+      "nameEn": "Prefer",
+      "unitId": "22"
+    },
+    {
+      "id": 368,
+      "nameAz": "Şirin",
+      "nameEn": "Sweet",
+      "unitId": "22"
+    },
+    {
+      "id": 369,
+      "nameAz": "Şokalidin acısı,kofenin acısı",
+      "nameEn": "Bitter",
+      "unitId": "22"
+    },
+    {
+      "id": 370,
+      "nameAz": "Yeməyin acısı",
+      "nameEn": "Spicy",
+      "unitId": "22"
+    },
+    {
+      "id": 371,
+      "nameAz": "Siçovul",
+      "nameEn": "Rat",
+      "unitId": "22"
+    },
+    {
+      "id": 372,
+      "nameAz": "Əncir",
+      "nameEn": "Fig",
+      "unitId": "22"
+    },
+    {
+      "id": 373,
+      "nameAz": "Ev işi",
+      "nameEn": "Chor",
+      "unitId": "22"
+    },
+    {
+      "id": 374,
+      "nameAz": "Axşamustu yemeyi",
+      "nameEn": "Supper",
+      "unitId": "22"
+    },
+    {
+      "id": 375,
+      "nameAz": "Səhər yeməyi",
+      "nameEn": "Breakfast",
+      "unitId": "22"
+    },
+    {
+      "id": 376,
+      "nameAz": "Günorta yeməyi",
+      "nameEn": "Lunch",
+      "unitId": "22"
+    },
+    {
+      "id": 377,
+      "nameAz": "Axşam yeməyi",
+      "nameEn": "Dinner",
+      "unitId": "22"
+    },
+    {
+      "id": 378,
+      "nameAz": "Problem deyil",
+      "nameEn": "No problem,it's okay,take it easy,never mind",
+      "unitId": "0"
+    },
+    {
+      "id": 379,
+      "nameAz": "Ev işləri",
+      "nameEn": "Chores",
+      "unitId": "24"
+    },
+    {
+      "id": 380,
+      "nameAz": "İnternet pulu",
+      "nameEn": "İnternet bill,check",
+      "unitId": "24"
+    },
+    {
+      "id": 381,
+      "nameAz": "Vanna qəbul etmək",
+      "nameEn": "Have a bath",
+      "unitId": "24"
+    },
+    {
+      "id": 382,
+      "nameAz": "Çimmək",
+      "nameEn": "Take a shower",
+      "unitId": "24"
+    },
+    {
+      "id": 383,
+      "nameAz": "Tualet",
+      "nameEn": "Restroom",
+      "unitId": "24"
+    },
+    {
+      "id": 384,
+      "nameAz": "Qonaq otağı",
+      "nameEn": "Living room",
+      "unitId": "24"
+    },
+    {
+      "id": 385,
+      "nameAz": "Mətbəx",
+      "nameEn": "Kitchen",
+      "unitId": "24"
+    },
+    {
+      "id": 386,
+      "nameAz": "Yataq otağı",
+      "nameEn": "Bedroom",
+      "unitId": "24"
+    },
+    {
+      "id": 387,
+      "nameAz": "Dxofqa,qazan",
+      "nameEn": "Cooker",
+      "unitId": "24"
+    },
+    {
+      "id": 388,
+      "nameAz": "Tava",
+      "nameEn": "Pan",
+      "unitId": "24"
+    },
+    {
+      "id": 389,
+      "nameAz": "Bıçaq",
+      "nameEn": "Knife",
+      "unitId": "24"
+    },
+    {
+      "id": 390,
+      "nameAz": "Qaşıq",
+      "nameEn": "Spoon",
+      "unitId": "24"
+    },
+    {
+      "id": 391,
+      "nameAz": "Çəngəl",
+      "nameEn": "Fork",
+      "unitId": "24"
+    },
+    {
+      "id": 392,
+      "nameAz": "Süpürmək",
+      "nameEn": "Sweep",
+      "unitId": "24"
+    },
+    {
+      "id": 393,
+      "nameAz": "Boşqab",
+      "nameEn": "Palte",
+      "unitId": "24"
+    },
+    {
+      "id": 394,
+      "nameAz": "Yemək",
+      "nameEn": "Dish,meal",
+      "unitId": "24"
+    },
+    {
+      "id": 395,
+      "nameAz": "Zibil",
+      "nameEn": "Rubbish,garbage,trash",
+      "unitId": "24"
+    },
+    {
+      "id": 396,
+      "nameAz": "Toz",
+      "nameEn": "Dust",
+      "unitId": "24"
+    },
+    {
+      "id": 397,
+      "nameAz": "Tozlu",
+      "nameEn": "Dusty",
+      "unitId": "24"
+    },
+    {
+      "id": 398,
+      "nameAz": "Çirkli",
+      "nameEn": "Dirty",
+      "unitId": "24"
+    },
+    {
+      "id": 399,
+      "nameAz": "Çamaşırxana",
+      "nameEn": "Laundry",
+      "unitId": "24"
+    },
+    {
+      "id": 400,
+      "nameAz": "Qapı döymək",
+      "nameEn": "Knock",
+      "unitId": "24"
+    },
+    {
+      "id": 401,
+      "nameAz": "Mayka",
+      "nameEn": "a wife beater(american),vest(britsh)",
+      "unitId": "24"
+    },
+    {
+      "id": 402,
+      "nameAz": " Asılqan",
+      "nameEn": "Hanger",
+      "unitId": "24"
+    },
+    {
+      "id": 403,
+      "nameAz": "Qarı təmizləmək",
+      "nameEn": "Shovel the snow",
+      "unitId": "24"
+    },
+    {
+      "id": 404,
+      "nameAz": "Bıçaq,çəngəl,qaşıq dəsti",
+      "nameEn": "Cutlery",
+      "unitId": "24"
+    },
+    {
+      "id": 405,
+      "nameAz": "Əlcək",
+      "nameEn": "Gloves",
+      "unitId": "24"
+    },
+    {
+      "id": 406,
+      "nameAz": "Şəpit",
+      "nameEn": "Slippers",
+      "unitId": "24"
+    },
+    {
+      "id": 407,
+      "nameAz": "Uşağar abası",
+      "nameEn": "Stroller",
+      "unitId": "24"
+    },
+    {
+      "id": 408,
+      "nameAz": "Möcüzə",
+      "nameEn": " Wonder",
+      "unitId": "24"
+    },
+    {
+      "id": 409,
+      "nameAz": "Avaralanmaq",
+      "nameEn": "Wander",
+      "unitId": "24"
+    },
+    {
+      "id": 410,
+      "nameAz": "Nadirən",
+      "nameEn": "Seldom",
+      "unitId": "24"
+    },
+    {
+      "id": 411,
+      "nameAz": "Nadrən",
+      "nameEn": "Rarely",
+      "unitId": "24"
+    },
+    {
+      "id": 412,
+      "nameAz": "Asqırmaq",
+      "nameEn": "Sneeze",
+      "unitId": "24"
+    },
+    {
+      "id": 413,
+      "nameAz": "Öksürmək",
+      "nameEn": "Cough",
+      "unitId": "24"
+    },
+    {
+      "id": 414,
+      "nameAz": "Tərləmək",
+      "nameEn": "Sweat",
+      "unitId": "24"
+    },
+    {
+      "id": 415,
+      "nameAz": "Fikrincə",
+      "nameEn": "An opinion",
+      "unitId": "24"
+    },
+    {
+      "id": 416,
+      "nameAz": "Kiminsə sayəsində",
+      "nameEn": "Thanks to somebody",
+      "unitId": "24"
+    },
+    {
+      "id": 417,
+      "nameAz": "Aparamag masinla",
+      "nameEn": "Give a lift",
+      "unitId": "24"
+    },
+    {
+      "id": 418,
+      "nameAz": "Kahı",
+      "nameEn": "Luttuce",
+      "unitId": "25"
+    },
+    {
+      "id": 419,
+      "nameAz": "Donuz əti",
+      "nameEn": "Pork",
+      "unitId": "25"
+    },
+    {
+      "id": 420,
+      "nameAz": "Süd məhsulları",
+      "nameEn": "Dairy",
+      "unitId": "25"
+    },
+    {
+      "id": 421,
+      "nameAz": "Gündəlik,xatirə dəftəri",
+      "nameEn": "Diary",
+      "unitId": "25"
+    },
+    {
+      "id": 422,
+      "nameAz": "Krevetka",
+      "nameEn": "Prawns,shrimp",
+      "unitId": "25"
+    },
+    {
+      "id": 423,
+      "nameAz": "Zeytun",
+      "nameEn": "Olive",
+      "unitId": "25"
+    },
+    {
+      "id": 424,
+      "nameAz": "Salmon balığı",
+      "nameEn": "Salmon",
+      "unitId": "25"
+    },
+    {
+      "id": 425,
+      "nameAz": "Sarmısaq",
+      "nameEn": "Garlic",
+      "unitId": "25"
+    },
+    {
+      "id": 426,
+      "nameAz": "Soğan",
+      "nameEn": "Onion",
+      "unitId": "25"
+    },
+    {
+      "id": 427,
+      "nameAz": "Veçina",
+      "nameEn": "Ham",
+      "unitId": "25"
+    },
+    {
+      "id": 428,
+      "nameAz": "Ton balığı",
+      "nameEn": "Tuna",
+      "unitId": "25"
+    },
+    {
+      "id": 429,
+      "nameAz": "Quzu əti,quzu",
+      "nameEn": "Lamb",
+      "unitId": "25"
+    },
+    {
+      "id": 430,
+      "nameAz": "Şaftalı",
+      "nameEn": "Peach",
+      "unitId": "25"
+    },
+    {
+      "id": 431,
+      "nameAz": "Qızartmaq",
+      "nameEn": "Fry",
+      "unitId": "25"
+    },
+    {
+      "id": 432,
+      "nameAz": "Yağlı,kökəldici",
+      "nameEn": "Fettening",
+      "unitId": "25"
+    },
+    {
+      "id": 433,
+      "nameAz": "Duzlu",
+      "nameEn": "Salty",
+      "unitId": "25"
+    },
+    {
+      "id": 434,
+      "nameAz": "Sağlıqlı",
+      "nameEn": "Healthy",
+      "unitId": "25"
+    },
+    {
+      "id": 435,
+      "nameAz": "Ədviyyatlı,acılı",
+      "nameEn": "Spicy",
+      "unitId": "25"
+    },
+    {
+      "id": 436,
+      "nameAz": "Ağır",
+      "nameEn": "Heavy",
+      "unitId": "25"
+    },
+    {
+      "id": 437,
+      "nameAz": "Şirin",
+      "nameEn": "Sweet",
+      "unitId": "25"
+    },
+    {
+      "id": 438,
+      "nameAz": "Yüngül",
+      "nameEn": "Light",
+      "unitId": "25"
+    },
+    {
+      "id": 439,
+      "nameAz": "Dadlı",
+      "nameEn": "Tasty",
+      "unitId": "25"
+    },
+    {
+      "id": 440,
+      "nameAz": "Yaraşmaq",
+      "nameEn": "Suit",
+      "unitId": "26"
+    },
+    {
+      "id": 441,
+      "nameAz": "Kəmər",
+      "nameEn": "Belt",
+      "unitId": "26"
+    },
+    {
+      "id": 442,
+      "nameAz": "Pul qabi",
+      "nameEn": " Wallet",
+      "unitId": "26"
+    },
+    {
+      "id": 443,
+      "nameAz": "Kutqa",
+      "nameEn": "Coat",
+      "unitId": "26"
+    },
+    {
+      "id": 444,
+      "nameAz": " Zontik",
+      "nameEn": "Umbrella",
+      "unitId": "26"
+    },
+    {
+      "id": 445,
+      "nameAz": "Dəst",
+      "nameEn": "  Pairs",
+      "unitId": "26"
+    },
+    {
+      "id": 446,
+      "nameAz": "Dalaşmaq,mübahisə etmək",
+      "nameEn": "Argue",
+      "unitId": "27"
+    },
+    {
+      "id": 447,
+      "nameAz": "Bir birini,bir birinə",
+      "nameEn": "Each other",
+      "unitId": "27"
+    },
+    {
+      "id": 448,
+      "nameAz": "Qışqırmaq",
+      "nameEn": "Shout",
+      "unitId": "27"
+    },
+    {
+      "id": 449,
+      "nameAz": "Borc",
+      "nameEn": "Loan",
+      "unitId": "27"
+    },
+    {
+      "id": 450,
+      "nameAz": "Borc vermək",
+      "nameEn": "Lend",
+      "unitId": "27"
+    },
+    {
+      "id": 451,
+      "nameAz": "Borc almaq",
+      "nameEn": "Borrow",
+      "unitId": "27"
+    },
+    {
+      "id": 452,
+      "nameAz": "İmtina etmək",
+      "nameEn": "Refuse,reject",
+      "unitId": "27"
+    },
+    {
+      "id": 453,
+      "nameAz": "Qarşı çıxmaq",
+      "nameEn": "Oppose",
+      "unitId": "27"
+    },
+    {
+      "id": 454,
+      "nameAz": "Məzələnmək,ələ salmaq",
+      "nameEn": "Mock",
+      "unitId": "28"
+    },
+    {
+      "id": 455,
+      "nameAz": "Bezdirmək",
+      "nameEn": "Bug",
+      "unitId": "28"
+    },
+    {
+      "id": 456,
+      "nameAz": "Zarafat etmək",
+      "nameEn": "Joke",
+      "unitId": "28"
+    },
+    {
+      "id": 457,
+      "nameAz": "Xətrə dəymək",
+      "nameEn": "Offend",
+      "unitId": "28"
+    },
+    {
+      "id": 458,
+      "nameAz": "Niye ezyet cekdin",
+      "nameEn": "It is kind of you",
+      "unitId": "28"
+    },
+    {
+      "id": 459,
+      "nameAz": "Öskürmək",
+      "nameEn": "Cough",
+      "unitId": "28"
+    },
+    {
+      "id": 460,
+      "nameAz": "Asqırmaq",
+      "nameEn": "Sneezed",
+      "unitId": "28"
+    },
+    {
+      "id": 461,
+      "nameAz": "Cəld ol",
+      "nameEn": "Hurry up",
+      "unitId": "29"
+    },
+    {
+      "id": 462,
+      "nameAz": "Əylənin",
+      "nameEn": "Have fun",
+      "unitId": "29"
+    },
+    {
+      "id": 463,
+      "nameAz": "Suprizle qarşılaşanda  nəsə təcüblü bir şey eşidəndə və yaxudda qətiyyən razılaşmayanda",
+      "nameEn": "No way",
+      "unitId": "29"
+    },
+    {
+      "id": 464,
+      "nameAz": "Şərəfə",
+      "nameEn": "Cheers",
+      "unitId": "29"
+    },
+    {
+      "id": 465,
+      "nameAz": "Sağol",
+      "nameEn": "Cheers,bless you",
+      "unitId": "29"
+    },
+    {
+      "id": 466,
+      "nameAz": "Ne piss",
+      "nameEn": "What a pity",
+      "unitId": "29"
+    },
+    {
+      "id": 467,
+      "nameAz": "Bunu eşiddiyimə təssüf edirəm",
+      "nameEn": "I'm sorry to hear that",
+      "unitId": "29"
+    },
+    {
+      "id": 468,
+      "nameAz": "Yaxşı daa,doğrudan?,həqiqətən?",
+      "nameEn": "You don't say",
+      "unitId": "29"
+    },
+    {
+      "id": 469,
+      "nameAz": "Mənidə say,məni də qey elə",
+      "nameEn": "Count me in",
+      "unitId": "29"
+    },
+    {
+      "id": 470,
+      "nameAz": "Səliqəsiz,basırıq otağ",
+      "nameEn": "Cluttered",
+      "unitId": "30"
+    },
+    {
+      "id": 471,
+      "nameAz": "Zəif səs",
+      "nameEn": "Quiet",
+      "unitId": "30"
+    },
+    {
+      "id": 472,
+      "nameAz": "Dar otağ",
+      "nameEn": "Cramped,narrow",
+      "unitId": "30"
+    },
+    {
+      "id": 473,
+      "nameAz": "Mebelli otağ",
+      "nameEn": "Furnished",
+      "unitId": "30"
+    },
+    {
+      "id": 474,
+      "nameAz": "Rahat otağ",
+      "nameEn": "Warm,cosy",
+      "unitId": "30"
+    },
+    {
+      "id": 475,
+      "nameAz": "Kiralamaq(insan)",
+      "nameEn": "Hire",
+      "unitId": "30"
+    },
+    {
+      "id": 476,
+      "nameAz": "Kiralamaq",
+      "nameEn": "Rent",
+      "unitId": "30"
+    },
+    {
+      "id": 477,
+      "nameAz": "Ev sahibi",
+      "nameEn": "Landlord",
+      "unitId": "30"
+    },
+    {
+      "id": 478,
+      "nameAz": "Bezmək",
+      "nameEn": "Be annoyed by sumbody or sumthink",
+      "unitId": "30"
+    },
+    {
+      "id": 479,
+      "nameAz": "Təqdir etmək, qiymətləndirmək",
+      "nameEn": "Appreciate",
+      "unitId": "31"
+    },
+    {
+      "id": 480,
+      "nameAz": "Mövcud",
+      "nameEn": "Available",
+      "unitId": "31"
+    },
+    {
+      "id": 481,
+      "nameAz": "Qalib gəlmək, keçmək, döymək",
+      "nameEn": "Beat",
+      "unitId": "31"
+    },
+    {
+      "id": 482,
+      "nameAz": "Parlaq",
+      "nameEn": "Bright",
+      "unitId": "31"
+    },
+    {
+      "id": 483,
+      "nameAz": "Qeyd etmək, bayram etmək, anmaq",
+      "nameEn": "Celebrate",
+      "unitId": "31"
+    },
+    {
+      "id": 484,
+      "nameAz": "Müəyyən etmək, müəyyənləşdirmək",
+      "nameEn": "Determine",
+      "unitId": "31"
+    },
+    {
+      "id": 485,
+      "nameAz": "Yoxa çıxmaq, qeyb olmaq, itmək, gözdən itmək",
+      "nameEn": "Disappear",
+      "unitId": "31"
+    },
+    {
+      "id": 486,
+      "nameAz": "Başqa",
+      "nameEn": "Else",
+      "unitId": "31"
+    },
+    {
+      "id": 487,
+      "nameAz": "Ədalətli, adil",
+      "nameEn": "Fair",
+      "unitId": "31"
+    },
+    {
+      "id": 488,
+      "nameAz": "Axın, axar, axmaq",
+      "nameEn": "Flow",
+      "unitId": "31"
+    },
+    {
+      "id": 489,
+      "nameAz": "İləri, ön",
+      "nameEn": "Forward",
+      "unitId": "31"
+    },
+    {
+      "id": 490,
+      "nameAz": "Təpə",
+      "nameEn": "Hill",
+      "unitId": "31"
+    },
+    {
+      "id": 491,
+      "nameAz": "Səviyyə",
+      "nameEn": "Level",
+      "unitId": "31"
+    },
+    {
+      "id": 492,
+      "nameAz": "Tək, tənha, yalqız",
+      "nameEn": "Lone",
+      "unitId": "31"
+    },
+    {
+      "id": 493,
+      "nameAz": "Gölməçə",
+      "nameEn": "Puddle",
+      "unitId": "31"
+    },
+    {
+      "id": 494,
+      "nameAz": "Cavab",
+      "nameEn": "Response",
+      "unitId": "31"
+    },
+    {
+      "id": 495,
+      "nameAz": "Fəsil, mövsüm",
+      "nameEn": "Season",
+      "unitId": "31"
+    },
+    {
+      "id": 496,
+      "nameAz": "Həll",
+      "nameEn": "Solition",
+      "unitId": "31"
+    },
+    {
+      "id": 497,
+      "nameAz": "İsraf etmək, israfçılıq etmək, tullantı",
+      "nameEn": "Waste",
+      "unitId": "31"
+    },
+    {
+      "id": 498,
+      "nameAz": "Ya, ikisindən biri",
+      "nameEn": "Whether",
+      "unitId": "31"
+    },
+    {
+      "id": 499,
+      "nameAz": "Mübahisə etmək",
+      "nameEn": "Argue",
+      "unitId": "32"
+    },
+    {
+      "id": 500,
+      "nameAz": "Ünsüiyyət qurmaq, məlumat mübadiləsi etmək",
+      "nameEn": "Communicate",
+      "unitId": "32"
+    },
+    {
+      "id": 501,
+      "nameAz": "İzdiham, camaat, kütlə",
+      "nameEn": "Crowd",
+      "unitId": "32"
+    },
+    {
+      "id": 502,
+      "nameAz": "Asılı",
+      "nameEn": "Depend",
+      "unitId": "32"
+    },
+    {
+      "id": 503,
+      "nameAz": "Qab, boşqab",
+      "nameEn": "Dish",
+      "unitId": "32"
+    },
+    {
+      "id": 504,
+      "nameAz": "Boş",
+      "nameEn": "Empty",
+      "unitId": "32"
+    },
+    {
+      "id": 505,
+      "nameAz": "Dəqiq",
+      "nameEn": "Exact",
+      "unitId": "32"
+    },
+    {
+      "id": 506,
+      "nameAz": "Yeni",
+      "nameEn": "Fresh",
+      "unitId": "32"
+    },
+    {
+      "id": 507,
+      "nameAz": "Toplamaq",
+      "nameEn": "Gather",
+      "unitId": "32"
+    },
+    {
+      "id": 508,
+      "nameAz": "Göstərmək, bəlirtmək",
+      "nameEn": "Indicate",
+      "unitId": "32"
+    },
+    {
+      "id": 509,
+      "nameAz": "Maddə(satıla və alına bilən şeylər)",
+      "nameEn": "Item",
+      "unitId": "32"
+    },
+    {
+      "id": 510,
+      "nameAz": "Təklif etmək",
+      "nameEn": "Offer",
+      "unitId": "32"
+    },
+    {
+      "id": 511,
+      "nameAz": "Qiymət, dəyər",
+      "nameEn": "Price",
+      "unitId": "32"
+    },
+    {
+      "id": 512,
+      "nameAz": "Məhsul",
+      "nameEn": "Product",
+      "unitId": "32"
+    },
+    {
+      "id": 513,
+      "nameAz": "Mülk,əmlak",
+      "nameEn": "Property",
+      "unitId": "32"
+    },
+    {
+      "id": 514,
+      "nameAz": "Almaq, satın almaq",
+      "nameEn": "Purchase",
+      "unitId": "32"
+    },
+    {
+      "id": 515,
+      "nameAz": "Tövsiyyə etmək, önərmək",
+      "nameEn": "Recommend",
+      "unitId": "32"
+    },
+    {
+      "id": 516,
+      "nameAz": "Seçmək",
+      "nameEn": "Select",
+      "unitId": "32"
+    },
+    {
+      "id": 517,
+      "nameAz": "Alət( nəyisə düzətmək üçün)",
+      "nameEn": "Tool",
+      "unitId": "32"
+    },
+    {
+      "id": 518,
+      "nameAz": "Müalicə etmək, davranmaq",
+      "nameEn": "Treat",
+      "unitId": "32"
+    },
+    {
+      "id": 519,
+      "nameAz": "Əlaqə",
+      "nameEn": "Correlation",
+      "unitId": "33"
+    },
+    {
+      "id": 520,
+      "nameAz": "Əzələli, cüssəli",
+      "nameEn": "Bulky",
+      "unitId": "33"
+    },
+    {
+      "id": 521,
+      "nameAz": "Padnos",
+      "nameEn": "Tray",
+      "unitId": "33"
+    },
+    {
+      "id": 522,
+      "nameAz": "Külqabı",
+      "nameEn": "Ashtray",
+      "unitId": "33"
+    },
+    {
+      "id": 523,
+      "nameAz": "Nəm, sulu",
+      "nameEn": "Humid, soak, wet ",
+      "unitId": "33"
+    },
+    {
+      "id": 524,
+      "nameAz": "İp",
+      "nameEn": "Rope",
+      "unitId": "33"
+    },
+    {
+      "id": 525,
+      "nameAz": "Yaşlı",
+      "nameEn": "Aged",
+      "unitId": "33"
+    },
+    {
+      "id": 526,
+      "nameAz": "Əsa",
+      "nameEn": "Cane",
+      "unitId": "33"
+    },
+    {
+      "id": 527,
+      "nameAz": "Naxış",
+      "nameEn": "Print",
+      "unitId": "33"
+    },
+    {
+      "id": 528,
+      "nameAz": "Qalstuk",
+      "nameEn": "Tie",
+      "unitId": "33"
+    },
+    {
+      "id": 529,
+      "nameAz": "Diş ağartmaq",
+      "nameEn": "Grin",
+      "unitId": "33"
+    },
+    {
+      "id": 530,
+      "nameAz": "Bonus",
+      "nameEn": "Perk",
+      "unitId": "33"
+    },
+    {
+      "id": 531,
+      "nameAz": "İlleqal maaş",
+      "nameEn": "Pocket",
+      "unitId": "33"
+    },
+    {
+      "id": 532,
+      "nameAz": "Vedrə",
+      "nameEn": "Bucket",
+      "unitId": "33"
+    },
+    {
+      "id": 533,
+      "nameAz": "Bəy",
+      "nameEn": "Groom",
+      "unitId": "33"
+    },
+    {
+      "id": 534,
+      "nameAz": "Gəlin",
+      "nameEn": "Bride",
+      "unitId": "33"
+    },
+    {
+      "id": 535,
+      "nameAz": "Təkrarlamaq",
+      "nameEn": "Revise",
+      "unitId": "33"
+    },
+    {
+      "id": 536,
+      "nameAz": "Vəzifə",
+      "nameEn": "Duty",
+      "unitId": "33"
+    },
+    {
+      "id": 537,
+      "nameAz": "İstifadə etmək , qəbul etmək",
+      "nameEn": "Consume",
+      "unitId": "33"
+    },
+    {
+      "id": 538,
+      "nameAz": "Paxlalı",
+      "nameEn": "Bean",
+      "unitId": "33"
+    },
+    {
+      "id": 539,
+      "nameAz": "Sıxılmaq",
+      "nameEn": "Bored",
+      "unitId": "34"
+    },
+    {
+      "id": 540,
+      "nameAz": "Sıxıcı olmaq",
+      "nameEn": "Boring",
+      "unitId": "34"
+    },
+    {
+      "id": 541,
+      "nameAz": "Sakit",
+      "nameEn": "Quiet, silent",
+      "unitId": "34"
+    },
+    {
+      "id": 542,
+      "nameAz": "Bərbər",
+      "nameEn": "Hairdresser",
+      "unitId": "34"
+    },
+    {
+      "id": 544,
+      "nameAz": "Yulaf",
+      "nameEn": "Oat meal",
+      "unitId": "35"
+    },
+    {
+      "id": 545,
+      "nameAz": "Kəsmik",
+      "nameEn": "Curd",
+      "unitId": "35"
+    },
+    {
+      "id": 546,
+      "nameAz": "Çox ac",
+      "nameEn": "Starving ",
+      "unitId": "35"
+    },
+    {
+      "id": 547,
+      "nameAz": "İştah",
+      "nameEn": "Apettite",
+      "unitId": "35"
+    },
+    {
+      "id": 548,
+      "nameAz": "Turş",
+      "nameEn": "Sour",
+      "unitId": "35"
+    },
+    {
+      "id": 549,
+      "nameAz": "Xama",
+      "nameEn": "Sourcream",
+      "unitId": "35"
+    },
+    {
+      "id": 550,
+      "nameAz": "Fast food",
+      "nameEn": "Fast,junk,easy,frozen + food",
+      "unitId": "35"
+    },
+    {
+      "id": 551,
+      "nameAz": "Normal yemek",
+      "nameEn": "Simple, plain, rich, fat + food",
+      "unitId": "35"
+    },
+    {
+      "id": 552,
+      "nameAz": "Güclü aroma",
+      "nameEn": "Strong flavour",
+      "unitId": "35"
+    },
+    {
+      "id": 553,
+      "nameAz": "Çətin aroma",
+      "nameEn": "Hard flavour",
+      "unitId": "35"
+    },
+    {
+      "id": 554,
+      "nameAz": "Zəif aroma",
+      "nameEn": "Mild flavour",
+      "unitId": "35"
+    },
+    {
+      "id": 555,
+      "nameAz": "Fərqli aroma",
+      "nameEn": "Distinctive flavour",
+      "unitId": "35"
+    },
+    {
+      "id": 556,
+      "nameAz": "Az qida",
+      "nameEn": "Thin diet",
+      "unitId": "35"
+    },
+    {
+      "id": 557,
+      "nameAz": "Sağlam diet",
+      "nameEn": "Healthy diet",
+      "unitId": "35"
+    },
+    {
+      "id": 558,
+      "nameAz": "Balanslı diet",
+      "nameEn": "Balanced diet",
+      "unitId": "35"
+    },
+    {
+      "id": 559,
+      "nameAz": "Yağsız yemek",
+      "nameEn": "Fat free",
+      "unitId": "35"
+    },
+    {
+      "id": 560,
+      "nameAz": "Biraz quru yemek",
+      "nameEn": "A bit dry",
+      "unitId": "35"
+    },
+    {
+      "id": 561,
+      "nameAz": "Əsas yemək",
+      "nameEn": "Main meal",
+      "unitId": "35"
+    },
+    {
+      "id": 562,
+      "nameAz": "Yüngül yemək",
+      "nameEn": "Light meal",
+      "unitId": "35"
+    },
+    {
+      "id": 563,
+      "nameAz": "Ağır yemək",
+      "nameEn": "Heavy meal",
+      "unitId": "35"
+    },
+    {
+      "id": 564,
+      "nameAz": "İştahı itirmək",
+      "nameEn": "Lost my oppetite",
+      "unitId": "35"
+    },
+    {
+      "id": 565,
+      "nameAz": "İştahımı korlayır",
+      "nameEn": "Spoil my oppetite",
+      "unitId": "35"
+    },
+    {
+      "id": 566,
+      "nameAz": "Çox bişmiş",
+      "nameEn": "Overdone",
+      "unitId": "35"
+    },
+    {
+      "id": 567,
+      "nameAz": "Bayat",
+      "nameEn": "Stale",
+      "unitId": "35"
+    },
+    {
+      "id": 568,
+      "nameAz": "Xarab",
+      "nameEn": "Rotten",
+      "unitId": "35"
+    },
+    {
+      "id": 569,
+      "nameAz": "Az bişmiş",
+      "nameEn": "Undone",
+      "unitId": "35"
+    },
+    {
+      "id": 570,
+      "nameAz": "Ədviyyatlı",
+      "nameEn": "Spicy",
+      "unitId": "35"
+    },
+    {
+      "id": 571,
+      "nameAz": "Kal",
+      "nameEn": "Ripe",
+      "unitId": "35"
+    },
+    {
+      "id": 572,
+      "nameAz": "Yetişmiş",
+      "nameEn": "Done",
+      "unitId": "35"
+    },
+    {
+      "id": 573,
+      "nameAz": "Sobada bişirmək",
+      "nameEn": "Bake",
+      "unitId": "35"
+    },
+    {
+      "id": 574,
+      "nameAz": "Katlet",
+      "nameEn": "Cutelt",
+      "unitId": "35"
+    },
+    {
+      "id": 575,
+      "nameAz": "Qarabaşaq",
+      "nameEn": "Buckweat",
+      "unitId": "35"
+    },
+    {
+      "id": 576,
+      "nameAz": "Qızartmaq",
+      "nameEn": "Fry",
+      "unitId": "35"
+    },
+    {
+      "id": 577,
+      "nameAz": "Əzilmiş",
+      "nameEn": "Mashed",
+      "unitId": "36"
+    },
+    {
+      "id": 578,
+      "nameAz": "Buxarda bişmiş",
+      "nameEn": "Steam",
+      "unitId": "35"
+    },
+    {
+      "id": 579,
+      "nameAz": "Qaynatmaq",
+      "nameEn": "Boil",
+      "unitId": "35"
+    },
+    {
+      "id": 580,
+      "nameAz": " Qizartmaq",
+      "nameEn": "Roast",
+      "unitId": "35"
+    },
+    {
+      "id": 581,
+      "nameAz": "Əzmək",
+      "nameEn": "Squeeze",
+      "unitId": "35"
+    },
+    {
+      "id": 582,
+      "nameAz": "Yumurta çırpaq",
+      "nameEn": "Beat",
+      "unitId": "35"
+    },
+    {
+      "id": 583,
+      "nameAz": "Dilimləmək",
+      "nameEn": "Slice",
+      "unitId": "35"
+    },
+    {
+      "id": 584,
+      "nameAz": "Doğramaq",
+      "nameEn": "Chop",
+      "unitId": "35"
+    },
+    {
+      "id": 585,
+      "nameAz": "Bölmək ikiyə",
+      "nameEn": "Cut",
+      "unitId": "35"
+    },
+    {
+      "id": 586,
+      "nameAz": "Qarışdırmaq",
+      "nameEn": "Mix, stir",
+      "unitId": "35"
+    },
+    {
+      "id": 587,
+      "nameAz": "Əritmək",
+      "nameEn": "Melt",
+      "unitId": "35"
+    },
+    {
+      "id": 588,
+      "nameAz": "Tökmək, əlavə etmək",
+      "nameEn": "Pour",
+      "unitId": "35"
+    },
+    {
+      "id": 589,
+      "nameAz": "Serviz etmək",
+      "nameEn": "Serve",
+      "unitId": "35"
+    },
+    {
+      "id": 590,
+      "nameAz": "İsitmək",
+      "nameEn": "Heat",
+      "unitId": "35"
+    },
+    {
+      "id": 591,
+      "nameAz": "Ataplenya",
+      "nameEn": "Heater",
+      "unitId": "35"
+    },
+    {
+      "id": 592,
+      "nameAz": "Soymaq",
+      "nameEn": "Pill",
+      "unitId": "35"
+    },
+    {
+      "id": 593,
+      "nameAz": "Kravetka",
+      "nameEn": "Prawn",
+      "unitId": "35"
+    },
+    {
+      "id": 594,
+      "nameAz": "Neraly",
+      "nameEn": "Təxminən",
+      "unitId": "36"
+    },
+    {
+      "id": 595,
+      "nameAz": "Hünər, qabiliyyət, yetənək",
+      "nameEn": "Ability",
+      "unitId": "37"
+    },
+    {
+      "id": 596,
+      "nameAz": "Hünərli, gücü yetən",
+      "nameEn": "Able",
+      "unitId": "37"
+    },
+    {
+      "id": 597,
+      "nameAz": "Qürbət",
+      "nameEn": "Abroad",
+      "unitId": "37"
+    },
+    {
+      "id": 598,
+      "nameAz": "Qəbul etmək",
+      "nameEn": "Accept",
+      "unitId": "37"
+    },
+    {
+      "id": 599,
+      "nameAz": "Aksident",
+      "nameEn": "Accident",
+      "unitId": "37"
+    },
+    {
+      "id": 600,
+      "nameAz": "Görə",
+      "nameEn": "According to",
+      "unitId": "37"
+    },
+    {
+      "id": 601,
+      "nameAz": "Bacarmaq, ulaşmaq",
+      "nameEn": "Achieve",
+      "unitId": "37"
+    },
+    {
+      "id": 602,
+      "nameAz": "Davranmaq, hərəkət etmək",
+      "nameEn": "Act",
+      "unitId": "37"
+    },
+    {
+      "id": 603,
+      "nameAz": "Aktiv, fəal",
+      "nameEn": "Active",
+      "unitId": "37"
+    },
+    {
+      "id": 604,
+      "nameAz": "Əslində",
+      "nameEn": "Actually",
+      "unitId": "37"
+    },
+    {
+      "id": 605,
+      "nameAz": "Yetişkin, olğun",
+      "nameEn": "Adult",
+      "unitId": "37"
+    },
+    {
+      "id": 606,
+      "nameAz": "Bəzən, nadir hallarda",
+      "nameEn": "Seldom",
+      "unitId": "36"
+    },
+    {
+      "id": 607,
+      "nameAz": "Çox nadir hallarda",
+      "nameEn": "Hardly",
+      "unitId": "36"
+    },
+    {
+      "id": 608,
+      "nameAz": "Oxşamaq daxilən",
+      "nameEn": "Resemble",
+      "unitId": "36"
+    },
+    {
+      "id": 609,
+      "nameAz": "Xaricən bənzəmək",
+      "nameEn": "Look like",
+      "unitId": "36"
+    },
+    {
+      "id": 610,
+      "nameAz": "Nəfəs almaq",
+      "nameEn": "Breathe",
+      "unitId": "38"
+    },
+    {
+      "id": 611,
+      "nameAz": "Uzatmaq",
+      "nameEn": "Stretch",
+      "unitId": "38"
+    },
+    {
+      "id": 612,
+      "nameAz": "Yorğun",
+      "nameEn": "Worn out",
+      "unitId": "38"
+    },
+    {
+      "id": 613,
+      "nameAz": "Əsnəmək",
+      "nameEn": "Yawn",
+      "unitId": "38"
+    },
+    {
+      "id": 614,
+      "nameAz": "Çiynəmək",
+      "nameEn": "Chew",
+      "unitId": "38"
+    },
+    {
+      "id": 615,
+      "nameAz": "Bir tərəfdən",
+      "nameEn": "For one think",
+      "unitId": "38"
+    },
+    {
+      "id": 616,
+      "nameAz": "Bərabər olmaq",
+      "nameEn": "Is the same as",
+      "unitId": "38"
+    },
+    {
+      "id": 617,
+      "nameAz": "Qısa zamanda",
+      "nameEn": "Soon, in a short time",
+      "unitId": "38"
+    },
+    {
+      "id": 618,
+      "nameAz": "Yuxarı mərtəbə",
+      "nameEn": "Up stairs",
+      "unitId": "38"
+    },
+    {
+      "id": 619,
+      "nameAz": "Aşağı mərtəbə",
+      "nameEn": "Down stairs",
+      "unitId": "38"
+    },
+    {
+      "id": 620,
+      "nameAz": "İki mərtəbəli",
+      "nameEn": "Two storeyed",
+      "unitId": "38"
+    },
+    {
+      "id": 621,
+      "nameAz": "Istədiyin nə isə",
+      "nameEn": "Anythink you wanted",
+      "unitId": "38"
+    },
+    {
+      "id": 622,
+      "nameAz": "Əsnəmək",
+      "nameEn": "Yawn",
+      "unitId": "38"
+    },
+    {
+      "id": 623,
+      "nameAz": "Dəvə",
+      "nameEn": "Camel",
+      "unitId": "38"
+    },
+    {
+      "id": 624,
+      "nameAz": "Yoluxucu",
+      "nameEn": "Contagious",
+      "unitId": "38"
+    },
+    {
+      "id": 625,
+      "nameAz": "Canı sıxılmış",
+      "nameEn": "Bored",
+      "unitId": "38"
+    },
+    {
+      "id": 626,
+      "nameAz": "Lakin",
+      "nameEn": "However",
+      "unitId": "38"
+    },
+    {
+      "id": 627,
+      "nameAz": "Həyacanlı",
+      "nameEn": "Excited",
+      "unitId": "38"
+    },
+    {
+      "id": 628,
+      "nameAz": "Dəyişmək",
+      "nameEn": "Vary",
+      "unitId": "38"
+    },
+    {
+      "id": 629,
+      "nameAz": "Oyanıq",
+      "nameEn": "Alert",
+      "unitId": "38"
+    },
+    {
+      "id": 630,
+      "nameAz": "Boyun",
+      "nameEn": "Neck",
+      "unitId": "38"
+    },
+    {
+      "id": 631,
+      "nameAz": "Yəqin ki, ehtimal ki",
+      "nameEn": "Probably",
+      "unitId": "38"
+    },
+    {
+      "id": 632,
+      "nameAz": "İncitmək",
+      "nameEn": "Hurt",
+      "unitId": "38"
+    },
+    {
+      "id": 633,
+      "nameAz": "Sakit, rahat",
+      "nameEn": "Calm",
+      "unitId": "38"
+    },
+    {
+      "id": 634,
+      "nameAz": "Dinc",
+      "nameEn": "Peaceful",
+      "unitId": "38"
+    },
+    {
+      "id": 635,
+      "nameAz": "Rahat",
+      "nameEn": "Relaxed",
+      "unitId": "38"
+    },
+    {
+      "id": 636,
+      "nameAz": "Qarmon",
+      "nameEn": "Harmonica",
+      "unitId": "38"
+    },
+    {
+      "id": 637,
+      "nameAz": "Süpürgə",
+      "nameEn": "Broom",
+      "unitId": "38"
+    },
+    {
+      "id": 638,
+      "nameAz": "Skripka",
+      "nameEn": "Violin",
+      "unitId": "38"
+    },
+    {
+      "id": 639,
+      "nameAz": "Qovurmaq",
+      "nameEn": "Roast",
+      "unitId": "38"
+    },
+    {
+      "id": 640,
+      "nameAz": "Bişirmək",
+      "nameEn": "Bake",
+      "unitId": "38"
+    },
+    {
+      "id": 641,
+      "nameAz": "Qızartmaq",
+      "nameEn": "Fry",
+      "unitId": "38"
+    },
+    {
+      "id": 642,
+      "nameAz": "Çeynəmək",
+      "nameEn": "Chew",
+      "unitId": "38"
+    },
+    {
+      "id": 643,
+      "nameAz": "Yumşaq",
+      "nameEn": "Soft",
+      "unitId": "38"
+    },
+    {
+      "id": 644,
+      "nameAz": "Bəstəkar",
+      "nameEn": "Composer",
+      "unitId": "38"
+    },
+    {
+      "id": 645,
+      "nameAz": "Mal-qara",
+      "nameEn": "Cattle",
+      "unitId": "38"
+    },
+    {
+      "id": 646,
+      "nameAz": "Xurma",
+      "nameEn": "Date palm",
+      "unitId": "38"
+    },
+    {
+      "id": 647,
+      "nameAz": "Dəvə",
+      "nameEn": "Camel",
+      "unitId": "38"
+    },
+    {
+      "id": 648,
+      "nameAz": "Olduqca",
+      "nameEn": "Quite",
+      "unitId": "38"
+    },
+    {
+      "id": 649,
+      "nameAz": "Hürmək",
+      "nameEn": "Bark",
+      "unitId": "39"
+    },
+    {
+      "id": 650,
+      "nameAz": "Ərzaq mağazası",
+      "nameEn": "Grocery store",
+      "unitId": "39"
+    },
+    {
+      "id": 651,
+      "nameAz": "Çöl",
+      "nameEn": "Outside",
+      "unitId": "39"
+    },
+    {
+      "id": 652,
+      "nameAz": "Çən",
+      "nameEn": "Tank",
+      "unitId": "39"
+    },
+    {
+      "id": 653,
+      "nameAz": "Rahat",
+      "nameEn": "Convenient",
+      "unitId": "39"
+    },
+    {
+      "id": 654,
+      "nameAz": "Tamamilə",
+      "nameEn": "Quite",
+      "unitId": "39"
+    },
+    {
+      "id": 655,
+      "nameAz": "Sakit",
+      "nameEn": "Quiet",
+      "unitId": "39"
+    },
+    {
+      "id": 656,
+      "nameAz": "Rahat",
+      "nameEn": "Cosy",
+      "unitId": "39"
+    },
+    {
+      "id": 657,
+      "nameAz": "Oğru",
+      "nameEn": "Burglar",
+      "unitId": "39"
+    },
+    {
+      "id": 658,
+      "nameAz": "Yasdıq",
+      "nameEn": "Pillow",
+      "unitId": "39"
+    },
+    {
+      "id": 659,
+      "nameAz": "Yəqin ki",
+      "nameEn": "probably",
+      "unitId": "39"
+    },
+    {
+      "id": 660,
+      "nameAz": "Öyrənmək, üzə çıxarmaq",
+      "nameEn": "Find out",
+      "unitId": "39"
+    },
+    {
+      "id": 661,
+      "nameAz": "Diş həkimi",
+      "nameEn": "Dentist",
+      "unitId": "39"
+    },
+    {
+      "id": 662,
+      "nameAz": "Peşə",
+      "nameEn": "Profession",
+      "unitId": "39"
+    },
+    {
+      "id": 663,
+      "nameAz": " Şkaf",
+      "nameEn": "Cupboard",
+      "unitId": "39"
+    },
+    {
+      "id": 664,
+      "nameAz": "Məhraba, dəsmal",
+      "nameEn": "Towel",
+      "unitId": "39"
+    },
+    {
+      "id": 665,
+      "nameAz": "Aptek",
+      "nameEn": "Chemist's",
+      "unitId": "39"
+    },
+    {
+      "id": 666,
+      "nameAz": "Kilsə",
+      "nameEn": "Church",
+      "unitId": "39"
+    },
+    {
+      "id": 667,
+      "nameAz": "Şəhər",
+      "nameEn": "Town",
+      "unitId": "39"
+    },
+    {
+      "id": 668,
+      "nameAz": "Qayıq",
+      "nameEn": "Boat",
+      "unitId": "39"
+    },
+    {
+      "id": 669,
+      "nameAz": "Fələkət",
+      "nameEn": "Disaster",
+      "unitId": "39"
+    },
+    {
+      "id": 670,
+      "nameAz": "Tam bir fəlakət",
+      "nameEn": "A complete disaster",
+      "unitId": "39"
+    },
+    {
+      "id": 671,
+      "nameAz": "Oturacaq",
+      "nameEn": "Seat",
+      "unitId": "39"
+    },
+    {
+      "id": 672,
+      "nameAz": "Dəhşətli",
+      "nameEn": "Awful",
+      "unitId": "39"
+    },
+    {
+      "id": 673,
+      "nameAz": "Xüsusilə",
+      "nameEn": "Especially",
+      "unitId": "39"
+    },
+    {
+      "id": 674,
+      "nameAz": "Salfetka",
+      "nameEn": "Tissues",
+      "unitId": "40"
+    },
+    {
+      "id": 675,
+      "nameAz": "Əbədi",
+      "nameEn": "Eternal",
+      "unitId": "40"
+    },
+    {
+      "id": 676,
+      "nameAz": "Daraq",
+      "nameEn": "Comb",
+      "unitId": "40"
+    },
+    {
+      "id": 677,
+      "nameAz": "Gündəlik",
+      "nameEn": "Diary",
+      "unitId": "40"
+    },
+    {
+      "id": 678,
+      "nameAz": "Alışqan",
+      "nameEn": "Lighter",
+      "unitId": "40"
+    },
+    {
+      "id": 679,
+      "nameAz": "Kibrit",
+      "nameEn": "Matches",
+      "unitId": "40"
+    },
+    {
+      "id": 680,
+      "nameAz": "Poçt pulu",
+      "nameEn": "Stamps",
+      "unitId": "40"
+    },
+    {
+      "id": 681,
+      "nameAz": "Pamada",
+      "nameEn": "Lipstick",
+      "unitId": "40"
+    },
+    {
+      "id": 682,
+      "nameAz": "Qadın əl çantası",
+      "nameEn": "Purse",
+      "unitId": "40"
+    },
+    {
+      "id": 683,
+      "nameAz": "Dağıtmaq",
+      "nameEn": "Spoil",
+      "unitId": "40"
+    },
+    {
+      "id": 684,
+      "nameAz": "Tənqid etmək",
+      "nameEn": "Criticize",
+      "unitId": "40"
+    },
+    {
+      "id": 685,
+      "nameAz": "Sənət",
+      "nameEn": "Occupation",
+      "unitId": "40"
+    },
+    {
+      "id": 686,
+      "nameAz": "Kravetka",
+      "nameEn": "Shrimp",
+      "unitId": "40"
+    },
+    {
+      "id": 687,
+      "nameAz": "Boşanmaq",
+      "nameEn": "Divorce",
+      "unitId": "40"
+    },
+    {
+      "id": 688,
+      "nameAz": "Hakim",
+      "nameEn": "Judge",
+      "unitId": "40"
+    },
+    {
+      "id": 689,
+      "nameAz": "İstedad",
+      "nameEn": "Talent",
+      "unitId": "40"
+    },
+    {
+      "id": 690,
+      "nameAz": "Nə də",
+      "nameEn": "Neither",
+      "unitId": "40"
+    },
+    {
+      "id": 691,
+      "nameAz": "Boy",
+      "nameEn": "Statue",
+      "unitId": "41"
+    },
+    {
+      "id": 692,
+      "nameAz": "Qorxutmaq",
+      "nameEn": "Frighten",
+      "unitId": "41"
+    },
+    {
+      "id": 693,
+      "nameAz": "Düşmək",
+      "nameEn": "Fall",
+      "unitId": "41"
+    },
+    {
+      "id": 694,
+      "nameAz": " Çaşdırmaq",
+      "nameEn": "Confuse",
+      "unitId": "41"
+    },
+    {
+      "id": 695,
+      "nameAz": "Manqal",
+      "nameEn": "Barbecues",
+      "unitId": "41"
+    },
+    {
+      "id": 696,
+      "nameAz": "Xalça",
+      "nameEn": "Carpet",
+      "unitId": "0"
+    },
+    {
+      "id": 697,
+      "nameAz": "Armchair",
+      "nameEn": "Kreslo",
+      "unitId": "41"
+    },
+    {
+      "id": 698,
+      "nameAz": "Divan",
+      "nameEn": "Sofa",
+      "unitId": "41"
+    },
+    {
+      "id": 699,
+      "nameAz": "Rəf",
+      "nameEn": "Shelve",
+      "unitId": "41"
+    },
+    {
+      "id": 700,
+      "nameAz": "Mebel",
+      "nameEn": "Furniture",
+      "unitId": "41"
+    },
+    {
+      "id": 701,
+      "nameAz": "Əmlak",
+      "nameEn": "Estate",
+      "unitId": "41"
+    },
+    {
+      "id": 702,
+      "nameAz": "Məscid",
+      "nameEn": "Mosque",
+      "unitId": "41"
+    },
+    {
+      "id": 703,
+      "nameAz": "Koridor",
+      "nameEn": "Hall",
+      "unitId": "41"
+    },
+    {
+      "id": 704,
+      "nameAz": "Toxum",
+      "nameEn": "Seed",
+      "unitId": "41"
+    },
+    {
+      "id": 705,
+      "nameAz": "Qalın",
+      "nameEn": "Thick",
+      "unitId": "41"
+    },
+    {
+      "id": 706,
+      "nameAz": "Tük",
+      "nameEn": "Feather",
+      "unitId": "41"
+    },
+    {
+      "id": 707,
+      "nameAz": "Yetişdirmək",
+      "nameEn": "Raise",
+      "unitId": "41"
+    },
+    {
+      "id": 708,
+      "nameAz": "Təxmini",
+      "nameEn": "Around",
+      "unitId": "41"
+    },
+    {
+      "id": 709,
+      "nameAz": "Toxum",
+      "nameEn": "Seed",
+      "unitId": "41"
+    },
+    {
+      "id": 710,
+      "nameAz": "Məhsul",
+      "nameEn": "Crop",
+      "unitId": "41"
+    },
+    {
+      "id": 711,
+      "nameAz": "Çöl",
+      "nameEn": "Desert",
+      "unitId": "41"
+    },
+    {
+      "id": 712,
+      "nameAz": "Tərcüməçi",
+      "nameEn": "Interpreter",
+      "unitId": "41"
+    },
+    {
+      "id": 713,
+      "nameAz": "Həşərat",
+      "nameEn": "Insects",
+      "unitId": "41"
+    },
+    {
+      "id": 714,
+      "nameAz": "Süpürgə",
+      "nameEn": "Broom",
+      "unitId": "41"
+    },
+    {
+      "id": 715,
+      "nameAz": "Sandal",
+      "nameEn": "Sandal",
+      "unitId": "41"
+    },
+    {
+      "id": 716,
+      "nameAz": "Yer, torpaq",
+      "nameEn": "Soil",
+      "unitId": "41"
+    },
+    {
+      "id": 717,
+      "nameAz": "Ot",
+      "nameEn": "Grass",
+      "unitId": "41"
+    },
+    {
+      "id": 718,
+      "nameAz": "Dam",
+      "nameEn": "Roof",
+      "unitId": "41"
+    },
+    {
+      "id": 719,
+      "nameAz": "Səhra",
+      "nameEn": "Desert",
+      "unitId": "41"
+    },
+    {
+      "id": 720,
+      "nameAz": "Tavan",
+      "nameEn": "Ceiling",
+      "unitId": "41"
+    },
+    {
+      "id": 721,
+      "nameAz": "Pərdə",
+      "nameEn": "Curtain",
+      "unitId": "41"
+    },
+    {
+      "id": 722,
+      "nameAz": "Jalüz",
+      "nameEn": "Blinds",
+      "unitId": "41"
+    },
+    {
+      "id": 723,
+      "nameAz": "Balkon",
+      "nameEn": "Balcony",
+      "unitId": "41"
+    },
+    {
+      "id": 724,
+      "nameAz": "Qab",
+      "nameEn": "Pot",
+      "unitId": "41"
+    },
+    {
+      "id": 725,
+      "nameAz": "Gül qabı",
+      "nameEn": "Pot of plants",
+      "unitId": "41"
+    },
+    {
+      "id": 726,
+      "nameAz": "Nələtlənmiş",
+      "nameEn": "Cursed",
+      "unitId": "41"
+    },
+    {
+      "id": 727,
+      "nameAz": "Arqo sözlər",
+      "nameEn": "Curse words",
+      "unitId": "41"
+    },
+    {
+      "id": 728,
+      "nameAz": "Araşdırmaq",
+      "nameEn": "Investigate",
+      "unitId": "41"
+    },
+    {
+      "id": 729,
+      "nameAz": "Rahib",
+      "nameEn": "Preist",
+      "unitId": "41"
+    },
+    {
+      "id": 730,
+      "nameAz": "Qorxudulmuş",
+      "nameEn": "Frightened",
+      "unitId": "41"
+    },
+    {
+      "id": 731,
+      "nameAz": "Kahı",
+      "nameEn": "Lettuce",
+      "unitId": "42"
+    },
+    {
+      "id": 732,
+      "nameAz": "Göbələk",
+      "nameEn": "Mushroom",
+      "unitId": "42"
+    },
+    {
+      "id": 733,
+      "nameAz": "Soğan",
+      "nameEn": "Onion",
+      "unitId": "42"
+    },
+    {
+      "id": 734,
+      "nameAz": "Noxud",
+      "nameEn": "Peas",
+      "unitId": "42"
+    },
+    {
+      "id": 735,
+      "nameAz": "Yerli sakin",
+      "nameEn": "Inhabitant",
+      "unitId": "42"
+    },
+    {
+      "id": 736,
+      "nameAz": "Cənnət",
+      "nameEn": "Paradise",
+      "unitId": "42"
+    },
+    {
+      "id": 737,
+      "nameAz": "Doğru olmayan, yanlış",
+      "nameEn": "Untrue",
+      "unitId": "42"
+    },
+    {
+      "id": 738,
+      "nameAz": "Dəqiq",
+      "nameEn": "Accurate",
+      "unitId": "42"
+    },
+    {
+      "id": 739,
+      "nameAz": "Ucqar rayon",
+      "nameEn": "A remote region",
+      "unitId": "42"
+    },
+    {
+      "id": 740,
+      "nameAz": "Şimal",
+      "nameEn": "Nort",
+      "unitId": "42"
+    },
+    {
+      "id": 741,
+      "nameAz": "Taxıl",
+      "nameEn": "Grain",
+      "unitId": "42"
+    },
+    {
+      "id": 742,
+      "nameAz": "Ziyafət",
+      "nameEn": "Feast",
+      "unitId": "42"
+    },
+    {
+      "id": 743,
+      "nameAz": "Ərik",
+      "nameEn": "Apricot",
+      "unitId": "42"
+    },
+    {
+      "id": 744,
+      "nameAz": "Din",
+      "nameEn": "Religion",
+      "unitId": "42"
+    },
+    {
+      "id": 745,
+      "nameAz": "Qadağan, qadağan etmək",
+      "nameEn": "Forbid",
+      "unitId": "42"
+    },
+    {
+      "id": 746,
+      "nameAz": "Konservləşdirilmiş",
+      "nameEn": "Canned",
+      "unitId": "42"
+    },
+    {
+      "id": 747,
+      "nameAz": "Soba",
+      "nameEn": "Stove",
+      "unitId": "42"
+    },
+    {
+      "id": 748,
+      "nameAz": "Qıt, az tapılan",
+      "nameEn": "Scarce",
+      "unitId": "42"
+    },
+    {
+      "id": 749,
+      "nameAz": "Əkin sahələri",
+      "nameEn": "Farmland",
+      "unitId": "42"
+    },
+    {
+      "id": 750,
+      "nameAz": "Uzanmaq",
+      "nameEn": "Lie",
+      "unitId": "42"
+    },
+    {
+      "id": 751,
+      "nameAz": "Diqqətlə",
+      "nameEn": "Carefully",
+      "unitId": "42"
+    },
+    {
+      "id": 752,
+      "nameAz": "Rasion",
+      "nameEn": "Ration",
+      "unitId": "42"
+    },
+    {
+      "id": 753,
+      "nameAz": "Artıq çəki",
+      "nameEn": "Overweight",
+      "unitId": "42"
+    },
+    {
+      "id": 754,
+      "nameAz": "İstehsal etmək",
+      "nameEn": "Produce",
+      "unitId": "42"
+    },
+    {
+      "id": 755,
+      "nameAz": " Qızılca",
+      "nameEn": "Measles",
+      "unitId": "42"
+    },
+    {
+      "id": 756,
+      "nameAz": "Aclıq",
+      "nameEn": "Famine",
+      "unitId": "42"
+    },
+    {
+      "id": 757,
+      "nameAz": "Şübhə",
+      "nameEn": "Doubt",
+      "unitId": "42"
+    },
+    {
+      "id": 758,
+      "nameAz": "Sağlam",
+      "nameEn": "Solid",
+      "unitId": "42"
+    },
+    {
+      "id": 759,
+      "nameAz": "Möhkəm, bərk",
+      "nameEn": "Solid",
+      "unitId": "42"
+    },
+    {
+      "id": 760,
+      "nameAz": "Maye",
+      "nameEn": "Liquid",
+      "unitId": "42"
+    },
+    {
+      "id": 761,
+      "nameAz": "Daxili",
+      "nameEn": "Insides",
+      "unitId": "42"
+    },
+    {
+      "id": 762,
+      "nameAz": "Xarici",
+      "nameEn": "Outsides",
+      "unitId": "42"
+    },
+    {
+      "id": 763,
+      "nameAz": "Qəsdən",
+      "nameEn": "On purpose",
+      "unitId": "42"
+    },
+    {
+      "id": 764,
+      "nameAz": "Acı",
+      "nameEn": "Bitter",
+      "unitId": "42"
+    },
+    {
+      "id": 765,
+      "nameAz": "Kimsəsiz",
+      "nameEn": "Deserted",
+      "unitId": "42"
+    },
+    {
+      "id": 766,
+      "nameAz": "Qışqırmaq",
+      "nameEn": "Yell",
+      "unitId": "42"
+    },
+    {
+      "id": 767,
+      "nameAz": "Pıçıldamaq",
+      "nameEn": "Whisper",
+      "unitId": "42"
+    },
+    {
+      "id": 768,
+      "nameAz": "Yola düşmək",
+      "nameEn": "Depart",
+      "unitId": "42"
+    },
+    {
+      "id": 769,
+      "nameAz": "Bol",
+      "nameEn": "Plentiful",
+      "unitId": "42"
+    },
+    {
+      "id": 770,
+      "nameAz": "Səliqəli",
+      "nameEn": "Tidy",
+      "unitId": "42"
+    },
+    {
+      "id": 771,
+      "nameAz": "Təsir",
+      "nameEn": "Influence",
+      "unitId": "42"
+    },
+    {
+      "id": 772,
+      "nameAz": "Kişnəmək",
+      "nameEn": "Neigh",
+      "unitId": "42"
+    },
+    {
+      "id": 773,
+      "nameAz": "Söykənmək",
+      "nameEn": "Layback",
+      "unitId": "42"
+    },
+    {
+      "id": 774,
+      "nameAz": "Mif",
+      "nameEn": "Myths",
+      "unitId": "43"
+    },
+    {
+      "id": 775,
+      "nameAz": "Faiz",
+      "nameEn": "Percentage",
+      "unitId": "43"
+    },
+    {
+      "id": 776,
+      "nameAz": "Tər, tərləmək",
+      "nameEn": "Sweat",
+      "unitId": "43"
+    },
+    {
+      "id": 777,
+      "nameAz": "Kağız dəsmal",
+      "nameEn": "Tissues",
+      "unitId": "43"
+    },
+    {
+      "id": 778,
+      "nameAz": "Təxmin etmək",
+      "nameEn": "Guess",
+      "unitId": "43"
+    },
+    {
+      "id": 779,
+      "nameAz": "Cib",
+      "nameEn": "Pocket",
+      "unitId": "43"
+    },
+    {
+      "id": 780,
+      "nameAz": "Nöqtə",
+      "nameEn": "Point",
+      "unitId": "43"
+    },
+    {
+      "id": 781,
+      "nameAz": "Lövhə",
+      "nameEn": "Board",
+      "unitId": "43"
+    },
+    {
+      "id": 782,
+      "nameAz": "Çəkmə",
+      "nameEn": "Boot",
+      "unitId": "43"
+    },
+    {
+      "id": 783,
+      "nameAz": "Rabitə",
+      "nameEn": "Communication",
+      "unitId": "43"
+    },
+    {
+      "id": 784,
+      "nameAz": "Öyrətmək",
+      "nameEn": "Educate, tərbiyə etmək, təlim vermək",
+      "unitId": "43"
+    },
+    {
+      "id": 785,
+      "nameAz": "Kraliyyət",
+      "nameEn": "Royal",
+      "unitId": "43"
+    },
+    {
+      "id": 786,
+      "nameAz": "Mürgüləmək",
+      "nameEn": "Siesta",
+      "unitId": "43"
+    },
+    {
+      "id": 787,
+      "nameAz": "Ayağa qalxmaq",
+      "nameEn": "Stand up",
+      "unitId": "43"
+    },
+    {
+      "id": 788,
+      "nameAz": "Papaq, qapaq",
+      "nameEn": "Cap",
+      "unitId": "43"
+    },
+    {
+      "id": 789,
+      "nameAz": "Şapqa",
+      "nameEn": "Hat",
+      "unitId": "43"
+    },
+    {
+      "id": 790,
+      "nameAz": "İnanılmaz",
+      "nameEn": "Incredible",
+      "unitId": "43"
+    },
+    {
+      "id": 791,
+      "nameAz": "Mülk",
+      "nameEn": "Possession",
+      "unitId": "43"
+    },
+    {
+      "id": 792,
+      "nameAz": "Qrup",
+      "nameEn": "Band",
+      "unitId": "43"
+    },
+    {
+      "id": 793,
+      "nameAz": "Dizayner paltarları",
+      "nameEn": "Designer clotes",
+      "unitId": "43"
+    },
+    {
+      "id": 794,
+      "nameAz": "Tələsmək",
+      "nameEn": "Be in hurry",
+      "unitId": "43"
+    },
+    {
+      "id": 795,
+      "nameAz": "Hakim",
+      "nameEn": "Judge",
+      "unitId": "43"
+    },
+    {
+      "id": 796,
+      "nameAz": "Burun",
+      "nameEn": "Nose",
+      "unitId": "43"
+    },
+    {
+      "id": 797,
+      "nameAz": "İşğal",
+      "nameEn": "Occupation",
+      "unitId": "43"
+    },
+    {
+      "id": 798,
+      "nameAz": "Baş barmaq",
+      "nameEn": "Thumb",
+      "unitId": "43"
+    },
+    {
+      "id": 799,
+      "nameAz": "Qalstuk, ",
+      "nameEn": "Tie",
+      "unitId": "43"
+    },
+    {
+      "id": 800,
+      "nameAz": "Güldan",
+      "nameEn": "Vase",
+      "unitId": "43"
+    },
+    {
+      "id": 801,
+      "nameAz": "Ədalətli",
+      "nameEn": "Fair",
+      "unitId": "43"
+    },
+    {
+      "id": 802,
+      "nameAz": "Kasıb",
+      "nameEn": "Poor",
+      "unitId": "43"
+    },
+    {
+      "id": 803,
+      "nameAz": "Pasxa",
+      "nameEn": "Easter",
+      "unitId": "43"
+    },
+    {
+      "id": 804,
+      "nameAz": "Ola bilsin",
+      "nameEn": "Possibly",
+      "unitId": "43"
+    },
+    {
+      "id": 805,
+      "nameAz": "Sevgi macərası",
+      "nameEn": "Love affair",
+      "unitId": "43"
+    },
+    {
+      "id": 806,
+      "nameAz": "Tamaşaçı",
+      "nameEn": "Spectator",
+      "unitId": "43"
+    },
+    {
+      "id": 807,
+      "nameAz": "Vaxt itkisi",
+      "nameEn": "Waste of time",
+      "unitId": "43"
+    },
+    {
+      "id": 808,
+      "nameAz": "Qarşı, əksinə",
+      "nameEn": "Against",
+      "unitId": "44"
+    },
+    {
+      "id": 809,
+      "nameAz": "Yatmaq, yuxuda olmaq",
+      "nameEn": "Be asleep",
+      "unitId": "44"
+    },
+    {
+      "id": 810,
+      "nameAz": "Bağ evi",
+      "nameEn": "Country house",
+      "unitId": "44"
+    },
+    {
+      "id": 811,
+      "nameAz": "Ölü",
+      "nameEn": "Dead ",
+      "unitId": "44"
+    },
+    {
+      "id": 812,
+      "nameAz": "Torpaq, ölkə, diyar, yurd",
+      "nameEn": "Land",
+      "unitId": "44"
+    },
+    {
+      "id": 813,
+      "nameAz": "Ədəbiyyat",
+      "nameEn": "Literature",
+      "unitId": "44"
+    },
+    {
+      "id": 814,
+      "nameAz": "Heykəl",
+      "nameEn": "Statue",
+      "unitId": "44"
+    },
+    {
+      "id": 815,
+      "nameAz": "Bardaq, fincan, kruşka",
+      "nameEn": "Bug",
+      "unitId": "44"
+    },
+    {
+      "id": 816,
+      "nameAz": "Univermaq",
+      "nameEn": "Department store",
+      "unitId": "44"
+    },
+    {
+      "id": 817,
+      "nameAz": "Bələdiyyə binası",
+      "nameEn": "Town hall",
+      "unitId": "44"
+    },
+    {
+      "id": 818,
+      "nameAz": "Qorxmuş",
+      "nameEn": "Frightened",
+      "unitId": "44"
+    },
+    {
+      "id": 819,
+      "nameAz": "Rahib, keşiş",
+      "nameEn": "Priest",
+      "unitId": "44"
+    },
+    {
+      "id": 820,
+      "nameAz": "Vasitəsilə",
+      "nameEn": "Through",
+      "unitId": "44"
+    },
+    {
+      "id": 821,
+      "nameAz": "Əvvəlcədən",
+      "nameEn": "In advance",
+      "unitId": "44"
+    },
+    {
+      "id": 822,
+      "nameAz": "Dairəvi",
+      "nameEn": "Roundabout",
+      "unitId": "44"
+    },
+    {
+      "id": 823,
+      "nameAz": "Taxıl",
+      "nameEn": "Cereal",
+      "unitId": "44"
+    },
+    {
+      "id": 824,
+      "nameAz": "Çips",
+      "nameEn": "Crisps",
+      "unitId": "44"
+    },
+    {
+      "id": 825,
+      "nameAz": "Makaron",
+      "nameEn": "Pasta",
+      "unitId": "44"
+    },
+    {
+      "id": 826,
+      "nameAz": "Qızartmaq",
+      "nameEn": "Toast",
+      "unitId": "44"
+    },
+    {
+      "id": 827,
+      "nameAz": "Qayıq",
+      "nameEn": "Boat",
+      "unitId": "44"
+    },
+    {
+      "id": 828,
+      "nameAz": "Düşərgə",
+      "nameEn": "Campsite",
+      "unitId": "44"
+    },
+    {
+      "id": 829,
+      "nameAz": "Cütlük",
+      "nameEn": "Couple",
+      "unitId": "44"
+    },
+    {
+      "id": 830,
+      "nameAz": "Litr",
+      "nameEn": "Liter",
+      "unitId": "44"
+    },
+    {
+      "id": 831,
+      "nameAz": "İtkin",
+      "nameEn": "Missing",
+      "unitId": "44"
+    },
+    {
+      "id": 832,
+      "nameAz": "Əskinaz",
+      "nameEn": "Note",
+      "unitId": "44"
+    },
+    {
+      "id": 833,
+      "nameAz": "Qoymaq",
+      "nameEn": "Put",
+      "unitId": "44"
+    },
+    {
+      "id": 834,
+      "nameAz": "Üzük",
+      "nameEn": "Ring",
+      "unitId": "44"
+    },
+    {
+      "id": 835,
+      "nameAz": "Görünüş",
+      "nameEn": "Sights",
+      "unitId": "44"
+    },
+    {
+      "id": 836,
+      "nameAz": "Kran",
+      "nameEn": "Tap",
+      "unitId": "44"
+    },
+    {
+      "id": 837,
+      "nameAz": "Ən azı",
+      "nameEn": "At least",
+      "unitId": "44"
+    },
+    {
+      "id": 838,
+      "nameAz": "Dezert",
+      "nameEn": "Dessert",
+      "unitId": "44"
+    },
+    {
+      "id": 839,
+      "nameAz": "Qovurmaq",
+      "nameEn": "Roast",
+      "unitId": "44"
+    },
+    {
+      "id": 840,
+      "nameAz": "Sous",
+      "nameEn": "Sauce",
+      "unitId": "44"
+    },
+    {
+      "id": 841,
+      "nameAz": "Tər, tərləmək",
+      "nameEn": "Sweat",
+      "unitId": "44"
+    },
+    {
+      "id": 842,
+      "nameAz": "Çəkinmək",
+      "nameEn": "Avoid",
+      "unitId": "45"
+    },
+    {
+      "id": 843,
+      "nameAz": "Növ",
+      "nameEn": "Specie",
+      "unitId": "45"
+    },
+    {
+      "id": 844,
+      "nameAz": "İmperator",
+      "nameEn": "Emperor",
+      "unitId": "45"
+    },
+    {
+      "id": 845,
+      "nameAz": "Zəhər",
+      "nameEn": "Poison",
+      "unitId": "45"
+    },
+    {
+      "id": 846,
+      "nameAz": "Zəhərli",
+      "nameEn": "Poisonus",
+      "unitId": "45"
+    },
+    {
+      "id": 847,
+      "nameAz": "Zəhər",
+      "nameEn": "Venom",
+      "unitId": "45"
+    },
+    {
+      "id": 848,
+      "nameAz": "Yanında",
+      "nameEn": "Beside",
+      "unitId": "45"
+    },
+    {
+      "id": 849,
+      "nameAz": "Bundan başqa",
+      "nameEn": "Besides this",
+      "unitId": "45"
+    },
+    {
+      "id": 850,
+      "nameAz": "Onurğa, tikan",
+      "nameEn": "Spine",
+      "unitId": "45"
+    },
+    {
+      "id": 851,
+      "nameAz": "Şişirmək, qabartmaq",
+      "nameEn": "Puff",
+      "unitId": "45"
+    },
+    {
+      "id": 852,
+      "nameAz": "Oğurlamaq",
+      "nameEn": "Steal",
+      "unitId": "45"
+    },
+    {
+      "id": 853,
+      "nameAz": "Oğurlanmış",
+      "nameEn": "Stolen",
+      "unitId": "45"
+    },
+    {
+      "id": 854,
+      "nameAz": "Toz",
+      "nameEn": "Dust",
+      "unitId": "45"
+    },
+    {
+      "id": 855,
+      "nameAz": "İz",
+      "nameEn": "Trace",
+      "unitId": "45"
+    },
+    {
+      "id": 856,
+      "nameAz": "Yaxalamaq, əsir almaq",
+      "nameEn": "Capture",
+      "unitId": "45"
+    },
+    {
+      "id": 857,
+      "nameAz": "Azadlıq",
+      "nameEn": "Freedom",
+      "unitId": "45"
+    },
+    {
+      "id": 858,
+      "nameAz": "Günahsız",
+      "nameEn": "Innocent",
+      "unitId": "45"
+    },
+    {
+      "id": 859,
+      "nameAz": "Borc almaq",
+      "nameEn": "Borrow",
+      "unitId": "45"
+    },
+    {
+      "id": 860,
+      "nameAz": "Səhnə",
+      "nameEn": "Stage",
+      "unitId": "45"
+    },
+    {
+      "id": 861,
+      "nameAz": "Cəsarət etmək",
+      "nameEn": "Dare",
+      "unitId": "45"
+    },
+    {
+      "id": 862,
+      "nameAz": "Ölçü",
+      "nameEn": "Measurement",
+      "unitId": "45"
+    },
+    {
+      "id": 863,
+      "nameAz": "Etirazçı",
+      "nameEn": "Protester",
+      "unitId": "45"
+    },
+    {
+      "id": 864,
+      "nameAz": "Qum",
+      "nameEn": "Sand",
+      "unitId": "45"
+    },
+    {
+      "id": 865,
+      "nameAz": "İstisna olmaqla",
+      "nameEn": "Except",
+      "unitId": "45"
+    },
+    {
+      "id": 866,
+      "nameAz": "Kənar",
+      "nameEn": "Aside",
+      "unitId": "45"
+    },
+    {
+      "id": 867,
+      "nameAz": "Doğru,a ə",
+      "nameEn": "Toward",
+      "unitId": "45"
+    },
+    {
+      "id": 868,
+      "nameAz": "Ənənəvi",
+      "nameEn": "Traditional",
+      "unitId": "45"
+    },
+    {
+      "id": 869,
+      "nameAz": "Həyacan verici",
+      "nameEn": "Exciting",
+      "unitId": "45"
+    },
+    {
+      "id": 870,
+      "nameAz": "Qorxmaz",
+      "nameEn": "Fearless",
+      "unitId": "46"
+    },
+    {
+      "id": 871,
+      "nameAz": "Çevik insan?",
+      "nameEn": "Flexible",
+      "unitId": "46"
+    },
+    {
+      "id": 872,
+      "nameAz": "Diqqətli?",
+      "nameEn": "Focused ",
+      "unitId": "46"
+    },
+    {
+      "id": 873,
+      "nameAz": "Kinsiz",
+      "nameEn": "Forgiving",
+      "unitId": "46"
+    },
+    {
+      "id": 874,
+      "nameAz": "Dostcanlı",
+      "nameEn": "Friendly",
+      "unitId": "46"
+    },
+    {
+      "id": 875,
+      "nameAz": "Gülməli",
+      "nameEn": "Funny",
+      "unitId": "46"
+    },
+    {
+      "id": 876,
+      "nameAz": "Əliaçıq, səxavətli, yardımsevər",
+      "nameEn": "Generous",
+      "unitId": "46"
+    },
+    {
+      "id": 877,
+      "nameAz": "Müləyim",
+      "nameEn": "Gentle",
+      "unitId": "46"
+    },
+    {
+      "id": 878,
+      "nameAz": "Səmimi",
+      "nameEn": "Genuine",
+      "unitId": "46"
+    },
+    {
+      "id": 879,
+      "nameAz": "Çalışqan, zəhmətkeş",
+      "nameEn": "Hard-working",
+      "unitId": "46"
+    },
+    {
+      "id": 880,
+      "nameAz": "Realistik",
+      "nameEn": "Realistic",
+      "unitId": "46"
+    },
+    {
+      "id": 881,
+      "nameAz": "Rahat",
+      "nameEn": "Relaxed",
+      "unitId": "46"
+    },
+    {
+      "id": 882,
+      "nameAz": "Etibarlı",
+      "nameEn": "Reliable",
+      "unitId": "46"
+    },
+    {
+      "id": 883,
+      "nameAz": "Möhkəm",
+      "nameEn": "Resilient",
+      "unitId": "46"
+    },
+    {
+      "id": 884,
+      "nameAz": "Bacarıqı, savadlı",
+      "nameEn": "Resorceful",
+      "unitId": "46"
+    },
+    {
+      "id": 885,
+      "nameAz": "Hörmətli, ehtiramlı",
+      "nameEn": "Respectful",
+      "unitId": "46"
+    },
+    {
+      "id": 886,
+      "nameAz": "Məsul",
+      "nameEn": "Responsible",
+      "unitId": "46"
+    },
+    {
+      "id": 887,
+      "nameAz": "Romantik",
+      "nameEn": "Romantic",
+      "unitId": "46"
+    },
+    {
+      "id": 888,
+      "nameAz": "Həssas",
+      "nameEn": "Sensible",
+      "unitId": "46"
+    },
+    {
+      "id": 889,
+      "nameAz": "Səmimi",
+      "nameEn": "Sincere",
+      "unitId": "46"
+    },
+    {
+      "id": 890,
+      "nameAz": "Ehtiyatlı",
+      "nameEn": "Careful",
+      "unitId": "46"
+    },
+    {
+      "id": 891,
+      "nameAz": "Ehtiyatlı, diqqətli",
+      "nameEn": "Cautious",
+      "unitId": "46"
+    },
+    {
+      "id": 892,
+      "nameAz": "Xarizmatik",
+      "nameEn": "Charismatic",
+      "unitId": "46"
+    },
+    {
+      "id": 893,
+      "nameAz": "Cazibədar",
+      "nameEn": "Charming",
+      "unitId": "46"
+    },
+    {
+      "id": 894,
+      "nameAz": "Şən, gümrah",
+      "nameEn": "Cheerful",
+      "unitId": "46"
+    },
+    {
+      "id": 895,
+      "nameAz": "Ağıllı",
+      "nameEn": "Clever",
+      "unitId": "46"
+    },
+    {
+      "id": 896,
+      "nameAz": "Mərhəmətli, şəfqətli, rəhmli",
+      "nameEn": "Compassionate",
+      "unitId": "46"
+    },
+    {
+      "id": 897,
+      "nameAz": "İnamlı, arxayın, özgüvənli",
+      "nameEn": "Confident",
+      "unitId": "46"
+    },
+    {
+      "id": 898,
+      "nameAz": "Vicdanlı",
+      "nameEn": "Conscientious",
+      "unitId": "46"
+    },
+    {
+      "id": 899,
+      "nameAz": "Diqqətli, qayğıkeş",
+      "nameEn": "Considerate",
+      "unitId": "46"
+    },
+    {
+      "id": 900,
+      "nameAz": "Yardımsevər",
+      "nameEn": "Helpful",
+      "unitId": "46"
+    },
+    {
+      "id": 901,
+      "nameAz": "Təvazökar",
+      "nameEn": "Humble",
+      "unitId": "46"
+    },
+    {
+      "id": 902,
+      "nameAz": "Yaradıcı, xəyalı",
+      "nameEn": " Imaginative",
+      "unitId": "46"
+    },
+    {
+      "id": 903,
+      "nameAz": "Ağıllı, zəkalı",
+      "nameEn": "Intelligent",
+      "unitId": "46"
+    },
+    {
+      "id": 904,
+      "nameAz": "Intutiv",
+      "nameEn": "Intutive",
+      "unitId": "46"
+    },
+    {
+      "id": 905,
+      "nameAz": "Mehriban",
+      "nameEn": "Kind",
+      "unitId": "46"
+    },
+    {
+      "id": 906,
+      "nameAz": "Hərəkətli, canlı, fəal",
+      "nameEn": "Lively",
+      "unitId": "46"
+    },
+    {
+      "id": 907,
+      "nameAz": "Sevgi dolu",
+      "nameEn": "Loving",
+      "unitId": "46"
+    },
+    {
+      "id": 908,
+      "nameAz": "Sadiq, vəfalı",
+      "nameEn": "Loyal",
+      "unitId": "46"
+    },
+    {
+      "id": 909,
+      "nameAz": "Kooperativ",
+      "nameEn": "Cooperative",
+      "unitId": "46"
+    },
+    {
+      "id": 910,
+      "nameAz": "Cəsur, igid",
+      "nameEn": "Courageous",
+      "unitId": "46"
+    },
+    {
+      "id": 911,
+      "nameAz": "Nəzakətli",
+      "nameEn": "Courteous",
+      "unitId": "46"
+    },
+    {
+      "id": 912,
+      "nameAz": "Kreativ",
+      "nameEn": "Creative",
+      "unitId": "46"
+    },
+    {
+      "id": 913,
+      "nameAz": "Hər şeylə maraqlanan",
+      "nameEn": "Curious",
+      "unitId": "46"
+    },
+    {
+      "id": 914,
+      "nameAz": "Qərarlı, təqiyyətli",
+      "nameEn": "Decisive",
+      "unitId": "46"
+    },
+    {
+      "id": 915,
+      "nameAz": "Həsr etmiş",
+      "nameEn": "Dedicated",
+      "unitId": "46"
+    },
+    {
+      "id": 916,
+      "nameAz": "Tatlı, zevkli",
+      "nameEn": "Delightful",
+      "unitId": "46"
+    },
+    {
+      "id": 917,
+      "nameAz": "Güvənilir",
+      "nameEn": "Dependable",
+      "unitId": "46"
+    },
+    {
+      "id": 918,
+      "nameAz": "Əzmkar",
+      "nameEn": "Determined",
+      "unitId": "46"
+    },
+    {
+      "id": 919,
+      "nameAz": "Çalışqan",
+      "nameEn": "Diligent",
+      "unitId": "46"
+    },
+    {
+      "id": 920,
+      "nameAz": "Siyasi",
+      "nameEn": "Diplomatic",
+      "unitId": "46"
+    },
+    {
+      "id": 921,
+      "nameAz": "Disiplinli",
+      "nameEn": "Disciplined",
+      "unitId": "46"
+    },
+    {
+      "id": 922,
+      "nameAz": "Təmkinli",
+      "nameEn": "Discreet",
+      "unitId": "46"
+    },
+    {
+      "id": 923,
+      "nameAz": "Dinamik",
+      "nameEn": "Dynamic",
+      "unitId": "46"
+    },
+    {
+      "id": 924,
+      "nameAz": "Yola gedən",
+      "nameEn": "Easy-going",
+      "unitId": "46"
+    },
+    {
+      "id": 925,
+      "nameAz": "İşgüzar, səmərəli",
+      "nameEn": "Efficient",
+      "unitId": "46"
+    },
+    {
+      "id": 926,
+      "nameAz": "Enerjili",
+      "nameEn": "Energetic",
+      "unitId": "46"
+    },
+    {
+      "id": 927,
+      "nameAz": "Həvəsli",
+      "nameEn": "Enthusiastic",
+      "unitId": "46"
+    },
+    {
+      "id": 928,
+      "nameAz": "Sədaqətli",
+      "nameEn": "Faithful",
+      "unitId": "46"
+    },
+    {
+      "id": 929,
+      "nameAz": "Qısqanc",
+      "nameEn": "Jelous",
+      "unitId": "47"
+    },
+    {
+      "id": 930,
+      "nameAz": "Böyümək",
+      "nameEn": "Grew up",
+      "unitId": "47"
+    },
+    {
+      "id": 931,
+      "nameAz": "Düzünü desəm",
+      "nameEn": "To be honest",
+      "unitId": "47"
+    },
+    {
+      "id": 932,
+      "nameAz": "Uyğunlaşa bilən",
+      "nameEn": "Adaptable",
+      "unitId": "46"
+    },
+    {
+      "id": 933,
+      "nameAz": "Macərapərəst",
+      "nameEn": "Adventurous",
+      "unitId": "46"
+    },
+    {
+      "id": 934,
+      "nameAz": "Mehriban",
+      "nameEn": "Affectionate",
+      "unitId": "46"
+    },
+    {
+      "id": 935,
+      "nameAz": "Mehriban",
+      "nameEn": "Affectionate",
+      "unitId": "46"
+    },
+    {
+      "id": 936,
+      "nameAz": "Yanaşma",
+      "nameEn": "Approach",
+      "unitId": "46"
+    },
+    {
+      "id": 937,
+      "nameAz": "Cana yaxın",
+      "nameEn": "Approachable",
+      "unitId": "46"
+    },
+    {
+      "id": 938,
+      "nameAz": "Təbii bacarıqlı, incəsənət adamı",
+      "nameEn": "Artistic",
+      "unitId": "46"
+    },
+    {
+      "id": 939,
+      "nameAz": "Diqqətli",
+      "nameEn": "Attentive",
+      "unitId": "46"
+    },
+    {
+      "id": 940,
+      "nameAz": "Cəsur",
+      "nameEn": "Bold",
+      "unitId": "46"
+    },
+    {
+      "id": 941,
+      "nameAz": "Cəsarətli",
+      "nameEn": "Brave",
+      "unitId": "46"
+    },
+    {
+      "id": 942,
+      "nameAz": "Parlaq, əlvan",
+      "nameEn": "Bright",
+      "unitId": "46"
+    },
+    {
+      "id": 943,
+      "nameAz": "Sakit",
+      "nameEn": "Calm",
+      "unitId": "46"
+    },
+    {
+      "id": 944,
+      "nameAz": "Baş sallamaq(hə)",
+      "nameEn": "Nod head",
+      "unitId": "48"
+    },
+    {
+      "id": 945,
+      "nameAz": "Baş sallamaq(yox)",
+      "nameEn": "Shake head",
+      "unitId": "48"
+    },
+    {
+      "id": 946,
+      "nameAz": "Dalğa, dalğalandırmaq",
+      "nameEn": "Wave",
+      "unitId": "48"
+    },
+    {
+      "id": 947,
+      "nameAz": "Qat, qatlamaq, bükmək",
+      "nameEn": "Fold",
+      "unitId": "48"
+    },
+    {
+      "id": 948,
+      "nameAz": "Üfürmək",
+      "nameEn": "Blow",
+      "unitId": "48"
+    },
+    {
+      "id": 949,
+      "nameAz": "Alın",
+      "nameEn": "Forehead",
+      "unitId": "48"
+    },
+    {
+      "id": 950,
+      "nameAz": "Dirsək",
+      "nameEn": "Elbow",
+      "unitId": "48"
+    },
+    {
+      "id": 951,
+      "nameAz": "Daban",
+      "nameEn": "Heel",
+      "unitId": "48"
+    },
+    {
+      "id": 952,
+      "nameAz": "Ayaq barmağı",
+      "nameEn": "Toe",
+      "unitId": "48"
+    },
+    {
+      "id": 953,
+      "nameAz": "Baş barmaq",
+      "nameEn": "Thumb",
+      "unitId": "48"
+    },
+    {
+      "id": 954,
+      "nameAz": "Qol dirsekden asagi",
+      "nameEn": "Wrist",
+      "unitId": "48"
+    },
+    {
+      "id": 955,
+      "nameAz": "Bilək",
+      "nameEn": "Wrist",
+      "unitId": "48"
+    },
+    {
+      "id": 956,
+      "nameAz": "Dırnaq",
+      "nameEn": "Nail",
+      "unitId": "48"
+    },
+    {
+      "id": 957,
+      "nameAz": "Ayrımaq(sevgili)",
+      "nameEn": "To break up",
+      "unitId": "48"
+    },
+    {
+      "id": 958,
+      "nameAz": "Daha az yaxın olmaq",
+      "nameEn": "To drift apart",
+      "unitId": "48"
+    },
+    {
+      "id": 959,
+      "nameAz": "Vaxt keçirməyi sevmək",
+      "nameEn": "Enjoy someone's company",
+      "unitId": "48"
+    },
+    {
+      "id": 960,
+      "nameAz": "Sevmək",
+      "nameEn": "To fall for",
+      "unitId": "48"
+    },
+    {
+      "id": 961,
+      "nameAz": "Ortaq maraqlar olmaq",
+      "nameEn": "To have a lot in common",
+      "unitId": "48"
+    },
+    {
+      "id": 962,
+      "nameAz": "Yaxşı və pis vaxtlar",
+      "nameEn": "To have ups and downs",
+      "unitId": "48"
+    },
+    {
+      "id": 963,
+      "nameAz": "Yaxşı əlaqə",
+      "nameEn": "A healty relationship",
+      "unitId": "48"
+    },
+    {
+      "id": 964,
+      "nameAz": "Tezcə qaynayıb qarışmaq",
+      "nameEn": "To hit it off",
+      "unitId": "48"
+    },
+    {
+      "id": 965,
+      "nameAz": "Sevgili olmaq",
+      "nameEn": "To be in a romantic relationship",
+      "unitId": "48"
+    },
+    {
+      "id": 966,
+      "nameAz": "Sadəcə dost olmaq",
+      "nameEn": "To be just goos friends",
+      "unitId": "48"
+    },
+    {
+      "id": 967,
+      "nameAz": "Mütamadi əlaqədə olmaq",
+      "nameEn": "Too keep in touch with",
+      "unitId": "48"
+    },
+    {
+      "id": 968,
+      "nameAz": "İlk baxışdan sevgi",
+      "nameEn": "Love at first sight",
+      "unitId": "48"
+    },
+    {
+      "id": 969,
+      "nameAz": "Dərhal",
+      "nameEn": "Immediately",
+      "unitId": "48"
+    },
+    {
+      "id": 970,
+      "nameAz": "Evlənmə təklifi",
+      "nameEn": "To pop the question",
+      "unitId": "48"
+    },
+    {
+      "id": 971,
+      "nameAz": "Razılaşmaq",
+      "nameEn": "To see eye to eye",
+      "unitId": "48"
+    },
+    {
+      "id": 972,
+      "nameAz": "Evlilik həyatına girmək, subayçılığın daşını atmaq",
+      "nameEn": "To sattle down",
+      "unitId": "48"
+    },
+    {
+      "id": 973,
+      "nameAz": "Dostluğa başlamaq",
+      "nameEn": "To strike up a relationship",
+      "unitId": "48"
+    },
+    {
+      "id": 974,
+      "nameAz": "Düyün",
+      "nameEn": "Knot",
+      "unitId": "48"
+    },
+    {
+      "id": 975,
+      "nameAz": "İp, bağlamaq",
+      "nameEn": "Tie",
+      "unitId": "48"
+    },
+    {
+      "id": 976,
+      "nameAz": "Başını bağlamaq",
+      "nameEn": "To tie the knot",
+      "unitId": "48"
+    },
+    {
+      "id": 977,
+      "nameAz": "Uyğun olmaq",
+      "nameEn": "To be well mached",
+      "unitId": "48"
+    },
+    {
+      "id": 978,
+      "nameAz": "Münasibəti qoruyub saxlamağa çalışmaq",
+      "nameEn": "To work at a relationship",
+      "unitId": "48"
+    },
+    {
+      "id": 979,
+      "nameAz": "Çox əsəbi",
+      "nameEn": "Furious",
+      "unitId": "48"
+    },
+    {
+      "id": 980,
+      "nameAz": "Zavallı",
+      "nameEn": "Miserable",
+      "unitId": "48"
+    },
+    {
+      "id": 981,
+      "nameAz": "Sıldırım",
+      "nameEn": "Cliff",
+      "unitId": "49"
+    },
+    {
+      "id": 982,
+      "nameAz": "Dalğa",
+      "nameEn": "Wave",
+      "unitId": "49"
+    },
+    {
+      "id": 983,
+      "nameAz": "Qum",
+      "nameEn": "Sand",
+      "unitId": "49"
+    },
+    {
+      "id": 984,
+      "nameAz": "Qaya",
+      "nameEn": "Rock",
+      "unitId": "49"
+    },
+    {
+      "id": 985,
+      "nameAz": "Sahil (çimərlikdən kənar)",
+      "nameEn": "Coast",
+      "unitId": "49"
+    },
+    {
+      "id": 986,
+      "nameAz": "Günəş kremi",
+      "nameEn": "Suncreen",
+      "unitId": "49"
+    },
+    {
+      "id": 987,
+      "nameAz": "Risk altı",
+      "nameEn": "At risk of",
+      "unitId": "49"
+    },
+    {
+      "id": 988,
+      "nameAz": "Kölgə, kölgəlik",
+      "nameEn": "Shade",
+      "unitId": "49"
+    },
+    {
+      "id": 989,
+      "nameAz": "Dənizkənarı",
+      "nameEn": "Seaside",
+      "unitId": "49"
+    },
+    {
+      "id": 990,
+      "nameAz": "Kurot",
+      "nameEn": "Resort",
+      "unitId": "49"
+    },
+    {
+      "id": 991,
+      "nameAz": "Dənizkənarı şəhər",
+      "nameEn": "Town by the sea",
+      "unitId": "49"
+    },
+    {
+      "id": 992,
+      "nameAz": "Qumlu",
+      "nameEn": "Sandy",
+      "unitId": "49"
+    },
+    {
+      "id": 993,
+      "nameAz": "Gəzmək, gəzinti, günlük gəzinti",
+      "nameEn": "Stroll",
+      "unitId": "49"
+    },
+    {
+      "id": 994,
+      "nameAz": "Boyunca",
+      "nameEn": "Along",
+      "unitId": "49"
+    },
+    {
+      "id": 995,
+      "nameAz": "Sahil( su və torpaq birləşməsi)",
+      "nameEn": "Shore",
+      "unitId": "49"
+    },
+    {
+      "id": 996,
+      "nameAz": "Gün işığı",
+      "nameEn": "Sunshine",
+      "unitId": "49"
+    },
+    {
+      "id": 997,
+      "nameAz": "Meh",
+      "nameEn": "Breeze",
+      "unitId": "49"
+    },
+    {
+      "id": 998,
+      "nameAz": "Üfürmək",
+      "nameEn": "Blow",
+      "unitId": "49"
+    },
+    {
+      "id": 999,
+      "nameAz": "Dalğıc",
+      "nameEn": "Diving",
+      "unitId": "49"
+    },
+    {
+      "id": 1000,
+      "nameAz": "Uzanmaq",
+      "nameEn": "Lie",
+      "unitId": "49"
+    },
+    {
+      "id": 1001,
+      "nameAz": "Günəşlənmək, qaralmaq",
+      "nameEn": "Tan",
+      "unitId": "49"
+    },
+    {
+      "id": 1002,
+      "nameAz": "Yanmaq( günəşdən)",
+      "nameEn": "Sunburn",
+      "unitId": "49"
+    },
+    {
+      "id": 1003,
+      "nameAz": "Daha pis",
+      "nameEn": "Worse",
+      "unitId": "49"
+    },
+    {
+      "id": 1004,
+      "nameAz": "Daha pisi",
+      "nameEn": "Worse still",
+      "unitId": "49"
+    },
+    {
+      "id": 1005,
+      "nameAz": "Fantan",
+      "nameEn": "Fountain",
+      "unitId": "49"
+    },
+    {
+      "id": 1006,
+      "nameAz": "Mənzərə",
+      "nameEn": "Sight",
+      "unitId": "49"
+    },
+    {
+      "id": 1007,
+      "nameAz": "Görməli yerləri gəzmək",
+      "nameEn": "Sightseeing",
+      "unitId": "49"
+    },
+    {
+      "id": 1008,
+      "nameAz": "Təsadüfən",
+      "nameEn": "Casually",
+      "unitId": "49"
+    },
+    {
+      "id": 1009,
+      "nameAz": "Dolaşmaq, dolanmaq",
+      "nameEn": "Go round",
+      "unitId": "49"
+    },
+    {
+      "id": 1010,
+      "nameAz": "İtmək",
+      "nameEn": "Get lost",
+      "unitId": "49"
+    },
+    {
+      "id": 1011,
+      "nameAz": "Çox sıx( insanlar)",
+      "nameEn": "Packed",
+      "unitId": "49"
+    },
+    {
+      "id": 1012,
+      "nameAz": "Canlı, hərəkətli",
+      "nameEn": "Lively",
+      "unitId": "49"
+    },
+    {
+      "id": 1013,
+      "nameAz": "Bol",
+      "nameEn": "Plenty",
+      "unitId": "49"
+    },
+    {
+      "id": 1014,
+      "nameAz": "Abidə",
+      "nameEn": "Monument",
+      "unitId": "49"
+    },
+    {
+      "id": 1015,
+      "nameAz": "Cazibə",
+      "nameEn": "Attraction",
+      "unitId": "49"
+    },
+    {
+      "id": 1016,
+      "nameAz": "Mütləq",
+      "nameEn": "Definetely",
+      "unitId": "49"
+    },
+    {
+      "id": 1017,
+      "nameAz": "Dəyər, qiymət",
+      "nameEn": "Worth (worth+ noun. Ex: Glaslow is worth a visit as well)",
+      "unitId": "49"
+    },
+    {
+      "id": 1018,
+      "nameAz": "Kilsə( əsas kilsə)",
+      "nameEn": "Cathedral",
+      "unitId": "49"
+    },
+    {
+      "id": 1019,
+      "nameAz": "Məbəd",
+      "nameEn": "Temple",
+      "unitId": "49"
+    },
+    {
+      "id": 1020,
+      "nameAz": "Heykəl",
+      "nameEn": "Statue",
+      "unitId": "49"
+    },
+    {
+      "id": 1021,
+      "nameAz": "Möhtəşəm",
+      "nameEn": "Magnificent",
+      "unitId": "49"
+    },
+    {
+      "id": 1022,
+      "nameAz": "Sıxışmış",
+      "nameEn": "Stuck",
+      "unitId": "49"
+    },
+    {
+      "id": 1023,
+      "nameAz": "Poza, duruş",
+      "nameEn": "Pose",
+      "unitId": "49"
+    },
+    {
+      "id": 1024,
+      "nameAz": "Güvənmək",
+      "nameEn": "Count on (ex: count on me)",
+      "unitId": "49"
+    },
+    {
+      "id": 1025,
+      "nameAz": "Anlamaq",
+      "nameEn": "Find out",
+      "unitId": "49"
+    },
+    {
+      "id": 1026,
+      "nameAz": "Cünki",
+      "nameEn": "Cuz",
+      "unitId": "49"
+    },
+    {
+      "id": 1027,
+      "nameAz": "Laiq olmaq",
+      "nameEn": "Deserve",
+      "unitId": "49"
+    },
+    {
+      "id": 1028,
+      "nameAz": "Xüsusi",
+      "nameEn": "Particular",
+      "unitId": "49"
+    },
+    {
+      "id": 1029,
+      "nameAz": "Təəssüf ki",
+      "nameEn": "Unfortunately",
+      "unitId": "49"
+    },
+    {
+      "id": 1030,
+      "nameAz": "Müəllif hüququ",
+      "nameEn": "Credit",
+      "unitId": "49"
+    },
+    {
+      "id": 1031,
+      "nameAz": "İfadə etmək",
+      "nameEn": "Express",
+      "unitId": "0"
+    },
+    {
+      "id": 1032,
+      "nameAz": "Buraxmaq, üzərindən keçmək, atlamaq",
+      "nameEn": "Omit",
+      "unitId": "50"
+    },
+    {
+      "id": 1033,
+      "nameAz": "Tənzimləmə",
+      "nameEn": "Arrangememt",
+      "unitId": "50"
+    },
+    {
+      "id": 1034,
+      "nameAz": "Ətraf",
+      "nameEn": "Surrounding",
+      "unitId": "50"
+    },
+    {
+      "id": 1035,
+      "nameAz": "Eləcə də",
+      "nameEn": "As well as",
+      "unitId": "50"
+    },
+    {
+      "id": 1036,
+      "nameAz": "Düşünmək (nəsə haqqında)",
+      "nameEn": "Considerer",
+      "unitId": "50"
+    },
+    {
+      "id": 1037,
+      "nameAz": "Niyyət etmək",
+      "nameEn": "Intend",
+      "unitId": "50"
+    },
+    {
+      "id": 1038,
+      "nameAz": "Cəhd etmək",
+      "nameEn": "Attempt",
+      "unitId": "50"
+    },
+    {
+      "id": 1039,
+      "nameAz": "Tələb etmək",
+      "nameEn": "Demand",
+      "unitId": "50"
+    },
+    {
+      "id": 1040,
+      "nameAz": "Günahlandırmaq",
+      "nameEn": "Blame",
+      "unitId": "50"
+    },
+    {
+      "id": 1041,
+      "nameAz": "Israr etmək",
+      "nameEn": "Insist on",
+      "unitId": "50"
+    },
+    {
+      "id": 1042,
+      "nameAz": "Borc vermək",
+      "nameEn": "Lend",
+      "unitId": "50"
+    },
+    {
+      "id": 1043,
+      "nameAz": "Ulduz falı, bürclər",
+      "nameEn": "Horoscopes",
+      "unitId": "50"
+    },
+    {
+      "id": 1044,
+      "nameAz": "Təşkil etmək",
+      "nameEn": "Arrange",
+      "unitId": "50"
+    },
+    {
+      "id": 1045,
+      "nameAz": "Həmçinin",
+      "nameEn": "As well",
+      "unitId": "50"
+    },
+    {
+      "id": 1046,
+      "nameAz": "Şadlanmaq",
+      "nameEn": "Cheer up",
+      "unitId": "50"
+    },
+    {
+      "id": 1047,
+      "nameAz": "Qatqı",
+      "nameEn": "Contribution",
+      "unitId": "50"
+    },
+    {
+      "id": 1048,
+      "nameAz": "Qərar",
+      "nameEn": "Decision",
+      "unitId": "50"
+    },
+    {
+      "id": 1049,
+      "nameAz": "Cəhd, səy",
+      "nameEn": "Effort",
+      "unitId": "50"
+    },
+    {
+      "id": 1050,
+      "nameAz": "Bəhanə, üzr",
+      "nameEn": "Excuse",
+      "unitId": "50"
+    },
+    {
+      "id": 1051,
+      "nameAz": "Yaxşılıq( kiçik yaxşılıqlar)",
+      "nameEn": "Favour",
+      "unitId": "50"
+    },
+    {
+      "id": 1052,
+      "nameAz": "Zərər",
+      "nameEn": "Harm",
+      "unitId": "50"
+    },
+    {
+      "id": 1053,
+      "nameAz": "Marşrut, uçuş planı",
+      "nameEn": "Itinerary",
+      "unitId": "50"
+    },
+    {
+      "id": 1054,
+      "nameAz": "Dalış, suya dalma",
+      "nameEn": "Dive",
+      "unitId": "50"
+    },
+    {
+      "id": 1055,
+      "nameAz": "Həyata keçmək",
+      "nameEn": "Come true",
+      "unitId": "50"
+    },
+    {
+      "id": 1056,
+      "nameAz": "Sürü",
+      "nameEn": "Herd",
+      "unitId": "50"
+    },
+    {
+      "id": 1057,
+      "nameAz": "Kəsmək, toplamaq",
+      "nameEn": "Cull",
+      "unitId": "50"
+    },
+    {
+      "id": 1058,
+      "nameAz": "Qurban, qurban vermək",
+      "nameEn": "Sacrifice",
+      "unitId": "50"
+    },
+    {
+      "id": 1059,
+      "nameAz": "Həyacan, titrəmə",
+      "nameEn": "Thrill",
+      "unitId": "50"
+    },
+    {
+      "id": 1060,
+      "nameAz": "Qismət, nəsib",
+      "nameEn": "Destiny",
+      "unitId": "50"
+    },
+    {
+      "id": 1061,
+      "nameAz": "Ayaqyalın",
+      "nameEn": "Barefoot",
+      "unitId": "50"
+    },
+    {
+      "id": 1062,
+      "nameAz": "İnanc",
+      "nameEn": "Faith",
+      "unitId": "50"
+    },
+    {
+      "id": 1066,
+      "nameAz": "Boyunca",
+      "nameEn": "Along",
+      "unitId": 55
+    },
+    {
+      "id": 1068,
+      "nameAz": "İrəliləmək",
+      "nameEn": "Rush",
+      "unitId": 55
+    },
+    {
+      "id": 1070,
+      "nameAz": "Düzəltmək",
+      "nameEn": "Mend",
+      "unitId": 55
+    },
+    {
+      "id": 1072,
+      "nameAz": "Qadın köynəyi",
+      "nameEn": "Blouse",
+      "unitId": 55
+    },
+    {
+      "id": 1074,
+      "nameAz": "Tər",
+      "nameEn": "Sweat",
+      "unitId": 55
+    },
+    {
+      "id": 1076,
+      "nameAz": "Piyada",
+      "nameEn": "Pedestrian",
+      "unitId": 55
+    },
+    {
+      "id": 1078,
+      "nameAz": "Cəsarətləndirmək",
+      "nameEn": "Encourage",
+      "unitId": 55
+    },
+    {
+      "id": 1080,
+      "nameAz": "Maraq",
+      "nameEn": "Curiosity",
+      "unitId": 55
+    },
+    {
+      "id": 1082,
+      "nameAz": "Nəzərə almaq, düşünmək",
+      "nameEn": "Consider",
+      "unitId": 55
+    },
+    {
+      "id": 1084,
+      "nameAz": "Tərk etmək",
+      "nameEn": "Desert, abandon, leave",
+      "unitId": 55
+    },
+    {
+      "id": 1086,
+      "nameAz": "İti",
+      "nameEn": "Keen, sharp, intense, sensitive",
+      "unitId": 55
+    },
+    {
+      "id": 1088,
+      "nameAz": " Qısqanc",
+      "nameEn": "Jealous, envious, geen-eyed",
+      "unitId": 55
+    },
+    {
+      "id": 1090,
+      "nameAz": "Nəzəkat, sözü qarşı tərəfə ən doğru şəkildə çatdırma bacarığı",
+      "nameEn": "Tact, Diplomacy, Sensitivity",
+      "unitId": 55
+    },
+    {
+      "id": 1092,
+      "nameAz": "And, əhd",
+      "nameEn": "Oath (take oath), vow, promise",
+      "unitId": 55
+    },
+    {
+      "id": 1094,
+      "nameAz": "Boş",
+      "nameEn": "Vacant, empty, available, vacated",
+      "unitId": 55
+    },
+    {
+      "id": 1096,
+      "nameAz": "Dözmək",
+      "nameEn": "Bear",
+      "unitId": 55
+    },
+    {
+      "id": 1098,
+      "nameAz": "Çətinlik",
+      "nameEn": "Hardship, diffucultly, adversity, trial",
+      "unitId": 55
+    },
+    {
+      "id": 1100,
+      "nameAz": "Cəsarətli",
+      "nameEn": "Gallant, brave, chivalrous, Courageous",
+      "unitId": 55
+    },
+    {
+      "id": 1102,
+      "nameAz": "Alışılmış",
+      "nameEn": "Familar, used to, inured, accustomed",
+      "unitId": 55
+    },
+    {
+      "id": 1104,
+      "nameAz": "Alışımamış, vərdişsiz, Unfrequented, Unseasoned",
+      "nameEn": "Unaccustomed, Unfamiliar",
+      "unitId": 55
+    },
+    {
+      "id": 1106,
+      "nameAz": "Subay kişi",
+      "nameEn": "Bachelor, single man, unmarried man, Eligible bachelor",
+      "unitId": 55
+    },
+    {
+      "id": 1108,
+      "nameAz": "Standartlara cavab vermək",
+      "nameEn": "Qualify ,To meet the requirements or standards",
+      "unitId": 55
+    },
+    {
+      "id": 1110,
+      "nameAz": "Yaymaq",
+      "nameEn": "Spread",
+      "unitId": 55
+    },
+    {
+      "id": 1112,
+      "nameAz": "Fənn",
+      "nameEn": "Subject",
+      "unitId": 55
+    },
+    {
+      "id": 1114,
+      "nameAz": "Baxmayaraq, hərçənd",
+      "nameEn": "Though, although",
+      "unitId": 55
+    },
+    {
+      "id": 1116,
+      "nameAz": "Bəlkə",
+      "nameEn": "Perhaps",
+      "unitId": 55
+    },
+    {
+      "id": 1118,
+      "nameAz": "Problem",
+      "nameEn": "Trouble",
+      "unitId": 55
+    },
+    {
+      "id": 1120,
+      "nameAz": "İddia",
+      "nameEn": "Pretend",
+      "unitId": 55
+    },
+    {
+      "id": 1122,
+      "nameAz": "Uğur qazanmaq",
+      "nameEn": "Succee",
+      "unitId": 55
+    },
+    {
+      "id": 1124,
+      "nameAz": "Hamar",
+      "nameEn": "Shmooth, slick, even",
+      "unitId": 55
+    },
+    {
+      "id": 1126,
+      "nameAz": "Əl silkələmək",
+      "nameEn": "Shook hand",
+      "unitId": 55
+    },
+    {
+      "id": 1128,
+      "nameAz": "Qalxmaq",
+      "nameEn": "Stand up",
+      "unitId": 55
+    },
+    {
+      "id": 1130,
+      "nameAz": "Siqaret yandırmaq",
+      "nameEn": "Lit a cigarette",
+      "unitId": 55
+    },
+    {
+      "id": 1132,
+      "nameAz": "Ayrılmaq",
+      "nameEn": "Seperate",
+      "unitId": 55
+    },
+    {
+      "id": 1134,
+      "nameAz": "Quldurluq, soyğunçuluq",
+      "nameEn": "Robbery",
+      "unitId": 55
+    },
+    {
+      "id": 1137,
+      "nameAz": "Hostile",
+      "nameEn": "Pis",
+      "unitId": 57
+    },
+    {
+      "id": 1139,
+      "nameAz": "Özünə əmin",
+      "nameEn": "Confident",
+      "unitId": 57
+    },
+    {
+      "id": 1141,
+      "nameAz": "Səbrli",
+      "nameEn": "Patient",
+      "unitId": 57
+    },
+    {
+      "id": 1143,
+      "nameAz": "Səbrsiz",
+      "nameEn": "Unpatient",
+      "unitId": 57
+    },
+    {
+      "id": 1145,
+      "nameAz": "Kobud",
+      "nameEn": "Impolite",
+      "unitId": 57
+    },
+    {
+      "id": 1147,
+      "nameAz": "Corpse,  ded body",
+      "nameEn": "Cəsəd",
+      "unitId": 57
+    },
+    {
+      "id": 1149,
+      "nameAz": "Gizlətmək",
+      "nameEn": "Conceal, hide",
+      "unitId": 57
+    },
+    {
+      "id": 1151,
+      "nameAz": "Məyus",
+      "nameEn": "Dismal, dark, depressing",
+      "unitId": 57
+    },
+    {
+      "id": 1153,
+      "nameAz": "Çox soyuq",
+      "nameEn": "Frigid, very cold, freezing",
+      "unitId": 57
+    },
+    {
+      "id": 1155,
+      "nameAz": "Məskunlaşmaq",
+      "nameEn": "Inhabit",
+      "unitId": 57
+    },
+    {
+      "id": 1157,
+      "nameAz": "Keyimək",
+      "nameEn": "Numb, without the power of feeling, deadened, intensitive, unfeeling",
+      "unitId": 57
+    },
+    {
+      "id": 1160,
+      "nameAz": "Təhlükə",
+      "nameEn": "Peril, danger, hazard",
+      "unitId": 57
+    },
+    {
+      "id": 1162,
+      "nameAz": "Söykənmək(oturaraq)",
+      "nameEn": "Recline, lie down, stretch out, lean back",
+      "unitId": 57
+    },
+    {
+      "id": 1164,
+      "nameAz": "Qışqırmaq",
+      "nameEn": "Shriek, scream, yell",
+      "unitId": 57
+    },
+    {
+      "id": 1166,
+      "nameAz": "Pis",
+      "nameEn": "Sinister, evil, wicked, dishonest, frightening",
+      "unitId": 57
+    },
+    {
+      "id": 1168,
+      "nameAz": "Aldatmaq, kələk gəlmək",
+      "nameEn": "Tempt, try to get someone to do something, test, invite",
+      "unitId": 57
+    },
+    {
+      "id": 1170,
+      "nameAz": "Mərc",
+      "nameEn": "Wager (make wager), bet",
+      "unitId": 57
+    },
+    {
+      "id": 1172,
+      "nameAz": "Təhlükəli",
+      "nameEn": " Perilous",
+      "unitId": 57
+    },
+    {
+      "id": 1174,
+      "nameAz": "Soyğunçu",
+      "nameEn": "Robber",
+      "unitId": 57
+    },
+    {
+      "id": 1176,
+      "nameAz": "Qaldırmaq",
+      "nameEn": "Raise",
+      "unitId": 57
+    },
+    {
+      "id": 1178,
+      "nameAz": "Şkaf",
+      "nameEn": "Closet",
+      "unitId": 57
+    },
+    {
+      "id": 1182,
+      "nameAz": "Cəsarət",
+      "nameEn": "Courage",
+      "unitId": 55
+    },
+    {
+      "id": 1186,
+      "nameAz": "Tipik",
+      "nameEn": "Yypical, usual, of a kind",
+      "unitId": 59
+    },
+    {
+      "id": 1188,
+      "nameAz": "Minimum",
+      "nameEn": "Minimum, the least possible amount, the lowest amount",
+      "unitId": 59
+    },
+    {
+      "id": 1190,
+      "nameAz": "Nadir",
+      "nameEn": "Scarse, hard to get, rare",
+      "unitId": 59
+    },
+    {
+      "id": 1192,
+      "nameAz": "İldə bir dəfə",
+      "nameEn": "Annual, once a year",
+      "unitId": 59
+    },
+    {
+      "id": 1195,
+      "nameAz": "İnandırmaq",
+      "nameEn": "Persuade,  win over to do or belive, make willing",
+      "unitId": 59
+    },
+    {
+      "id": 1197,
+      "nameAz": "Vacib",
+      "nameEn": "Essential, necessary, very important",
+      "unitId": 59
+    },
+    {
+      "id": 1199,
+      "nameAz": "Qarışdırmaq",
+      "nameEn": "Blend, mix together thoroghly, a mixture",
+      "unitId": 59
+    },
+    {
+      "id": 1201,
+      "nameAz": "Görünən",
+      "nameEn": "Visible, able to be seen",
+      "unitId": 59
+    },
+    {
+      "id": 1203,
+      "nameAz": "Bahalı",
+      "nameEn": "Expensive, costly, high-priced",
+      "unitId": 59
+    },
+    {
+      "id": 1205,
+      "nameAz": "Doğuşdan gələn bacarıq",
+      "nameEn": "Talent, natural ability",
+      "unitId": 59
+    },
+    {
+      "id": 1207,
+      "nameAz": "Hazırlamaq",
+      "nameEn": "Devise, think out, plan, invent",
+      "unitId": 59
+    },
+    {
+      "id": 1209,
+      "nameAz": "Topdan satış",
+      "nameEn": "Wholesale, in large quantity, less than retail in price",
+      "unitId": 59
+    },
+    {
+      "id": 1212,
+      "nameAz": "Buxar",
+      "nameEn": "Vapor, moisture in the air that can be seen, fog, mist",
+      "unitId": 61
+    },
+    {
+      "id": 1214,
+      "nameAz": "Çıxarmaq",
+      "nameEn": "Eliminate, get rid of, remove, omit",
+      "unitId": 61
+    },
+    {
+      "id": 1216,
+      "nameAz": "Cani, çox pis insan",
+      "nameEn": "Villian, a very wicked person",
+      "unitId": 61
+    },
+    {
+      "id": 1218,
+      "nameAz": "Sıx",
+      "nameEn": "Dense, closely packed together, thick",
+      "unitId": 61
+    },
+    {
+      "id": 1220,
+      "nameAz": " Faydalanmaq, yararlanmaq",
+      "nameEn": "Utilize, make use of",
+      "unitId": 61
+    },
+    {
+      "id": 1222,
+      "nameAz": "Nəm, nəmli, rütubətli",
+      "nameEn": "Humid, moist, damp",
+      "unitId": 61
+    },
+    {
+      "id": 1224,
+      "nameAz": "Teoriya",
+      "nameEn": "Theory, explanation based on though, observation, reasoning",
+      "unitId": 61
+    },
+    {
+      "id": 1226,
+      "nameAz": "Enmək",
+      "nameEn": "Descend, go or come down from a higher place to a lower level",
+      "unitId": 61
+    },
+    {
+      "id": 1228,
+      "nameAz": "Dövr etmək",
+      "nameEn": "Circulate, go around, go from place to place or person to person",
+      "unitId": 61
+    },
+    {
+      "id": 1230,
+      "nameAz": "Böyük, çox böyük",
+      "nameEn": "Enormous,extremly large, huge",
+      "unitId": 61
+    },
+    {
+      "id": 1232,
+      "nameAz": "Proqnoz vermək",
+      "nameEn": "Predict, tell beforehand",
+      "unitId": 61
+    },
+    {
+      "id": 1235,
+      "nameAz": "Yox olmaq",
+      "nameEn": "Vanish, disappear suddenly",
+      "unitId": 61
+    },
+    {
+      "id": 1237,
+      "nameAz": "Çubuq",
+      "nameEn": "Wand",
+      "unitId": 61
+    },
+    {
+      "id": 1239,
+      "nameAz": "Qlapan, qapaq",
+      "nameEn": "Valve",
+      "unitId": 61
+    },
+    {
+      "id": 1241,
+      "nameAz": "Buxar motoru",
+      "nameEn": "Steam engine",
+      "unitId": 61
+    },
+    {
+      "id": 1243,
+      "nameAz": "Gec ya tez",
+      "nameEn": "Sooner or leter",
+      "unitId": 61
+    },
+    {
+      "id": 1245,
+      "nameAz": "Dərk etmək",
+      "nameEn": "Perceive",
+      "unitId": 61
+    },
+    {
+      "id": 1247,
+      "nameAz": "Silmək",
+      "nameEn": "Wipe out",
+      "unitId": 61
+    },
+    {
+      "id": 1249,
+      "nameAz": "Gərginləşdirmək, ağırlaşdırmaq",
+      "nameEn": "Aggravate",
+      "unitId": 61
+    },
+    {
+      "id": 1251,
+      "nameAz": "Şübhəli",
+      "nameEn": "Suspect",
+      "unitId": 61
+    },
+    {
+      "id": 1253,
+      "nameAz": "Qeybət",
+      "nameEn": "Gossip",
+      "unitId": 61
+    },
+    {
+      "id": 1255,
+      "nameAz": "Hiyləgər",
+      "nameEn": "Schemer",
+      "unitId": 61
+    },
+    {
+      "id": 1257,
+      "nameAz": "İqlim",
+      "nameEn": "Climate",
+      "unitId": 61
+    },
+    {
+      "id": 1259,
+      "nameAz": "Qabaqcadan söyləmək",
+      "nameEn": "Foretell",
+      "unitId": 61
+    },
+    {
+      "id": 1261,
+      "nameAz": "Bərpa etmək",
+      "nameEn": "Regain",
+      "unitId": 61
+    },
+    {
+      "id": 1264,
+      "nameAz": "Adət, ənənə",
+      "nameEn": "Traditional, beliefs, opinions, customs handed down from one generation to another",
+      "unitId": 63
+    },
+    {
+      "id": 1266,
+      "nameAz": "Kənd, kəndli",
+      "nameEn": "Rural",
+      "unitId": 63
+    },
+    {
+      "id": 1268,
+      "nameAz": "Yük",
+      "nameEn": "Burden, what is carried, a load",
+      "unitId": 63
+    },
+    {
+      "id": 1270,
+      "nameAz": "Kampus",
+      "nameEn": "Campus, grounds of a college, university",
+      "unitId": 63
+    },
+    {
+      "id": 1272,
+      "nameAz": "Böyük hissə",
+      "nameEn": "Majority (with of), the larger number, greater part, more than half",
+      "unitId": 63
+    },
+    {
+      "id": 1274,
+      "nameAz": "Toplaşmaq",
+      "nameEn": "Assemble, gather together, bring together",
+      "unitId": 63
+    },
+    {
+      "id": 1276,
+      "nameAz": "Araşdırmaq",
+      "nameEn": "Explore, go over carefully, look into closely, examine",
+      "unitId": 63
+    },
+    {
+      "id": 1278,
+      "nameAz": "Mövzu",
+      "nameEn": "Topic, subject that people think, write, or talk about",
+      "unitId": 63
+    },
+    {
+      "id": 1280,
+      "nameAz": "Debat",
+      "nameEn": "Debate, a discussion in which reasons for and against something are brought out",
+      "unitId": 63
+    },
+    {
+      "id": 1282,
+      "nameAz": "Yayınmaq",
+      "nameEn": "Evade, get away from by trickery or cleverness",
+      "unitId": 63
+    },
+    {
+      "id": 1284,
+      "nameAz": "Soruşdurmaq, araşdırmaq",
+      "nameEn": "Probe, search into, examine thoroughly, investiage",
+      "unitId": 63
+    },
+    {
+      "id": 1286,
+      "nameAz": "İslahat, yenilik, yaxşılaşdırmaq",
+      "nameEn": "Reform, make better, improve by remowing faults",
+      "unitId": 63
+    }
+  ],
+  "activePage": "all-word",
+  "unitSelectVal": "41",
+  "languageVal": "0",
+  "Stories": [
+    {
+      "id": "JBGE5o2TT4JwkT11daaoLYXmr3VT8QXhoODjoT8veGesqZsPXe1690395150105",
+      "level": "A2",
+      "lenght": 200,
+      "tags": "Curiosity",
+      "content": "Once upon a time, there was a little girl named Lily. She was a very curious child, always asking questions and exploring her surroundings. One day, while playing in the park, she noticed a mysterious old house at the edge of the woods. She couldn't resist her curiosity and decided to investigate.\n\nAs she got closer, she noticed that the house was abandoned and looked like it hadn't been lived in for years. But something caught her eye through one of the windows. It was a beautiful butterfly, fluttering around inside the house. Lily was determined to catch it, and so she climbed through the window.\n\nAs she explored the house, she discovered that it was full of secrets and mysteries. There were old books, antique furniture, and even a hidden staircase. But the most amazing discovery was the butterfly. It led her to a secret garden behind the house, where she found a whole world of wonder and beauty.\n\nLily realized that her curiosity had led her to an amazing adventure. She had discovered things she never would have seen if she hadn't followed her instincts. From that day on, she promised herself to always be curious and explore the world around her."
+    }
+  ],
+  "LanguageVal": 2,
+  "UnitSelectVal": [
+    61
+  ]
+}

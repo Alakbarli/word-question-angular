@@ -12,6 +12,10 @@ export class LanguageService {
   unitId:number=1;
   wordId:number=1;
   db:DB=new DB();
+
+  url: string = '/../../../assets/files/data.json';
+
+
   constructor() {
     this.getDbLocalstorage();
     this.getStoriesLocalstorage();
@@ -118,7 +122,15 @@ export class LanguageService {
       this.db=JSON.parse((localStorage.getItem("wordDb")) as string)
       this.findLastIdUnit();
       this.findLastIdWord();
-  }
+    }
+    else{
+      fetch(this.url).then(res => res.json())
+    .then(json => {
+      this.db=json;
+      this.syncAll();
+      window.location.reload();
+    });
+    }
   }
   getStoriesLocalstorage(){
     if(window.localStorage.getItem("wordDbStories")!=null&&window.localStorage.getItem("wordDbStories")!=undefined){

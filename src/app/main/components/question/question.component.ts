@@ -110,10 +110,12 @@ export class QuestionComponent implements OnInit {
               if(this.selecetedLang==0){
                  let rndmN=this.GenerateRandomNumber(0,2);
                  if(rndmN==1){
+                  this.isAvailable=false;
                      this.askedWord=  word.nameAz;
                      this.correctAnswer=  word.nameEn;
                   }
                   else{
+                    this.isAvailable=true;
                     this.correctAnswer=  word.nameAz;
                       this.askedWord=  word.nameEn;}
                 }
