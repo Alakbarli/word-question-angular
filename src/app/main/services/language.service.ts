@@ -13,7 +13,7 @@ export class LanguageService {
   wordId:number=1;
   db:DB=new DB();
 
-  url: string = '/../../../assets/files/data.json';
+  url: string = 'assets/files/data.json';
 
 
   constructor() {
