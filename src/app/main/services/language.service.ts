@@ -13,7 +13,7 @@ export class LanguageService {
   wordId:number=1;
   db:DB=new DB();
 
-  url: string = '../../../assets/files/data.json';
+  url: string = '/../../../assets/files/data.json';
 
 
   constructor() {
@@ -124,7 +124,8 @@ export class LanguageService {
       this.findLastIdWord();
     }
     else{
-      fetch(this.url).then(res => res.json())
+    fetch(this.url)
+    .then(res => res.json())
     .then(json => {
       console.log(json)
       this.db=json;
