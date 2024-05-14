@@ -213,6 +213,9 @@ h1, .h1 {
     color: #dbdbdb;
     text-decoration: none;
 }
+.logo-left:focus ,.logo-left:active , .logo-left:hover {
+    color: #443ea2;
+}
 
 .brand-logo i {
     color: #d2d1d1;

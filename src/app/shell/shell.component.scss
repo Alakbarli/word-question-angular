@@ -20,6 +20,9 @@
 }
 .dashboard-toolbar{
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .copyright{
     font-family: $header-fam;
