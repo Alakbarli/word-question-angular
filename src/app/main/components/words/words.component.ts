@@ -29,6 +29,9 @@ export class WordsComponent implements OnInit {
   unitList:Array<Unit>|null=null;
   displayedColumns: string[] = ['no', 'nameAz', 'nameEn', 'unitName','operation'];
 
+  hideLang1:boolean=false;
+  hideLang2:boolean=false;
+
 
   @ViewChild(MatPaginator, {}) paginator: MatPaginator;
   pageIndex: number = 0;
@@ -160,7 +163,7 @@ export class WordsComponent implements OnInit {
   }
   getWords(page:number) {
     let takenStart=page*this.pageSize;
-    this.dataSource.data=this.filteredData.slice(takenStart,takenStart+this.pageSize);
+    this.dataSource.data=this.filteredData.slice(takenStart,takenStart+this.pageSize).map(x=>({...x,hide1:undefined,hide2:undefined}));
     this.length = this.filteredData.length;
     //this.paginator.length=this.length;
     //console.log(this.paginator)
@@ -183,6 +186,38 @@ export class WordsComponent implements OnInit {
     }
     else{
       this.selectedSpeechLang=this.langList.find(x=>x.name.toLowerCase().includes("english"))?.name||this.langList[0].name;
+    }
+  }
+
+  changeVisibleLang1(){
+    this.hideLang1=!this.hideLang1;
+    this.dataSource.data=this.dataSource.data.map(x=>({...x,hide1:undefined}))
+    if(this.hideLang1&&this.hideLang2){
+      //this.hideLang2=false;
+    }
+  }
+  changeVisibleLang2(){
+    this.hideLang2=!this.hideLang2;
+    this.dataSource.data=this.dataSource.data.map(x=>({...x,hide2:undefined}))
+    if(this.hideLang1&&this.hideLang2){
+      //this.hideLang1=false;
+    }
+  }
+  hideWord(index:number){
+    
+    if(this.dataSource.data[index].hide1==undefined&&this.hideLang1){
+      this.dataSource.data[index].hide1=false;
+    }
+    else{
+      this.dataSource.data[index].hide1=!(this.dataSource.data[index].hide1);
+    }
+  }
+  hideWord2(index:number){
+    if(this.dataSource.data[index].hide2==undefined&&this.hideLang2){
+      this.dataSource.data[index].hide2=false;
+    }
+    else{
+      this.dataSource.data[index].hide2=!(this.dataSource.data[index].hide2);
     }
   }
 }

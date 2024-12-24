@@ -219,6 +219,90 @@
     {
       "id": 63,
       "name": "Ll5"
+    },
+    {
+      "id": 65,
+      "name": "Ll6"
+    },
+    {
+      "id": 67,
+      "name": "Ll7"
+    },
+    {
+      "id": 69,
+      "name": "Ll8"
+    },
+    {
+      "id": 71,
+      "name": "Ll Irr 1"
+    },
+    {
+      "id": 73,
+      "name": "Ll9"
+    },
+    {
+      "id": 77,
+      "name": "Ll 10"
+    },
+    {
+      "id": 79,
+      "name": "BW1"
+    },
+    {
+      "id": 91,
+      "name": "Ll11"
+    },
+    {
+      "id": 93,
+      "name": "Ll12"
+    },
+    {
+      "id": 95,
+      "name": "S1"
+    },
+    {
+      "id": 97,
+      "name": "S2"
+    },
+    {
+      "id": 99,
+      "name": "S3"
+    },
+    {
+      "id": 101,
+      "name": "S4"
+    },
+    {
+      "id": 103,
+      "name": "S5"
+    },
+    {
+      "id": 105,
+      "name": "S6"
+    },
+    {
+      "id": 107,
+      "name": "S7"
+    },
+    {
+      "id": 109,
+      "name": "S8"
+    },
+    {
+      "id": 111,
+      "name": "S9"
+    },
+    {
+      "id": 113,
+      "name": "LT - 1"
+    },
+    {
+      "id": 117,
+      "name": "LT - 2"
+    },
+    {
+      "id": 119,
+      "name": "LT - 3"
     }
   ],
   "Words": [
@@ -7223,6 +7307,3120 @@
       "nameAz": "İslahat, yenilik, yaxşılaşdırmaq",
       "nameEn": "Reform, make better, improve by remowing faults",
       "unitId": 63
+    },
+    {
+      "id": 1289,
+      "nameAz": "Yanaşmaq",
+      "nameEn": "Approach,come near or nearer to",
+      "unitId": 65
+    },
+    {
+      "id": 1291,
+      "nameAz": "Aşkar etmək",
+      "nameEn": "Detect, find out, discover",
+      "unitId": 65
+    },
+    {
+      "id": 1293,
+      "nameAz": "Qüsur",
+      "nameEn": "Defect, fault, that which is wrong",
+      "unitId": 65
+    },
+    {
+      "id": 1295,
+      "nameAz": "İşçi",
+      "nameEn": "Employee, a person who works for pay",
+      "unitId": 65
+    },
+    {
+      "id": 1297,
+      "nameAz": "Laqeyd yanaşmaq",
+      "nameEn": "Neglect, give too little care or attention to",
+      "unitId": 65
+    },
+    {
+      "id": 1299,
+      "nameAz": "Aldatmaq",
+      "nameEn": "Deceive, mislead, make someone believe as true something that is false",
+      "unitId": 65
+    },
+    {
+      "id": 1301,
+      "nameAz": "Şübhəsiz",
+      "nameEn": "Undoubtedly, certainly, beyond doubt",
+      "unitId": 65
+    },
+    {
+      "id": 1303,
+      "nameAz": "Hər tərəfli",
+      "nameEn": "Thorough, being all that is needed, complete",
+      "unitId": 65
+    },
+    {
+      "id": 1305,
+      "nameAz": "Müştəri, müfəkkil",
+      "nameEn": "Client, person for whom a lawyer acts, customer",
+      "unitId": 65
+    },
+    {
+      "id": 1307,
+      "nameAz": "Hər tərəfli",
+      "nameEn": "Comprehensive, including much, covering completely",
+      "unitId": 65
+    },
+    {
+      "id": 1309,
+      "nameAz": "Aldatmaq(pul)",
+      "nameEn": "Defraund, take money, rights, away by cheating",
+      "unitId": 65
+    },
+    {
+      "id": 1311,
+      "nameAz": "Zərbə",
+      "nameEn": "Strike",
+      "unitId": 65
+    },
+    {
+      "id": 1313,
+      "nameAz": "Sükan",
+      "nameEn": "Steering",
+      "unitId": 65
+    },
+    {
+      "id": 1315,
+      "nameAz": "Dağınıq",
+      "nameEn": "Messy",
+      "unitId": 65
+    },
+    {
+      "id": 1317,
+      "nameAz": "Skamya",
+      "nameEn": "Bench",
+      "unitId": 65
+    },
+    {
+      "id": 1319,
+      "nameAz": "Əmək haqqı",
+      "nameEn": "Wage",
+      "unitId": 65
+    },
+    {
+      "id": 1321,
+      "nameAz": "Tərifləmək",
+      "nameEn": "Praise",
+      "unitId": 65
+    },
+    {
+      "id": 1323,
+      "nameAz": "Nəticə",
+      "nameEn": "Outcome",
+      "unitId": 65
+    },
+    {
+      "id": 1326,
+      "nameAz": "Təxirə salmaq",
+      "nameEn": "Postpone, put off to a later time, delay",
+      "unitId": 67
+    },
+    {
+      "id": 1328,
+      "nameAz": "Razı olmaq, qəbul etmək",
+      "nameEn": "Consent, agree, give permisson, or approval",
+      "unitId": 67
+    },
+    {
+      "id": 1330,
+      "nameAz": "Ağır, cüssəli",
+      "nameEn": "Massive, big and heavy, large and solid, bulky",
+      "unitId": 67
+    },
+    {
+      "id": 1332,
+      "nameAz": "Kapsul",
+      "nameEn": "Capsule, a small case or covering",
+      "unitId": 67
+    },
+    {
+      "id": 1334,
+      "nameAz": "Qorumaq",
+      "nameEn": "Preserve, keep from harm or change, keep safe, protect",
+      "unitId": 67
+    },
+    {
+      "id": 1336,
+      "nameAz": "Bənzərsiz, unik",
+      "nameEn": "Unique, having no like or equal, being the only one of its kind",
+      "unitId": 67
+    },
+    {
+      "id": 1338,
+      "nameAz": "Sel, şiddətli axın",
+      "nameEn": "Torrent (torrent of anything), any violent, rushing stream, flood",
+      "unitId": 67
+    },
+    {
+      "id": 1340,
+      "nameAz": "Qırılaraq əsəbləşmək",
+      "nameEn": "Resent, feel injured and angered at (something)",
+      "unitId": 67
+    },
+    {
+      "id": 1342,
+      "nameAz": "İncitmək, narahat etmək",
+      "nameEn": "Molest, interfere with and trouble, distrub",
+      "unitId": 67
+    },
+    {
+      "id": 1344,
+      "nameAz": " Tutqun, qaranlıq",
+      "nameEn": "Gloomy, dark, dim, in low spirits",
+      "unitId": 67
+    },
+    {
+      "id": 1346,
+      "nameAz": "Gözlənilməz",
+      "nameEn": "Unforeseen, not known beforehand, unexpected",
+      "unitId": 67
+    },
+    {
+      "id": 1348,
+      "nameAz": "Qınamaq, ictimai qınamaq",
+      "nameEn": "Denounce, condemn in public, express strong disapproval of",
+      "unitId": 67
+    },
+    {
+      "id": 1351,
+      "nameAz": "Şişirtmək, qabartmaq",
+      "nameEn": "Exaggerte, make something greater than it is, overstate",
+      "unitId": 69
+    },
+    {
+      "id": 1353,
+      "nameAz": "Təcrübəsiz",
+      "nameEn": "Amateur, person who does something for pleasure, not for money or as a profession",
+      "unitId": 69
+    },
+    {
+      "id": 1355,
+      "nameAz": "Orta, ortalama",
+      "nameEn": "Mediocre, neither good not bad, average, ordinary",
+      "unitId": 69
+    },
+    {
+      "id": 1357,
+      "nameAz": "Müxtəliflik",
+      "nameEn": "Variety, lack of sameness, a number of different things",
+      "unitId": 69
+    },
+    {
+      "id": 1359,
+      "nameAz": "Etibarlı",
+      "nameEn": "Valid, supported by facts or authority, sound, true",
+      "unitId": 69
+    },
+    {
+      "id": 1361,
+      "nameAz": "Yaşamaq",
+      "nameEn": "Survive, live longer than, romain alive after",
+      "unitId": 69
+    },
+    {
+      "id": 1363,
+      "nameAz": "Qorxunc, qəribə",
+      "nameEn": "Weired, mysterious, unearthly",
+      "unitId": 69
+    },
+    {
+      "id": 1365,
+      "nameAz": "Görkəmli",
+      "nameEn": "Prominent, well-known, important",
+      "unitId": 69
+    },
+    {
+      "id": 1367,
+      "nameAz": "Təhlükəsizlik",
+      "nameEn": "Security, freedom from danger, care, or fear, feeling or condition of being safe",
+      "unitId": 69
+    },
+    {
+      "id": 1370,
+      "nameAz": "Həcmli",
+      "nameEn": "Bulky, taking up much space, large",
+      "unitId": 69
+    },
+    {
+      "id": 1372,
+      "nameAz": "İstəksiz, motivasiyasız",
+      "nameEn": "Reluctant, unwilling",
+      "unitId": 69
+    },
+    {
+      "id": 1374,
+      "nameAz": "Aşkar",
+      "nameEn": "Obvious, easily seen or understood, clear to the eye or mind, not to be deubted, plain",
+      "unitId": 69
+    },
+    {
+      "id": 1377,
+      "nameAz": "Oyatmaq",
+      "nameEn": "Awake, awoke, awoken",
+      "unitId": 71
+    },
+    {
+      "id": 1380,
+      "nameAz": "Dözmək",
+      "nameEn": "Bear, bore, born",
+      "unitId": 71
+    },
+    {
+      "id": 1382,
+      "nameAz": "Əymək, əyilmək",
+      "nameEn": "Bend, bent",
+      "unitId": 71
+    },
+    {
+      "id": 1384,
+      "nameAz": "Buyurmaq, əmr etmək",
+      "nameEn": "Bid",
+      "unitId": 71
+    },
+    {
+      "id": 1386,
+      "nameAz": "Bağlamaq",
+      "nameEn": "Bind, bound",
+      "unitId": 71
+    },
+    {
+      "id": 1388,
+      "nameAz": "Dişləmək",
+      "nameEn": "Bite, bit, bitten",
+      "unitId": 71
+    },
+    {
+      "id": 1390,
+      "nameAz": "Qanamaq",
+      "nameEn": "Bleed, bled",
+      "unitId": 71
+    },
+    {
+      "id": 1392,
+      "nameAz": "Üfürmək, əsmək",
+      "nameEn": "Blow, blew, blown",
+      "unitId": 71
+    },
+    {
+      "id": 1395,
+      "nameAz": "Yetişdirmək, çoxalmaq",
+      "nameEn": "Breed, bred",
+      "unitId": 71
+    },
+    {
+      "id": 1397,
+      "nameAz": "Yandırmaq, yanmaq",
+      "nameEn": "Burn, burnt or burned",
+      "unitId": 71
+    },
+    {
+      "id": 1399,
+      "nameAz": "Partlamaq",
+      "nameEn": "Burst",
+      "unitId": 71
+    },
+    {
+      "id": 1401,
+      "nameAz": "Atmaq, tökmək",
+      "nameEn": "Cast",
+      "unitId": 71
+    },
+    {
+      "id": 1403,
+      "nameAz": "Yapışmaq",
+      "nameEn": "Cling, clung",
+      "unitId": 71
+    },
+    {
+      "id": 1405,
+      "nameAz": "Sürünmək",
+      "nameEn": "Creep, Crept",
+      "unitId": 71
+    },
+    {
+      "id": 1407,
+      "nameAz": "Hesablaşmaq",
+      "nameEn": "Deal, dealt",
+      "unitId": 71
+    },
+    {
+      "id": 1409,
+      "nameAz": "Baş vurmaq, şığımaq",
+      "nameEn": "Dive, dived or dove, dived",
+      "unitId": 71
+    },
+    {
+      "id": 1411,
+      "nameAz": "Şəkil çəkmək",
+      "nameEn": "Draw, drew, drawn",
+      "unitId": 71
+    },
+    {
+      "id": 1413,
+      "nameAz": "Yıxılmaq, düşmək",
+      "nameEn": "Fall, fell, fallen",
+      "unitId": 71
+    },
+    {
+      "id": 1415,
+      "nameAz": "Bəsləmək",
+      "nameEn": "Feed, fed",
+      "unitId": 71
+    },
+    {
+      "id": 1417,
+      "nameAz": "Hiss etmək",
+      "nameEn": "Feel, felt",
+      "unitId": 71
+    },
+    {
+      "id": 1419,
+      "nameAz": "Döyüşmək",
+      "nameEn": "Fight, fought",
+      "unitId": 71
+    },
+    {
+      "id": 1421,
+      "nameAz": "Qaçmaq",
+      "nameEn": "Flee, fled",
+      "unitId": 71
+    },
+    {
+      "id": 1423,
+      "nameAz": "Çırpmaq",
+      "nameEn": "Fling, flung",
+      "unitId": 71
+    },
+    {
+      "id": 1425,
+      "nameAz": "Uçmaq",
+      "nameEn": "Fly, flew, flown",
+      "unitId": 71
+    },
+    {
+      "id": 1427,
+      "nameAz": "Qadağan etmək",
+      "nameEn": "Forbid, forbad or forbade, forbidden",
+      "unitId": 71
+    },
+    {
+      "id": 1429,
+      "nameAz": "Proqnozlaşdırmaq",
+      "nameEn": "Forecast",
+      "unitId": 71
+    },
+    {
+      "id": 1431,
+      "nameAz": "Yaddan çıxarmaq",
+      "nameEn": "Forget, forgot, forgotten",
+      "unitId": 71
+    },
+    {
+      "id": 1433,
+      "nameAz": "Günahından keçmək",
+      "nameEn": "Forgive, forgave, forgiven",
+      "unitId": 71
+    },
+    {
+      "id": 1436,
+      "nameAz": "Qonşuluq",
+      "nameEn": "Vicinity, region near a place, neighborhood",
+      "unitId": 73
+    },
+    {
+      "id": 1438,
+      "nameAz": "Əsr",
+      "nameEn": "Century",
+      "unitId": 73
+    },
+    {
+      "id": 1440,
+      "nameAz": "Qəzəb",
+      "nameEn": "Rage, violent anger, something that arouses but breif ethusiasm",
+      "unitId": 73
+    },
+    {
+      "id": 1442,
+      "nameAz": "Son, yekunlaşdırmaq",
+      "nameEn": "Conclude, end, finish, decide",
+      "unitId": 73
+    },
+    {
+      "id": 1444,
+      "nameAz": "İnkar edilməz, danılmaz",
+      "nameEn": "Undeniable, not to be denied, cannot be questioned",
+      "unitId": 73
+    },
+    {
+      "id": 1446,
+      "nameAz": "Müqavimət göstərmək",
+      "nameEn": "Resist, act against, strive against, oppose",
+      "unitId": 73
+    },
+    {
+      "id": 1448,
+      "nameAz": "Çatışmamazlıq",
+      "nameEn": "Lack, be entirely without something, have not enough",
+      "unitId": 73
+    },
+    {
+      "id": 1451,
+      "nameAz": "İqnor etmək",
+      "nameEn": "Ignore, pay no attention, disregard",
+      "unitId": 73
+    },
+    {
+      "id": 1453,
+      "nameAz": "Çağırış, meydan oxumaq",
+      "nameEn": "Challenge, call to a fight",
+      "unitId": 73
+    },
+    {
+      "id": 1455,
+      "nameAz": "Miniatur",
+      "nameEn": "Miniature, represented on a small scade",
+      "unitId": 73
+    },
+    {
+      "id": 1457,
+      "nameAz": "Mənbə",
+      "nameEn": "Source, place from which something comes or is obtained",
+      "unitId": 73
+    },
+    {
+      "id": 1459,
+      "nameAz": "Tərk etmək",
+      "nameEn": "Forsake, forsook, forsaken",
+      "unitId": 71
+    },
+    {
+      "id": 1461,
+      "nameAz": "Donmaq, dondurmaq",
+      "nameEn": "Freeze, froze, frozen",
+      "unitId": 71
+    },
+    {
+      "id": 1465,
+      "nameAz": "Əldə etmək, qazanmaq",
+      "nameEn": "Get, got, gotten",
+      "unitId": 71
+    },
+    {
+      "id": 1467,
+      "nameAz": "Vermək",
+      "nameEn": "Give, gave, given",
+      "unitId": 71
+    },
+    {
+      "id": 1469,
+      "nameAz": "Üyütmək, əzmək",
+      "nameEn": "Grind, ground, ground",
+      "unitId": 71
+    },
+    {
+      "id": 1471,
+      "nameAz": "Böyümək",
+      "nameEn": "Grow, grew, grown",
+      "unitId": 71
+    },
+    {
+      "id": 1473,
+      "nameAz": "Asmaq",
+      "nameEn": "Hang, hung",
+      "unitId": 71
+    },
+    {
+      "id": 1475,
+      "nameAz": "Malik olmaq",
+      "nameEn": "Have, had",
+      "unitId": 71
+    },
+    {
+      "id": 1477,
+      "nameAz": "Eşitmək",
+      "nameEn": "Hear, heard",
+      "unitId": 71
+    },
+    {
+      "id": 1479,
+      "nameAz": "Gizlətmək, gizlənmək",
+      "nameEn": "Hide, hid, hidden",
+      "unitId": 71
+    },
+    {
+      "id": 1481,
+      "nameAz": "Zərbə vurmaq",
+      "nameEn": "Hit",
+      "unitId": 71
+    },
+    {
+      "id": 1483,
+      "nameAz": "Tutmaq, saxlamaq",
+      "nameEn": "Hold, held",
+      "unitId": 71
+    },
+    {
+      "id": 1485,
+      "nameAz": "Zədələmək, yaralamaq",
+      "nameEn": "Hurt",
+      "unitId": 71
+    },
+    {
+      "id": 1487,
+      "nameAz": "Saxlamaq",
+      "nameEn": "Keep, kept",
+      "unitId": 71
+    },
+    {
+      "id": 1489,
+      "nameAz": "Qoymaq, yerinə qoymaq",
+      "nameEn": "Lay, laid",
+      "unitId": 71
+    },
+    {
+      "id": 1491,
+      "nameAz": "Rəhbərlik etmək",
+      "nameEn": "Lead, led",
+      "unitId": 71
+    },
+    {
+      "id": 1493,
+      "nameAz": "Öyrənmək",
+      "nameEn": "Learn, learnt or learned",
+      "unitId": 71
+    },
+    {
+      "id": 1495,
+      "nameAz": "Tərk etmək, çıxıb getmək",
+      "nameEn": "Leave, left",
+      "unitId": 71
+    },
+    {
+      "id": 1497,
+      "nameAz": "Borc vermək",
+      "nameEn": "Lend, lent",
+      "unitId": 71
+    },
+    {
+      "id": 1499,
+      "nameAz": "İcazə vermək",
+      "nameEn": "Let",
+      "unitId": 71
+    },
+    {
+      "id": 1501,
+      "nameAz": "Yalan danışmaq",
+      "nameEn": "Lie, lay, lain",
+      "unitId": 71
+    },
+    {
+      "id": 1503,
+      "nameAz": "Yandırmaq",
+      "nameEn": "Light, lit",
+      "unitId": 71
+    },
+    {
+      "id": 1505,
+      "nameAz": "İtirmək, uduzmaq",
+      "nameEn": "Lose, lost",
+      "unitId": 71
+    },
+    {
+      "id": 1507,
+      "nameAz": "Etmək, Düzəltmək",
+      "nameEn": "Make, made",
+      "unitId": 71
+    },
+    {
+      "id": 1509,
+      "nameAz": "Məna vermək",
+      "nameEn": "Mean, meant",
+      "unitId": 71
+    },
+    {
+      "id": 1511,
+      "nameAz": "Qarşılamaq, rast gəlmək",
+      "nameEn": "Meet, met",
+      "unitId": 71
+    },
+    {
+      "id": 1513,
+      "nameAz": "Ödəmək, haqqını vermək",
+      "nameEn": "Pay, paid",
+      "unitId": 71
+    },
+    {
+      "id": 1515,
+      "nameAz": "Sübut etmək",
+      "nameEn": "Prove, proved, proven",
+      "unitId": 71
+    },
+    {
+      "id": 1517,
+      "nameAz": "Qoymaq",
+      "nameEn": "Put",
+      "unitId": 71
+    },
+    {
+      "id": 1519,
+      "nameAz": "Atmaq, tərk etmək",
+      "nameEn": "Quit",
+      "unitId": 71
+    },
+    {
+      "id": 1521,
+      "nameAz": "Oxumaq",
+      "nameEn": "Read",
+      "unitId": 71
+    },
+    {
+      "id": 1523,
+      "nameAz": "Getmək (atla)",
+      "nameEn": "Ride, rode, ridden",
+      "unitId": 71
+    },
+    {
+      "id": 1525,
+      "nameAz": "Zəng etmək",
+      "nameEn": "Ring, rang, rung",
+      "unitId": 71
+    },
+    {
+      "id": 1527,
+      "nameAz": "Qalxmaq",
+      "nameEn": "Rise, rose, risen",
+      "unitId": 71
+    },
+    {
+      "id": 1529,
+      "nameAz": "Qaçmaq, yüyürmək",
+      "nameEn": "Run, ran, run",
+      "unitId": 71
+    },
+    {
+      "id": 1531,
+      "nameAz": "Kəsmək, doğramaq",
+      "nameEn": "Saw, sawed, sawed or sawn",
+      "unitId": 71
+    },
+    {
+      "id": 1533,
+      "nameAz": "Demək",
+      "nameEn": "Say, said",
+      "unitId": 71
+    },
+    {
+      "id": 1535,
+      "nameAz": "Görmək",
+      "nameEn": "See, saw, seen",
+      "unitId": 71
+    },
+    {
+      "id": 1537,
+      "nameAz": "Axtarmaq",
+      "nameEn": "Seek, sought",
+      "unitId": 71
+    },
+    {
+      "id": 1539,
+      "nameAz": "Satmaq",
+      "nameEn": "Sell, sold",
+      "unitId": 71
+    },
+    {
+      "id": 1541,
+      "nameAz": "Göndərmək",
+      "nameEn": "Send, sent",
+      "unitId": 71
+    },
+    {
+      "id": 1543,
+      "nameAz": "Təyin etmək",
+      "nameEn": "Set",
+      "unitId": 71
+    },
+    {
+      "id": 1545,
+      "nameAz": "Tikmək",
+      "nameEn": "Sew, sewed, sewn",
+      "unitId": 71
+    },
+    {
+      "id": 1547,
+      "nameAz": "Silkələmək",
+      "nameEn": "Shake, shook, shaken",
+      "unitId": 71
+    },
+    {
+      "id": 1549,
+      "nameAz": "Kəsmək, qırxmaq",
+      "nameEn": "Shear, sheared, shorn",
+      "unitId": 71
+    },
+    {
+      "id": 1551,
+      "nameAz": "Tökmək",
+      "nameEn": "Shed",
+      "unitId": 71
+    },
+    {
+      "id": 1553,
+      "nameAz": "Saçmaq, parlamaq",
+      "nameEn": "Shine, shone",
+      "unitId": 71
+    },
+    {
+      "id": 1555,
+      "nameAz": "Vurmaq",
+      "nameEn": "Shoot, shot",
+      "unitId": 71
+    },
+    {
+      "id": 1558,
+      "nameAz": "Üstələmək, üstün olmaq",
+      "nameEn": "Excel, be better than, do better than",
+      "unitId": 77
+    },
+    {
+      "id": 1561,
+      "nameAz": "Qadınsı, qadına xas",
+      "nameEn": "Feminine, of women or girls",
+      "unitId": 77
+    },
+    {
+      "id": 1563,
+      "nameAz": "Dırmaşmaq",
+      "nameEn": "Mount, get up on",
+      "unitId": 77
+    },
+    {
+      "id": 1565,
+      "nameAz": "Yarışmaq, rəqabətə girmək",
+      "nameEn": "Compete, try hard to get something wanted by others, be a rival",
+      "unitId": 77
+    },
+    {
+      "id": 1567,
+      "nameAz": "Qorxu",
+      "nameEn": "Dread, look forward to with fear, fear greatly, causing great fear",
+      "unitId": 77
+    },
+    {
+      "id": 1569,
+      "nameAz": "Kişi",
+      "nameEn": "Masculine, of man, male",
+      "unitId": 77
+    },
+    {
+      "id": 1571,
+      "nameAz": "Təhdid",
+      "nameEn": "Menace, threat",
+      "unitId": 77
+    },
+    {
+      "id": 1573,
+      "nameAz": "Meyl",
+      "nameEn": "Tendency, learning, movement in a certain direction",
+      "unitId": 77
+    },
+    {
+      "id": 1575,
+      "nameAz": "Az qiymətləndirmək, dəyərindən aşağı qiymətləndirmək",
+      "nameEn": "Underestimate, set too low a value, amount, or rate",
+      "unitId": 77
+    },
+    {
+      "id": 1577,
+      "nameAz": "Müzəffər, qalib, qələbə qazanmış",
+      "nameEn": "Victorious, having won a victory, conquering",
+      "unitId": 77
+    },
+    {
+      "id": 1579,
+      "nameAz": "Çox sayıda, bir neçə",
+      "nameEn": "Numerous, very many, several",
+      "unitId": 77
+    },
+    {
+      "id": 1581,
+      "nameAz": "Çevik, elastik, dəyişkən",
+      "nameEn": "Flexiable, easily bent, willing to yield",
+      "unitId": 77
+    },
+    {
+      "id": 1584,
+      "nameAz": "Yetişdirmək",
+      "nameEn": "To nurture, grow, and develop something, such as plants, skills, or relationships",
+      "unitId": 79
+    },
+    {
+      "id": 1586,
+      "nameAz": "Müxtəlif",
+      "nameEn": "Diverse, having a variety of different elements, qualities, or types",
+      "unitId": 79
+    },
+    {
+      "id": 1588,
+      "nameAz": "İnovasiya etmək",
+      "nameEn": "Innovate, to introduce new ideas, methods, or products in a creative and original way",
+      "unitId": 79
+    },
+    {
+      "id": 1590,
+      "nameAz": "Müşahidə etmək",
+      "nameEn": "To watch carefully, pay attention to, or notice something",
+      "unitId": 79
+    },
+    {
+      "id": 1592,
+      "nameAz": "Dayanıqlı",
+      "nameEn": "Resilient, able to bounce back or recover quickly from difficulties, challenges, or setbacks",
+      "unitId": 79
+    },
+    {
+      "id": 1594,
+      "nameAz": "Kifayət qədər",
+      "nameEn": "Sufficient, adequate or enough to meet a particular need, requirement, or purpose",
+      "unitId": 79
+    },
+    {
+      "id": 1596,
+      "nameAz": "Ürəklənmək",
+      "nameEn": "Thriving, growing and prospering in a healthy and successful way",
+      "unitId": 79
+    },
+    {
+      "id": 1598,
+      "nameAz": "Çoxfunksiyalı",
+      "nameEn": "Versatile, capable of adapting and performing well in different situations or roles",
+      "unitId": 79
+    },
+    {
+      "id": 1600,
+      "nameAz": "Varlı",
+      "nameEn": "Wealthy, having a substantial amount of money, resources, or valuable possessions",
+      "unitId": 79
+    },
+    {
+      "id": 1602,
+      "nameAz": "Həyacan",
+      "nameEn": "Zeal, enthusiasm, passion, or fervor for something you are dedicated to or interested in",
+      "unitId": 79
+    },
+    {
+      "id": 1605,
+      "nameAz": "Sübut",
+      "nameEn": "Evidence, that which makes clear the truth or falsehood of something",
+      "unitId": 91
+    },
+    {
+      "id": 1607,
+      "nameAz": "Tək",
+      "nameEn": "Solitary, alone, single, only",
+      "unitId": 91
+    },
+    {
+      "id": 1609,
+      "nameAz": "Görüş, vizyon, görmə",
+      "nameEn": "Vision, power of seeing, sense of sight",
+      "unitId": 91
+    },
+    {
+      "id": 1611,
+      "nameAz": "Tez-tez",
+      "nameEn": "Frequent, happening often, occurring repeatedly",
+      "unitId": 91
+    },
+    {
+      "id": 1613,
+      "nameAz": "Baxış, gözucu baxış",
+      "nameEn": "Glimpse, a short, quick view",
+      "unitId": 91
+    },
+    {
+      "id": 1615,
+      "nameAz": "Son, son zamanlarda",
+      "nameEn": "Recent, done, made, or occurring not long ago",
+      "unitId": 91
+    },
+    {
+      "id": 1617,
+      "nameAz": "On illik",
+      "nameEn": "Decade, ten years",
+      "unitId": 91
+    },
+    {
+      "id": 1619,
+      "nameAz": "Tərəddüd, tərəddüd etmək",
+      "nameEn": "Hesitate, fail to act quickly, be undecided",
+      "unitId": 91
+    },
+    {
+      "id": 1621,
+      "nameAz": "Absurd",
+      "nameEn": "Absurd, plainly not true or sensible, foolish",
+      "unitId": 91
+    },
+    {
+      "id": 1623,
+      "nameAz": "Münaqişə, ziddiyət",
+      "nameEn": "Conflict, direct opposition, disagreement",
+      "unitId": 91
+    },
+    {
+      "id": 1625,
+      "nameAz": "Kiçik bir hissə",
+      "nameEn": "Minority, smaller number or part, less than half",
+      "unitId": 91
+    },
+    {
+      "id": 1627,
+      "nameAz": "Uydurma, qurğu",
+      "nameEn": "Fiction, that which is imagined or made up",
+      "unitId": 91
+    },
+    {
+      "id": 1629,
+      "nameAz": "Göstərmək",
+      "nameEn": " Show, showed, shown",
+      "unitId": 71
+    },
+    {
+      "id": 1631,
+      "nameAz": "Bağlamaq, örtmək",
+      "nameEn": "Shut",
+      "unitId": 71
+    },
+    {
+      "id": 1633,
+      "nameAz": "Oxumaq( nəğmə)",
+      "nameEn": "Sing, sang, sung",
+      "unitId": 71
+    },
+    {
+      "id": 1635,
+      "nameAz": "Endirmək, batırmaq",
+      "nameEn": "Sink, sank, sunk",
+      "unitId": 71
+    },
+    {
+      "id": 1637,
+      "nameAz": "Oturmaq",
+      "nameEn": "Sit, sat",
+      "unitId": 71
+    },
+    {
+      "id": 1639,
+      "nameAz": "Öldürmək",
+      "nameEn": "Slay, slew, slain",
+      "unitId": 71
+    },
+    {
+      "id": 1641,
+      "nameAz": "Yatmaq",
+      "nameEn": "Sleep, slept",
+      "unitId": 71
+    },
+    {
+      "id": 1643,
+      "nameAz": "Sürüşmək",
+      "nameEn": "Slide, slid",
+      "unitId": 71
+    },
+    {
+      "id": 1645,
+      "nameAz": "Sürüşmək",
+      "nameEn": "Slink, slunk",
+      "unitId": 71
+    },
+    {
+      "id": 1647,
+      "nameAz": "Əkmək",
+      "nameEn": "Sow, sowed, sown",
+      "unitId": 71
+    },
+    {
+      "id": 1649,
+      "nameAz": "Danışmaq",
+      "nameEn": "Speak, spoke, spoken",
+      "unitId": 71
+    },
+    {
+      "id": 1651,
+      "nameAz": "Xərcləmək",
+      "nameEn": "Spend, spent",
+      "unitId": 71
+    },
+    {
+      "id": 1653,
+      "nameAz": "Fırlatmaq",
+      "nameEn": "Spin, spun",
+      "unitId": 71
+    },
+    {
+      "id": 1655,
+      "nameAz": "Tüpürmək",
+      "nameEn": "Spit, spat or spit",
+      "unitId": 71
+    },
+    {
+      "id": 1657,
+      "nameAz": "Parçalamaq",
+      "nameEn": "Split",
+      "unitId": 71
+    },
+    {
+      "id": 1659,
+      "nameAz": "Yayamaq, yayılmaq",
+      "nameEn": "Spread",
+      "unitId": 71
+    },
+    {
+      "id": 1661,
+      "nameAz": "Atılmaq, hoppanmaq",
+      "nameEn": "Spring, sprang, sprung",
+      "unitId": 71
+    },
+    {
+      "id": 1663,
+      "nameAz": "Durmaq",
+      "nameEn": "Stand, stood",
+      "unitId": 71
+    },
+    {
+      "id": 1665,
+      "nameAz": "Oğurlamaq",
+      "nameEn": "Steal, stole, stolen",
+      "unitId": 71
+    },
+    {
+      "id": 1667,
+      "nameAz": "Yapışmaq, sataşmaq",
+      "nameEn": "Stick, stuck",
+      "unitId": 71
+    },
+    {
+      "id": 1669,
+      "nameAz": "Dişləmək, sancmaq",
+      "nameEn": "Sting, stung",
+      "unitId": 71
+    },
+    {
+      "id": 1671,
+      "nameAz": "İyləmək",
+      "nameEn": "Stink, stank or stunk, stunk",
+      "unitId": 71
+    },
+    {
+      "id": 1673,
+      "nameAz": "Addımlamaq",
+      "nameEn": "Stride, strode, stridden",
+      "unitId": 71
+    },
+    {
+      "id": 1675,
+      "nameAz": "Vurmaq, döymək",
+      "nameEn": "Strike, struck, struck",
+      "unitId": 71
+    },
+    {
+      "id": 1677,
+      "nameAz": "Saplamaq, düzmək",
+      "nameEn": "String, strung, strung",
+      "unitId": 71
+    },
+    {
+      "id": 1679,
+      "nameAz": "Nail olmaq, cəhd etmək, çabalamaq",
+      "nameEn": "Strive, strove, striven",
+      "unitId": 71
+    },
+    {
+      "id": 1681,
+      "nameAz": "And içmək, lənətləmək",
+      "nameEn": "Swear, swore, sworn",
+      "unitId": 71
+    },
+    {
+      "id": 1683,
+      "nameAz": "Süpürmək, təmizləmək",
+      "nameEn": "Sweep  swept, swept",
+      "unitId": 71
+    },
+    {
+      "id": 1685,
+      "nameAz": "Şişmək, qabarmaq",
+      "nameEn": "Swell, swelled, swollen",
+      "unitId": 71
+    },
+    {
+      "id": 1687,
+      "nameAz": "Üzmək",
+      "nameEn": "Swim, swam, swum",
+      "unitId": 71
+    },
+    {
+      "id": 1689,
+      "nameAz": "Götürmək",
+      "nameEn": "Take, toom, taken",
+      "unitId": 71
+    },
+    {
+      "id": 1691,
+      "nameAz": "Öyrətmək, dərs vermək",
+      "nameEn": "Teach, taught, taught",
+      "unitId": 71
+    },
+    {
+      "id": 1693,
+      "nameAz": "Cırmaq, dağıtmaq",
+      "nameEn": "Tear, tore, torn",
+      "unitId": 71
+    },
+    {
+      "id": 1695,
+      "nameAz": "Demək",
+      "nameEn": "Tell, told",
+      "unitId": 71
+    },
+    {
+      "id": 1697,
+      "nameAz": "Fikirləşmək",
+      "nameEn": "Think, thought",
+      "unitId": 71
+    },
+    {
+      "id": 1699,
+      "nameAz": "İnkişaf etmək",
+      "nameEn": "Thrive, throve, thrived",
+      "unitId": 71
+    },
+    {
+      "id": 1701,
+      "nameAz": " Tullamaq, atmaq",
+      "nameEn": "Throw, threw, thrown",
+      "unitId": 71
+    },
+    {
+      "id": 1703,
+      "nameAz": "İtələmək, sancmaq",
+      "nameEn": "Thrust",
+      "unitId": 71
+    },
+    {
+      "id": 1705,
+      "nameAz": "Yıxmaq",
+      "nameEn": "Tread, trod, trodden or trof",
+      "unitId": 71
+    },
+    {
+      "id": 1707,
+      "nameAz": "Yıxmaq",
+      "nameEn": "Unbend, unbent",
+      "unitId": 71
+    },
+    {
+      "id": 1709,
+      "nameAz": "Boşaltmaq",
+      "nameEn": "Unbind, unbound",
+      "unitId": 71
+    },
+    {
+      "id": 1711,
+      "nameAz": "Bağlamaq",
+      "nameEn": "Unclothe, unclothed or unclad",
+      "unitId": 71
+    },
+    {
+      "id": 1713,
+      "nameAz": "Ödəmək",
+      "nameEn": "Underbid",
+      "unitId": 71
+    },
+    {
+      "id": 1715,
+      "nameAz": "Az qidalandırmaq",
+      "nameEn": "Underfeed, underfed",
+      "unitId": 71
+    },
+    {
+      "id": 1717,
+      "nameAz": "Keçmək",
+      "nameEn": "Undergo, underwent, undergone",
+      "unitId": 71
+    },
+    {
+      "id": 1719,
+      "nameAz": "Təməlini qoymaq",
+      "nameEn": "Underline, underlay, underlain",
+      "unitId": 71
+    },
+    {
+      "id": 1721,
+      "nameAz": "Aşağı qiymətə satmaq",
+      "nameEn": "Undersell, undersold",
+      "unitId": 71
+    },
+    {
+      "id": 1723,
+      "nameAz": "Alt üst etmək",
+      "nameEn": "Underspend, underspent, underspent",
+      "unitId": 71
+    },
+    {
+      "id": 1725,
+      "nameAz": "Başa düşmək",
+      "nameEn": "Understand, understood",
+      "unitId": 71
+    },
+    {
+      "id": 1727,
+      "nameAz": "Götürmək",
+      "nameEn": "Undertake, undertook, undertaken",
+      "unitId": 71
+    },
+    {
+      "id": 1730,
+      "nameAz": "Alovlandırmaq",
+      "nameEn": "Ignite, set on fire",
+      "unitId": 93
+    },
+    {
+      "id": 1733,
+      "nameAz": "Ləğv etmək",
+      "nameEn": "Abolish, do away with completely, put an end to",
+      "unitId": 93
+    },
+    {
+      "id": 1735,
+      "nameAz": "Boş ərazi( şəhər daxili)",
+      "nameEn": "Urban, of or having to do with cities or towns",
+      "unitId": 93
+    },
+    {
+      "id": 1737,
+      "nameAz": "Nüfuz",
+      "nameEn": "Population, people of a city or country",
+      "unitId": 93
+    },
+    {
+      "id": 1739,
+      "nameAz": "Səmimi, açıqca",
+      "nameEn": "Frank, free in expressing one's real thoughts, opinions, or feelings, not hiding what is in one's mind",
+      "unitId": 93
+    },
+    {
+      "id": 1741,
+      "nameAz": "Çirkləndirmək",
+      "nameEn": "Pollute, make dirty",
+      "unitId": 93
+    },
+    {
+      "id": 1743,
+      "nameAz": "Aşkar etmək, ortaya çıxmaq",
+      "nameEn": "Reveal, make known",
+      "unitId": 93
+    },
+    {
+      "id": 1745,
+      "nameAz": "Qadağan etmək",
+      "nameEn": "Prohobit, forbid by law or authority",
+      "unitId": 93
+    },
+    {
+      "id": 1747,
+      "nameAz": "Təcili",
+      "nameEn": "Urgent, demanding immediate action or attention, important",
+      "unitId": 93
+    },
+    {
+      "id": 1749,
+      "nameAz": "Adekvat, müvafiq, yetərli, lazımı",
+      "nameEn": "Adequate, as much as is needed, fully sufficient",
+      "unitId": 93
+    },
+    {
+      "id": 1751,
+      "nameAz": "Azaltmaq, düşüş",
+      "nameEn": "Decrease, make or become less",
+      "unitId": 93
+    },
+    {
+      "id": 1753,
+      "nameAz": "Eşidilən, aydın",
+      "nameEn": "Audible, able to be heard",
+      "unitId": 93
+    },
+    {
+      "id": 1756,
+      "nameAz": "Gözdən keçirmək",
+      "nameEn": "Look through",
+      "unitId": 95
+    },
+    {
+      "id": 1758,
+      "nameAz": "Mənim iş vaxtımı nəzərə al",
+      "nameEn": "Please, take my work shift into my account",
+      "unitId": 95
+    },
+    {
+      "id": 1760,
+      "nameAz": "Tanış",
+      "nameEn": "Acuantes",
+      "unitId": 95
+    },
+    {
+      "id": 1762,
+      "nameAz": "Yaxşı məsləhət",
+      "nameEn": "A good piece of advice",
+      "unitId": 95
+    },
+    {
+      "id": 1764,
+      "nameAz": "Ne olursa olsun",
+      "nameEn": "No matter what",
+      "unitId": 95
+    },
+    {
+      "id": 1766,
+      "nameAz": "Mən təbiətən sakit insanam",
+      "nameEn": "I am calm person by nature",
+      "unitId": 95
+    },
+    {
+      "id": 1768,
+      "nameAz": "Uydurmaq",
+      "nameEn": "Invent",
+      "unitId": 95
+    },
+    {
+      "id": 1770,
+      "nameAz": "Kəşf",
+      "nameEn": "Invention",
+      "unitId": 95
+    },
+    {
+      "id": 1772,
+      "nameAz": "İxtira etmək",
+      "nameEn": "Invent",
+      "unitId": 95
+    },
+    {
+      "id": 1774,
+      "nameAz": "Əsəbi olmaq",
+      "nameEn": "Get irritable",
+      "unitId": 95
+    },
+    {
+      "id": 1776,
+      "nameAz": "Xətt, növbə",
+      "nameEn": "Line",
+      "unitId": 95
+    },
+    {
+      "id": 1778,
+      "nameAz": "Sıraya girmək",
+      "nameEn": "Jump the queque",
+      "unitId": 95
+    },
+    {
+      "id": 1780,
+      "nameAz": "Kimi",
+      "nameEn": "As...as",
+      "unitId": 95
+    },
+    {
+      "id": 1782,
+      "nameAz": "Inkarliq kimi",
+      "nameEn": "Not as...as",
+      "unitId": 95
+    },
+    {
+      "id": 1784,
+      "nameAz": "Tələbkar",
+      "nameEn": "Demanding",
+      "unitId": 95
+    },
+    {
+      "id": 1786,
+      "nameAz": "Əlçatan",
+      "nameEn": "Affordable",
+      "unitId": 95
+    },
+    {
+      "id": 1788,
+      "nameAz": "Mənim səndəki qədər çox pulum yoxdur",
+      "nameEn": "I dont have as much money as you do",
+      "unitId": 95
+    },
+    {
+      "id": 1790,
+      "nameAz": "Ziyanlı",
+      "nameEn": "Harmful",
+      "unitId": 95
+    },
+    {
+      "id": 1792,
+      "nameAz": "İstiqanlı",
+      "nameEn": "Warm hearted",
+      "unitId": 95
+    },
+    {
+      "id": 1794,
+      "nameAz": "Soyuqqanlı",
+      "nameEn": "Cold blooded",
+      "unitId": 95
+    },
+    {
+      "id": 1796,
+      "nameAz": "Oxşamaq",
+      "nameEn": "Take after",
+      "unitId": 95
+    },
+    {
+      "id": 1799,
+      "nameAz": "Səxavətli",
+      "nameEn": "Generius",
+      "unitId": 95
+    },
+    {
+      "id": 1801,
+      "nameAz": "İnadkar",
+      "nameEn": "Stubborn",
+      "unitId": 95
+    },
+    {
+      "id": 1803,
+      "nameAz": "Ziddiyət",
+      "nameEn": "Contradict",
+      "unitId": 95
+    },
+    {
+      "id": 1805,
+      "nameAz": "Evə çatmaq",
+      "nameEn": "Get home",
+      "unitId": 97
+    },
+    {
+      "id": 1807,
+      "nameAz": "Qaralmaq",
+      "nameEn": "Get dark",
+      "unitId": 97
+    },
+    {
+      "id": 1809,
+      "nameAz": "İslanmaq",
+      "nameEn": "Get wet",
+      "unitId": 97
+    },
+    {
+      "id": 1811,
+      "nameAz": "İşə düzəlmək",
+      "nameEn": "Get a job",
+      "unitId": 97
+    },
+    {
+      "id": 1813,
+      "nameAz": "Heçnədən",
+      "nameEn": "Out of nothing",
+      "unitId": 97
+    },
+    {
+      "id": 1816,
+      "nameAz": "Yeri gəlmişkən",
+      "nameEn": "By the way",
+      "unitId": 97
+    },
+    {
+      "id": 1818,
+      "nameAz": "Müdaxilə etmək",
+      "nameEn": "Intervene with",
+      "unitId": 97
+    },
+    {
+      "id": 1820,
+      "nameAz": "Müdaxilə etmək",
+      "nameEn": "Disturb",
+      "unitId": 97
+    },
+    {
+      "id": 1822,
+      "nameAz": "Sözünü kəsmək",
+      "nameEn": "Cut in",
+      "unitId": 97
+    },
+    {
+      "id": 1824,
+      "nameAz": "Bəhanə etməj",
+      "nameEn": "Make an excuse",
+      "unitId": 97
+    },
+    {
+      "id": 1826,
+      "nameAz": "Öhdəsindən gəlmək",
+      "nameEn": "Overcome",
+      "unitId": 97
+    },
+    {
+      "id": 1828,
+      "nameAz": "Baş çəkmək",
+      "nameEn": "Pay a visit to",
+      "unitId": 97
+    },
+    {
+      "id": 1830,
+      "nameAz": "Qonaqpərvər",
+      "nameEn": "Hospitable",
+      "unitId": 97
+    },
+    {
+      "id": 1832,
+      "nameAz": "Qorxulu",
+      "nameEn": "Creepy",
+      "unitId": 97
+    },
+    {
+      "id": 1834,
+      "nameAz": "Topdan satış",
+      "nameEn": "Wholesale",
+      "unitId": 97
+    },
+    {
+      "id": 1836,
+      "nameAz": "Ənənəvi",
+      "nameEn": "Traditional",
+      "unitId": 97
+    },
+    {
+      "id": 1838,
+      "nameAz": "Çatışmazlıq",
+      "nameEn": "Shortage",
+      "unitId": 97
+    },
+    {
+      "id": 1840,
+      "nameAz": "Təcili",
+      "nameEn": "Urgent",
+      "unitId": 97
+    },
+    {
+      "id": 1842,
+      "nameAz": "Rədd etmək",
+      "nameEn": "Reject",
+      "unitId": 97
+    },
+    {
+      "id": 1844,
+      "nameAz": "Nəzakətsiz",
+      "nameEn": "Impolite",
+      "unitId": 97
+    },
+    {
+      "id": 1846,
+      "nameAz": "Kifayət qədər",
+      "nameEn": "Enough",
+      "unitId": 97
+    },
+    {
+      "id": 1848,
+      "nameAz": "Dözmək",
+      "nameEn": "Tolerate",
+      "unitId": 97
+    },
+    {
+      "id": 1850,
+      "nameAz": "Səbirli, xəstə",
+      "nameEn": "Patient",
+      "unitId": 97
+    },
+    {
+      "id": 1852,
+      "nameAz": "Səbirsiz",
+      "nameEn": "Impatient",
+      "unitId": 97
+    },
+    {
+      "id": 1854,
+      "nameAz": "Savayı",
+      "nameEn": "Apart from",
+      "unitId": 97
+    },
+    {
+      "id": 1856,
+      "nameAz": "Eyni yaş",
+      "nameEn": "Peer",
+      "unitId": 97
+    },
+    {
+      "id": 1858,
+      "nameAz": "Dəyişkən əhvallı",
+      "nameEn": "Moody",
+      "unitId": 97
+    },
+    {
+      "id": 1860,
+      "nameAz": "Maşınla götürüb atmaq",
+      "nameEn": "Drop off",
+      "unitId": 97
+    },
+    {
+      "id": 1862,
+      "nameAz": "Nə olursa olsun",
+      "nameEn": "No matter what",
+      "unitId": 97
+    },
+    {
+      "id": 1865,
+      "nameAz": "Mene ferq etmir",
+      "nameEn": "Make no difference to me",
+      "unitId": 99
+    },
+    {
+      "id": 1867,
+      "nameAz": "Çıxmaq, işıq üzü görmək",
+      "nameEn": "Come out",
+      "unitId": 99
+    },
+    {
+      "id": 1869,
+      "nameAz": "Yeniləmək",
+      "nameEn": "Renew",
+      "unitId": 99
+    },
+    {
+      "id": 1871,
+      "nameAz": "İşıq üzü görmək, çıxmaq (rəsmi)",
+      "nameEn": "Release",
+      "unitId": 99
+    },
+    {
+      "id": 1873,
+      "nameAz": "Təcrübə qazanmaq",
+      "nameEn": "Gain experience",
+      "unitId": 99
+    },
+    {
+      "id": 1875,
+      "nameAz": "Böyütmək, tərbiyə etmək",
+      "nameEn": "Bring up, raise",
+      "unitId": 99
+    },
+    {
+      "id": 1877,
+      "nameAz": "Bu sənin sualına cavab veir?",
+      "nameEn": "Does it answer your question",
+      "unitId": 99
+    },
+    {
+      "id": 1879,
+      "nameAz": "Donmaq (texniki)",
+      "nameEn": "Locks up",
+      "unitId": 99
+    },
+    {
+      "id": 1881,
+      "nameAz": "Səsin qırılır",
+      "nameEn": "Your voice is breaking up",
+      "unitId": 99
+    },
+    {
+      "id": 1883,
+      "nameAz": "Dərman qəbul etmək",
+      "nameEn": "Take medicine",
+      "unitId": 99
+    },
+    {
+      "id": 1885,
+      "nameAz": "Ağrını kəsmək",
+      "nameEn": "Relive the pain",
+      "unitId": 99
+    },
+    {
+      "id": 1887,
+      "nameAz": "Nədənsə məmnun olmamaq",
+      "nameEn": "Dissatisfied with",
+      "unitId": 99
+    },
+    {
+      "id": 1889,
+      "nameAz": "Minimum əmək haqqı",
+      "nameEn": "Minumum wage",
+      "unitId": 99
+    },
+    {
+      "id": 1891,
+      "nameAz": "Nə vaxta kimi",
+      "nameEn": "How late",
+      "unitId": 99
+    },
+    {
+      "id": 1893,
+      "nameAz": "Məktəb direktoru",
+      "nameEn": "Principal",
+      "unitId": 99
+    },
+    {
+      "id": 1895,
+      "nameAz": "Cavab qaytarmaq (cavabını vermək mənfi mənada)",
+      "nameEn": "Answer back to",
+      "unitId": 99
+    },
+    {
+      "id": 1897,
+      "nameAz": "Tərbiyəsiz",
+      "nameEn": "Spoiled",
+      "unitId": 99
+    },
+    {
+      "id": 1899,
+      "nameAz": "Saxdalaşdırmaq",
+      "nameEn": "Falsify",
+      "unitId": 99
+    },
+    {
+      "id": 1902,
+      "nameAz": "Əvvəllər",
+      "nameEn": "Used to",
+      "unitId": 101
+    },
+    {
+      "id": 1904,
+      "nameAz": "Dünyadan köçmək",
+      "nameEn": "Passed away",
+      "unitId": 101
+    },
+    {
+      "id": 1906,
+      "nameAz": "Yaş fərqi",
+      "nameEn": "Age gap",
+      "unitId": 101
+    },
+    {
+      "id": 1908,
+      "nameAz": "Vaxtından əvvəl təqaüdə çıxmaq",
+      "nameEn": "Take a early retirement",
+      "unitId": 101
+    },
+    {
+      "id": 1910,
+      "nameAz": "Bundan əlavə",
+      "nameEn": "Whats more",
+      "unitId": 101
+    },
+    {
+      "id": 1912,
+      "nameAz": "Spoiled",
+      "nameEn": "Sözə baxmayan, ərköyün",
+      "unitId": 101
+    },
+    {
+      "id": 1914,
+      "nameAz": "Qərarsız",
+      "nameEn": "Indecisive",
+      "unitId": 101
+    },
+    {
+      "id": 1916,
+      "nameAz": "Tərbiyəsiz",
+      "nameEn": "Disobedient",
+      "unitId": 101
+    },
+    {
+      "id": 1918,
+      "nameAz": "Saxdalaşdırmaq",
+      "nameEn": "Falsify",
+      "unitId": 101
+    },
+    {
+      "id": 1920,
+      "nameAz": "Qatılım, davamiyyət",
+      "nameEn": "Attendance",
+      "unitId": 101
+    },
+    {
+      "id": 1922,
+      "nameAz": "Şikayət etmək",
+      "nameEn": "Complain",
+      "unitId": 101
+    },
+    {
+      "id": 1924,
+      "nameAz": "Pis davranış",
+      "nameEn": "Misbehavior",
+      "unitId": 101
+    },
+    {
+      "id": 1926,
+      "nameAz": "Təxirə salmaq",
+      "nameEn": "Put off",
+      "unitId": 101
+    },
+    {
+      "id": 1928,
+      "nameAz": "Kiminsə gözünə girmək, özünü gözə socmaq",
+      "nameEn": "To Get in someone's good book",
+      "unitId": 101
+    },
+    {
+      "id": 1931,
+      "nameAz": "Qurmaq",
+      "nameEn": "Establish",
+      "unitId": 101
+    },
+    {
+      "id": 1933,
+      "nameAz": "Zaman keçdikçə",
+      "nameEn": "At time passed by",
+      "unitId": 101
+    },
+    {
+      "id": 1935,
+      "nameAz": "Ədəbiyyat",
+      "nameEn": "Literature",
+      "unitId": 101
+    },
+    {
+      "id": 1937,
+      "nameAz": "Və sarə",
+      "nameEn": "So on",
+      "unitId": 101
+    },
+    {
+      "id": 1939,
+      "nameAz": "Görkəmli",
+      "nameEn": "Prominent",
+      "unitId": 101
+    },
+    {
+      "id": 1941,
+      "nameAz": "Hamı kimi",
+      "nameEn": "Just like everybody else",
+      "unitId": 101
+    },
+    {
+      "id": 1944,
+      "nameAz": "Qeyd olmaq, yazılmaq",
+      "nameEn": "Enlist",
+      "unitId": 103
+    },
+    {
+      "id": 1946,
+      "nameAz": "Əldə etmək, qazanmaq",
+      "nameEn": "Acquire",
+      "unitId": 103
+    },
+    {
+      "id": 1948,
+      "nameAz": "Yoxsulluq",
+      "nameEn": "Poverty",
+      "unitId": 103
+    },
+    {
+      "id": 1950,
+      "nameAz": "Əsas",
+      "nameEn": "Major",
+      "unitId": 103
+    },
+    {
+      "id": 1952,
+      "nameAz": "Mübarizə",
+      "nameEn": "Struggle",
+      "unitId": 103
+    },
+    {
+      "id": 1954,
+      "nameAz": "Məğlubiyyət",
+      "nameEn": "Defeat",
+      "unitId": 103
+    },
+    {
+      "id": 1956,
+      "nameAz": "Çörək pulu qazanmaq, dolanmaq, keçinmək",
+      "nameEn": "To meke a living",
+      "unitId": 103
+    },
+    {
+      "id": 1958,
+      "nameAz": "Niyyət etmək, niyyətində olmaq, fikrində olmaq",
+      "nameEn": "Intend",
+      "unitId": 103
+    },
+    {
+      "id": 1960,
+      "nameAz": "İlkin olaraq",
+      "nameEn": "Initially",
+      "unitId": 103
+    },
+    {
+      "id": 1962,
+      "nameAz": "Batmaq, qapdırmaq, dibinə girmək",
+      "nameEn": "Immerse",
+      "unitId": 103
+    },
+    {
+      "id": 1964,
+      "nameAz": "Katib",
+      "nameEn": "Scribe",
+      "unitId": 103
+    },
+    {
+      "id": 1966,
+      "nameAz": "Dönəm, inqilab",
+      "nameEn": "Revolution",
+      "unitId": 103
+    },
+    {
+      "id": 1968,
+      "nameAz": "Göz qırpmaq",
+      "nameEn": "Blink",
+      "unitId": 103
+    },
+    {
+      "id": 1970,
+      "nameAz": "Bir göz qırpımı",
+      "nameEn": "The blink of a eye",
+      "unitId": 103
+    },
+    {
+      "id": 1972,
+      "nameAz": "Dar",
+      "nameEn": "Narrow",
+      "unitId": 103
+    },
+    {
+      "id": 1974,
+      "nameAz": "Fikir, düşüncə",
+      "nameEn": "Mind",
+      "unitId": 103
+    },
+    {
+      "id": 1976,
+      "nameAz": "Məhsuldar yazıçı",
+      "nameEn": "Prolific writer",
+      "unitId": 103
+    },
+    {
+      "id": 1978,
+      "nameAz": "Məqalə",
+      "nameEn": "Essay",
+      "unitId": 103
+    },
+    {
+      "id": 1980,
+      "nameAz": "Eləcə də",
+      "nameEn": "As well as",
+      "unitId": 103
+    },
+    {
+      "id": 1982,
+      "nameAz": "Səyahətnamə",
+      "nameEn": "Travelogues",
+      "unitId": 103
+    },
+    {
+      "id": 1984,
+      "nameAz": "Əhatə etmək",
+      "nameEn": "Encompass",
+      "unitId": 103
+    },
+    {
+      "id": 1986,
+      "nameAz": "Cildlərlə məqalə",
+      "nameEn": "Volumes of essay",
+      "unitId": 103
+    },
+    {
+      "id": 1988,
+      "nameAz": "Nail olmaq",
+      "nameEn": "Achive",
+      "unitId": 103
+    },
+    {
+      "id": 1990,
+      "nameAz": "Geniş yayılmış",
+      "nameEn": "Widespread",
+      "unitId": 103
+    },
+    {
+      "id": 1992,
+      "nameAz": "Geniş miqyasda uğur əldə etmək",
+      "nameEn": "Achive widespread success",
+      "unitId": 103
+    },
+    {
+      "id": 1994,
+      "nameAz": "Ziyarətgah",
+      "nameEn": "Sanctuary",
+      "unitId": 103
+    },
+    {
+      "id": 1996,
+      "nameAz": "Əylənmək",
+      "nameEn": "Entertain",
+      "unitId": 103
+    },
+    {
+      "id": 1998,
+      "nameAz": "Əyləncə",
+      "nameEn": "Entertaining",
+      "unitId": 103
+    },
+    {
+      "id": 2000,
+      "nameAz": "Borc altında qalmaq",
+      "nameEn": "Debt overtake",
+      "unitId": 103
+    },
+    {
+      "id": 2002,
+      "nameAz": "Qaçıb canını qurtarmaq",
+      "nameEn": "Flee to",
+      "unitId": 103
+    },
+    {
+      "id": 2004,
+      "nameAz": "Hiylə ilə canını qurtarmaq",
+      "nameEn": "Evade",
+      "unitId": 103
+    },
+    {
+      "id": 2006,
+      "nameAz": "Üzgün",
+      "nameEn": "Exile",
+      "unitId": 103
+    },
+    {
+      "id": 2008,
+      "nameAz": "Nikahdankənar",
+      "nameEn": "Out of wedlock",
+      "unitId": 103
+    },
+    {
+      "id": 2010,
+      "nameAz": "Qaçmaq, aradan cırmaq",
+      "nameEn": "Fled",
+      "unitId": 103
+    },
+    {
+      "id": 2012,
+      "nameAz": "Əbədi",
+      "nameEn": "Literary",
+      "unitId": 103
+    },
+    {
+      "id": 2014,
+      "nameAz": "Məsələ, ilişki",
+      "nameEn": "Affair",
+      "unitId": 103
+    },
+    {
+      "id": 2016,
+      "nameAz": "Şübhəli",
+      "nameEn": "Dubious",
+      "unitId": 103
+    },
+    {
+      "id": 2019,
+      "nameAz": "İşim başımdan aşır",
+      "nameEn": "Have a lot of work to do",
+      "unitId": 105
+    },
+    {
+      "id": 2021,
+      "nameAz": "Vəzifənin artırılması",
+      "nameEn": "Get promoted",
+      "unitId": 105
+    },
+    {
+      "id": 2023,
+      "nameAz": "İxtisara düşmək",
+      "nameEn": "Be downsized",
+      "unitId": 105
+    },
+    {
+      "id": 2025,
+      "nameAz": "Növbəli işləmək",
+      "nameEn": "Work shift",
+      "unitId": 105
+    },
+    {
+      "id": 2027,
+      "nameAz": "İşdən qovulmaq",
+      "nameEn": "Be fired",
+      "unitId": 105
+    },
+    {
+      "id": 2029,
+      "nameAz": "Könüllü şəkildə işdən ayrılmaq",
+      "nameEn": "Resign",
+      "unitId": 105
+    },
+    {
+      "id": 2031,
+      "nameAz": "Təqaüdə çıxmaq",
+      "nameEn": "Retire",
+      "unitId": 105
+    },
+    {
+      "id": 2033,
+      "nameAz": "Biznes qurmaq",
+      "nameEn": "Set up a business",
+      "unitId": 105
+    },
+    {
+      "id": 2035,
+      "nameAz": "Təlim almaq",
+      "nameEn": "Take a training course",
+      "unitId": 105
+    },
+    {
+      "id": 2037,
+      "nameAz": "İşə müraciət etmək",
+      "nameEn": "Apply for a job",
+      "unitId": 105
+    },
+    {
+      "id": 2039,
+      "nameAz": "Dil kursu işlətmək",
+      "nameEn": "Run a language course",
+      "unitId": 105
+    },
+    {
+      "id": 2041,
+      "nameAz": "İşsiz",
+      "nameEn": "Unemployed",
+      "unitId": 105
+    },
+    {
+      "id": 2043,
+      "nameAz": "Öz işinin müdiri",
+      "nameEn": "Self-employed",
+      "unitId": 105
+    },
+    {
+      "id": 2045,
+      "nameAz": "Proqramlaşdırma rəhbəriyəm, rəhbər",
+      "nameEn": "I am in charge of programing team",
+      "unitId": 105
+    },
+    {
+      "id": 2047,
+      "nameAz": "Nəyəsə məsul şəxs olmaq",
+      "nameEn": "Responsible for",
+      "unitId": 105
+    },
+    {
+      "id": 2049,
+      "nameAz": "Paxıl",
+      "nameEn": "Envious",
+      "unitId": 105
+    },
+    {
+      "id": 2051,
+      "nameAz": "Bundan başqa",
+      "nameEn": "Besides",
+      "unitId": 105
+    },
+    {
+      "id": 2053,
+      "nameAz": "Problemli",
+      "nameEn": "Problematic",
+      "unitId": 105
+    },
+    {
+      "id": 2055,
+      "nameAz": "Çalışqan",
+      "nameEn": "Diligent",
+      "unitId": 105
+    },
+    {
+      "id": 2057,
+      "nameAz": "Çamaşırxana",
+      "nameEn": "Laundy",
+      "unitId": 105
+    },
+    {
+      "id": 2061,
+      "nameAz": "Futbolla maraqlanıram",
+      "nameEn": "I am interested in football",
+      "unitId": 105
+    },
+    {
+      "id": 2063,
+      "nameAz": "Əvvəllər komandamızda 3 developer var idi",
+      "nameEn": "There used to be 3 developer our team",
+      "unitId": 105
+    },
+    {
+      "id": 2065,
+      "nameAz": "Baş nazir",
+      "nameEn": "Prime minster",
+      "unitId": 105
+    },
+    {
+      "id": 2067,
+      "nameAz": "Evdən işləmək",
+      "nameEn": "Telecommute",
+      "unitId": 105
+    },
+    {
+      "id": 2069,
+      "nameAz": "Uğurlu olmaq",
+      "nameEn": "Succed in",
+      "unitId": 107
+    },
+    {
+      "id": 2071,
+      "nameAz": "Aşağılayaraq danışmaq, yuxarıdan baxaraq danışmaqn aş",
+      "nameEn": "Talk down to somebody",
+      "unitId": 107
+    },
+    {
+      "id": 2073,
+      "nameAz": "Bir kəsin arxasınca danışmaq",
+      "nameEn": "Talk behind somebody's back",
+      "unitId": 107
+    },
+    {
+      "id": 2075,
+      "nameAz": "Havadan sudan söhbət etmək",
+      "nameEn": "Small talk",
+      "unitId": 107
+    },
+    {
+      "id": 2077,
+      "nameAz": "Situasiyanı ələ almaq",
+      "nameEn": "Take control of the situation",
+      "unitId": 107
+    },
+    {
+      "id": 2079,
+      "nameAz": "İş təcrübəsi",
+      "nameEn": "Work experience",
+      "unitId": 107
+    },
+    {
+      "id": 2081,
+      "nameAz": "Geri aparmaq",
+      "nameEn": "Take back",
+      "unitId": 107
+    },
+    {
+      "id": 2083,
+      "nameAz": "Müsahibə almaq",
+      "nameEn": "Take an interview",
+      "unitId": 107
+    },
+    {
+      "id": 2085,
+      "nameAz": "Mən tələsəndə",
+      "nameEn": "When I am in a hurry",
+      "unitId": 107
+    },
+    {
+      "id": 2087,
+      "nameAz": "Geri zəng vurmaq",
+      "nameEn": "Call you back",
+      "unitId": 107
+    },
+    {
+      "id": 2089,
+      "nameAz": "Geri qayıtmaq",
+      "nameEn": "Go back",
+      "unitId": 107
+    },
+    {
+      "id": 2091,
+      "nameAz": "Geri qaytarmaq",
+      "nameEn": "Give it back",
+      "unitId": 107
+    },
+    {
+      "id": 2094,
+      "nameAz": "Geri ödəniş etmək",
+      "nameEn": "Pay you back",
+      "unitId": 107
+    },
+    {
+      "id": 2096,
+      "nameAz": "Geri göndərmək",
+      "nameEn": "Send back",
+      "unitId": 107
+    },
+    {
+      "id": 2098,
+      "nameAz": "Geri aparamaq",
+      "nameEn": "Take it back",
+      "unitId": 107
+    },
+    {
+      "id": 2100,
+      "nameAz": "Olduqca, orta derecede",
+      "nameEn": "Fairly",
+      "unitId": 107
+    },
+    {
+      "id": 2103,
+      "nameAz": "Özgüvən qazanmaq",
+      "nameEn": "Gain confidence",
+      "unitId": 109
+    },
+    {
+      "id": 2105,
+      "nameAz": "Bacarıqları təkmilləşdirmək",
+      "nameEn": "Improve skills",
+      "unitId": 109
+    },
+    {
+      "id": 2107,
+      "nameAz": "Xəyalların arxasınca getmək",
+      "nameEn": "Chase dreams",
+      "unitId": 109
+    },
+    {
+      "id": 2109,
+      "nameAz": "Problemləri həll etmək",
+      "nameEn": "Solve problems",
+      "unitId": 109
+    },
+    {
+      "id": 2111,
+      "nameAz": "Məqsədə nail olmaq",
+      "nameEn": "Achieve goals",
+      "unitId": 109
+    },
+    {
+      "id": 2113,
+      "nameAz": "Zamanı idarə etmək",
+      "nameEn": "Manage time",
+      "unitId": 109
+    },
+    {
+      "id": 2115,
+      "nameAz": "Balans tapmaq",
+      "nameEn": "Find balance",
+      "unitId": 109
+    },
+    {
+      "id": 2117,
+      "nameAz": "Məhsuldarlığı artırmaq",
+      "nameEn": "Increase efficiency",
+      "unitId": 109
+    },
+    {
+      "id": 2119,
+      "nameAz": "Prosesləri sadələşdirmək",
+      "nameEn": "Simplify processes",
+      "unitId": 109
+    },
+    {
+      "id": 2121,
+      "nameAz": "Planları tətbiq etmək",
+      "nameEn": "Implement plans",
+      "unitId": 109
+    },
+    {
+      "id": 2123,
+      "nameAz": "Riskləri azaltmaq, yüngülləşdirmək",
+      "nameEn": "Mitigate risks",
+      "unitId": 109
+    },
+    {
+      "id": 2125,
+      "nameAz": "Biliyi paylaşmaq, bölüşmək",
+      "nameEn": " Share knowledge",
+      "unitId": 109
+    },
+    {
+      "id": 2127,
+      "nameAz": "Standartları qaldırmaq, yüksəltmək",
+      "nameEn": "Elevate standarts",
+      "unitId": 109
+    },
+    {
+      "id": 2129,
+      "nameAz": "Münasibətlər qurmaq",
+      "nameEn": "Build relationships",
+      "unitId": 109
+    },
+    {
+      "id": 2131,
+      "nameAz": "Qaydalara əməl etməyən piyada",
+      "nameEn": "Jaywalker",
+      "unitId": 109
+    },
+    {
+      "id": 2133,
+      "nameAz": "Dəli etmək",
+      "nameEn": "Drive crazy",
+      "unitId": 109
+    },
+    {
+      "id": 2135,
+      "nameAz": "Bir şeylə fəxr etmək",
+      "nameEn": "Take pride in something",
+      "unitId": 109
+    },
+    {
+      "id": 2137,
+      "nameAz": "Borcla üzülüşmək",
+      "nameEn": "Pay off",
+      "unitId": 109
+    },
+    {
+      "id": 2139,
+      "nameAz": "İcarəyə vermək",
+      "nameEn": "Rent out",
+      "unitId": 109
+    },
+    {
+      "id": 2141,
+      "nameAz": "Qısa vaxt ərzində, qısa zaman çərçivəsində",
+      "nameEn": "In a short spom of time",
+      "unitId": 109
+    },
+    {
+      "id": 2143,
+      "nameAz": "Qərarlı",
+      "nameEn": "Recisive",
+      "unitId": 109
+    },
+    {
+      "id": 2145,
+      "nameAz": "Öncədən",
+      "nameEn": "Beforehand",
+      "unitId": 109
+    },
+    {
+      "id": 2147,
+      "nameAz": "Etimad etmək, güvənmək",
+      "nameEn": "Rely on",
+      "unitId": 109
+    },
+    {
+      "id": 2150,
+      "nameAz": "Davamlı şəkildə cəhd etmək",
+      "nameEn": "Keep trying",
+      "unitId": 111
+    },
+    {
+      "id": 2152,
+      "nameAz": "Öncədən plan qurmaq",
+      "nameEn": "Plan ahead",
+      "unitId": 111
+    },
+    {
+      "id": 2154,
+      "nameAz": "Problemləri analiz etmək",
+      "nameEn": "Analyze problems",
+      "unitId": 111
+    },
+    {
+      "id": 2156,
+      "nameAz": "Strategiyaları tətbiq etmək",
+      "nameEn": "Implement strategies",
+      "unitId": 111
+    },
+    {
+      "id": 2158,
+      "nameAz": "Komanda yoldaşlarını motivasiya etmək",
+      "nameEn": "Motivate teammates",
+      "unitId": 111
+    },
+    {
+      "id": 2160,
+      "nameAz": "Təzyiq altında işləmək",
+      "nameEn": "Work under pressure",
+      "unitId": 111
+    },
+    {
+      "id": 2162,
+      "nameAz": "Razılığa gəlmək",
+      "nameEn": "Come to agreement",
+      "unitId": 111
+    },
+    {
+      "id": 2164,
+      "nameAz": "Effektiv şəkildə ünsiyyət qurmaq",
+      "nameEn": "Communicate effectively",
+      "unitId": 111
+    },
+    {
+      "id": 2166,
+      "nameAz": "Güzəştə getmək",
+      "nameEn": "Make a compromise",
+      "unitId": 111
+    },
+    {
+      "id": 2168,
+      "nameAz": "Tapşırıqları tamamlamaq",
+      "nameEn": "Complete tasks",
+      "unitId": 111
+    },
+    {
+      "id": 2170,
+      "nameAz": "Özünə inanmaq",
+      "nameEn": "Believe in yourself",
+      "unitId": 111
+    },
+    {
+      "id": 2172,
+      "nameAz": "Digərlərinə yardım etmək",
+      "nameEn": "Help others",
+      "unitId": 111
+    },
+    {
+      "id": 2174,
+      "nameAz": "Bir birinə kömək etmək",
+      "nameEn": "Help each other",
+      "unitId": 111
+    },
+    {
+      "id": 2176,
+      "nameAz": "Səhvləri bağışlamaq",
+      "nameEn": "Forgive mistakes",
+      "unitId": 111
+    },
+    {
+      "id": 2178,
+      "nameAz": "Üzr istəmək",
+      "nameEn": "Say sorry",
+      "unitId": 111
+    },
+    {
+      "id": 2181,
+      "nameAz": "Faydalı",
+      "nameEn": "Beneficial",
+      "unitId": 113
+    },
+    {
+      "id": 2183,
+      "nameAz": "Eifirə çıxacaq",
+      "nameEn": "Will air",
+      "unitId": 113
+    },
+    {
+      "id": 2185,
+      "nameAz": "Bol",
+      "nameEn": "Plenty",
+      "unitId": 113
+    },
+    {
+      "id": 2187,
+      "nameAz": "Olduqca, gözəl",
+      "nameEn": "Pretty",
+      "unitId": 113
+    },
+    {
+      "id": 2189,
+      "nameAz": "Nisbətən",
+      "nameEn": "Relatively",
+      "unitId": 113
+    },
+    {
+      "id": 2191,
+      "nameAz": "İfadə",
+      "nameEn": "Phrase",
+      "unitId": 113
+    },
+    {
+      "id": 2193,
+      "nameAz": "Açığı",
+      "nameEn": "Honestly",
+      "unitId": 113
+    },
+    {
+      "id": 2195,
+      "nameAz": "İlk növbədə",
+      "nameEn": "First of all",
+      "unitId": 113
+    },
+    {
+      "id": 2197,
+      "nameAz": "İdeal olaraq",
+      "nameEn": "Ideally",
+      "unitId": 113
+    },
+    {
+      "id": 2199,
+      "nameAz": "Şübhəsiz",
+      "nameEn": "Undoubtedly",
+      "unitId": 113
+    },
+    {
+      "id": 2201,
+      "nameAz": "Şəffaf, saf",
+      "nameEn": "Sheer",
+      "unitId": 113
+    },
+    {
+      "id": 2203,
+      "nameAz": "Kəsinliklə, quşqusuz, qəti",
+      "nameEn": "Definetely",
+      "unitId": 113
+    },
+    {
+      "id": 2205,
+      "nameAz": "Orijial, həqiqi",
+      "nameEn": "Authentic",
+      "unitId": 113
+    },
+    {
+      "id": 2207,
+      "nameAz": "Keçid",
+      "nameEn": "Transition",
+      "unitId": 113
+    },
+    {
+      "id": 2209,
+      "nameAz": "İçdən, bədahətən, təbii",
+      "nameEn": "Spontaneously",
+      "unitId": 113
+    },
+    {
+      "id": 2211,
+      "nameAz": "Yuxarı çəkmək",
+      "nameEn": "Pull up",
+      "unitId": 113
+    },
+    {
+      "id": 2213,
+      "nameAz": "Dəstə",
+      "nameEn": "Bunch",
+      "unitId": 113
+    },
+    {
+      "id": 2215,
+      "nameAz": "Asılı olmayaraq",
+      "nameEn": "Regardless",
+      "unitId": 113
+    },
+    {
+      "id": 2217,
+      "nameAz": "Əldə etmək",
+      "nameEn": "Acquire",
+      "unitId": 113
+    },
+    {
+      "id": 2219,
+      "nameAz": "Müasir, modern",
+      "nameEn": "Contemporary",
+      "unitId": 113
+    },
+    {
+      "id": 2221,
+      "nameAz": "Poliqlot, çoxdilli",
+      "nameEn": "Polyglot",
+      "unitId": 113
+    },
+    {
+      "id": 2223,
+      "nameAz": "Nəzərə almaq, saymaq, görmək",
+      "nameEn": "Consider",
+      "unitId": 113
+    },
+    {
+      "id": 2225,
+      "nameAz": "Tutqulu",
+      "nameEn": "Passionate",
+      "unitId": 113
+    },
+    {
+      "id": 2227,
+      "nameAz": "Həmçinin",
+      "nameEn": "As well",
+      "unitId": 113
+    },
+    {
+      "id": 2229,
+      "nameAz": "Dərindən, dərinləməsinə, ətraflı",
+      "nameEn": "In-depth",
+      "unitId": 113
+    },
+    {
+      "id": 2231,
+      "nameAz": "Özəl, həsr olunmuş",
+      "nameEn": "Dedicated",
+      "unitId": 113
+    },
+    {
+      "id": 2233,
+      "nameAz": "Təmin etmək, qaranti etmək, əmin etmək",
+      "nameEn": "Assure",
+      "unitId": 113
+    },
+    {
+      "id": 2237,
+      "nameAz": "Baxmayaraq, rəğmən",
+      "nameEn": "Even though",
+      "unitId": 113
+    },
+    {
+      "id": 2239,
+      "nameAz": "Başlayaq",
+      "nameEn": "Let's get started",
+      "unitId": 113
+    },
+    {
+      "id": 2241,
+      "nameAz": "Müəyyən",
+      "nameEn": "Certain",
+      "unitId": 117
+    },
+    {
+      "id": 2243,
+      "nameAz": "Dəqiq",
+      "nameEn": "Accurate",
+      "unitId": 117
+    },
+    {
+      "id": 2245,
+      "nameAz": "Meyilli olmaq, meyil eləmək",
+      "nameEn": "Tend",
+      "unitId": 117
+    },
+    {
+      "id": 2247,
+      "nameAz": "Əlaqəli olmaq",
+      "nameEn": "Regard",
+      "unitId": 117
+    },
+    {
+      "id": 2249,
+      "nameAz": "Fincan",
+      "nameEn": "Mug",
+      "unitId": 117
+    },
+    {
+      "id": 2251,
+      "nameAz": "Bu qədər sadə",
+      "nameEn": "Simple as that",
+      "unitId": 117
+    },
+    {
+      "id": 2253,
+      "nameAz": "İmkanı yetmək, qarşılamaq",
+      "nameEn": "Afford",
+      "unitId": 117
+    },
+    {
+      "id": 2255,
+      "nameAz": "Cəmiyyətin geri qalanı ",
+      "nameEn": "Rest of society",
+      "unitId": 117
+    },
+    {
+      "id": 2257,
+      "nameAz": "Biraz qorxu yaratmaq",
+      "nameEn": "Strike a little fear",
+      "unitId": 117
+    },
+    {
+      "id": 2259,
+      "nameAz": "Çətinliklə",
+      "nameEn": "Barely",
+      "unitId": 117
+    },
+    {
+      "id": 2261,
+      "nameAz": "Ruh",
+      "nameEn": "Spirit",
+      "unitId": 117
+    },
+    {
+      "id": 2263,
+      "nameAz": "Akt, eyləm",
+      "nameEn": "Act",
+      "unitId": 117
+    },
+    {
+      "id": 2265,
+      "nameAz": "Cihaz, məişət əşyası",
+      "nameEn": "Appliance",
+      "unitId": 117
+    },
+    {
+      "id": 2267,
+      "nameAz": "Fürsət",
+      "nameEn": "Opportunity",
+      "unitId": 117
+    },
+    {
+      "id": 2269,
+      "nameAz": "Çadır qurmaq",
+      "nameEn": "Pitching a tent",
+      "unitId": 117
+    },
+    {
+      "id": 2271,
+      "nameAz": "Yerinə yetirmək",
+      "nameEn": "Accomplish",
+      "unitId": 117
+    },
+    {
+      "id": 2273,
+      "nameAz": "Diqqət etmək",
+      "nameEn": "Pay attention",
+      "unitId": 117
+    },
+    {
+      "id": 2275,
+      "nameAz": "Səy, cəhd, çaba",
+      "nameEn": "Effort",
+      "unitId": 117
+    },
+    {
+      "id": 2277,
+      "nameAz": "Qovurmaq",
+      "nameEn": "Roast",
+      "unitId": 117
+    },
+    {
+      "id": 2279,
+      "nameAz": "Çubuq",
+      "nameEn": "Stick, skewer",
+      "unitId": 117
+    },
+    {
+      "id": 2282,
+      "nameAz": "Şokaladlı kreker arasında göbələk",
+      "nameEn": "S'more",
+      "unitId": 117
+    },
+    {
+      "id": 2284,
+      "nameAz": "Bu günlük bu qədər",
+      "nameEn": "We're about done today",
+      "unitId": 117
+    },
+    {
+      "id": 2287,
+      "nameAz": "Ərzində, boyunca",
+      "nameEn": "Throughout",
+      "unitId": 119
+    },
+    {
+      "id": 2289,
+      "nameAz": "İstəmək (qeyri formal  ruh halina görə  istək)",
+      "nameEn": "Feel like",
+      "unitId": 119
+    },
+    {
+      "id": 2291,
+      "nameAz": "Səfər etmək",
+      "nameEn": "Take a trip",
+      "unitId": 119
+    },
+    {
+      "id": 2293,
+      "nameAz": "Qeyd etmək, xatırlatmaq, bəhs etmək, qısa şəkildə xatırlatma etmək, məlumatlandırmaq",
+      "nameEn": "Mention",
+      "unitId": 119
+    },
+    {
+      "id": 2295,
+      "nameAz": "Məlumatlandırıcı",
+      "nameEn": "Informative",
+      "unitId": 119
+    },
+    {
+      "id": 2297,
+      "nameAz": "Analama, başa düşmə, qavrama",
+      "nameEn": "Comprehension",
+      "unitId": 119
+    },
+    {
+      "id": 2299,
+      "nameAz": "Səyahətin bölümü",
+      "nameEn": "Leg of trip",
+      "unitId": 119
+    },
+    {
+      "id": 2301,
+      "nameAz": "Ola bilər",
+      "nameEn": "There might be,",
+      "unitId": 119
+    },
+    {
+      "id": 2303,
+      "nameAz": "Uçuş sırasında hər hansı şəhərdə nir neçə saatlıq fasilə",
+      "nameEn": "Layover",
+      "unitId": 119
+    },
+    {
+      "id": 2305,
+      "nameAz": "Təklifi qəbul etmək",
+      "nameEn": "Take up an offer",
+      "unitId": 119
+    },
+    {
+      "id": 2307,
+      "nameAz": "Kiminsə təklifini qəbul etmək",
+      "nameEn": "Take someone up on someone's order",
+      "unitId": 119
+    },
+    {
+      "id": 2309,
+      "nameAz": "İnsanları seyr etmək",
+      "nameEn": "People watching",
+      "unitId": 119
+    },
+    {
+      "id": 2311,
+      "nameAz": "Müşahidə etmək",
+      "nameEn": "Observe",
+      "unitId": 119
+    },
+    {
+      "id": 2313,
+      "nameAz": "Ətraf",
+      "nameEn": "Surrounding",
+      "unitId": 119
+    },
+    {
+      "id": 2315,
+      "nameAz": "Heyrətlənmək, təəccüblənmək",
+      "nameEn": "Amaze",
+      "unitId": 119
+    },
+    {
+      "id": 2317,
+      "nameAz": "Durum, hal",
+      "nameEn": "Occasion",
+      "unitId": 119
+    },
+    {
+      "id": 2319,
+      "nameAz": "Sıra ilə",
+      "nameEn": "In order",
+      "unitId": 119
+    },
+    {
+      "id": 2321,
+      "nameAz": "Həqiqətən, sözün əsl mənasında",
+      "nameEn": "Literally",
+      "unitId": 119
+    },
+    {
+      "id": 2323,
+      "nameAz": "Qatara minmək",
+      "nameEn": "Get on train",
+      "unitId": 119
+    },
+    {
+      "id": 2326,
+      "nameAz": "Qatardan düşmək",
+      "nameEn": "Get off train",
+      "unitId": 119
+    },
+    {
+      "id": 2328,
+      "nameAz": "Qalxmaq",
+      "nameEn": "To get up",
+      "unitId": 119
+    },
+    {
+      "id": 2330,
+      "nameAz": "Yüksəklik",
+      "nameEn": "Altitude",
+      "unitId": 119
+    },
+    {
+      "id": 2332,
+      "nameAz": "Dəqiq",
+      "nameEn": "Exact",
+      "unitId": 119
+    },
+    {
+      "id": 2334,
+      "nameAz": "Nəfəs darlığı",
+      "nameEn": "Short of breath",
+      "unitId": 119
+    },
+    {
+      "id": 2336,
+      "nameAz": "Huşunu itirmək",
+      "nameEn": "Pass out",
+      "unitId": 119
+    },
+    {
+      "id": 2338,
+      "nameAz": "Bayqın, huşsuz",
+      "nameEn": "Faint",
+      "unitId": 119
+    },
+    {
+      "id": 2340,
+      "nameAz": "Şüurlu",
+      "nameEn": "Conscious",
+      "unitId": 119
+    },
+    {
+      "id": 2342,
+      "nameAz": "Şüursuz",
+      "nameEn": "Unconscious",
+      "unitId": 119
+    },
+    {
+      "id": 2344,
+      "nameAz": "Sankiç yəni belə, yəni demək istıdiyim",
+      "nameEn": "So to say",
+      "unitId": 119
+    },
+    {
+      "id": 2346,
+      "nameAz": "Xaraba",
+      "nameEn": "Ruin",
+      "unitId": 119
+    },
+    {
+      "id": 2348,
+      "nameAz": "Həqiqətin üzərində",
+      "nameEn": "Surreal",
+      "unitId": 119
+    },
+    {
+      "id": 2350,
+      "nameAz": "Mənzərə",
+      "nameEn": "Scenery",
+      "unitId": 119
+    },
+    {
+      "id": 2352,
+      "nameAz": "Fərqli",
+      "nameEn": "Distinct",
+      "unitId": 119
+    },
+    {
+      "id": 2354,
+      "nameAz": "Dad",
+      "nameEn": "Flavor",
+      "unitId": 119
+    },
+    {
+      "id": 2356,
+      "nameAz": "nə vaxtsa Peruya getsən",
+      "nameEn": "if you ever go to Peru",
+      "unitId": 119
+    },
+    {
+      "id": 2358,
+      "nameAz": "Daim",
+      "nameEn": "Constantly",
+      "unitId": 119
+    },
+    {
+      "id": 2360,
+      "nameAz": "Ecazkar",
+      "nameEn": "Marvelous",
+      "unitId": 119
     }
   ],
   "activePage": "all-word",
@@ -7237,8 +10435,8 @@
       "content": "Once upon a time, there was a little girl named Lily. She was a very curious child, always asking questions and exploring her surroundings. One day, while playing in the park, she noticed a mysterious old house at the edge of the woods. She couldn't resist her curiosity and decided to investigate.\n\nAs she got closer, she noticed that the house was abandoned and looked like it hadn't been lived in for years. But something caught her eye through one of the windows. It was a beautiful butterfly, fluttering around inside the house. Lily was determined to catch it, and so she climbed through the window.\n\nAs she explored the house, she discovered that it was full of secrets and mysteries. There were old books, antique furniture, and even a hidden staircase. But the most amazing discovery was the butterfly. It led her to a secret garden behind the house, where she found a whole world of wonder and beauty.\n\nLily realized that her curiosity had led her to an amazing adventure. She had discovered things she never would have seen if she hadn't followed her instincts. From that day on, she promised herself to always be curious and explore the world around her."
     }
   ],
-  "LanguageVal": 2,
+  "LanguageVal": 0,
   "UnitSelectVal": [
-    61
+    113
   ]
 }
