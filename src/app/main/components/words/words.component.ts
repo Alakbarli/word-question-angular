@@ -70,7 +70,8 @@ export class WordsComponent implements OnInit {
   }
   addWord(){
     let dialogRef = this.dialog.open(CreateWordDialogComponent, {
-      data :new WordDialogData(null,null,null,DialogActionTypes.add)
+      data :new WordDialogData(null,null,null,DialogActionTypes.add),
+      width:"300px"
      });
      dialogRef.afterClosed().subscribe(
        data=>{
