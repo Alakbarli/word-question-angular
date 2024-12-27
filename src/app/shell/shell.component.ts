@@ -20,6 +20,7 @@ export class ShellComponent implements OnInit,AfterViewInit {
   showMobile:boolean=false;
   showDesc:boolean=false;
   activeRoute:string;
+  nightMode:boolean=false;
 
   constructor(public dialog:MatDialog,private shellService:ShellService,private cacheService:CasheService,private router:Router,private route:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
@@ -45,6 +46,8 @@ export class ShellComponent implements OnInit,AfterViewInit {
       this.isLoading=res;
     })
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
+
+    this.watchNightMode();
   }
   generateJson(){
     this.langService.generateJson();
@@ -82,6 +85,17 @@ export class ShellComponent implements OnInit,AfterViewInit {
   }
   onResize(event:any) {
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
+  }
+
+  watchNightMode(){
+    this.shellService.nightMode$.subscribe(
+      res=>{
+        this.nightMode=res;
+      }
+    )
+  }
+  changeMode(){
+    this.shellService.changeNightMode();
   }
 
 }

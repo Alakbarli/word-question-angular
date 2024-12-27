@@ -10,12 +10,19 @@ export class ShellService {
   private isLoadingSubject = new BehaviorSubject<boolean>(false);
   isLoading$ = this.isLoadingSubject.asObservable();
 
+  private nightModeSubject=new BehaviorSubject<boolean>(false);
+  nightMode$=this.nightModeSubject.asObservable();
+
   showLoader(): void {
     this.isLoadingSubject.next(true);
   }
 
   hideLoader(): void {
     this.isLoadingSubject.next(false);
+  }
+
+  changeNightMode(){
+    this.nightModeSubject.next(!this.nightModeSubject.value);
   }
   /**
      * Creates routes using the shell component and authentication.

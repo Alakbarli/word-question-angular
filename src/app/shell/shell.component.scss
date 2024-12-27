@@ -23,7 +23,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .mode-container{
+        display: inline-block;
+        span{
+            font-size: 20px;
+            cursor: pointer;
+            display: inline-block;
+            padding: 5px;
+        }
+    }
+    &.night-mode{
+        background-color: black;
+        color: rgb(223, 223, 223);
+        .menu-toggle{
+            color: rgb(223, 223, 223);
+        }
+    }
 }
+
 .copyright{
     font-family: $header-fam;
     font-size: 16px;

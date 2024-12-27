@@ -33,11 +33,15 @@
         </nav>
     </div>
     <div class='dashboard-app'>
-        <header class='dashboard-toolbar'>
+        <header class='dashboard-toolbar' [ngClass]="{'night-mode':nightMode}">
             <a (click)="toggleMainMenu()" class="menu-toggle"><i class="fas fa-bars"></i></a>
             <a *ngIf="isMobile||!showMobile&&showDesc" [routerLink]="'/'" class="brand-logo logo-left">
                 <img class="d-inline-block mr-2" src="assets/images/translate.png"/><span>Word Question</span>
             </a>
+            <div (click)="changeMode()" class="mode-container">
+                <span><i class="fad fa-moon-stars"></i></span>
+                <span></span>
+            </div>
         </header>
         <div class='dashboard-content'>
             <div class='container w-menu-tabs' [class.d-none] = "isLoading">
