@@ -43,7 +43,7 @@
                 <span></span>
             </div>
         </header>
-        <div class='dashboard-content'>
+        <div class='dashboard-content' [ngClass]="{'night-mode':nightMode}">
             <div class='container w-menu-tabs' [class.d-none] = "isLoading">
                 <main role="main">
                     <router-outlet></router-outlet>

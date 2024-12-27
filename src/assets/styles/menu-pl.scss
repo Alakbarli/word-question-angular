@@ -142,6 +142,9 @@ h1, .h1 {
     -ms-flex-positive: 2;
     flex-grow: 2;
     padding: 25px;
+    &.night-mode{
+        background-color: rgb(37, 37, 37);
+    }
 }
 
 .dashboard-nav {
