@@ -1,11 +1,11 @@
 <div id="main-page" data-id="word-question" class='card'>
-    <div class='card-header'>
+    <div class='card-header'  [ngClass]="{'night-mode':nightMode}">
         <h1>Sual-Cavab</h1>
     </div>
-    <div id="word-question" class='card-body'>
+    <div id="word-question" class='card-body'  [ngClass]="{'night-mode':nightMode}">
         <div class="row">
             <div class="col-12 mb-3">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center" [ngClass]="{'night-mode-form':nightMode}">
                         <div class="col-10 col-sm-6 col-md-3">
                             <label for="">Bölmə</label>
                             <mat-select [(ngModel)]="selectedUnit" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
@@ -35,7 +35,7 @@
                     </p>
                     <p *ngIf="showAnswer" class="word last">{{correctAnswer}}  <span *ngIf="!isAvailable" (click)="play(correctAnswer)"><i title="Səsləndir" class="far fa-volume-up"></i></span></p>
                 </div>
-                <div class="row justify-content-center my-2">
+                <div class="row justify-content-center my-2" [ngClass]="{'night-mode-form':nightMode}">
                     <div class="col-10 col-sm-6 col-md-3">
                         <div *ngIf="askedWord" class="input">
                             <input  [(ngModel)]="answeredWord" (ngModelChange)="changeAnswer()"  [ngClass]="{'correct': submit&&isCorrect, 'wrong' : submit&&!isCorrect }" type="text" placeholder="Sözün tərcüməsi yazın">

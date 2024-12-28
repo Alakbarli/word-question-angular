@@ -3,8 +3,8 @@
 @import '../src/assets/styles/variables.scss';
 @import '../src/assets/styles/menu-pl.scss';
 @import '../src/assets/styles/popup.css';
-@import '../src/assets/styles/site.css';
-@import "~@angular/material/theming";
+@import '../src/assets/styles/site.scss';
+@import "@angular/material/theming";
 @include mat-core();
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
@@ -26,8 +26,12 @@ $oauth-client-theme: mat-light-theme(
 html, body { height: 100%; }
 body { margin: 0; font-family: $title-fam;}
 .main-button{
-    background-color: #443ea2;
-    color: white;
+    background-color: $main-color;
+    color: rgb(255, 255, 255);
+    &.night-mode{
+        color: $white-dark-mode!important;
+        background-color: $main-color-dark-mode!important;
+    }
 }
 .second-button{
     background-color: rgb(216, 216, 216);
@@ -79,4 +83,38 @@ body { margin: 0; font-family: $title-fam;}
     text-overflow: ellipsis;
     display: inline-block;
     width: 100%;
+}
+.mat-table{
+    &.night-mode{
+        color: $white-dark-mode!important;
+        background-color: $darkest-color!important;
+        td,th{
+            color: $white-dark-mode!important;
+            background-color: $darkest-color!important;
+            border-bottom-color: $white-dark-mode!important;
+        }
+        span{
+            color: $white-dark-mode!important;
+        }
+    }
+}
+
+.night-mode-default{
+    color: $white-dark-mode!important;
+    background-color: $darkest-color!important;
+    .mat-select-trigger,.mat-select-value,.mat-select-arrow-wrapper,.mat-select-arrow{
+        color: $white-dark-mode!important;
+        background-color: $darkest-color!important; 
+    }
+}
+.night-mode-default-colored{
+    color: $white-dark-mode!important;
+    background-color: $darkest-color!important;
+    .mat-select-trigger,.mat-select-value,.mat-select-arrow-wrapper,.mat-select-arrow{
+        color: $white-dark-mode!important;
+        background-color: $darkest-color!important; 
+    }
+}
+.night-mode-text{
+    color: $white-dark-mode!important;
 }

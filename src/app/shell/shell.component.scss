@@ -1,5 +1,9 @@
 @import '../../assets/styles/variables.scss';
 .dashboard-nav{
+    &.night-mode{
+        color: $white-dark-mode!important;
+        background-color: $main-color-dark-mode!important;
+    }
     a{
         color: white;
         user-select: none;
@@ -44,5 +48,7 @@
 .copyright{
     font-family: $header-fam;
     font-size: 16px;
-
+    .night-mode{
+        color: $white-dark-mode!important;
+    }
 }

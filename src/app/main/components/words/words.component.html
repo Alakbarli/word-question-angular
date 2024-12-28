@@ -1,19 +1,19 @@
 
 <div id="all-word" data-id="all-word" class='card'>
                     
-    <div class='card-header'>
+    <div class='card-header' [ngClass]="{'night-mode':nightMode}">
         <h1>Sözlər</h1>
         
     </div>
-    <div class='card-body'>
+    <div class='card-body' [ngClass]="{'night-mode':nightMode}">
         <div class="row justify-content-center">
             <div class="col-12 text-right">
-                <button (click)="addWord()" class="main-button">Söz əlavə et <i class="fal fa-plus"></i></button>
+                <button [ngClass]="{'night-mode':nightMode}" (click)="addWord()" class="main-button">Söz əlavə et <i class="fal fa-plus"></i></button>
             </div>
          </div>
         <div class="row">
             <div class="col-12 mb-3">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center" [ngClass]="{'night-mode-form':nightMode}">
                         <div class="col-12 col-md-3">
                             <label for="">Azərbaycanca</label>
                             <input [(ngModel)]="wordAz" (ngModelChange)="changeAz()" placeholder="Sözün Azərbaycan dilində tərcüməsi" class="nAz" type="text">
@@ -24,8 +24,8 @@
                         </div>
                         <div class="col-12 col-md-3">
                             <label for="">Bölmə</label>
-                            <mat-select [(ngModel)]="unitId" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
-                                <mat-option class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
+                            <mat-select [ngClass]="{'night-mode-form':nightMode}" [(ngModel)]="unitId" (selectionChange)="change()" multiple placeholder="Bölmə seçin">
+                                <mat-option  [ngClass]="{'night-mode-option':nightMode}"  class="all-word-select" *ngFor="let item of unitList" [value]="item.id">{{item.name}}</mat-option>
                               </mat-select>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="table-container" *ngIf="filteredData.length">
-            <table mat-table [dataSource]="dataSource">
+            <table mat-table [dataSource]="dataSource"  [ngClass]="{'night-mode':nightMode}">
 
                 <ng-container matColumnDef="no">
                   <th mat-header-cell *matHeaderCellDef> № </th>
@@ -90,7 +90,7 @@
             </table>
         </div>
           
-        <mat-paginator [ngClass]="{'d-none': !filteredData.length}"
+        <mat-paginator [ngClass]="{'d-none': !filteredData.length,'night-mode-default':nightMode}"
         [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" [pageSize]="pageSize" showFirstLastButtons [length]="length"
         (page)="pageChanged($event)">
     </mat-paginator>

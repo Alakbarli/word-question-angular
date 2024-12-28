@@ -42,6 +42,8 @@ export class WordsComponent implements OnInit {
   langList:Array<SpeechSynthesisVoice>;
   selectedSpeechLang:string;
 
+  nightMode:boolean=false;
+
   constructor(private cd :ChangeDetectorRef, private cs:CasheService, private shellService:ShellService, public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar,private sp:SpeechService) { 
     shellService.showLoader();
     this.unitList=this.langService.db.Units;
@@ -59,6 +61,7 @@ export class WordsComponent implements OnInit {
     if(this.cs.cache.selectedUnits&&this.cs.cache.selectedUnits.length>0){
       this.unitId=this.cs.cache.selectedUnits;
     }
+    this.watchNightMode();
   }
   ngAfterViewInit() {
     //this.dataSource.paginator = this.paginator;
@@ -220,5 +223,14 @@ export class WordsComponent implements OnInit {
     else{
       this.dataSource.data[index].hide2=!(this.dataSource.data[index].hide2);
     }
+  }
+
+  watchNightMode(){
+    this.shellService.nightMode$.subscribe(
+      res=>{
+        this.nightMode=res;
+        this.cd.detectChanges();
+      }
+    )
   }
 }

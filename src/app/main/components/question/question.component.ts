@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { LanguageService } from '../../services/language.service';
 import { Word } from 'src/app/models/word';
 import { Unit } from 'src/app/models/unit';
@@ -6,6 +6,7 @@ import { Language } from 'src/app/models/language';
 import { Languages } from '../../const/languages';
 import { SpeechService } from '../../services/speech.service';
 import { CasheService } from '../../services/cashe.service';
+import { ShellService } from 'src/app/shell/shell.service';
 
 @Component({
   selector: 'app-question',
@@ -38,7 +39,9 @@ export class QuestionComponent implements OnInit {
   langspeechList:Array<SpeechSynthesisVoice>;
   selectedSpeechLang:string;
 
-  constructor(private cs : CasheService, private langService:LanguageService,private sp:SpeechService) { }
+  nightMode:boolean=false;
+
+  constructor(private cd :ChangeDetectorRef,private shellService:ShellService, private cs : CasheService, private langService:LanguageService,private sp:SpeechService) { }
 
   ngOnInit(): void {
     if(this.langService.db.LanguageVal){
@@ -54,6 +57,7 @@ export class QuestionComponent implements OnInit {
       this.langspeechList=res;
       this.getSpeechSettings();
     });
+    this.watchNightMode();
   }
 
   checkAnswer() {
@@ -132,6 +136,15 @@ export class QuestionComponent implements OnInit {
         }
     }
     
+}
+
+watchNightMode(){
+  this.shellService.nightMode$.subscribe(
+    res=>{
+      this.nightMode=res;
+      this.cd.detectChanges();
+    }
+  )
 }
 
 }

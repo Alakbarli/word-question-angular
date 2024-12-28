@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ShellService } from '../shell.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  nightMode:boolean=false;
+  constructor(private cd :ChangeDetectorRef,private shellService:ShellService) { }
 
   ngOnInit(): void {
+  }
+  watchNightMode(){
+    this.shellService.nightMode$.subscribe(
+      res=>{
+        this.nightMode=res;
+        this.cd.detectChanges();
+      }
+    )
   }
 
 }

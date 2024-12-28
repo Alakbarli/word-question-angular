@@ -10,7 +10,7 @@ export class ShellService {
   private isLoadingSubject = new BehaviorSubject<boolean>(false);
   isLoading$ = this.isLoadingSubject.asObservable();
 
-  private nightModeSubject=new BehaviorSubject<boolean>(false);
+  private nightModeSubject=new BehaviorSubject<boolean>(true);
   nightMode$=this.nightModeSubject.asObservable();
 
   showLoader(): void {
