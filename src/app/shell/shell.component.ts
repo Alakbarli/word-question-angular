@@ -1,6 +1,5 @@
-import { state, style, trigger } from '@angular/animations';
 import { AfterViewInit, ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { NavigationEnd, Router } from '@angular/router';
 import { LanguageService } from '../main/services/language.service';
 import { ShellService } from './shell.service';
 import { CasheService } from '../main/services/cashe.service';
@@ -19,10 +18,9 @@ export class ShellComponent implements OnInit,AfterViewInit {
   isMobile:boolean=false;
   showMobile:boolean=false;
   showDesc:boolean=false;
-  activeRoute:string;
   nightMode:boolean=false;
 
-  constructor(public dialog:MatDialog,private shellService:ShellService,private cacheService:CasheService,private router:Router,private route:ActivatedRoute,private langService:LanguageService,private cd:ChangeDetectorRef) { 
+  constructor(public dialog:MatDialog,private shellService:ShellService,private cacheService:CasheService,private router:Router,private langService:LanguageService,private cd:ChangeDetectorRef) { 
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
     if(cacheService.cache?.activePage){
       router.navigate([cacheService.cache.activePage]);
@@ -83,7 +81,7 @@ export class ShellComponent implements OnInit,AfterViewInit {
     }
     
   }
-  onResize(event:any) {
+  onResize() {
     this.isMobile = window.matchMedia("(max-width: 990px)").matches;
   }
 

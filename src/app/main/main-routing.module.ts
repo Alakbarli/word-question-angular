@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ShellService } from '../shell/shell.service';
-import { DownloadJsonComponent } from './components/download-json/download-json.component';
 import { QuestionComponent } from './components/question/question.component';
 import { UnitsComponent } from './components/units/units.component';
 import { UploadJsonComponent } from './components/upload-json/upload-json.component';
@@ -29,10 +28,6 @@ const routes: Routes = [
     {
       path: 'upload',
       component: UploadJsonComponent
-    },
-    {
-      path: 'download',
-      component: DownloadJsonComponent
     },
     {
       path: 'guide',

@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
 import { CasheService } from './cashe.service';
 
 @Injectable({
@@ -9,7 +8,7 @@ export class SpeechService {
   constructor(private cs:CasheService) { 
   }
   getVoices(window:Window):Promise<Array<SpeechSynthesisVoice>>{
-    return new Promise<Array<SpeechSynthesisVoice>>((resolve,reject)=>{
+    return new Promise<Array<SpeechSynthesisVoice>>((resolve)=>{
       let id=setInterval(()=>{
         if(window.speechSynthesis.getVoices()&&window.speechSynthesis.getVoices().length>0){
           clearInterval(id);

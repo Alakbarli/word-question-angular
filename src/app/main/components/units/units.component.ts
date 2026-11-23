@@ -16,7 +16,6 @@ import { SnackBarData } from 'src/app/models/snack-bar-data.model';
   styleUrls: ['./units.component.scss']
 })
 export class UnitsComponent implements OnInit {
-  displayedColumns: string[] = ['position', 'name', 'operation'];
   constructor(public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) {
     this.dataSource=langService.db.Units;
    }
@@ -34,7 +33,7 @@ export class UnitsComponent implements OnInit {
       data=>{
         if(data){
           this.langService.addUnit(data);
-          let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+          this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Bölmə əlavə olundu',SnackBarTypes.success) ,
             panelClass: [SnackBarTypes.success],
             duration:3000
@@ -53,7 +52,7 @@ export class UnitsComponent implements OnInit {
        data=>{
         if(data){
           this.langService.editUnit(unit.id,data);
-          let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+          this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Bölmədə düzəliş edildi',SnackBarTypes.info) ,
             panelClass: [SnackBarTypes.info],
             duration:3000

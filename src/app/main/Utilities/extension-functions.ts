@@ -12,8 +12,8 @@ String.prototype.isEmpty = function (this:string|undefined|null): boolean  {
 String.prototype.toLowerAz = function (this:string): string  {
     let lowered=this;
     if(this){
-        lowered =lowered.replace(/i/g,"İ");
-        lowered =lowered.replace(/ı/g,"I");
+        lowered =lowered.replace(/İ/g,"i");
+        lowered =lowered.replace(/I/g,"ı");
         lowered=lowered.toLowerCase();
       }
       return lowered;

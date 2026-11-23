@@ -20,7 +20,7 @@ export class CreateWordDialogComponent implements OnInit {
   isDelete:boolean=false;
   unitList:Array<Unit>|null|undefined;
   constructor(private cs:CasheService,public dialogRef: MatDialogRef<CreateWordDialogComponent>,
-    @Inject(MAT_DIALOG_DATA) public data:WordDialogData,private CustomVal:CustomValidatorsService,private langService:LanguageService) { 
+    @Inject(MAT_DIALOG_DATA) public data:WordDialogData,private CustomVal:CustomValidatorsService,langService:LanguageService) { 
       this.unitList=langService.db.Units;
     }
     unitIdControl=new FormControl(+(this.data.unitId as number), [Validators.required]);

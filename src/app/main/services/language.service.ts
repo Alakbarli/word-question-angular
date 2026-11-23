@@ -84,26 +84,31 @@ export class LanguageService {
   }
   editUnit(id:number,name:string){
     let unitIndex=this.db.Units.findIndex(x=>x.id==id);
+    if(unitIndex<0) return;
     this.db.Units[unitIndex].name=name;
     this.sync();
   }
   editWord(word:Word){
     let unitIndex=this.db.Words.findIndex(x=>x.id==word.id);
+    if(unitIndex<0) return;
     this.db.Words[unitIndex]=word;
     this.sync();
   }
   deleteUnit(id:number){
     let unitIndex=this.db.Units.findIndex(x=>x.id==id);
+    if(unitIndex<0) return;
     this.db.Units.splice(unitIndex,1);
     this.sync();
   }
   deleteWord(id:number){
     let wordIndex=this.db.Words.findIndex(x=>x.id==id);
+    if(wordIndex<0) return;
     this.db.Words.splice(wordIndex,1);
     this.sync();
   }
   deleteStory(id:string){
     let storyIndex=this.db.Stories.findIndex(x=>x.id==id);
+    if(storyIndex<0) return;
     this.db.Stories.splice(storyIndex,1);
     this.syncStories();
   }
@@ -113,10 +118,6 @@ export class LanguageService {
   setStoryLocalstorage(){
     window.localStorage.setItem("wordDbStories",JSON.stringify(this.db.Stories));
   }
-  findUnit(id:number)
-    {
-        return this.db.Units.find(u=>u.id==id);
-    }
   getDbLocalstorage(){
     if(window.localStorage.getItem("wordDb")!=null){
       this.db=JSON.parse((localStorage.getItem("wordDb")) as string)

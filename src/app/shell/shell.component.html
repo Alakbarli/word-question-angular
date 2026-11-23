@@ -1,4 +1,4 @@
-<div (window:resize)="onResize($event)" class='dashboard' [ngClass]="{'dashboard-compact' : showDesc}">
+<div (window:resize)="onResize()" class='dashboard' [ngClass]="{'dashboard-compact' : showDesc}">
     <div class="dashboard-nav" [ngClass]="{'mobile-show' : showMobile,'night-mode':nightMode}">
         <header>
             <a  (click)="toggleMainMenu()" class="menu-toggle">

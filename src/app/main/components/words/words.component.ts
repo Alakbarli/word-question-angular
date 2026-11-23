@@ -68,9 +68,6 @@ export class WordsComponent implements OnInit {
     this.filter();
     this.shellService.hideLoader();
   }
-  trackByFn(index: number, item: any): number {
-    return item.id;
-  }
   addWord(){
     let dialogRef = this.dialog.open(CreateWordDialogComponent, {
       data :new WordDialogData(null,null,null,DialogActionTypes.add),
@@ -82,7 +79,7 @@ export class WordsComponent implements OnInit {
            this.langService.addWord(data);
            this.filter(this.pageIndex);
            this.cd.detectChanges();
-           let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+           this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Söz əlavə olundu',SnackBarTypes.success) ,
             panelClass: [SnackBarTypes.success],
             duration:3000
@@ -104,7 +101,7 @@ export class WordsComponent implements OnInit {
           this.langService.editWord(w);
           this.filter(this.pageIndex);
           this.cd.detectChanges();
-          let snackbarRef=this._snackBar.openFromComponent(ErrorSnacbarComponent, {
+          this._snackBar.openFromComponent(ErrorSnacbarComponent, {
             data:new SnackBarData('Sözdə düzəliş edildi',SnackBarTypes.info) ,
             panelClass: [SnackBarTypes.info],
             duration:3000

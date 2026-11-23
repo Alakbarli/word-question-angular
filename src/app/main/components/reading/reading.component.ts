@@ -1,9 +1,4 @@
 import { AfterViewInit, ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
-import { OpenaiService } from '../../services/openai.service';
-import { TextCortexAiService } from '../../services/text-cortex-ai.service';
-import { PromptService } from '../../services/prompt.service';
-import { TextCortexPost } from 'src/app/models/text-cortex-post.model';
-import { CortexAiTextResponse } from 'src/app/models/cortex-ai-text-response';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 import { LanguageService } from '../../services/language.service';
@@ -22,7 +17,6 @@ import { Utility } from '../../Utilities/utility';
 import { AIModels } from '../../const/ai-models';
 import { StoryLenght } from '../../const/story-lenght';
 import { LanguageLevels } from '../../const/language-levels';
-import { ShellService } from 'src/app/shell/shell.service';
 
 @Component({
   selector: 'app-reading',
@@ -52,8 +46,7 @@ export class ReadingComponent implements OnInit,AfterViewInit {
   lengthList:Array<KeyValue<number,string>>;
   levelList:Array<KeyValue<number,string>>;
 
-  constructor(private cd:ChangeDetectorRef, private shellService:ShellService,public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) {
-    //shellService.showLoader();
+  constructor(private cd:ChangeDetectorRef,public dialog:MatDialog,private langService:LanguageService,private _snackBar: MatSnackBar) {
     this.storiedData=this.langService.db.Stories;
     this.filteredData=this.langService.db.Stories;
     this.loadLookUps();
@@ -61,7 +54,6 @@ export class ReadingComponent implements OnInit,AfterViewInit {
   ngAfterViewInit(): void {
     this.getStories(0);
     this.cd.detectChanges();
-   // this.shellService.hideLoader();
   }
 
   ngOnInit(): void {
@@ -148,7 +140,7 @@ export class ReadingComponent implements OnInit,AfterViewInit {
   }
 
   readStory(story:Story){
-    let readingDialogRef = this.dialog.open(ReadStoryComponent, {
+    this.dialog.open(ReadStoryComponent, {
       data :new CommonDialogData<Story>(DialogActionTypes.add,story)
      });
   }

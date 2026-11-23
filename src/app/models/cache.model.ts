@@ -6,7 +6,6 @@ export class SiteCache {
     speechRate:number;
     pichSpeech:number;
     activePage:string;
-    selectedLang:number;
     selectedUnits:Array<number>;
     selectedUnit:number;
 }

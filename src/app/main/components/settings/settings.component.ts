@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { SpeechService } from '../../services/speech.service';
-import { Subject } from 'rxjs';
 import { CasheService } from '../../services/cashe.service';
 import { ShellService } from 'src/app/shell/shell.service';
 
@@ -15,7 +14,6 @@ export class SettingsComponent implements OnInit {
   selectedSpeechLang:string;
   rate:number=1;
   pitch:number=1;
-  panelOpenState = false;
   constructor(private sp:SpeechService,private cs:CasheService, private shell:ShellService) {
 
   }
